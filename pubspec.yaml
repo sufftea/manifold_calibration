@@ -7,8 +7,11 @@ environment:
   sdk: ^3.5.3
 
 dependencies:
+  dio: ^5.7.0
   flutter:
     sdk: flutter
+  flutter_riverpod: ^2.6.1
+  hyper_router: ^0.0.5
 
 dev_dependencies:
   flutter_test:
