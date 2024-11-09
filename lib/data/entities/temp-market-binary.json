@@ -1,0 +1,89 @@
+{
+    "id": "sa32rmy14a",
+    "creatorId": "diwmn2cEH5WYieMianB3i0NKXd73",
+    "creatorUsername": "tftftftftftftftftftftftf",
+    "creatorName": "TBTBTB",
+    "createdTime": 1727577137968,
+    "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Ftftftftftftftftftftftftf%2FXEt4hEGLLS.09?alt=media&token=52a8c65d-6154-49d2-bd0d-58823e877c2b",
+    "closeTime": 1731916740000,
+    "question": "Can I go 2 weeks after the election without finding out who won?",
+    "slug": "can-i-go-2-weeks-after-the-election",
+    "url": "https://manifold.markets/tftftftftftftftftftftftf/can-i-go-2-weeks-after-the-election",
+    "pool": {
+        "NO": 12321.181298223903,
+        "YES": 2415.0219666787525
+    },
+    "probability": 0.47,
+    "p": 0.14807800560500772,
+    "totalLiquidity": 10001,
+    "outcomeType": "BINARY",
+    "mechanism": "cpmm-1",
+    "volume": 297330.4629452761,
+    "volume24Hours": 55006.45794799861,
+    "isResolved": false,
+    "uniqueBettorCount": 887,
+    "lastUpdatedTime": 1731163904654,
+    "lastBetTime": 1731163904654,
+    "lastCommentTime": 1731149898190,
+    "marketTier": "premium",
+    "token": "MANA",
+    "description": {
+        "type": "doc",
+        "content": [
+            {
+                "type": "paragraph",
+                "content": [
+                    {
+                        "text": "I really think i can do it.",
+                        "type": "text"
+                    },
+                    {
+                        "type": "hardBreak"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "content": [
+                    {
+                        "text": "I will stop listening to podcasts and following polls 5 weeks (",
+                        "type": "text"
+                    },
+                    {
+                        "text": "October 1",
+                        "type": "text",
+                        "marks": [
+                            {
+                                "type": "bold"
+                            }
+                        ]
+                    },
+                    {
+                        "text": ") before the election. I will pause my twitter. I will tell my coworkers and family not to tell me and avoid looking at newspapers. I will not watch any TV. I will not turn on the radio.  I will camp for the night of the election outside of the very blue city where I live so I don’t hear celebrations. I will work from home for 3-4 business days after the election. I will not look at YouTube or tiktok.  ",
+                        "type": "text"
+                    },
+                    {
+                        "type": "hardBreak"
+                    },
+                    {
+                        "type": "hardBreak"
+                    },
+                    {
+                        "text": "Not betting in this market so I am not biased.",
+                        "type": "text"
+                    }
+                ]
+            }
+        ]
+    },
+    "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/tftftftftftftftftftftftf/9i01o3om4y.jpg",
+    "groupSlugs": [
+        "us-politics",
+        "2024-us-presidential-election",
+        "democratic-party",
+        "2024-us-election",
+        "personal-goals",
+        "nonpredictive"
+    ],
+    "textDescription": "I really think i can do it.\n\n\nI will stop listening to podcasts and following polls 5 weeks (October 1) before the election. I will pause my twitter. I will tell my coworkers and family not to tell me and avoid looking at newspapers. I will not watch any TV. I will not turn on the radio.  I will camp for the night of the election outside of the very blue city where I live so I don’t hear celebrations. I will work from home for 3-4 business days after the election. I will not look at YouTube or tiktok.  \n\nNot betting in this market so I am not biased."
+}
