@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:dio/dio.dart';
 import 'package:manifold_callibration/data/entities/bet.dart';
 import 'package:manifold_callibration/data/entities/market.dart';
@@ -12,24 +14,34 @@ class BetsRepository {
       '/bets',
       queryParameters: {
         'username': username,
+        'limit': 10, // TODO temporal!
         if (beforeBetId != null) 'before': beforeBetId,
       },
     );
 
+    if (resp.statusCode != 200) {
+      throw HttpException(resp.statusMessage ?? '');
+    }
+
     final betsJson = resp.data as List<dynamic>;
     final bets = <Bet>[];
     for (final bet in betsJson) {
-      final marketId = bet["contnractId"];
+      final marketId = bet["contractId"];
 
       final marketResp = await dio.get('/market/$marketId');
+
+      if (marketResp.statusCode != 200) {
+        throw HttpException(resp.statusMessage ?? '');
+      }
+
       final marketJson = marketResp.data;
 
       final market = Market(
         id: marketJson["id"] as String,
         outcomeType: marketJson["outcomeType"] as String,
         isResolved: marketJson["isResolved"] as bool,
-        resolution: marketJson["resolution"] as String,
-        resolutionProbability: marketJson["resolutionProbability"] as double,
+        resolution: marketJson["resolution"] as String?,
+        resolutionProbability: marketJson["resolutionProbability"] as double?,
       );
 
       Bet(
