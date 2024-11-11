@@ -7,6 +7,20 @@ class Bet {
   final DateTime updatedTime;
   final Market market;
 
+  bool? get isPredictionCorrect {
+    if (market.outcome is! BinaryMarketOutcome) {
+      return null;
+    }
+    switch (outcome) {
+      case BinaryYesBetOutcome _:
+        return market.outcome is BinaryYesMarketOutcome;
+      case BinaryNoBetOutcome _:
+        return market.outcome is BinaryNoMarketOutcome;
+      default:
+        return null;
+    }
+  }
+
   const Bet({
     required this.id,
     required this.outcome,

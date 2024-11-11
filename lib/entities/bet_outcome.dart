@@ -1,15 +1,19 @@
-sealed class BetOutcome {}
-
-class BinaryYesBetOutcome extends BetOutcome {
-  final double probAfter;
-
-  BinaryYesBetOutcome({required this.probAfter});
+sealed class BetOutcome {
+  const BetOutcome();
 }
 
-class BinaryNoBetOutcome extends BetOutcome {
+sealed class BinaryBetOutcome extends BetOutcome {
   final double probAfter;
 
-  BinaryNoBetOutcome({required this.probAfter});
+  const BinaryBetOutcome({required this.probAfter});
+}
+
+class BinaryYesBetOutcome extends BinaryBetOutcome {
+  BinaryYesBetOutcome({required super.probAfter});
+}
+
+class BinaryNoBetOutcome extends BinaryBetOutcome {
+  BinaryNoBetOutcome({required super.probAfter});
 }
 
 class UnimplementedBetOutcome extends BetOutcome {}

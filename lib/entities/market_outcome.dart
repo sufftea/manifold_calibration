@@ -2,11 +2,15 @@ sealed class MarketOutcome {
   const MarketOutcome();
 }
 
-class BinaryYesMarketOutcome extends MarketOutcome {}
+sealed class BinaryMarketOutcome extends MarketOutcome {
+  const BinaryMarketOutcome();
+}
 
-class BinaryNoMarketOutcome extends MarketOutcome {}
+class BinaryYesMarketOutcome extends BinaryMarketOutcome {}
 
-class BinaryMktMarketOutcome extends MarketOutcome {
+class BinaryNoMarketOutcome extends BinaryMarketOutcome {}
+
+class BinaryMktMarketOutcome extends BinaryMarketOutcome {
   final double probability;
 
   const BinaryMktMarketOutcome({required this.probability});
