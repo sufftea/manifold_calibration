@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:manifold_callibration/data/dio_provider.dart';
 import 'package:manifold_callibration/data/entities/bet.dart';
@@ -23,50 +24,61 @@ class BetsRepository {
     while (nextBetsData.length == 1000) {
       final nextBetsData = await _getBets(username, betsData.last.id);
 
+      debugPrint('loop. last id: ${betsData.last.id}');
+
       betsData.addAll(nextBetsData);
     }
 
     // Map the API representation of bets to a more convenient one.
-    final bets = <domain.Bet>[];
-    for (final betData in betsData) {
-      final marketData = await _getMarket(betData.marketId);
+    final bets = await Future.wait<domain.Bet?>([
+      for (final betData in betsData) _parseBet(betData),
+    ]);
 
-      final market = domain.Market(
-          id: betData.marketId,
-          outcome: switch (marketData.outcomeType) {
-            'BINARY' => switch (marketData.resolution) {
-                'YES' => BinaryYesMarketOutcome(),
-                'NO' => BinaryNoMarketOutcome(),
-                'MKT' => () {
-                    if (marketData.resolutionProbability
-                        case final resolutionProbability?) {
-                      return BinaryMktMarketOutcome(
-                        probability: resolutionProbability,
-                      );
-                    } else {
-                      return UnimplementedMarketOutcome();
-                    }
-                  }(),
-                _ => UnimplementedMarketOutcome(),
-              },
-            _ => UnimplementedMarketOutcome(),
-          });
+    return bets.whereType<domain.Bet>().toList();
+  }
 
-      final bet = domain.Bet(
-        id: betData.id,
-        outcome: switch (betData.outcome) {
-          'YES' => BinaryYesBetOutcome(probAfter: betData.probAfter),
-          'NO' => BinaryNoBetOutcome(probAfter: betData.probAfter),
-          _ => UnimplementedBetOutcome(),
-        },
-        updatedTime: DateTime.fromMillisecondsSinceEpoch(betData.updatedTime),
-        market: market,
-      );
-
-      bets.add(bet);
+  Future<domain.Bet?> _parseBet(Bet betData) async {
+    final Market marketData;
+    try {
+      marketData = await _getMarket(betData.marketId);
+    } on TypeError catch (e) {
+      debugPrint('_getMarket error: $e\nmarketId: ${betData.marketId}');
+      return null;
     }
 
-    return bets;
+    final market = domain.Market(
+        id: betData.marketId,
+        outcome: switch (marketData.outcomeType) {
+          'BINARY' => switch (marketData.resolution) {
+              'YES' => BinaryYesMarketOutcome(),
+              'NO' => BinaryNoMarketOutcome(),
+              'MKT' => () {
+                  if (marketData.resolutionProbability
+                      case final resolutionProbability?) {
+                    return BinaryMktMarketOutcome(
+                      probability: resolutionProbability,
+                    );
+                  } else {
+                    return UnimplementedMarketOutcome();
+                  }
+                }(),
+              _ => UnimplementedMarketOutcome(),
+            },
+          _ => UnimplementedMarketOutcome(),
+        });
+
+    final bet = domain.Bet(
+      id: betData.id,
+      outcome: switch (betData.outcome) {
+        'YES' => BinaryYesBetOutcome(probAfter: betData.probAfter),
+        'NO' => BinaryNoBetOutcome(probAfter: betData.probAfter),
+        _ => UnimplementedBetOutcome(),
+      },
+      updatedTime: DateTime.fromMillisecondsSinceEpoch(betData.updatedTime),
+      market: market,
+    );
+
+    return bet;
   }
 
   Future<Market> _getMarket(String marketId) async {
@@ -94,7 +106,6 @@ class BetsRepository {
       '/bets',
       queryParameters: {
         'username': username,
-        'limit': 10, // TODO temporal!
         if (beforeBetId != null) 'before': beforeBetId,
       },
     );
@@ -106,15 +117,20 @@ class BetsRepository {
     final betsJson = resp.data as List<dynamic>;
     final bets = <Bet>[];
     for (final betJson in betsJson) {
-      final bet = Bet(
-        id: betJson["id"] as String,
-        outcome: betJson["outcome"] as String,
-        probAfter: betJson["probAfter"] as double,
-        updatedTime: betJson["updatedTime"] as int,
-        marketId: betJson["contractId"],
-      );
+      try {
+        final bet = Bet(
+          id: betJson["id"] as String,
+          outcome: betJson["outcome"] as String,
+          probAfter: betJson["probAfter"] as double,
+          updatedTime: betJson["updatedTime"] as int,
+          marketId: betJson["contractId"],
+        );
 
-      bets.add(bet);
+        bets.add(bet);
+      } on TypeError catch (e) {
+        debugPrint('Json: $betJson\nError: $e');
+        continue;
+      }
     }
 
     return bets;

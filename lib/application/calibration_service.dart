@@ -1,6 +1,5 @@
 import 'dart:math';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
@@ -28,8 +27,6 @@ class CalibrationService {
         resolvedBetsBucketed[bucket].add(bet);
       }
     }
-
-    debugPrint('');
 
     return resolvedBetsBucketed
         .map((bucket) => OutcomeBucket(
