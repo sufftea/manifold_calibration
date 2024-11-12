@@ -23,6 +23,8 @@ void main() {
       (bet: true, probAfter: 0.09, resolution: true),
       (bet: false, probAfter: 0.01, resolution: false),
       (bet: false, probAfter: 0.01, resolution: false),
+      (bet: false, probAfter: 0.01, resolution: false),
+      (bet: false, probAfter: 0.01, resolution: true),
     ];
 
     final bets = betsData
@@ -72,7 +74,7 @@ void main() {
         (e) => e.noRatio,
       ),
       [
-        2 / 2,
+        1 / 4,
         -1,
         -1,
         -1,

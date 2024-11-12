@@ -17,3 +17,5 @@ class BinaryMktMarketOutcome extends BinaryMarketOutcome {
 }
 
 class UnimplementedMarketOutcome extends MarketOutcome {}
+
+class MultipleChoiceMarketOutcome extends MarketOutcome {}

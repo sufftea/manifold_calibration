@@ -12,7 +12,7 @@ class CalibrationChartWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    debugPrint('buckets: ${buckets.map((e) => e.yesRatio)}');
+    debugPrint('buckets: ${buckets.map((e) => e.noRatio)}');
     return ScatterChart(
       ScatterChartData(
           minX: 0,

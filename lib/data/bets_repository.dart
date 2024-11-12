@@ -4,9 +4,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:manifold_callibration/data/dio_provider.dart';
-import 'package:manifold_callibration/data/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet.dart' as domain;
-import 'package:manifold_callibration/data/entities/market.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
 
@@ -16,72 +14,56 @@ class BetsRepository {
   final Dio dio;
 
   Future<List<domain.Bet>> getUserBets(String username) async {
-    final betsData = await _getBets(username);
+    final betsJson = await _getBets(username);
 
     // The API returns at most 1000 bets pre request. If we received this many,
     // request the rest of the bets repeatedly.
-    var nextBetsData = betsData;
-    while (nextBetsData.length == 1000) {
-      final nextBetsData = await _getBets(username, betsData.last.id);
+    var nextBetsJson = betsJson;
+    while (nextBetsJson.length == 1000) {
+      final nextBetsData = await _getBets(username, betsJson.last.id);
 
-      debugPrint('loop. last id: ${betsData.last.id}');
+      debugPrint('loop. last id: ${betsJson.last.id}');
 
-      betsData.addAll(nextBetsData);
+      betsJson.addAll(nextBetsData);
     }
 
     // Map the API representation of bets to a more convenient one.
     final bets = await Future.wait<domain.Bet?>([
-      for (final betData in betsData) _parseBet(betData),
+      for (final betJson in betsJson) _parseBet(betJson),
     ]);
 
     return bets.whereType<domain.Bet>().toList();
   }
 
-  Future<domain.Bet?> _parseBet(Bet betData) async {
-    final Market marketData;
+  Future<domain.Bet?> _parseBet(dynamic betJson) async {
     try {
-      marketData = await _getMarket(betData.marketId);
+      final market = await _getMarket(betJson["contractId"] as String);
+      if (market == null) {
+        return null;
+      }
+
+      final bet = domain.Bet(
+        id: betJson["id"] as String,
+        outcome: switch (betJson["outcome"] as String) {
+          'YES' =>
+            BinaryYesBetOutcome(probAfter: betJson["probAfter"] as double),
+          'NO' => BinaryNoBetOutcome(probAfter: betJson["probAfter"] as double),
+          _ => UnimplementedBetOutcome(),
+        },
+        updatedTime:
+            DateTime.fromMillisecondsSinceEpoch(betJson["updatedTime"] as int),
+        market: market,
+      );
+
+      return bet;
     } on TypeError catch (e) {
-      debugPrint('_getMarket error: $e\nmarketId: ${betData.marketId}');
+      debugPrint(
+          'Error parsing bet response. \nJson $betJson\nError: $e\n=======');
       return null;
     }
-
-    final market = domain.Market(
-        id: betData.marketId,
-        outcome: switch (marketData.outcomeType) {
-          'BINARY' => switch (marketData.resolution) {
-              'YES' => BinaryYesMarketOutcome(),
-              'NO' => BinaryNoMarketOutcome(),
-              'MKT' => () {
-                  if (marketData.resolutionProbability
-                      case final resolutionProbability?) {
-                    return BinaryMktMarketOutcome(
-                      probability: resolutionProbability,
-                    );
-                  } else {
-                    return UnimplementedMarketOutcome();
-                  }
-                }(),
-              _ => UnimplementedMarketOutcome(),
-            },
-          _ => UnimplementedMarketOutcome(),
-        });
-
-    final bet = domain.Bet(
-      id: betData.id,
-      outcome: switch (betData.outcome) {
-        'YES' => BinaryYesBetOutcome(probAfter: betData.probAfter),
-        'NO' => BinaryNoBetOutcome(probAfter: betData.probAfter),
-        _ => UnimplementedBetOutcome(),
-      },
-      updatedTime: DateTime.fromMillisecondsSinceEpoch(betData.updatedTime),
-      market: market,
-    );
-
-    return bet;
   }
 
-  Future<Market> _getMarket(String marketId) async {
+  Future<domain.Market?> _getMarket(String marketId) async {
     final resp = await dio.get('/market/$marketId');
 
     if (resp.statusCode != 200) {
@@ -89,19 +71,37 @@ class BetsRepository {
     }
 
     final marketJson = resp.data;
-
-    final market = Market(
-      id: marketJson["id"] as String,
-      outcomeType: marketJson["outcomeType"] as String,
-      isResolved: marketJson["isResolved"] as bool,
-      resolution: marketJson["resolution"] as String?,
-      resolutionProbability: marketJson["resolutionProbability"] as double?,
-    );
-
-    return market;
+    try {
+      return domain.Market(
+        id: marketJson["id"] as String,
+        outcome: switch (marketJson["outcomeType"]) {
+          'BINARY' => switch (marketJson["resolution"]) {
+              'YES' => BinaryYesMarketOutcome(),
+              'NO' => BinaryNoMarketOutcome(),
+              'MKT' => () {
+                  if (marketJson["resolutionProbability"]
+                      case final double resolutionProbability) {
+                    return BinaryMktMarketOutcome(
+                      probability: resolutionProbability,
+                    );
+                  } else {
+                    return UnimplementedMarketOutcome();
+                  }
+                }(),
+              _ => null,
+            },
+          // 'MULTIPLE_CHOICE' =>
+          _ => UnimplementedMarketOutcome(),
+        },
+      );
+    } on TypeError catch (e) {
+      debugPrint(
+          'Error parsing market response. \nJson $marketJson\nError: $e\n=======');
+      return null;
+    }
   }
 
-  Future<List<Bet>> _getBets(String username, [String? beforeBetId]) async {
+  Future<dynamic> _getBets(String username, [String? beforeBetId]) async {
     final resp = await dio.get(
       '/bets',
       queryParameters: {
@@ -114,26 +114,11 @@ class BetsRepository {
       throw HttpException(resp.statusMessage ?? '');
     }
 
-    final betsJson = resp.data as List<dynamic>;
-    final bets = <Bet>[];
-    for (final betJson in betsJson) {
-      try {
-        final bet = Bet(
-          id: betJson["id"] as String,
-          outcome: betJson["outcome"] as String,
-          probAfter: betJson["probAfter"] as double,
-          updatedTime: betJson["updatedTime"] as int,
-          marketId: betJson["contractId"],
-        );
-
-        bets.add(bet);
-      } on TypeError catch (e) {
-        debugPrint('Json: $betJson\nError: $e');
-        continue;
-      }
+    if (resp.data case final List<dynamic> betsJson) {
+      return betsJson;
+    } else {
+      throw UnimplementedError();
     }
-
-    return bets;
   }
 }
 

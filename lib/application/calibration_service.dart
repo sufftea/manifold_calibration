@@ -28,17 +28,17 @@ class CalibrationService {
       }
     }
 
-    return resolvedBetsBucketed
-        .map((bucket) => OutcomeBucket(
-              bets: bucket,
-              yesRatio: _calculateRatio(
-                bucket.where((e) => e.outcome is BinaryYesBetOutcome),
-              ),
-              noRatio: _calculateRatio(
-                bucket.where((e) => e.outcome is BinaryNoBetOutcome),
-              ),
-            ))
-        .toList();
+    return resolvedBetsBucketed.map((bucket) {
+      return OutcomeBucket(
+        bets: bucket,
+        yesRatio: _calculateRatio(
+          bucket.where((e) => e.outcome is BinaryYesBetOutcome),
+        ),
+        noRatio: _calculateRatio(
+          bucket.where((e) => e.outcome is BinaryNoBetOutcome),
+        ),
+      );
+    }).toList();
   }
 
   double _calculateRatio(Iterable<Bet> bets) {
@@ -46,18 +46,16 @@ class CalibrationService {
       return -1;
     }
 
-    final correct = bets
-        .where(
-          (element) => element.isPredictionCorrect!,
-        )
-        .length;
-    final incorrect = bets
-        .where(
-          (element) => !element.isPredictionCorrect!,
-        )
-        .length;
+    int positive = 0;
+    for (final bet in bets) {
+      switch (bet.market.outcome) {
+        case BinaryYesMarketOutcome _:
+          positive++;
+        default:
+      }
+    }
 
-    return correct / (correct + incorrect);
+    return positive / bets.length;
   }
 }
 
