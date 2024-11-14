@@ -1,10 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hyper_router/hyper_router.dart';
 import 'package:hyper_router/srs/url/url_data.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_chart_widget.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_controller.dart';
+import 'package:manifold_callibration/presentation/calibration/calibration_page.dart';
 
 class CalibrationRouteValue extends RouteValue {
   final String? username;
@@ -39,133 +41,325 @@ class CalibrationRouteUrlParser extends UrlParser<CalibrationRouteValue> {
   }
 }
 
-class CalibrationScreen extends StatelessWidget {
-  CalibrationScreen({
+class CalibrationScreen extends ConsumerStatefulWidget {
+  const CalibrationScreen({
     required this.routeValue,
     super.key,
   });
 
   final CalibrationRouteValue routeValue;
 
-  late final usernameFieldController =
-      TextEditingController(text: routeValue.username);
-
   static const _chartSize = 400.0;
 
   @override
+  ConsumerState<ConsumerStatefulWidget> createState() {
+    return _CalibrationScreenState();
+  }
+}
+
+class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
+  late final usernameFieldController =
+      TextEditingController(text: widget.routeValue.username);
+
+  @override
+  void didUpdateWidget(covariant CalibrationScreen oldWidget) {
+    super.didUpdateWidget(oldWidget);
+
+    if (widget.routeValue.username case final username?
+        when username != oldWidget.routeValue.username) {
+      WidgetsBinding.instance.addPostFrameCallback(
+        (timeStamp) {
+          ref
+              .read(calibrationControllerProvider.notifier)
+              .setUsername(username);
+        },
+      );
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.sizeOf(context);
-    const minWidth = _chartSize;
+    final colors = Theme.of(context).colorScheme;
 
     return Scaffold(
-      body: switch (size) {
-        final s when s.width > s.height && s.width > minWidth => Center(
-            child: SizedBox(
-              width: minWidth,
-              child: buildContent(),
+      backgroundColor: colors.surface,
+      body: Center(
+        child: SizedBox(
+          width: CalibrationScreen._chartSize,
+          child: buildContent(context),
+        ),
+      ),
+    );
+  }
+
+  Widget buildContent(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          buildLinkBanner(colors),
+          const SizedBox(height: 16),
+          buildControlls(colors),
+          const SizedBox(height: 16),
+          Consumer(
+            builder: (context, ref, child) {
+              final state = ref.watch(calibrationControllerProvider);
+              return state.when(
+                data: (data) {
+                  if (data is CalibrationStateLoaded) {
+                    return CalibrationPage(state: data);
+                    // return buildChart(data, colors);
+                  } else {
+                    return const SizedBox.shrink();
+                  }
+                },
+                error: (error, stackTrace) {
+                  if (error is DioException) {
+                    return Text('Error: ${error.message}');
+                  }
+                  throw Error.throwWithStackTrace(error, stackTrace);
+                },
+                loading: () {
+                  return const CircularProgressIndicator();
+                },
+              );
+            },
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget buildControlls(ColorScheme colors) {
+    return SizedBox(
+      height: 48,
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          buildGoButton(colors),
+          const SizedBox(width: 8),
+          buildRefreshButton(colors),
+        ],
+      ),
+    );
+  }
+
+  Widget buildRefreshButton(ColorScheme colors) {
+    return AspectRatio(
+      aspectRatio: 1,
+      child: Consumer(builder: (context, ref, child) {
+        final state = ref.watch(calibrationControllerProvider);
+
+        return IconButton(
+          onPressed: switch (state) {
+            AsyncData(value: final CalibrationStateLoaded _) => () {
+                ref.read(calibrationControllerProvider.notifier).refresh();
+              },
+            _ => null,
+          },
+          icon: const Icon(Icons.refresh),
+          style: ButtonStyle(
+            shape: WidgetStatePropertyAll(
+              RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(4),
+              ),
+            ),
+            side: WidgetStateProperty.resolveWith(
+              (states) {
+                if (states.contains(WidgetState.disabled)) {
+                  return BorderSide.none;
+                } else {
+                  return BorderSide(
+                    color: colors.secondary,
+                    width: 2,
+                  );
+                }
+              },
+            ),
+            overlayColor:
+                WidgetStatePropertyAll(colors.secondary.withOpacity(0.1)),
+            foregroundColor: WidgetStateProperty.resolveWith(
+              (states) {
+                if (states.contains(WidgetState.disabled)) {
+                  return colors.onSurface.withOpacity(0.5);
+                } else {
+                  return colors.secondary;
+                }
+              },
             ),
           ),
-        _ => buildContent(),
+        );
+      }),
+    );
+  }
+
+  Widget buildGoButton(ColorScheme colors) {
+    return ValueListenableBuilder(
+      valueListenable: usernameFieldController,
+      builder: (context, value, child) {
+        final goButtonEnabled =
+            value.text != widget.routeValue.username && value.text.isNotEmpty;
+        return Expanded(
+          child: AnimatedContainer(
+            duration: const Duration(milliseconds: 100),
+            decoration: BoxDecoration(
+              boxShadow: [
+                if (goButtonEnabled)
+                  BoxShadow(
+                    color: colors.shadow,
+                    offset: const Offset(0, 4),
+                    blurRadius: 5,
+                  )
+              ],
+            ),
+            child: ElevatedButton(
+              onPressed: switch (goButtonEnabled) {
+                true => () {
+                    context.hyper.navigate(
+                      CalibrationRouteValue(
+                        usernameFieldController.text,
+                      ),
+                    );
+                  },
+                false => null,
+              },
+              style: ButtonStyle(
+                shape: WidgetStatePropertyAll(
+                  RoundedRectangleBorder(
+                    side: BorderSide(
+                      color: colors.primary,
+                      width: 2,
+                    ),
+                    borderRadius: BorderRadius.circular(4),
+                  ),
+                ),
+                elevation: const WidgetStatePropertyAll(0),
+                backgroundColor: WidgetStateProperty.resolveWith(
+                  (states) {
+                    {
+                      if (states.contains(WidgetState.disabled)) {
+                        return colors.surface;
+                      } else {
+                        return colors.primary;
+                      }
+                    }
+                  },
+                ),
+                shadowColor: WidgetStateProperty.resolveWith(
+                  (states) {
+                    if (states.contains(WidgetState.disabled)) {
+                      return Colors.transparent;
+                    } else {
+                      return colors.shadow;
+                    }
+                  },
+                ),
+                side: WidgetStateBorderSide.resolveWith(
+                  (states) {
+                    if (states.contains(WidgetState.disabled)) {
+                      return BorderSide(
+                        color: colors.onSurface.withOpacity(0.5),
+                        width: 2,
+                      );
+                    } else {
+                      return BorderSide(color: colors.primary, width: 2);
+                    }
+                  },
+                ),
+                foregroundColor: WidgetStateProperty.resolveWith(
+                  (states) {
+                    if (states.contains(WidgetState.disabled)) {
+                      return colors.onSurface.withOpacity(0.5);
+                    } else {
+                      return colors.onPrimary;
+                    }
+                  },
+                ),
+                textStyle: WidgetStatePropertyAll(
+                  GoogleFonts.poppins(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ),
+              child: const Text('Go'),
+            ),
+          ),
+        );
       },
     );
   }
 
-  Widget buildContent() {
-    return Center(
-      child: SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            TextField(
-              controller: usernameFieldController,
-              decoration: const InputDecoration(
-                label: Text('your username'),
+  Container buildLinkBanner(ColorScheme colors) {
+    return Container(
+      // padding: const EdgeInsets.all(16),
+      clipBehavior: Clip.antiAlias,
+      decoration: BoxDecoration(
+        color: colors.surface,
+        borderRadius: BorderRadius.circular(4),
+        boxShadow: [
+          BoxShadow(
+            color: colors.shadow,
+            offset: const Offset(0, 4),
+            blurRadius: 5,
+          )
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Container(
+            padding: const EdgeInsets.all(8),
+            alignment: Alignment.centerLeft,
+            decoration: BoxDecoration(
+              color: colors.tertiary,
+            ),
+            child: Text(
+              'Link your Manifold profile',
+              style: GoogleFonts.poppins(
+                fontSize: 16,
+                fontWeight: FontWeight.w600,
+                color: colors.onTertiary,
+              ),
+              // textAlign: TextAlign.center,
+            ),
+          ),
+          // const SizedBox(height: 4),
+          TextField(
+            controller: usernameFieldController,
+            decoration: InputDecoration(
+              contentPadding: const EdgeInsets.symmetric(horizontal: 8),
+              hintText: "https://manifold.markets/jalasama",
+              hintStyle: GoogleFonts.poppins(
+                color: colors.onPrimaryContainer.withOpacity(0.5),
+                fontSize: 16,
+              ),
+              focusedBorder: UnderlineInputBorder(
+                borderSide: BorderSide(
+                  color: colors.secondary,
+                  width: 4,
+                  strokeAlign: -1,
+                ),
+                borderRadius: BorderRadius.circular(0),
+              ),
+              enabledBorder: InputBorder.none,
+              focusedErrorBorder: UnderlineInputBorder(
+                borderSide: BorderSide(color: colors.error, width: 4),
+              ),
+              errorBorder: UnderlineInputBorder(
+                borderSide: BorderSide(color: colors.error, width: 2),
+              ),
+              errorStyle: GoogleFonts.poppins(
+                fontSize: 12,
               ),
             ),
-            ValueListenableBuilder(
-              valueListenable: usernameFieldController,
-              builder: (context, value, child) {
-                return OutlinedButton(
-                  onPressed: switch (value.text != routeValue.username &&
-                      value.text.isNotEmpty) {
-                    true => () {
-                        context.hyper.navigate(
-                          CalibrationRouteValue(usernameFieldController.text),
-                        );
-                      },
-                    false => null,
-                  },
-                  child: const Text('Go'),
-                );
-              },
+            style: GoogleFonts.poppins(
+              color: colors.onPrimaryContainer,
+              fontSize: 16,
             ),
-            if (routeValue.username case final username?)
-              Consumer(
-                builder: (context, ref, child) {
-                  final state =
-                      ref.watch(calibrationControllerProvider(username));
-                  return state.when(
-                    data: (data) {
-                      return Column(
-                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                        children: [
-                          AspectRatio(
-                            aspectRatio: 1,
-                            child:
-                                CalibrationChartWidget(buckets: data.buckets),
-                          ),
-                          Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              FilledButton(
-                                onPressed: () {
-                                  ref
-                                      .read(calibrationControllerProvider(
-                                              username)
-                                          .notifier)
-                                      .changeBuckets(4);
-                                },
-                                child: const Text('4'),
-                              ),
-                              FilledButton(
-                                onPressed: () {
-                                  ref
-                                      .read(calibrationControllerProvider(
-                                              username)
-                                          .notifier)
-                                      .changeBuckets(10);
-                                },
-                                child: const Text('10'),
-                              ),
-                              FilledButton(
-                                onPressed: () {
-                                  ref
-                                      .read(calibrationControllerProvider(
-                                              username)
-                                          .notifier)
-                                      .changeBuckets(30);
-                                },
-                                child: const Text('30'),
-                              )
-                            ],
-                          )
-                        ],
-                      );
-                    },
-                    error: (error, stackTrace) {
-                      if (error is DioException) {
-                        return Text('Error: ${error.message}');
-                      }
-                      throw Error.throwWithStackTrace(error, stackTrace);
-                    },
-                    loading: () {
-                      return const CircularProgressIndicator();
-                    },
-                  );
-                },
-              ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

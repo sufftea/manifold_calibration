@@ -3,15 +3,16 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:manifold_callibration/data/bets_repository_mock.dart';
 import 'package:manifold_callibration/data/dio_provider.dart';
 import 'package:manifold_callibration/entities/bet.dart' as domain;
 import 'package:manifold_callibration/entities/bet_outcome.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
 
 class BetsRepository {
-  BetsRepository({required this.dio});
+  BetsRepository(this._dio);
 
-  final Dio dio;
+  final Dio _dio;
 
   Future<List<domain.Bet>> getUserBets(String username) async {
     final betsJson = await _getBets(username);
@@ -64,7 +65,7 @@ class BetsRepository {
   }
 
   Future<domain.Market?> _getMarket(String marketId) async {
-    final resp = await dio.get('/market/$marketId');
+    final resp = await _dio.get('/market/$marketId');
 
     if (resp.statusCode != 200) {
       throw HttpException(resp.statusMessage ?? '');
@@ -102,7 +103,7 @@ class BetsRepository {
   }
 
   Future<dynamic> _getBets(String username, [String? beforeBetId]) async {
-    final resp = await dio.get(
+    final resp = await _dio.get(
       '/bets',
       queryParameters: {
         'username': username,
@@ -124,6 +125,7 @@ class BetsRepository {
 
 final betsRepositoryProvider = Provider(
   (ref) {
-    return BetsRepository(dio: ref.watch(dioProvider));
+    return BetsRepositoryMock();
+    return BetsRepository(ref.watch(dioProvider));
   },
 );

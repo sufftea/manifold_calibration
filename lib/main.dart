@@ -1,3 +1,4 @@
+import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -14,6 +15,9 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ProviderScope(
       child: MaterialApp.router(
+        theme: FlexThemeData.light(
+          scheme: FlexScheme.mandyRed,
+        ),
         routerConfig: router,
       ),
     );

@@ -6,7 +6,7 @@ import 'package:manifold_callibration/data/bets_repository.dart';
 void main() {
   test("Doesn't crash when fetching and parsing the response", () async {
     final dio = Dio(BaseOptions(baseUrl: 'https://api.manifold.markets/v0'));
-    final repo = BetsRepository(dio: dio);
+    final repo = BetsRepository(dio);
 
     final bets = await repo.getUserBets('SlipperySloe');
 
