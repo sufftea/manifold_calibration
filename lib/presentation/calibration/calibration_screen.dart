@@ -1,10 +1,9 @@
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hyper_router/hyper_router.dart';
 import 'package:hyper_router/srs/url/url_data.dart';
-import 'package:manifold_callibration/presentation/calibration/calibration_chart_widget.dart';
+import 'package:manifold_callibration/entities/exceptions.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_controller.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_page.dart';
 
@@ -72,6 +71,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           ref
               .read(calibrationControllerProvider.notifier)
               .setUsername(username);
+          usernameFieldController.text = username;
         },
       );
     }
@@ -105,29 +105,73 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           Consumer(
             builder: (context, ref, child) {
               final state = ref.watch(calibrationControllerProvider);
-              return state.when(
-                data: (data) {
-                  if (data is CalibrationStateLoaded) {
-                    return CalibrationPage(state: data);
-                    // return buildChart(data, colors);
-                  } else {
-                    return const SizedBox.shrink();
-                  }
-                },
-                error: (error, stackTrace) {
-                  if (error is DioException) {
-                    return Text('Error: ${error.message}');
-                  }
-                  throw Error.throwWithStackTrace(error, stackTrace);
-                },
-                loading: () {
-                  return const CircularProgressIndicator();
-                },
+
+              final page = buildPageFromState(state, colors);
+
+              if (page == null) {
+                return const SizedBox.shrink();
+              }
+              return Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: colors.surface,
+                  boxShadow: [
+                    BoxShadow(
+                      color: colors.shadow,
+                      offset: const Offset(0, 4),
+                      blurRadius: 5,
+                    )
+                  ],
+                  borderRadius: BorderRadius.circular(4),
+                ),
+                child: page,
               );
             },
           ),
         ],
       ),
+    );
+  }
+
+  Widget? buildPageFromState(
+    AsyncValue<CalibrationState> state,
+    ColorScheme colors,
+  ) {
+    return state.when(
+      data: (data) {
+        if (data is CalibrationStateLoaded) {
+          return CalibrationPage(state: data);
+        } else {
+          return null;
+        }
+      },
+      error: (error, stackTrace) {
+        if (error is UnexpectedResponseException) {
+          return Text(
+            error.toString(),
+            style: GoogleFonts.poppins(
+              fontSize: 16,
+              fontWeight: FontWeight.w400,
+              color: colors.error,
+            ),
+          );
+        } else if (error is InvalidUsernameException) {
+          return null;
+        } else {
+          // TODO: log this
+          return Text(
+            'Hmm. Internal error.',
+            style: GoogleFonts.poppins(
+              fontSize: 16,
+              fontWeight: FontWeight.w400,
+              color: colors.error,
+            ),
+          );
+        }
+      },
+      loading: () {
+        return const Center(child: CircularProgressIndicator());
+      },
     );
   }
 
@@ -316,7 +360,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
               color: colors.tertiary,
             ),
             child: Text(
-              'Link your Manifold profile',
+              'Username/link to your Manifold profile',
               style: GoogleFonts.poppins(
                 fontSize: 16,
                 fontWeight: FontWeight.w600,
@@ -326,39 +370,62 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
             ),
           ),
           // const SizedBox(height: 4),
-          TextField(
-            controller: usernameFieldController,
-            decoration: InputDecoration(
-              contentPadding: const EdgeInsets.symmetric(horizontal: 8),
-              hintText: "https://manifold.markets/jalasama",
-              hintStyle: GoogleFonts.poppins(
-                color: colors.onPrimaryContainer.withOpacity(0.5),
+          Consumer(builder: (context, ref, chlid) {
+            final state = ref.watch(calibrationControllerProvider);
+
+            return TextField(
+              controller: usernameFieldController,
+              onChanged: (value) {
+                const prefix = 'https://manifold.markets/';
+                if (usernameFieldController.text.startsWith(prefix)) {
+                  usernameFieldController.text =
+                      usernameFieldController.text.substring(prefix.length);
+                }
+
+                // usernameFieldController.text =
+                //     value.replaceFirst(RegExp('https://manifold.markets/'), '');
+              },
+              decoration: InputDecoration(
+                contentPadding: const EdgeInsets.symmetric(horizontal: 8),
+                hintText: "https://manifold.markets/jalasama",
+                hintStyle: GoogleFonts.poppins(
+                  color: colors.onPrimaryContainer.withOpacity(0.5),
+                  fontSize: 16,
+                ),
+                focusedBorder: UnderlineInputBorder(
+                  borderSide: BorderSide(
+                    color: colors.secondary,
+                    width: 4,
+                    strokeAlign: -1,
+                  ),
+                  borderRadius: BorderRadius.circular(0),
+                ),
+                enabledBorder: InputBorder.none,
+                focusedErrorBorder: UnderlineInputBorder(
+                  borderSide: BorderSide(color: colors.error, width: 4),
+                ),
+                errorBorder: UnderlineInputBorder(
+                  borderSide: BorderSide(color: colors.error, width: 2),
+                ),
+                errorStyle: GoogleFonts.poppins(
+                  fontSize: 12,
+                ),
+                errorText: state.whenOrNull(
+                  error: (error, stackTrace) {
+                    if (error is InvalidUsernameException) {
+                      return error.toString();
+                    } else {
+                      return null;
+                    }
+                  },
+                ),
+              ),
+              style: GoogleFonts.poppins(
+                color: colors.onPrimaryContainer,
                 fontSize: 16,
               ),
-              focusedBorder: UnderlineInputBorder(
-                borderSide: BorderSide(
-                  color: colors.secondary,
-                  width: 4,
-                  strokeAlign: -1,
-                ),
-                borderRadius: BorderRadius.circular(0),
-              ),
-              enabledBorder: InputBorder.none,
-              focusedErrorBorder: UnderlineInputBorder(
-                borderSide: BorderSide(color: colors.error, width: 4),
-              ),
-              errorBorder: UnderlineInputBorder(
-                borderSide: BorderSide(color: colors.error, width: 2),
-              ),
-              errorStyle: GoogleFonts.poppins(
-                fontSize: 12,
-              ),
-            ),
-            style: GoogleFonts.poppins(
-              color: colors.onPrimaryContainer,
-              fontSize: 16,
-            ),
-          ),
+            );
+          }),
         ],
       ),
     );

@@ -48,7 +48,7 @@ void main() {
         .toList();
 
     final service = CalibrationService();
-    final result = service.calculateCalibration(bets: bets, buckets: 10);
+    final result = service.calculateCalibration(bets: bets, nofBuckets: 10);
 
     expect(
       result

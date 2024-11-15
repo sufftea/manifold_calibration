@@ -23,8 +23,20 @@ class CalibrationPage extends StatelessWidget {
           child: CalibrationChartWidget(buckets: state.buckets),
         ),
         const SizedBox(height: 16),
-        buildBucketButtons(colors)
+        buildBucketButtons(colors),
+        const SizedBox(height: 16),
+        buildBrierScore(context),
       ],
+    );
+  }
+
+  Widget buildBrierScore(BuildContext context) {
+    return Text(
+      'Brier score: ${state.brierScore}',
+      style: GoogleFonts.poppins(
+        fontSize: 16,
+        fontWeight: FontWeight.w600,
+      ),
     );
   }
 

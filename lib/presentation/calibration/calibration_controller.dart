@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:manifold_callibration/application/brier_score_service.dart';
 import 'package:manifold_callibration/application/calibration_service.dart';
 import 'package:manifold_callibration/data/bets_repository.dart';
 import 'package:manifold_callibration/entities/bet.dart';
@@ -25,7 +26,7 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
         if (value is CalibrationStateLoaded) {
           final buckets = ref
               .watch(calibrationServiceProvider)
-              .calculateCalibration(bets: value.bets, buckets: nofBuckets);
+              .calculateCalibration(bets: value.bets, nofBuckets: nofBuckets);
 
           state = AsyncData(value.copyWith(buckets: buckets));
         }
@@ -45,16 +46,25 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
 
   Future<void> _loadState(String username) async {
     state = const AsyncValue.loading();
-
-    final bets = await ref.watch(betsRepositoryProvider).getUserBets(username);
+    final List<Bet> bets;
+    try {
+      bets = await ref.watch(betsRepositoryProvider).getUserBets(username);
+    } on Exception catch (e, s) {
+      state = AsyncError(e, s);
+      return;
+    }
     final buckets = ref
         .watch(calibrationServiceProvider)
-        .calculateCalibration(bets: bets, buckets: 10);
+        .calculateCalibration(bets: bets, nofBuckets: 10);
+
+    final brierScore =
+        ref.read(brierScoreServiceProvider).calculateBrierScore(bets);
 
     state = AsyncData(CalibrationStateLoaded(
       buckets: buckets,
       bets: bets,
       username: username,
+      brierScore: brierScore,
     ));
   }
 }
@@ -67,8 +77,10 @@ class CalibrationStateLoaded extends CalibrationState {
   final List<OutcomeBucket> buckets;
   final List<Bet> bets;
   final String username;
+  final double brierScore;
 
   CalibrationStateLoaded({
+    required this.brierScore,
     required this.username,
     required this.buckets,
     required this.bets,
@@ -77,9 +89,11 @@ class CalibrationStateLoaded extends CalibrationState {
   CalibrationStateLoaded copyWith({
     List<OutcomeBucket>? buckets,
     List<Bet>? bets,
+    double? brierScore,
     String? username,
   }) {
     return CalibrationStateLoaded(
+      brierScore: brierScore ?? this.brierScore,
       buckets: buckets ?? this.buckets,
       bets: bets ?? this.bets,
       username: username ?? this.username,

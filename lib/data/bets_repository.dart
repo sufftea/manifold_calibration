@@ -1,12 +1,12 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:manifold_callibration/data/bets_repository_mock.dart';
 import 'package:manifold_callibration/data/dio_provider.dart';
 import 'package:manifold_callibration/entities/bet.dart' as domain;
 import 'package:manifold_callibration/entities/bet_outcome.dart';
+import 'package:manifold_callibration/entities/exceptions.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
 
 class BetsRepository {
@@ -22,13 +22,9 @@ class BetsRepository {
     var nextBetsJson = betsJson;
     while (nextBetsJson.length == 1000) {
       final nextBetsData = await _getBets(username, betsJson.last.id);
-
-      debugPrint('loop. last id: ${betsJson.last.id}');
-
       betsJson.addAll(nextBetsData);
     }
 
-    // Map the API representation of bets to a more convenient one.
     final bets = await Future.wait<domain.Bet?>([
       for (final betJson in betsJson) _parseBet(betJson),
     ]);
@@ -57,9 +53,11 @@ class BetsRepository {
       );
 
       return bet;
-    } on TypeError catch (e) {
-      debugPrint(
-          'Error parsing bet response. \nJson $betJson\nError: $e\n=======');
+    } on TypeError catch (_) {
+      // TODO: log this
+      return null;
+    } on HttpException catch (_) {
+      // TODO: log this
       return null;
     }
   }
@@ -95,37 +93,42 @@ class BetsRepository {
           _ => UnimplementedMarketOutcome(),
         },
       );
-    } on TypeError catch (e) {
-      debugPrint(
-          'Error parsing market response. \nJson $marketJson\nError: $e\n=======');
-      return null;
+    } on TypeError catch (_) {
+      // TODO: log this
+      throw UnexpectedResponseException("Hmm. Couldn't parse the response.");
     }
   }
 
-  Future<dynamic> _getBets(String username, [String? beforeBetId]) async {
-    final resp = await _dio.get(
-      '/bets',
-      queryParameters: {
-        'username': username,
-        if (beforeBetId != null) 'before': beforeBetId,
-      },
-    );
+  Future<List<dynamic>> _getBets(String username, [String? beforeBetId]) async {
+    final Response resp;
+    try {
+      resp = await _dio.get(
+        '/bets',
+        queryParameters: {
+          'username': username,
+          if (beforeBetId != null) 'before': beforeBetId,
+        },
+      );
+    } on DioException catch (e) {
+      throw InvalidUsernameException(username);
+    }
 
     if (resp.statusCode != 200) {
-      throw HttpException(resp.statusMessage ?? '');
+      throw InvalidUsernameException(username);
     }
 
     if (resp.data case final List<dynamic> betsJson) {
       return betsJson;
     } else {
-      throw UnimplementedError();
+      // TODO: i need to setup logging.
+      throw UnexpectedResponseException("Hmm. Couldn't parse the response.");
     }
   }
 }
 
 final betsRepositoryProvider = Provider(
   (ref) {
-    return BetsRepositoryMock();
+    // return BetsRepositoryMock();
     return BetsRepository(ref.watch(dioProvider));
   },
 );

@@ -25,14 +25,17 @@ class CalibrationChartWidget extends StatelessWidget {
         scatterSpots: [
           for (int i = 0; i < buckets.length; i++)
             if (buckets[i].yesRatio != -1)
-              ScatterSpot(
-                100 * i / buckets.length + 50 / buckets.length,
-                buckets[i].yesRatio * 100,
-                dotPainter: const _CalibrationDotPainter(
-                  mainColor: Colors.green,
-                  rotate: 0,
-                ),
-              ),
+              () {
+                debugPrint('hmm: $i; yesRatio: ${buckets[i].yesRatio}');
+                return ScatterSpot(
+                  100 * i / buckets.length + 50 / buckets.length,
+                  buckets[i].yesRatio * 100,
+                  dotPainter: const _CalibrationDotPainter(
+                    mainColor: Colors.green,
+                    rotate: 0,
+                  ),
+                );
+              }(),
           for (int i = 0; i < buckets.length; i++)
             if (buckets[i].noRatio != -1)
               ScatterSpot(

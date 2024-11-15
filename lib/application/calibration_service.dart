@@ -9,10 +9,10 @@ import 'package:manifold_callibration/entities/outcome_bucket.dart';
 class CalibrationService {
   List<OutcomeBucket> calculateCalibration({
     required List<Bet> bets,
-    required int buckets,
+    required int nofBuckets,
   }) {
     final resolvedBetsBucketed = <List<Bet>>[
-      for (int i = 0; i < buckets; i++) [],
+      for (int i = 0; i < nofBuckets; i++) [],
     ];
     for (final bet in bets) {
       if (bet.market.outcome is! BinaryMarketOutcome) {
@@ -21,8 +21,8 @@ class CalibrationService {
 
       final betOutcome = bet.outcome;
       if (betOutcome is BinaryBetOutcome) {
-        var bucket = (buckets * betOutcome.probAfter).floor();
-        bucket = min(bucket, buckets - 1);
+        var bucket = (nofBuckets * betOutcome.probAfter).floor();
+        bucket = min(bucket, nofBuckets - 1);
 
         resolvedBetsBucketed[bucket].add(bet);
       }
