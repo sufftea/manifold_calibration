@@ -23,24 +23,26 @@ class CalibrationChartWidget extends StatelessWidget {
         minY: 0,
         maxY: 100,
         scatterSpots: [
-          for (int i = 0; i < buckets.length && buckets[i].yesRatio != -1; i++)
-            ScatterSpot(
-              100 * i / buckets.length + 50 / buckets.length,
-              buckets[i].yesRatio * 100,
-              dotPainter: const _CalibrationDotPainter(
-                mainColor: Colors.green,
-                rotate: 0,
+          for (int i = 0; i < buckets.length; i++)
+            if (buckets[i].yesRatio != -1)
+              ScatterSpot(
+                100 * i / buckets.length + 50 / buckets.length,
+                buckets[i].yesRatio * 100,
+                dotPainter: const _CalibrationDotPainter(
+                  mainColor: Colors.green,
+                  rotate: 0,
+                ),
               ),
-            ),
-          for (int i = 0; i < buckets.length && buckets[i].noRatio != -1; i++)
-            ScatterSpot(
-              100 * i / buckets.length + 50 / buckets.length,
-              buckets[i].noRatio * 100,
-              dotPainter: const _CalibrationDotPainter(
-                mainColor: Colors.red,
-                rotate: 1,
-              ),
-            )
+          for (int i = 0; i < buckets.length; i++)
+            if (buckets[i].noRatio != -1)
+              ScatterSpot(
+                100 * i / buckets.length + 50 / buckets.length,
+                buckets[i].noRatio * 100,
+                dotPainter: const _CalibrationDotPainter(
+                  mainColor: Colors.red,
+                  rotate: 1,
+                ),
+              )
         ],
         titlesData: const FlTitlesData(
           show: true,
