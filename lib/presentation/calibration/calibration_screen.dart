@@ -106,26 +106,77 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
             builder: (context, ref, child) {
               final state = ref.watch(calibrationControllerProvider);
 
-              final page = buildPageFromState(state, colors);
-
-              if (page == null) {
-                return const SizedBox.shrink();
+              if (state case final CalibrationStateData data) {
+                return Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: colors.surface,
+                    boxShadow: [
+                      BoxShadow(
+                        color: colors.shadow,
+                        offset: const Offset(0, 2),
+                        blurRadius: 5,
+                      )
+                    ],
+                    borderRadius: BorderRadius.circular(4),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      if (state.nofLoadedMarkets < state.nofTotalMarkets) ...[
+                        LinearProgressIndicator(
+                          value: state.nofLoadedMarkets / state.nofTotalMarkets,
+                          color: colors.secondary,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'Loading markets: ${state.nofLoadedMarkets} / ${state.nofTotalMarkets}',
+                            style: GoogleFonts.poppins(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                        ),
+                      ],
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: CalibrationPage(state: data),
+                      ),
+                    ],
+                  ),
+                );
               }
-              return Container(
-                padding: const EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                  color: colors.surface,
-                  boxShadow: [
-                    BoxShadow(
-                      color: colors.shadow,
-                      offset: const Offset(0, 4),
-                      blurRadius: 5,
-                    )
-                  ],
-                  borderRadius: BorderRadius.circular(4),
-                ),
-                child: page,
-              );
+
+              if (state case final CalibrationStateLoading _) {
+                return const Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: Center(child: CircularProgressIndicator()),
+                );
+              }
+
+              if (state case final CalibrationStateError state) {
+                {
+                  if (state.err is UnexpectedResponseException) {
+                    return Text(
+                      state.err.toString(),
+                      style: GoogleFonts.poppins(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w400,
+                        color: colors.error,
+                      ),
+                    );
+                  } else if (state.err is InvalidUsernameException) {
+                    return const SizedBox.shrink();
+                  } else {
+                    // TODO: log this
+                    throw Error.throwWithStackTrace(
+                        state.err, state.stackTrace);
+                  }
+                }
+              }
+
+              return const SizedBox.shrink();
             },
           ),
         ],
@@ -134,45 +185,39 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
   }
 
   Widget? buildPageFromState(
-    AsyncValue<CalibrationState> state,
+    CalibrationState state,
     ColorScheme colors,
   ) {
-    return state.when(
-      data: (data) {
-        if (data is CalibrationStateLoaded) {
-          return CalibrationPage(state: data);
-        } else {
-          return null;
-        }
-      },
-      error: (error, stackTrace) {
-        if (error is UnexpectedResponseException) {
+    if (state case final CalibrationStateData data) {
+      return CalibrationPage(state: data);
+    }
+
+    if (state case final CalibrationStateError state) {
+      {
+        if (state.err is UnexpectedResponseException) {
           return Text(
-            error.toString(),
+            state.err.toString(),
             style: GoogleFonts.poppins(
               fontSize: 16,
               fontWeight: FontWeight.w400,
               color: colors.error,
             ),
           );
-        } else if (error is InvalidUsernameException) {
+        } else if (state.err is InvalidUsernameException) {
           return null;
         } else {
           // TODO: log this
-          return Text(
-            'Hmm. Internal error.',
-            style: GoogleFonts.poppins(
-              fontSize: 16,
-              fontWeight: FontWeight.w400,
-              color: colors.error,
-            ),
-          );
+
+          throw Error.throwWithStackTrace(state.err, state.stackTrace);
         }
-      },
-      loading: () {
-        return const Center(child: CircularProgressIndicator());
-      },
-    );
+      }
+    }
+
+    if (state case final CalibrationStateLoading _) {
+      return const Center(child: CircularProgressIndicator());
+    }
+
+    return null;
   }
 
   Widget buildControlls(ColorScheme colors) {
@@ -197,7 +242,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
 
         return IconButton(
           onPressed: switch (state) {
-            AsyncData(value: final CalibrationStateLoaded _) => () {
+            CalibrationStateData _ => () {
                 ref.read(calibrationControllerProvider.notifier).refresh();
               },
             _ => null,
@@ -252,8 +297,8 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                 if (goButtonEnabled)
                   BoxShadow(
                     color: colors.shadow,
-                    offset: const Offset(0, 4),
-                    blurRadius: 5,
+                    offset: const Offset(0, 2),
+                    blurRadius: 6,
                   )
               ],
             ),
@@ -345,8 +390,8 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
         boxShadow: [
           BoxShadow(
             color: colors.shadow,
-            offset: const Offset(0, 4),
-            blurRadius: 5,
+            offset: const Offset(0, 2),
+            blurRadius: 6,
           )
         ],
       ),
@@ -410,15 +455,10 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                 errorStyle: GoogleFonts.poppins(
                   fontSize: 12,
                 ),
-                errorText: state.whenOrNull(
-                  error: (error, stackTrace) {
-                    if (error is InvalidUsernameException) {
-                      return error.toString();
-                    } else {
-                      return null;
-                    }
-                  },
-                ),
+                errorText: switch (state) {
+                  CalibrationStateError(err: final error) => error.toString(),
+                  _ => null,
+                },
               ),
               style: GoogleFonts.poppins(
                 color: colors.onPrimaryContainer,

@@ -41,6 +41,36 @@ class CalibrationService {
     }).toList();
   }
 
+  double calculateBrierScore(List<Bet> bets) {
+    var n = 0;
+
+    var sum = 0.0;
+    for (final bet in bets) {
+      if (bet.outcome case BinaryBetOutcome(probAfter: final probAfter)) {
+        switch (bet.market.outcome) {
+          case BinaryYesMarketOutcome _:
+            n++;
+            sum += pow(probAfter - 1, 2);
+          case BinaryNoMarketOutcome _:
+            n++;
+            sum += pow(probAfter, 2);
+          default:
+            continue;
+        }
+      }
+    }
+
+    return sum / n;
+  }
+
+  double calculateStandardError(List<Bet> bets, double brierScore) {
+    // only count resolved markets
+    final n = bets
+        .where((element) => element.market.outcome is BinaryMarketOutcome)
+        .length;
+    return sqrt((brierScore * (1 - brierScore) / n));
+  }
+
   double _calculateRatio(Iterable<Bet> bets) {
     if (bets.isEmpty) {
       return -1;

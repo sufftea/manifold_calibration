@@ -10,7 +10,7 @@ class CalibrationPage extends StatelessWidget {
     super.key,
   });
 
-  final CalibrationStateLoaded state;
+  final CalibrationStateData state;
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).colorScheme;
@@ -26,6 +26,8 @@ class CalibrationPage extends StatelessWidget {
         buildBucketButtons(colors),
         const SizedBox(height: 16),
         buildBrierScore(context),
+        const SizedBox(height: 16),
+        buildStandardError(context),
       ],
     );
   }
@@ -35,7 +37,17 @@ class CalibrationPage extends StatelessWidget {
       'Brier score: ${state.brierScore}',
       style: GoogleFonts.poppins(
         fontSize: 16,
-        fontWeight: FontWeight.w600,
+        fontWeight: FontWeight.w400,
+      ),
+    );
+  }
+
+  Widget buildStandardError(BuildContext context) {
+    return Text(
+      'Standard error: ${state.standardError}',
+      style: GoogleFonts.poppins(
+        fontSize: 16,
+        fontWeight: FontWeight.w400,
       ),
     );
   }

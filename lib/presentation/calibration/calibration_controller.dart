@@ -2,107 +2,154 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:manifold_callibration/application/brier_score_service.dart';
 import 'package:manifold_callibration/application/calibration_service.dart';
 import 'package:manifold_callibration/data/bets_repository.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
+import 'package:manifold_callibration/entities/context.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
 import 'package:manifold_callibration/entities/outcome_bucket.dart';
 
-class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
+class CalibrationController extends AutoDisposeNotifier<CalibrationState> {
   @override
-  FutureOr<CalibrationState> build() async {
-    return CalibrationStateEmpty();
+  CalibrationState build() {
+    return const CalibrationStateEmpty();
   }
 
   void setUsername(String username) async {
-    _loadState(username);
+    await _loadState(username);
   }
 
   void changeBuckets(int nofBuckets) {
-    state.whenData(
-      (value) {
-        if (value is CalibrationStateLoaded) {
-          final buckets = ref
-              .watch(calibrationServiceProvider)
-              .calculateCalibration(bets: value.bets, nofBuckets: nofBuckets);
+    if (state case final CalibrationStateData value) {
+      final buckets = ref
+          .watch(calibrationServiceProvider)
+          .calculateCalibration(bets: value.bets, nofBuckets: nofBuckets);
 
-          state = AsyncData(value.copyWith(buckets: buckets));
-        }
-      },
-    );
+      state = value.copyWith(buckets: buckets);
+    }
   }
 
   void refresh() async {
-    state.whenData(
-      (value) async {
-        if (value is CalibrationStateLoaded) {
-          await _loadState(value.username);
-        }
-      },
-    );
+    if (state case final CalibrationStateData value) {
+      value._cancelLoading?.call();
+      await _loadState(value.username, value.buckets.length);
+    }
   }
 
-  Future<void> _loadState(String username) async {
-    state = const AsyncValue.loading();
-    final List<Bet> bets;
+  Future<void> _loadState(String username, [int? nofBuckets]) async {
     try {
-      bets = await ref.watch(betsRepositoryProvider).getUserBets(username);
+      final (cancel, ctx) = Context.withCancel();
+      state = CalibrationStateLoading(cancelLoading: cancel);
+
+      final betsRepo = ref.watch(betsRepositoryProvider);
+      final calibrationService = ref.read(calibrationServiceProvider);
+
+      final batchStream = betsRepo.getUserBets(ctx, username);
+
+      await for (final batch in batchStream) {
+        final List<Bet> bets;
+
+        switch (state) {
+          case CalibrationStateData value:
+            bets = [...value.bets, ...batch.bets];
+            nofBuckets = value.buckets.length;
+          default:
+            bets = batch.bets;
+        }
+
+        final buckets = calibrationService.calculateCalibration(
+          bets: bets,
+          nofBuckets: nofBuckets ?? 10,
+        );
+
+        final brierScore = calibrationService.calculateBrierScore(bets);
+        final standardError =
+            calibrationService.calculateStandardError(bets, brierScore);
+
+        state = CalibrationStateData(
+          buckets: buckets,
+          bets: bets,
+          username: username,
+          brierScore: brierScore,
+          standardError: standardError,
+          nofTotalMarkets: batch.total,
+          nofLoadedMarkets: batch.loaded,
+        );
+      }
     } on Exception catch (e, s) {
-      state = AsyncError(e, s);
+      state = CalibrationStateError(e, s);
       return;
     }
-    final buckets = ref
-        .watch(calibrationServiceProvider)
-        .calculateCalibration(bets: bets, nofBuckets: 10);
-
-    final brierScore =
-        ref.read(brierScoreServiceProvider).calculateBrierScore(bets);
-
-    state = AsyncData(CalibrationStateLoaded(
-      buckets: buckets,
-      bets: bets,
-      username: username,
-      brierScore: brierScore,
-    ));
   }
 }
 
-sealed class CalibrationState {}
+sealed class CalibrationState {
+  final void Function()? _cancelLoading;
 
-class CalibrationStateEmpty extends CalibrationState {}
+  const CalibrationState({
+    void Function()? cancelLoading,
+  }) : _cancelLoading = cancelLoading;
+}
 
-class CalibrationStateLoaded extends CalibrationState {
+class CalibrationStateEmpty extends CalibrationState {
+  const CalibrationStateEmpty({super.cancelLoading});
+}
+
+class CalibrationStateLoading extends CalibrationState {
+  const CalibrationStateLoading({super.cancelLoading});
+}
+
+class CalibrationStateError extends CalibrationState {
+  final Object err;
+  final StackTrace stackTrace;
+  CalibrationStateError(this.err, this.stackTrace);
+}
+
+class CalibrationStateData extends CalibrationState {
   final List<OutcomeBucket> buckets;
   final List<Bet> bets;
   final String username;
   final double brierScore;
+  final double standardError;
+  final int nofLoadedMarkets;
+  final int nofTotalMarkets;
 
-  CalibrationStateLoaded({
+  CalibrationStateData({
     required this.brierScore,
     required this.username,
     required this.buckets,
     required this.bets,
+    required this.standardError,
+    required this.nofTotalMarkets,
+    required this.nofLoadedMarkets,
+    super.cancelLoading,
   });
 
-  CalibrationStateLoaded copyWith({
+  CalibrationStateData copyWith({
     List<OutcomeBucket>? buckets,
     List<Bet>? bets,
     double? brierScore,
     String? username,
+    double? standardError,
+    int? nofLoadedMarkets,
+    int? nofTotalMarkets,
   }) {
-    return CalibrationStateLoaded(
+    return CalibrationStateData(
+      standardError: standardError ?? this.standardError,
       brierScore: brierScore ?? this.brierScore,
       buckets: buckets ?? this.buckets,
       bets: bets ?? this.bets,
       username: username ?? this.username,
+      cancelLoading: super._cancelLoading,
+      nofLoadedMarkets: nofLoadedMarkets ?? this.nofLoadedMarkets,
+      nofTotalMarkets: nofTotalMarkets ?? this.nofTotalMarkets,
     );
   }
 }
 
 final calibrationControllerProvider =
-    AsyncNotifierProvider.autoDispose<CalibrationController, CalibrationState>(
+    NotifierProvider.autoDispose<CalibrationController, CalibrationState>(
   CalibrationController.new,
 );
 
