@@ -169,9 +169,16 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                   } else if (state.err is InvalidUsernameException) {
                     return const SizedBox.shrink();
                   } else {
-                    // TODO: log this
-                    throw Error.throwWithStackTrace(
-                        state.err, state.stackTrace);
+                    debugPrint(state.err.toString());
+                    debugPrint(state.stackTrace.toString());
+                    return Text(
+                      state.err.toString(),
+                      style: GoogleFonts.poppins(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w400,
+                        color: colors.error,
+                      ),
+                    );
                   }
                 }
               }

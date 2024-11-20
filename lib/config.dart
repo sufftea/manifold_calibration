@@ -13,7 +13,7 @@ class Config {
 
 final configProvider = Provider(
   (ref) => Config(
-    marketRequestBatchSize: 500,
+    marketRequestBatchSize: 100,
     manifoldBetsPerRequestLimit: 10000,
   ),
 );

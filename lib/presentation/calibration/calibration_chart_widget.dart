@@ -22,6 +22,10 @@ class CalibrationChartWidget extends StatelessWidget {
         maxX: 100,
         minY: 0,
         maxY: 100,
+        gridData: const FlGridData(
+          horizontalInterval: 10,
+          verticalInterval: 10,
+        ),
         scatterSpots: [
           for (int i = 0; i < buckets.length; i++)
             if (buckets[i].yesRatio != -1)
@@ -51,8 +55,8 @@ class CalibrationChartWidget extends StatelessWidget {
           show: true,
         ),
       ),
-      swapAnimationCurve: Curves.easeInOutQuad,
-      swapAnimationDuration: const Duration(milliseconds: 300),
+      swapAnimationCurve: Curves.easeOutQuad,
+      swapAnimationDuration: const Duration(milliseconds: 200),
     );
   }
 }

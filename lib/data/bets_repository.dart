@@ -4,6 +4,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:manifold_callibration/config.dart';
+import 'package:manifold_callibration/data/bets_repository_mock.dart';
 import 'package:manifold_callibration/data/dio_provider.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
@@ -64,9 +65,20 @@ class BetsRepository {
       final marketIdsBatch =
           uniqueMraketIds.take(_config.marketRequestBatchSize);
 
+      final failedMarketIds = <String>[];
       final markets = await Future.wait<Market?>(
-        [for (final marketId in marketIdsBatch) _getMarket(marketId)],
+        [
+          for (final marketId in marketIdsBatch)
+            () async {
+              final market = await _getMarket(marketId);
+              if (market == null) {
+                failedMarketIds.add(marketId);
+              }
+              return market;
+            }()
+        ],
       );
+      await Future.delayed(const Duration(milliseconds: 100));
 
       debugPrint(
           'fetched ${markets.length} markets. ${uniqueMraketIds.length} left');
@@ -85,6 +97,7 @@ class BetsRepository {
       }
 
       uniqueMraketIds = uniqueMraketIds.skip(_config.marketRequestBatchSize);
+      uniqueMraketIds.followedBy(failedMarketIds);
       final batch = LoadingBatch(
         bets: bets,
         errored: 0,
@@ -122,12 +135,13 @@ class BetsRepository {
   }
 
   Future<Market?> _getMarket(String marketId) async {
-    final Response resp = await _dio.get(
-      '/market/$marketId',
-    );
-
-    final marketJson = resp.data;
     try {
+      final Response resp = await _dio.get(
+        '/market/$marketId',
+      );
+
+      final marketJson = resp.data;
+
       return Market(
         id: marketJson["id"] as String,
         outcome: switch (marketJson["outcomeType"]) {
@@ -155,7 +169,7 @@ class BetsRepository {
       debugPrint('error requesting market: $marketId');
       return null;
     } on TypeError catch (_) {
-      throw UnexpectedResponseException("Hmm. Couldn't parse the response.");
+      throw UnexpectedResponseException("Couldn't parse the response.");
     }
   }
 
@@ -183,7 +197,7 @@ class BetsRepository {
 
 final betsRepositoryProvider = Provider(
   (ref) {
-    // return BetsRepositoryMock();
+    return BetsRepositoryMock();
     return BetsRepository(
       ref.watch(dioProvider),
       ref.watch(configProvider),

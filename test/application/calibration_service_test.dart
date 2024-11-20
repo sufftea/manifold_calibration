@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:manifold_callibration/application/calibration_service.dart';
+import 'package:manifold_callibration/domain/calibration_service.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
