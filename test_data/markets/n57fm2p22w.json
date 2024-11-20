@@ -1,0 +1,43 @@
+{
+  "id": "n57fm2p22w",
+  "creatorId": "4juQfJkFnwX9nws3dFOpz4gc1mi2",
+  "creatorUsername": "jacksonpolack",
+  "creatorName": "jackson polack",
+  "createdTime": 1729091559547,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/AEdFTp5rlJX8nmgp_EsouBw_JhV5gKCkwTXaqGTDpv9y=s96-c",
+  "closeTime": 1730860514848,
+  "question": "Will Kamala Harris go on the Joe Rogan Experience before the 2024 election?",
+  "slug": "will-kamala-harris-go-on-the-joe-ro--cash",
+  "url": "https://manifold.markets/jacksonpolack/will-kamala-harris-go-on-the-joe-ro--cash",
+  "pool": {
+    "NO": 34.200723646359194,
+    "YES": 1382.9616561788303
+  },
+  "probability": 0.01000000000000001,
+  "p": 0.2899999999999996,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 2567.9049418014406,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1730860514848,
+  "resolutionProbability": 0.01000000000000001,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 63,
+  "lastUpdatedTime": 1730860514848,
+  "lastBetTime": 1730860211357,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "rzupx7lgck",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

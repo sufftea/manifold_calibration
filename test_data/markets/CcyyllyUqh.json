@@ -1,0 +1,115 @@
+{
+  "id": "CcyyllyUqh",
+  "creatorId": "Iua2KQvL6KYcfGLGNI6PVeGkseo1",
+  "creatorUsername": "Ziddletwix",
+  "creatorName": "Ziddletwix",
+  "createdTime": 1730599941227,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FZiddletwix%2FnC9klaCITf.jpeg?alt=media&token=f3cabfda-358c-4301-8983-3ba213ef2b96",
+  "closeTime": 1730858340000,
+  "question": "Will Trump win Iowa by >5 points?",
+  "slug": "will-trump-win-iowa-by-5-points--cash",
+  "url": "https://manifold.markets/Ziddletwix/will-trump-win-iowa-by-5-points--cash",
+  "pool": {
+    "NO": 131.93330357834046,
+    "YES": 74.94335594406641
+  },
+  "probability": 0.6284466339611395,
+  "p": 0.4900000000000002,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 339.52738906027076,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1730937288389,
+  "resolutionProbability": 0.6284466339611395,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 38,
+  "lastUpdatedTime": 1730858340000,
+  "lastBetTime": 1730857119434,
+  "token": "CASH",
+  "siblingContractId": "PCNA2hhOIh",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This market resolves YES if Trump wins Iowa by >5 points, and NO otherwise.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Same rules as the ",
+            "type": "text"
+          },
+          {
+            "text": "Florida market",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://manifold.markets/Ziddletwix/nate-silver-100k-twitter-bet-will-t",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_self"
+                }
+              }
+            ]
+          },
+          {
+            "text": ", but for >5 points instead.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "RELATED MARKET: ",
+            "type": "text"
+          },
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "g26UNOhLgU",
+              "label": "/Ziddletwix/will-trump-win-iowa-by-5-points-and"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "seo terms: Republican Republicans Democrat Democrats Donald Trump Kamala Harris",
+            "type": "text",
+            "marks": [
+              {
+                "type": "spoiler"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "textDescription": "This market resolves YES if Trump wins Iowa by >5 points, and NO otherwise.\n\nSame rules as the Florida market, but for >5 points instead.\n\nRELATED MARKET: @/Ziddletwix/will-trump-win-iowa-by-5-points-and \n\nseo terms: Republican Republicans Democrat Democrats Donald Trump Kamala Harris"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "7do87q375n",
+  "creatorId": "tlmGNz9kjXc2EteizMORes4qvWl2",
+  "creatorUsername": "SG",
+  "creatorName": "SG",
+  "createdTime": 1726622405646,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FSG%2Fd5mvzORhit.jpeg?alt=media&token=dc413935-e4e9-4fbb-96d6-ad95bdb11967",
+  "closeTime": 1730497655198,
+  "question": "Will Manifold have $100k in mana sales before the election following our sweepstakes launch?",
+  "slug": "will-manifold-have-100k-in-mana-sal",
+  "url": "https://manifold.markets/SG/will-manifold-have-100k-in-mana-sal",
+  "pool": {
+    "NO": 74383.46151658008,
+    "YES": 4612.62526033348
+  },
+  "probability": 0.9771385625959013,
+  "p": 0.726063365298737,
+  "totalLiquidity": 10000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 72774.2854434354,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1730497655198,
+  "resolutionProbability": 0.9771385625959013,
+  "resolverId": "tlmGNz9kjXc2EteizMORes4qvWl2",
+  "uniqueBettorCount": 32,
+  "lastUpdatedTime": 1730497655198,
+  "lastBetTime": 1730463248297,
+  "lastCommentTime": 1730462523616,
+  "marketTier": "premium",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "I will look at gross mana sales in USD from Sept 17 (sweeps launch) - Nov 5 (election day) to see if we receive $100k in sales.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/SG/ngyj9dxhla.jpg",
+  "groupSlugs": [
+    "manifold-6748e065087e",
+    "manifold-features-25bad7c7792e",
+    "manifold-business-future",
+    "manifold-users"
+  ],
+  "textDescription": "I will look at gross mana sales in USD from Sept 17 (sweeps launch) - Nov 5 (election day) to see if we receive $100k in sales."
+}

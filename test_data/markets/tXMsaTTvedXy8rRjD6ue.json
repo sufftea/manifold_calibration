@@ -1,0 +1,132 @@
+{
+  "id": "tXMsaTTvedXy8rRjD6ue",
+  "creatorId": "tlmGNz9kjXc2EteizMORes4qvWl2",
+  "creatorUsername": "SG",
+  "creatorName": "SG",
+  "createdTime": 1700095391284,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FSG%2Fd5mvzORhit.jpeg?alt=media&token=dc413935-e4e9-4fbb-96d6-ad95bdb11967",
+  "closeTime": 1735718340000,
+  "question": "Will Elon Musk appear on Dwarkesh Podcast before 2025?",
+  "slug": "will-elon-musk-appear-on-dwarkesh-p",
+  "url": "https://manifold.markets/SG/will-elon-musk-appear-on-dwarkesh-p",
+  "pool": {
+    "NO": 348.7343790831003,
+    "YES": 2148.7292339200494
+  },
+  "probability": 0.16578285666984555,
+  "p": 0.5504543096349792,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 9093.097172933009,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 55,
+  "lastUpdatedTime": 1731610839215,
+  "lastBetTime": 1731610839215,
+  "lastCommentTime": 1731528787327,
+  "marketTier": "plus",
+  "token": "MANA",
+  "siblingContractId": "w3jwi1281v",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Elon's a Dwarkesh ",
+            "type": "text"
+          },
+          {
+            "text": "reply guy",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://twitter.com/elonmusk/status/1724377239851065454",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": ", apparently.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The podcast: ",
+            "type": "text"
+          },
+          {
+            "text": "www.dwarkeshpatel.com",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.dwarkeshpatel.com",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "type": "text"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "Updated criteria clarification",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": ": ",
+            "type": "text"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "To resolve yes this must occur before 2025 PST time.",
+            "type": "text"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "It doesn't have to be a full podcast. A short clip, trailer or teaser that includes video or audio of Elon which is original content belonging to the Dwarkesh podcast counts. If recording has taken place, but no original video or audio media is uploaded to any of Dwarkesh's socials by the resolution date then this resolves NO.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "groupSlugs": [
+    "podcasts",
+    "elon-musk-14d9d9498c7e",
+    "dwarkesh-patel"
+  ],
+  "textDescription": "Elon's a Dwarkesh reply guy, apparently.\n\nThe podcast: www.dwarkeshpatel.com \n\nUpdated criteria clarification: \nTo resolve yes this must occur before 2025 PST time.\nIt doesn't have to be a full podcast. A short clip, trailer or teaser that includes video or audio of Elon which is original content belonging to the Dwarkesh podcast counts. If recording has taken place, but no original video or audio media is uploaded to any of Dwarkesh's socials by the resolution date then this resolves NO."
+}

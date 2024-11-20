@@ -1,0 +1,1308 @@
+{
+  "id": "f5bOUyjJrBHVdZd6dLM9",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1704295675915,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1730433540000,
+  "question": "\ud83c\udf83What will happen in October 2024? [ADD RESPONSES]",
+  "slug": "what-will-happen-in-october-2024-ad",
+  "url": "https://manifold.markets/strutheo/what-will-happen-in-october-2024-ad",
+  "totalLiquidity": 5000,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 47737.61795282346,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "MKT",
+  "resolutionTime": 1730436271909,
+  "resolutionProbability": 0.009999999999999945,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 108,
+  "lastUpdatedTime": 1730436289534,
+  "lastBetTime": 1730432789990,
+  "lastCommentTime": 1730436288175,
+  "marketTier": "plus",
+  "token": "MANA",
+  "shouldAnswersSumToOne": false,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "1aa714827f37",
+      "text": "8.0+ magnitude earthquake",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704295675915,
+      "probChanges": {
+        "day": -0.012923897103298679,
+        "week": -0.03367494553090494,
+        "month": -0.08683913594851606
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429549973,
+      "totalLiquidity": 85,
+      "resolutionProbability": 0.010000000000000004,
+      "pool": {
+        "YES": 705.9767430120494,
+        "NO": 7.131078212242926
+      },
+      "probability": 0
+    },
+    {
+      "id": "1da9bc0e3107",
+      "text": "NASDAQ hits an all time high",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704295675915,
+      "probChanges": {
+        "day": 0,
+        "week": 0.9302562187838203,
+        "month": 0.8440583566640836
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1729878382125,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 6.771621575302248,
+        "NO": 877.7413020249212
+      },
+      "probability": 1
+    },
+    {
+      "id": "def807b3ed59",
+      "text": "This market hits 1000 unique traders",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704295675915,
+      "probChanges": {
+        "day": -0.009999999999999997,
+        "week": -0.009999999999999997,
+        "month": -0.023480493390377267
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410413959,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.009999999999999997,
+      "pool": {
+        "YES": 858.4184559873047,
+        "NO": 8.670893494821257
+      },
+      "probability": 0
+    },
+    {
+      "id": "f1fc197b87cb",
+      "text": "Something is called an \"October surprise\" by Fox, CNN, NYT, or AP",
+      "index": 3,
+      "userId": "vEGHPznXKbTXFIzEf8iLwwO3okY2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704296036098,
+      "probChanges": {
+        "day": 0.01000000000000012,
+        "week": 0.4576986541993998,
+        "month": 0.012994374376732232
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730405681320,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.9899999999999999,
+      "pool": {
+        "YES": 7.059327899842742,
+        "NO": 698.8734620844251
+      },
+      "probability": 1
+    },
+    {
+      "id": "25e26c94cd0d",
+      "text": "An event that could be considered an October Surprise, as judged by chris (strutheo), occurs",
+      "index": 4,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "CANCEL",
+      "resolverId": "qnIAzz9RamaodeiJSiGZO6xRGC63",
+      "createdTime": 1706582473481,
+      "probChanges": {
+        "day": -0.1880967179926132,
+        "week": -0.4292212508397964,
+        "month": -0.9277428364290639
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410165041,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.03162298717853949,
+      "pool": {
+        "YES": 379.0989038241769,
+        "NO": 12.379723616219906
+      },
+      "probability": 0.03162298717853949
+    },
+    {
+      "id": "9c419e8b0427",
+      "text": "BTC falls below $60k",
+      "index": 5,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706582498434,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.2899999999999999
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1727993709245,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 5.941870572903554,
+        "NO": 587.649208165734
+      },
+      "probability": 1
+    },
+    {
+      "id": "9ae2840d8514",
+      "text": "Eliezer Yudkowsky is alive for the entire month",
+      "index": 6,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706582615847,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1708531954842,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.98,
+      "pool": {
+        "YES": 5.525302520109605,
+        "NO": 217.909090909091
+      },
+      "probability": 0.9752710295164991
+    },
+    {
+      "id": "41ad4a7c3bf3",
+      "text": "Eliezer Yudkowsky remains unwavering that the probability of AI annihilation continues to meet or exceed 95%",
+      "index": 7,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706582671059,
+      "probChanges": {
+        "day": 0.013277713917314138,
+        "week": 0.010000000000000009,
+        "month": 0.02426045916469366
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730405755624,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 3.7369133312819827,
+        "NO": 369.9544197969159
+      },
+      "probability": 1
+    },
+    {
+      "id": "64150d5ea517",
+      "text": "Francis is Pope for the entire month",
+      "index": 8,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706582707382,
+      "probChanges": {
+        "day": 0.011387641216757949,
+        "week": 0.010000000000000009,
+        "month": 0.034414996002189335
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730405747609,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.988612358783242,
+      "pool": {
+        "YES": 8.394246711720115,
+        "NO": 728.742316685384
+      },
+      "probability": 1
+    },
+    {
+      "id": "b2dbf16e5398",
+      "text": "Weak AGI exists at any point during the month, as defined by the Metaculus market on the topic having previously resolved YES",
+      "index": 9,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706583505103,
+      "probChanges": {
+        "day": -0.010000000000000018,
+        "week": -0.0325482381787704,
+        "month": -0.16567822547839772
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410419780,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.010000000000000018,
+      "pool": {
+        "YES": 620.3395348499866,
+        "NO": 6.266055907575634
+      },
+      "probability": 0
+    },
+    {
+      "id": "299c5a5af61c",
+      "text": "At least one share of nVidia stock is traded above $100 during normal, premarket, or after hours trading",
+      "index": 10,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706621161672,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1727838768398,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 6.537235287813303,
+        "NO": 633.1541581847781
+      },
+      "probability": 1
+    },
+    {
+      "id": "09ec4a783e9a",
+      "text": "Phillies advance to the World Series",
+      "index": 11,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706621235657,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.38000000000000017
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1728522767055,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.01,
+      "pool": {
+        "YES": 514.5151708436789,
+        "NO": 5.19788543457787
+      },
+      "probability": 0
+    },
+    {
+      "id": "cfbadd064747",
+      "text": "T1 advances to the playoffs in the League of Legends World Championship",
+      "index": 12,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706621313440,
+      "probChanges": {
+        "day": 0.023604682590374182,
+        "week": 0.023604682590374182,
+        "month": 0.5196003074558031
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730405764260,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.9763953174096258,
+      "pool": {
+        "YES": 10.00317872523725,
+        "NO": 413.77624245268163
+      },
+      "probability": 1
+    },
+    {
+      "id": "3454f5890f7a",
+      "text": "2 or more inches of snow fall in nyc",
+      "index": 13,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706621898317,
+      "probChanges": {
+        "day": -0.011978552458417294,
+        "week": -0.010000000000000004,
+        "month": -0.04176130223889277
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410397790,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.011978552458417294,
+      "pool": {
+        "YES": 536.6630419178331,
+        "NO": 6.506383455644579
+      },
+      "probability": 0
+    },
+    {
+      "id": "4864d3a5a15c",
+      "text": "chris (strutheo) rolls a d20 die at market close, and it lands on a natural 20",
+      "index": 14,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706733389532,
+      "probChanges": {
+        "day": -0.03986207193744557,
+        "week": -0.03986207193744558,
+        "month": -0.040000000000000285
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730436271909,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.009999999999999945,
+      "pool": {
+        "YES": 488.7855383377621,
+        "NO": 4.937227659977367
+      },
+      "probability": 0
+    },
+    {
+      "id": "6793a02de816",
+      "text": "William is King of The United Kingdom at any point during the month",
+      "index": 15,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1707157833515,
+      "probChanges": {
+        "day": -0.009999999999999995,
+        "week": -0.011630897774907795,
+        "month": -0.05492878948813134
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410417081,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.009999999999999995,
+      "pool": {
+        "YES": 770.9453938346771,
+        "NO": 7.787327210451281
+      },
+      "probability": 0
+    },
+    {
+      "id": "5ca5ddb9a8c1",
+      "text": "Tumbles is late to pay back a loan https://manifold.markets/Tumbles/will-tumbles-ever-be-late-to-pay-ba",
+      "index": 16,
+      "userId": "rQPOELuW5zaapaNPnBYQBMoonk92",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1707873073536,
+      "probChanges": {
+        "day": -0.010000000000000026,
+        "week": -0.010000000000000026,
+        "month": -0.027939274566355705
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410403110,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.010000000000000026,
+      "pool": {
+        "YES": 519.9012549947316,
+        "NO": 5.2515278282296265
+      },
+      "probability": 0
+    },
+    {
+      "id": "f871eafc2995",
+      "text": "People don costumes and take to the streets, house to house, to beg candy from strangers.",
+      "index": 17,
+      "userId": "n1ZFS428CKRTVF5xiAJJHsfGfss2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1708153593637,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1708190396253,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.76,
+      "pool": {
+        "YES": 32.68799102132437,
+        "NO": 105.90909090909088
+      },
+      "probability": 0.7641509433962264
+    },
+    {
+      "id": "def0fa8149f1",
+      "text": "Astros make the ALCS",
+      "index": 18,
+      "userId": "Rcnau899SsWFEuL0ukY1hMGkath2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1708805729604,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.3200000000000002
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1728187005888,
+      "totalLiquidity": 70,
+      "resolutionProbability": 0.01,
+      "pool": {
+        "YES": 1002.5252207210639,
+        "NO": 10.126517381020903
+      },
+      "probability": 0
+    },
+    {
+      "id": "93733d417fb0",
+      "text": "@strutheo sees someone dressed as \"The Unknown\" (from the Willy Wonka experience) for Halloween",
+      "index": 19,
+      "userId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1711158096592,
+      "probChanges": {
+        "day": -0.0992583421392969,
+        "week": -0.0992583421392969,
+        "month": -0.4268284793796232
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730436263752,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.010000000000000078,
+      "pool": {
+        "YES": 655.787174456635,
+        "NO": 6.624112873299396
+      },
+      "probability": 0
+    },
+    {
+      "id": "cc83166c5752",
+      "text": "A YouTube video specifically about octagons, octogenarians, octopi, Doctor Octopus, Emperor Octavian, the Oculus Rift, or Occultism is posted and gets >1M views",
+      "index": 20,
+      "userId": "a4Y150jRVKWdZnH0wnciZuENtjN2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1713345062204,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.3300000000000002
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1728777673409,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 6.624112879754151,
+        "NO": 655.7871738176145
+      },
+      "probability": 1
+    },
+    {
+      "id": "g5hj5yecxy",
+      "text": "Ballots for the US presidential election are mailed out in Washington state without Donald Trump listed as a candidate ",
+      "index": 21,
+      "userId": "UhNLru5kyBYquOsZaisU2YG2RK02",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1717432909893,
+      "probChanges": {
+        "day": -0.01629162542497076,
+        "week": -0.05459927719896692,
+        "month": -0.08402096994374338
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410393040,
+      "totalLiquidity": 250,
+      "resolutionProbability": 0.01629162542497076,
+      "pool": {
+        "YES": 2260.5195603718994,
+        "NO": 37.43745493608142
+      },
+      "probability": 0
+    },
+    {
+      "id": "k9p9r0m2fy",
+      "text": "Taylor Swift breaks up with Travis Kelce",
+      "index": 22,
+      "userId": "pZPQQCkmuIQYEJPGYP0isOR4hFk1",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723391251070,
+      "probChanges": {
+        "day": -0.016450056718302488,
+        "week": -0.02158649656549811,
+        "month": -0.044561158124006635
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429545029,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.010000000000000002,
+      "pool": {
+        "YES": 994.9874371066195,
+        "NO": 10.050378152592117
+      },
+      "probability": 0
+    },
+    {
+      "id": "xkn5ud81y6",
+      "text": "Debate between Tim Walz and JD Vance",
+      "index": 23,
+      "userId": "87Lxa62clagxa0F2jr4ZjuLllcZ2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723670215911,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1727838772522,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 10.050378152592145,
+        "NO": 994.9874371066192
+      },
+      "probability": 1
+    },
+    {
+      "id": "6cbwiin68v",
+      "text": "Ukranians completely pushed out of Russian territory",
+      "index": 24,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723681232561,
+      "probChanges": {
+        "day": -0.010000000000000021,
+        "week": -0.020516186520648853,
+        "month": -0.06140752395666836
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410410645,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.010000000000000021,
+      "pool": {
+        "YES": 994.9874371066204,
+        "NO": 10.050378152592145
+      },
+      "probability": 0
+    },
+    {
+      "id": "67eamgo1t9",
+      "text": "Two debates between Tim Walz and JD Vance",
+      "index": 25,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723722704329,
+      "probChanges": {
+        "day": -0.010418886686950582,
+        "week": -0.010418886686950582,
+        "month": -0.08669372450543229
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410400444,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.010418886686950582,
+      "pool": {
+        "YES": 974.5744951133624,
+        "NO": 10.260888264715732
+      },
+      "probability": 0
+    },
+    {
+      "id": "cu8xx8msns",
+      "text": "Joe Biden is President on October 31, 2024 at 11:59:59pm EST",
+      "index": 26,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1724114622027,
+      "probChanges": {
+        "day": 0.0059496872481406005,
+        "week": 0.0036495848946178633,
+        "month": 0.005713358848153938
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730436259464,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.9936495848946177,
+      "pool": {
+        "YES": 7.994373403969007,
+        "NO": 1250.8797743967416
+      },
+      "probability": 1
+    },
+    {
+      "id": "b7a3npuwj4",
+      "text": ">= 28% of Manifold respondents agree that weak AGI has been achieved in the monthly poll",
+      "index": 27,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1724932152494,
+      "probChanges": {
+        "day": -0.7577543186180423,
+        "week": -0.7577543186180423,
+        "month": -0.7999933103981107
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730436269074,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.009999999999999981,
+      "pool": {
+        "YES": 994.9874371066187,
+        "NO": 10.050378152592089
+      },
+      "probability": 0
+    },
+    {
+      "id": "v1mnt51qty",
+      "text": "Polaris Dawn launches",
+      "index": 28,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1724952883621,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1727757263620,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.01,
+      "pool": {
+        "YES": 994.9874371066214,
+        "NO": 10.050378152592145
+      },
+      "probability": 0
+    },
+    {
+      "id": "esri3ue5r5",
+      "text": "Tesla catches fire as reported by news or by tesla-fire.com",
+      "index": 29,
+      "userId": "faAZQRWR2YTPZJAYEXhw56ydDHL2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1726048144063,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.09901391437253682
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1728484209381,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.9,
+      "pool": {
+        "YES": 33.674840787204275,
+        "NO": 296.95760295323447
+      },
+      "probability": 1
+    },
+    {
+      "id": "ecfccafno2",
+      "text": "yankees or Red Sox announces a firing / retirement / replacement of a manager ",
+      "index": 30,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727274118656,
+      "probChanges": {
+        "day": -0.018636731072429944,
+        "week": -0.033358230396836566,
+        "month": -0.4764098414564849
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429526239,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.017864105597363664,
+      "pool": {
+        "YES": 741.4726789111579,
+        "NO": 13.486673594885254
+      },
+      "probability": 0
+    },
+    {
+      "id": "1srfso7w5l",
+      "text": "rains 3 inches or more in NYC central park ",
+      "index": 31,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727274128894,
+      "probChanges": {
+        "day": -0.017448196558503846,
+        "week": -0.08571916245158472,
+        "month": -0.5899999999999999
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410384418,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.017448196558503846,
+      "pool": {
+        "YES": 750.4166406309384,
+        "NO": 13.325930501210848
+      },
+      "probability": 0
+    },
+    {
+      "id": "zkr9u4t2bo",
+      "text": "xkcd has 1 comic at least with no stick figures in it",
+      "index": 32,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727274142925,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.06926784910444339
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1727972145290,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 10.531179960081914,
+        "NO": 949.5612113651711
+      },
+      "probability": 1
+    },
+    {
+      "id": "7onnqxqur7",
+      "text": "The market \"Who will win the 2024 US Presidential Election?\" by Jack has Harris > 55% or < 51% for at least one second",
+      "index": 33,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727613881495,
+      "probChanges": {
+        "day": 0.010000000000000009,
+        "week": 0.010000000000000009,
+        "month": 0.13924222830016253
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730405676526,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 10.050378152592089,
+        "NO": 994.9874371066193
+      },
+      "probability": 1
+    },
+    {
+      "id": "gjjd7yznn7",
+      "text": "o1 or o1-lol released to any person in the United States willing to pay for it",
+      "index": 34,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727613959729,
+      "probChanges": {
+        "day": -0.13328888097901156,
+        "week": -0.13328888097901156,
+        "month": -0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429557517,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.0288683578530519,
+      "pool": {
+        "YES": 580.0000250752654,
+        "NO": 17.241378564944597
+      },
+      "probability": 0
+    },
+    {
+      "id": "7iqo179uoa",
+      "text": "Claude 3.5 Opus is being released ",
+      "index": 35,
+      "userId": "OaBffcL5iOPu7OtoNmHFKc1QrNu2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727759934249,
+      "probChanges": {
+        "day": -0.01645579992832045,
+        "week": -0.01645579992832045,
+        "month": -0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410389584,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.01645579992832044,
+      "pool": {
+        "YES": 773.1031478576537,
+        "NO": 12.934884598143242
+      },
+      "probability": 0
+    },
+    {
+      "id": "e51cmxlp41",
+      "text": "Claude 3.5 Haiku is being released ",
+      "index": 36,
+      "userId": "OaBffcL5iOPu7OtoNmHFKc1QrNu2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727759947522,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1729696207548,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 9.294647068621444,
+        "NO": 1075.8880811902777
+      },
+      "probability": 1
+    },
+    {
+      "id": "4b58xvvalr",
+      "text": "Iran and Israel are in a state of war, as determined by chris (@strutheo) using the same criteria as he used in September",
+      "index": 37,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727792611512,
+      "probChanges": {
+        "day": -0.029285763772994612,
+        "week": -0.19904712311744263,
+        "month": -0.9196204844806573
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730436267010,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.01000000000000003,
+      "pool": {
+        "YES": 994.9874371066195,
+        "NO": 10.050378152592145
+      },
+      "probability": 0
+    },
+    {
+      "id": "7aa9s60axz",
+      "text": "United States military involved in combat operations in Iran-Israel war",
+      "index": 38,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727792635224,
+      "probChanges": {
+        "day": -0.07322438220497411,
+        "week": -0.1326011066148678,
+        "month": -0.2930299869682294
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429554094,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.031143106891002782,
+      "pool": {
+        "YES": 557.7619047619047,
+        "NO": 17.92879706309229
+      },
+      "probability": 0
+    },
+    {
+      "id": "fn8esrhgyn",
+      "text": "Hurricane makes landfall in Florida",
+      "index": 39,
+      "userId": "APtmK3Sep3TJB92vIgWeSmAEwVa2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728029538979,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1728522770821,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 10.057050791798247,
+        "NO": 994.3272841134687
+      },
+      "probability": 1
+    },
+    {
+      "id": "5i8l6d8yl7",
+      "text": "hilary clinton publishes another op ed",
+      "index": 40,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728058665920,
+      "probChanges": {
+        "day": -0.15031657662054745,
+        "week": -0.18095081509881483,
+        "month": -0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429528958,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.020703782300312192,
+      "pool": {
+        "YES": 687.7525231651946,
+        "NO": 14.54011386825266
+      },
+      "probability": 0
+    },
+    {
+      "id": "9nn2xbsvz6",
+      "text": "usa troops enter iran",
+      "index": 41,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728058702234,
+      "probChanges": {
+        "day": -0.02312138728323702,
+        "week": -0.03200000000000001,
+        "month": -0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429536420,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.013651877133105787,
+      "pool": {
+        "YES": 850,
+        "NO": 11.764705882352928
+      },
+      "probability": 0
+    },
+    {
+      "id": "h8ndohe15j",
+      "text": "usa troops enter lebanon",
+      "index": 42,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728058706928,
+      "probChanges": {
+        "day": -0.02312138728323702,
+        "week": -0.03200000000000001,
+        "month": -0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429538888,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.010000000000000023,
+      "pool": {
+        "YES": 994.9874371066201,
+        "NO": 10.050378152592145
+      },
+      "probability": 0
+    },
+    {
+      "id": "76l4ld8wii",
+      "text": "grok 3 released ",
+      "index": 43,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728058749351,
+      "probChanges": {
+        "day": -0.03200000000000001,
+        "week": -0.03200000000000001,
+        "month": -0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429531319,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.02312138728323702,
+      "pool": {
+        "YES": 650,
+        "NO": 15.384615384615401
+      },
+      "probability": 0
+    },
+    {
+      "id": "dwfvbbi5i6",
+      "text": "usa bombs or missle striles lebanon",
+      "index": 44,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728059920465,
+      "probChanges": {
+        "day": -0.033417054562261995,
+        "week": -0.06234299611989552,
+        "month": -0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429547587,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.010000000000000014,
+      "pool": {
+        "YES": 994.9874371066182,
+        "NO": 10.050378152592117
+      },
+      "probability": 0
+    },
+    {
+      "id": "mjr1ku2c95",
+      "text": "Eric Adams announces his resignation",
+      "index": 45,
+      "userId": "vEGHPznXKbTXFIzEf8iLwwO3okY2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728062035870,
+      "probChanges": {
+        "day": -0.03590831597063103,
+        "week": -0.06905862362114434,
+        "month": -0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429533626,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.01422957803342571,
+      "pool": {
+        "YES": 832.3229709013106,
+        "NO": 12.0145668804156
+      },
+      "probability": 0
+    },
+    {
+      "id": "scklrhehdi",
+      "text": "The Silver Bulletin model shows Trump as more likely to win an Electoral College majority than Harris at any point.",
+      "index": 46,
+      "userId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728804281524,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1729728420321,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 9.16026661586686,
+        "NO": 1091.6712819994264
+      },
+      "probability": 1
+    },
+    {
+      "id": "9k8ntz3bvm",
+      "text": "Epic Rap Battles of History releases a Trump v. Harris rap battle",
+      "index": 47,
+      "userId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728804528535,
+      "probChanges": {
+        "day": 0.010000000000000009,
+        "week": 0.06115043016983823,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730405679081,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 10.050378152592089,
+        "NO": 994.9874371066173
+      },
+      "probability": 1
+    },
+    {
+      "id": "316j1sfrdi",
+      "text": "Nintendo Switch 2 is revealed",
+      "index": 48,
+      "userId": "ZChvqg9CKGTQ3Hj2XtE4WHmiRNq1",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728905494102,
+      "probChanges": {
+        "day": -0.04807114529503667,
+        "week": -0.0775043596202287,
+        "month": -0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730429542118,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.010000000000000021,
+      "pool": {
+        "YES": 994.9874371066203,
+        "NO": 10.050378152592145
+      },
+      "probability": 0
+    },
+    {
+      "id": "r2spdj76p0",
+      "text": "meta movie gen released",
+      "index": 49,
+      "userId": "yojYAYC4avQpfT1QGlH52Ntt1Eu2",
+      "isOther": false,
+      "contractId": "f5bOUyjJrBHVdZd6dLM9",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1729259113076,
+      "probChanges": {
+        "day": -0.029758273544002057,
+        "week": -0.16994952499107766,
+        "month": -0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730410380398,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.018873586604283153,
+      "pool": {
+        "YES": 721,
+        "NO": 13.869625520110944
+      },
+      "probability": 0
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "I reserve the right to NA any answer for any reason, to combat duplicates or abuse.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo%2Fac831b0035a9.jpg",
+  "groupSlugs": [
+    "grab-bag",
+    "october",
+    "2024-3d9da60b52f8",
+    "what-will-happen-markets",
+    "coolfold",
+    "world-default",
+    "news",
+    "culture-default"
+  ],
+  "textDescription": "I reserve the right to NA any answer for any reason, to combat duplicates or abuse."
+}

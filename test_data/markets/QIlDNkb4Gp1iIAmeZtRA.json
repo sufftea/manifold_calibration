@@ -1,0 +1,593 @@
+{
+  "id": "QIlDNkb4Gp1iIAmeZtRA",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1709195153234,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1735707540000,
+  "question": "\ud83d\udc32How many Top Creators will I Slay by the end of 2024?",
+  "slug": "how-many-top-creators-will-i-slay-b",
+  "url": "https://manifold.markets/strutheo/how-many-top-creators-will-i-slay-b",
+  "totalLiquidity": 3305.5,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 33428.98502382729,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 67,
+  "lastUpdatedTime": 1731917895483,
+  "lastBetTime": 1731917895483,
+  "lastCommentTime": 1729269030722,
+  "marketTier": "plus",
+  "token": "MANA",
+  "shouldAnswersSumToOne": true,
+  "addAnswersMode": "ONLY_CREATOR",
+  "answers": [
+    {
+      "id": "b50578f9786c",
+      "text": "0 (None)",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709195153234,
+      "probChanges": {
+        "day": -0.001202781550184228,
+        "week": -0.001202781550184228,
+        "month": -0.001202781550184228
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 62.50000000000001,
+      "pool": {
+        "YES": 7388.2263196579715,
+        "NO": 2.620936372090398
+      },
+      "probability": 0.0003546192041720281
+    },
+    {
+      "id": "b40fb76c4608",
+      "text": "01",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709195153234,
+      "probChanges": {
+        "day": -0.001525088238861065,
+        "week": -0.001525088238861065,
+        "month": -0.001525088238861065
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 62.50000000000001,
+      "pool": {
+        "YES": 7438.81309223664,
+        "NO": 3.1081522293095887
+      },
+      "probability": 0.0004176545447347901
+    },
+    {
+      "id": "721144e63717",
+      "text": "02",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709195153234,
+      "probChanges": {
+        "day": -0.0015243229715809982,
+        "week": -0.0015243229715809982,
+        "month": -0.0015243229715809982
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 62.50000000000001,
+      "pool": {
+        "YES": 7394.040426153858,
+        "NO": 3.1269728274929207
+      },
+      "probability": 0.0004227257082114337
+    },
+    {
+      "id": "314dd1eea682",
+      "text": "20 (ALL 20!)",
+      "index": 3,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709195153234,
+      "probChanges": {
+        "day": 0.032866330974907654,
+        "week": -0.02180461343418927,
+        "month": -0.17328628273707258
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 622.5,
+      "pool": {
+        "YES": 493.46409253112984,
+        "NO": 1471.4573830100016
+      },
+      "probability": 0.7488631995356294
+    },
+    {
+      "id": "3a4ed55693c7",
+      "text": "03",
+      "index": 4,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709195960635,
+      "probChanges": {
+        "day": -0.001695451657886983,
+        "week": -0.001695451657886983,
+        "month": -0.001695451657886983
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 64.40461426808363,
+      "pool": {
+        "YES": 7138.088990445894,
+        "NO": 3.004734481378904
+      },
+      "probability": 0.00042076670565047164
+    },
+    {
+      "id": "09d970c0e5c8",
+      "text": "04",
+      "index": 5,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709198557820,
+      "probChanges": {
+        "day": -0.000982996821756413,
+        "week": -0.000982996821756413,
+        "month": -0.000982996821756413
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 35.896781094300586,
+      "pool": {
+        "YES": 6745.332056967043,
+        "NO": 1.629844542635965
+      },
+      "probability": 0.00024156717740932788
+    },
+    {
+      "id": "273ece20e287",
+      "text": "05",
+      "index": 6,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709224115266,
+      "probChanges": {
+        "day": -0.0025135892139154766,
+        "week": -0.0025135892139154766,
+        "month": -0.0025135892139154766
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 73.69300587061232,
+      "pool": {
+        "YES": 6796.331421399156,
+        "NO": 3.590483923496265
+      },
+      "probability": 0.0005280184057240137
+    },
+    {
+      "id": "44d78b33977e",
+      "text": "06",
+      "index": 7,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709245790911,
+      "probChanges": {
+        "day": -0.00228376440126139,
+        "week": -0.00228376440126139,
+        "month": -0.00228376440126139
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 58.07555469853711,
+      "pool": {
+        "YES": 6642.235022244071,
+        "NO": 3.0707152365180974
+      },
+      "probability": 0.0004620878794483106
+    },
+    {
+      "id": "9dc9de5a4d44",
+      "text": "07",
+      "index": 8,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709253631885,
+      "probChanges": {
+        "day": -0.002578488346040061,
+        "week": -0.002578488346040061,
+        "month": -0.002578488346040061
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 70,
+      "pool": {
+        "YES": 6721.073398544218,
+        "NO": 3.4592975130168995
+      },
+      "probability": 0.0005144294286865723
+    },
+    {
+      "id": "c00c0e5f25e6",
+      "text": "08",
+      "index": 9,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709261220883,
+      "probChanges": {
+        "day": -0.0038477657578064118,
+        "week": -0.0038477657578064118,
+        "month": -0.0038477657578064118
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 46.73576159006949,
+      "pool": {
+        "YES": 6727.193936797505,
+        "NO": 4.4090431236874466
+      },
+      "probability": 0.0006549767027019564
+    },
+    {
+      "id": "1b4c72550fea",
+      "text": "09",
+      "index": 10,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709327456024,
+      "probChanges": {
+        "day": -0.0013659331009104616,
+        "week": -0.0013659331009104616,
+        "month": -0.0013659331009104616
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 6450.402767041064,
+        "NO": 2.6907790051470073
+      },
+      "probability": 0.00041697505017506504
+    },
+    {
+      "id": "486687b3f57b",
+      "text": "10",
+      "index": 11,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709327838530,
+      "probChanges": {
+        "day": -0.0016017471655707105,
+        "week": -0.0016017471655707105,
+        "month": -0.0016017471655707105
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 6414.49265729151,
+        "NO": 3.210978544998497
+      },
+      "probability": 0.0005003313844329562
+    },
+    {
+      "id": "6856eb415141",
+      "text": "11",
+      "index": 12,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709327843067,
+      "probChanges": {
+        "day": -0.00271221883618703,
+        "week": -0.00271221883618703,
+        "month": -0.00271221883618703
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 6660.714646192802,
+        "NO": 5.432975457766382
+      },
+      "probability": 0.0008150097726790443
+    },
+    {
+      "id": "2c02d0c0bdc5",
+      "text": "12",
+      "index": 13,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709330586041,
+      "probChanges": {
+        "day": -0.0011405856613527058,
+        "week": -0.0011405856613527058,
+        "month": -0.0011405856613527058
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 6610.982345438782,
+        "NO": 5.659475445218455
+      },
+      "probability": 0.0008553395511535086
+    },
+    {
+      "id": "50aa9c0924d2",
+      "text": "13",
+      "index": 14,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709330591645,
+      "probChanges": {
+        "day": -0.007949768810388093,
+        "week": -0.007949768810388093,
+        "month": -0.007949768810388093
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 6447.989354440519,
+        "NO": 7.304786620308342
+      },
+      "probability": 0.0011315962465357021
+    },
+    {
+      "id": "cf7f79816ac0",
+      "text": "14",
+      "index": 15,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709330714366,
+      "probChanges": {
+        "day": -0.002512529074031501,
+        "week": -0.002512529074031501,
+        "month": -0.002512529074031501
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 6084.794257630291,
+        "NO": 8.787876107029327
+      },
+      "probability": 0.0014421527295701746
+    },
+    {
+      "id": "fab81214b5a8",
+      "text": "15",
+      "index": 16,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709334643650,
+      "probChanges": {
+        "day": -0.005569365117708183,
+        "week": -0.005569365117708183,
+        "month": -0.005569365117708183
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 6531.136173347398,
+        "NO": 5.5776013342153945
+      },
+      "probability": 0.0008532729941180675
+    },
+    {
+      "id": "d3a48c422ebe",
+      "text": "16",
+      "index": 17,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709357869606,
+      "probChanges": {
+        "day": -0.00774864978452509,
+        "week": -0.00774864978452509,
+        "month": -0.00774864978452509
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 6160.325913580161,
+        "NO": 5.186956813615872
+      },
+      "probability": 0.0008412855382271861
+    },
+    {
+      "id": "92a4006a1a0d",
+      "text": "17",
+      "index": 18,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709357873108,
+      "probChanges": {
+        "day": -1.7779557293493356e-05,
+        "week": -1.7779557293493356e-05,
+        "month": -0.0003872592330169686
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 4843.486726489284,
+        "NO": 11.112598173150843
+      },
+      "probability": 0.002289086581604458
+    },
+    {
+      "id": "9a8a1c66e01c",
+      "text": "18",
+      "index": 19,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709357876373,
+      "probChanges": {
+        "day": -0.000672805263682001,
+        "week": -0.000672805263682001,
+        "month": -0.0017373642660482346
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 4158.621664008479,
+        "NO": 13.818912609241664
+      },
+      "probability": 0.0033119495306134722
+    },
+    {
+      "id": "b5a03510a030",
+      "text": "19",
+      "index": 20,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709357880404,
+      "probChanges": {
+        "day": -0.03253855896007429,
+        "week": 0.06746454226843082,
+        "month": 0.20108858342915525
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 569.0672790985982,
+        "NO": 173.63028899562966
+      },
+      "probability": 0.23378330084097
+    },
+    {
+      "id": "0dd76e9d17b4",
+      "text": "Other",
+      "index": 21,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": true,
+      "contractId": "QIlDNkb4Gp1iIAmeZtRA",
+      "createdTime": 1709195153234,
+      "probChanges": {
+        "day": -0.004294327370366971,
+        "week": -0.004294327370366971,
+        "month": -0.004294327370366971
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 76.62519252604767,
+      "pool": {
+        "YES": 7204.508953813722,
+        "NO": 6.799983802344364
+      },
+      "probability": 0.000942961099180466
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "I started Manifold back in November, and became a top 100 creator on my 40th day. Recently I just breached the top 20 on my 100th day. Now that I'm finally at the endgame, how many of the current leaderboard creators will I be able to overtake, despite having way less mana and history? Tune in to find out!",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "EDIT: Top 3 on 180th day!",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "EDIT: #2 on 330th day!",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "Also: ",
+            "type": "text"
+          },
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "tIbWsIQPM1v6Z6hwSyxj",
+              "label": "/strutheo/will-i-slay-all-20-top-creators-by"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Link: ",
+            "type": "text"
+          },
+          {
+            "text": "https://manifold.markets/leaderboards",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://manifold.markets/leaderboards",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_self"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2Fpxf2RZda9a.png?alt=media&token=91a42316-2e04-4a55-b321-e4df58804b33",
+          "title": null
+        }
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo%2F34fa138b1555.jpg",
+  "groupSlugs": [
+    "manifold-users",
+    "top-creators",
+    "manifold-6748e065087e",
+    "metamarkets",
+    "competition",
+    "strutheo",
+    "coolfold"
+  ],
+  "textDescription": "I started Manifold back in November, and became a top 100 creator on my 40th day. Recently I just breached the top 20 on my 100th day. Now that I'm finally at the endgame, how many of the current leaderboard creators will I be able to overtake, despite having way less mana and history? Tune in to find out!\n\nEDIT: Top 3 on 180th day!\n\nEDIT: #2 on 330th day!\n\n\nAlso: @/strutheo/will-i-slay-all-20-top-creators-by \n\nLink: https://manifold.markets/leaderboards\n\n[image]"
+}

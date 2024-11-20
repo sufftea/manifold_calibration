@@ -1,0 +1,46 @@
+{
+  "id": "jdE9XNRIVr4VTv6ryJ1g",
+  "creatorId": "BgCeVUcOzkexeJpSPRNomWQaQaD3",
+  "creatorUsername": "SemioticRivalry",
+  "creatorName": "Semiotic Rivalry",
+  "createdTime": 1713826545159,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FSemioticRivalry%2Fpl2tzfEHMX.jpg?alt=media&token=1b7174ae-5d56-4d97-9b1c-6adfb2a3dfaf",
+  "closeTime": 1735707540000,
+  "question": "Will legal action be taken against Manifold Markets by any governmental entity in 2024?",
+  "slug": "will-legal-action-be-taken-against",
+  "url": "https://manifold.markets/SemioticRivalry/will-legal-action-be-taken-against",
+  "pool": {
+    "NO": 546.5518657950727,
+    "YES": 2366.389757022573
+  },
+  "probability": 0.1375692228952931,
+  "p": 0.40850813477692366,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 2106.9851908326114,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 39,
+  "lastUpdatedTime": 1731928200423,
+  "lastBetTime": 1731928200423,
+  "lastCommentTime": 1714351993935,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": null,
+  "groupSlugs": [
+    "manifold-business-future",
+    "politics-default",
+    "manifold-features-25bad7c7792e",
+    "manifold-6748e065087e"
+  ],
+  "textDescription": ""
+}

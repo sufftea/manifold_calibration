@@ -1,0 +1,921 @@
+{
+  "id": "gZRcLSnN5c",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1730305291838,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1733029140000,
+  "question": "\u25b6\ufe0fWhich Youtube channels will release at least one video in November 2024? [ADD RESPONSES]",
+  "slug": "which-youtube-channels-will-release-tZUZQnON6n",
+  "url": "https://manifold.markets/strutheo/which-youtube-channels-will-release-tZUZQnON6n",
+  "totalLiquidity": 455,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 2892.904712176989,
+  "volume24Hours": 25,
+  "isResolved": false,
+  "uniqueBettorCount": 18,
+  "lastUpdatedTime": 1732021950772,
+  "lastBetTime": 1732021743884,
+  "lastCommentTime": 1732021949200,
+  "marketTier": "play",
+  "token": "MANA",
+  "shouldAnswersSumToOne": false,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "dq6SqZlCUZ",
+      "text": "Joseph Anderson",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.3287671232876711
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 22,
+        "NO": 4.54545454545455
+      },
+      "probability": 0.17123287671232892
+    },
+    {
+      "id": "UNQupEqhQO",
+      "text": "CGP Grey",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.34941176470588237
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 23.750000000000004,
+        "NO": 4.210526315789474
+      },
+      "probability": 0.15058823529411763
+    },
+    {
+      "id": "C0LAl68IZA",
+      "text": "Brickbending",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731343579590,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066196
+      },
+      "probability": 1
+    },
+    {
+      "id": "ZuS9OSPZZE",
+      "text": "Modern MBA",
+      "index": 3,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730666366656,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.498743710662
+      },
+      "probability": 1
+    },
+    {
+      "id": "9tuygdQP9A",
+      "text": "Lockpicking Lawyer",
+      "index": 4,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730503708895,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066198
+      },
+      "probability": 1
+    },
+    {
+      "id": "Upz9P9yAgE",
+      "text": "Glorb",
+      "index": 5,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.2578796561604585
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 17.692307692307697,
+        "NO": 5.6521739130434785
+      },
+      "probability": 0.24212034383954148
+    },
+    {
+      "id": "ZUOuSO82OQ",
+      "text": "DaFuq!?Boom! (Skibidi Toilet)",
+      "index": 6,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.3287671232876711
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 2.127659574468087,
+        "NO": 47
+      },
+      "probability": 0.9566912083152881
+    },
+    {
+      "id": "y866ztOzcL",
+      "text": "Mark Rober",
+      "index": 7,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731343582753,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066196
+      },
+      "probability": 1
+    },
+    {
+      "id": "psNcCQEAcS",
+      "text": "TierZoo",
+      "index": 8,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730568897941,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066196
+      },
+      "probability": 1
+    },
+    {
+      "id": "Oq8yhQhZO8",
+      "text": "Rhystic Studies",
+      "index": 9,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.11699716713881025
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 12.692307692307697,
+        "NO": 7.878787878787879
+      },
+      "probability": 0.38300283286118975
+    },
+    {
+      "id": "5qP2nyuQzd",
+      "text": "@OnePieceExplained",
+      "index": 10,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731343577290,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066204
+      },
+      "probability": 1
+    },
+    {
+      "id": "t9nZRNU2C2",
+      "text": "Sam O'Nella Academy",
+      "index": 11,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.3247324317597279
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 21.692307692307697,
+        "NO": 4.6099290780141855
+      },
+      "probability": 0.17526756824027212
+    },
+    {
+      "id": "ZOUsChhdNC",
+      "text": "NileRed",
+      "index": 12,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0.21787965616045848,
+        "month": -0.040000000000000036
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 10.834726777719233,
+        "NO": 9.229582069908975
+      },
+      "probability": 0.45999999999999996
+    },
+    {
+      "id": "Rd5hQ9chIh",
+      "text": "Kurzgesagt \u2013 In a Nutshell",
+      "index": 13,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731343586793,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066214
+      },
+      "probability": 1
+    },
+    {
+      "id": "npsI0AR9EP",
+      "text": "Channel 5 with Andrew Callaghan",
+      "index": 14,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731343585261,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066198
+      },
+      "probability": 1
+    },
+    {
+      "id": "s9UZqy6l5U",
+      "text": "Veritasium",
+      "index": 15,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731343598369,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066196
+      },
+      "probability": 1
+    },
+    {
+      "id": "dNRlEIc8Qt",
+      "text": "Sixty symbols",
+      "index": 16,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731343594766,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592216,
+        "NO": 99.49874371066196
+      },
+      "probability": 1
+    },
+    {
+      "id": "LlCLcql6Ip",
+      "text": "Captain Disillusion",
+      "index": 17,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 2.0816681711721685e-17,
+        "week": 2.0816681711721685e-17,
+        "month": -0.45294117647058824
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 45,
+        "NO": 2.2222222222222214
+      },
+      "probability": 0.04705882352941175
+    },
+    {
+      "id": "65hPZL6p8z",
+      "text": "Steve Mould",
+      "index": 18,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.2595513970172143
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 5.6264251493290836,
+        "NO": 17.77327474300879
+      },
+      "probability": 0.7595513970172143
+    },
+    {
+      "id": "q2nL5N6cpp",
+      "text": "AvE",
+      "index": 19,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730662157082,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066197
+      },
+      "probability": 1
+    },
+    {
+      "id": "82R8qs69Qy",
+      "text": "Practical Engineering",
+      "index": 20,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731343596526,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066198
+      },
+      "probability": 1
+    },
+    {
+      "id": "6PSqLhZP0Q",
+      "text": "Scott Manley",
+      "index": 21,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0.010000000000000009,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731431551686,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066207
+      },
+      "probability": 1
+    },
+    {
+      "id": "Sd2uytQZyt",
+      "text": "I did a thing",
+      "index": 22,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.11699716713881025
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 12.692307692307697,
+        "NO": 7.878787878787879
+      },
+      "probability": 0.38300283286118975
+    },
+    {
+      "id": "zCAUhlqLsd",
+      "text": "MKBHD",
+      "index": 23,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730503718296,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066201
+      },
+      "probability": 1
+    },
+    {
+      "id": "22zAPQRUtt",
+      "text": "NileBlue",
+      "index": 24,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730662159201,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066197
+      },
+      "probability": 1
+    },
+    {
+      "id": "QOnEuuNyUQ",
+      "text": "Internet Historian",
+      "index": 25,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.3999999999999999
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 30,
+        "NO": 3.3333333333333375
+      },
+      "probability": 0.10000000000000012
+    },
+    {
+      "id": "yuOzQPStcE",
+      "text": "Hbomberguy",
+      "index": 26,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.24844256037977386
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 17.248870236980302,
+        "NO": 5.797481146655471
+      },
+      "probability": 0.25155743962022614
+    },
+    {
+      "id": "9RNtZ6yscc",
+      "text": "Defunctland",
+      "index": 27,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.29999999999999993
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 20,
+        "NO": 5.000000000000003
+      },
+      "probability": 0.20000000000000007
+    },
+    {
+      "id": "h2C8O8y5ZR",
+      "text": "TheOdd1sOut",
+      "index": 28,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.12825278810408913
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 7.692307692307697,
+        "NO": 13
+      },
+      "probability": 0.6282527881040891
+    },
+    {
+      "id": "0qN5g8P2tZ",
+      "text": "Technology Connections",
+      "index": 29,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731343581437,
+      "totalLiquidity": 10.000000000000002,
+      "resolutionProbability": 0.9900000000000001,
+      "pool": {
+        "YES": 1.0050378152592003,
+        "NO": 99.49874371066194
+      },
+      "probability": 1
+    },
+    {
+      "id": "tQNtCPLlnq",
+      "text": "Wendover Productions",
+      "index": 30,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.49
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.4987437106621
+      },
+      "probability": 0.99
+    },
+    {
+      "id": "zQpLpgnEOC",
+      "text": "Applied Science",
+      "index": 31,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.11699716713881025
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 12.692307692307697,
+        "NO": 7.878787878787879
+      },
+      "probability": 0.38300283286118975
+    },
+    {
+      "id": "885U9AdU8h",
+      "text": "Pewdiepie",
+      "index": 32,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730305291839,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.49
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10.000000000000002,
+      "pool": {
+        "YES": 1.0050378152592145,
+        "NO": 99.49874371066247
+      },
+      "probability": 0.99
+    },
+    {
+      "id": "zAO9NltqPC",
+      "text": "MrBeast",
+      "index": 33,
+      "userId": "pO2kinmdwag4GbrUIF2danamAUp2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730314475333,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730662173988,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 2.512594538148022,
+        "NO": 248.74685927665485
+      },
+      "probability": 1
+    },
+    {
+      "id": "LAzCqnCEI0",
+      "text": "Girlfriend Reviews",
+      "index": 34,
+      "userId": "KNqZAiItmVTCX0LzUcj8Twg7tnh1",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730314540326,
+      "probChanges": {
+        "day": -1.1102230246251565e-16,
+        "week": -1.1102230246251565e-16,
+        "month": 5.9409223318596105e-08
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 24.999997029539013,
+        "NO": 25.000002970461342
+      },
+      "probability": 0.5000000594092233
+    },
+    {
+      "id": "dPUNQsAA8L",
+      "text": "mandalore gaming",
+      "index": 35,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730337928138,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 25,
+        "NO": 25
+      },
+      "probability": 0.5
+    },
+    {
+      "id": "C2S2zuOgRu",
+      "text": "suckerpinch",
+      "index": 36,
+      "userId": "86AEVw8rgXTUOvfAcNdMsVtCc9I3",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "createdTime": 1730354284184,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.16216216216216223
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 35,
+        "NO": 17.85714285714285
+      },
+      "probability": 0.3378378378378378
+    },
+    {
+      "id": "hnPSN960np",
+      "text": "Zullie the Witch",
+      "index": 37,
+      "userId": "vMsWLvZrq4eLI1g13dD53Evifg93",
+      "isOther": false,
+      "contractId": "gZRcLSnN5c",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730375130883,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730666369421,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 2.5125945381480292,
+        "NO": 248.7468592766548
+      },
+      "probability": 1
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Shorts do not count, Livestreams do not count, but uploaded videos in the main Video tab that are made from streams do count",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/L6P6uQSAIq.jpg",
+  "groupSlugs": [
+    "culture-default",
+    "entertainment",
+    "youtube",
+    "internet",
+    "video"
+  ],
+  "textDescription": "Shorts do not count, Livestreams do not count, but uploaded videos in the main Video tab that are made from streams do count"
+}

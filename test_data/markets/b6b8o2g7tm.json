@@ -1,0 +1,43 @@
+{
+  "id": "b6b8o2g7tm",
+  "creatorId": "vuI5upWB8yU00rP7yxj95J2zd952",
+  "creatorUsername": "ManifoldPolitics",
+  "creatorName": "Manifold Politics",
+  "createdTime": 1727552882201,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FManifoldPolitics%2Ffpkehyxcjv.png?alt=media&token=463863cf-9ddd-46b0-87d6-f89dcf8e5621",
+  "closeTime": 1731786836887,
+  "question": "Will the Republicans control the US House after the 2024 election?",
+  "slug": "will-republicans-take-the-majority-92f2658efb69--cash",
+  "url": "https://manifold.markets/ManifoldPolitics/will-republicans-take-the-majority-92f2658efb69--cash",
+  "pool": {
+    "NO": 2226.0129080280317,
+    "YES": 11.270124769013847
+  },
+  "probability": 0.9906850194187437,
+  "p": 0.3499999999999973,
+  "totalLiquidity": 350,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 5726.616270486808,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1731938507060,
+  "resolutionProbability": 0.9906850194187437,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 85,
+  "lastUpdatedTime": 1731786836887,
+  "lastBetTime": 1731776066369,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "4LQqThloqca4Slfnr0p1",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

@@ -1,0 +1,39 @@
+{
+  "id": "0j8duoq3rq",
+  "creatorId": "dXnRsZCgjtPB4Dl8qri9DgRSTfG2",
+  "creatorUsername": "titotal",
+  "creatorName": "titotal",
+  "createdTime": 1729274251346,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Ftitotal%2F1T9JA84jnE.jpg?alt=media&token=52a7b887-3955-4fad-a588-55e885d569a7",
+  "closeTime": 1735689540000,
+  "question": "Will the solar cell world efficiency record be beaten by the end of 2024?",
+  "slug": "will-the-solar-cell-world-efficienc--cash",
+  "url": "https://manifold.markets/titotal/will-the-solar-cell-world-efficienc--cash",
+  "pool": {
+    "NO": 86.15553473035617,
+    "YES": 207
+  },
+  "probability": 0.07855154176030253,
+  "p": 0.17,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 107,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 4,
+  "lastUpdatedTime": 1731305931642,
+  "lastBetTime": 1731305931642,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "m1OgiNznnE2RvIbtsm8W",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

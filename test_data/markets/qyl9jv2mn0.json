@@ -1,0 +1,57 @@
+{
+  "id": "qyl9jv2mn0",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1728072237789,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1731369278211,
+  "question": "Will Bitcoin reach $87654.32 before the end of 2025?",
+  "slug": "will-bitcoin-reach-8765432-before-t-oxygo77jvn",
+  "url": "https://manifold.markets/strutheo/will-bitcoin-reach-8765432-before-t-oxygo77jvn",
+  "pool": {
+    "NO": 12921.148012758777,
+    "YES": 239.1514628780142
+  },
+  "probability": 0.9804723850657537,
+  "p": 0.4816785379838065,
+  "totalLiquidity": 1900,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 15313.057218560121,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1731369278211,
+  "resolutionProbability": 0.9804723850657537,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 16,
+  "lastUpdatedTime": 1731369278211,
+  "lastBetTime": 1731367555084,
+  "lastCommentTime": 1731365076658,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Going by Google for BTC price",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/1g3081fyc4.jpg",
+  "groupSlugs": [
+    "economics-default",
+    "bitcoin",
+    "crypto-speculation",
+    "bitcoin-maxi",
+    "prices"
+  ],
+  "textDescription": "Going by Google for BTC price"
+}

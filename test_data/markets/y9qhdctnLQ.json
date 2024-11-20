@@ -1,0 +1,42 @@
+{
+  "id": "y9qhdctnLQ",
+  "creatorId": "8kaVOjw6w1eEHpdoEHQ6TevXHgw2",
+  "creatorUsername": "MikeChenSF",
+  "creatorName": "Mike Chen",
+  "createdTime": 1729874351838,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a-/AFdZucr-veg201DGQzF4jqPWo9dgBl01vEy2ksiaZA4BSRo=s96-c",
+  "closeTime": 1731205899144,
+  "question": "San Francisco Proposition K passes: Great Highway Recreational Space 2024-11",
+  "slug": "san-francisco-proposition-k-passes--cash",
+  "url": "https://manifold.markets/MikeChenSF/san-francisco-proposition-k-passes--cash",
+  "pool": {
+    "NO": 1145.2595256326072,
+    "YES": 14.723262955791267
+  },
+  "probability": 0.99,
+  "p": 0.5600000000000027,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 1459.2621107597242,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1731352387183,
+  "resolutionProbability": 0.99,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 9,
+  "lastUpdatedTime": 1731205899144,
+  "lastBetTime": 1731189477826,
+  "token": "CASH",
+  "siblingContractId": "0d89xtu1k2",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

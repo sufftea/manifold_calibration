@@ -1,0 +1,227 @@
+{
+  "id": "07iYtH5jrThMVE4QFRpF",
+  "creatorId": "Bep4DiIoISY5MG7pPByF4vqk1Ub2",
+  "creatorUsername": "Bob",
+  "creatorName": "Bob",
+  "createdTime": 1697373170851,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FBobTheSnob%2FTunM2-Ctz4.webp?alt=media&token=46dcbfef-f41b-4342-ab36-84237ef4c9db",
+  "closeTime": 1893538740000,
+  "question": "When will Joe Biden die?",
+  "slug": "when-will-joe-biden-die",
+  "url": "https://manifold.markets/Bob/when-will-joe-biden-die",
+  "totalLiquidity": 575,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 6983.334643931711,
+  "volume24Hours": 728.4171444840871,
+  "isResolved": false,
+  "uniqueBettorCount": 39,
+  "lastUpdatedTime": 1731995040709,
+  "lastBetTime": 1731995040709,
+  "lastCommentTime": 1721774143637,
+  "marketTier": "play",
+  "token": "MANA",
+  "shouldAnswersSumToOne": true,
+  "addAnswersMode": "DISABLED",
+  "answers": [
+    {
+      "id": "04b065c46ea2",
+      "text": "Before 2024",
+      "index": 0,
+      "userId": "Bep4DiIoISY5MG7pPByF4vqk1Ub2",
+      "isOther": false,
+      "contractId": "07iYtH5jrThMVE4QFRpF",
+      "createdTime": 1697373170851,
+      "probChanges": {
+        "day": 0.027880207346063036,
+        "week": 0.027880207346063036,
+        "month": 0.027880207346063036
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 35.72172541558802,
+      "pool": {
+        "YES": 589.2775407155034,
+        "NO": 6.062226370922701
+      },
+      "probability": 0.010182800992097412
+    },
+    {
+      "id": "85b345bc705f",
+      "text": "Before the 2024 US presidential election",
+      "index": 1,
+      "userId": "Bep4DiIoISY5MG7pPByF4vqk1Ub2",
+      "isOther": false,
+      "contractId": "07iYtH5jrThMVE4QFRpF",
+      "createdTime": 1697373170851,
+      "probChanges": {
+        "day": 0,
+        "week": -0.017430302695575085,
+        "month": -0.017430302695575085
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 35.72172541558802,
+      "pool": {
+        "YES": 613.8674568348301,
+        "NO": 6.305991434300996
+      },
+      "probability": 0.010168109344088594
+    },
+    {
+      "id": "d1b100a164c0",
+      "text": "In 2024, but after the US presidential election",
+      "index": 2,
+      "userId": "Bep4DiIoISY5MG7pPByF4vqk1Ub2",
+      "isOther": false,
+      "contractId": "07iYtH5jrThMVE4QFRpF",
+      "createdTime": 1697373170851,
+      "probChanges": {
+        "day": 0.023020455800687067,
+        "week": 0.023020455800687067,
+        "month": 0.023020455800687067
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 35.72172541558802,
+      "pool": {
+        "YES": 243.81760478323102,
+        "NO": 14.977330982063439
+      },
+      "probability": 0.05787335419749727
+    },
+    {
+      "id": "17134a86224b",
+      "text": "Before 2026",
+      "index": 3,
+      "userId": "Bep4DiIoISY5MG7pPByF4vqk1Ub2",
+      "isOther": false,
+      "contractId": "07iYtH5jrThMVE4QFRpF",
+      "createdTime": 1697373170851,
+      "probChanges": {
+        "day": 0.004439079087743936,
+        "week": -0.03541093267922697,
+        "month": -0.03541093267922697
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 55.72172541558802,
+      "pool": {
+        "YES": 189.6603659459944,
+        "NO": 32.16729700623644
+      },
+      "probability": 0.14501030474798562
+    },
+    {
+      "id": "5a48f4873190",
+      "text": "Before 2027",
+      "index": 4,
+      "userId": "Bep4DiIoISY5MG7pPByF4vqk1Ub2",
+      "isOther": false,
+      "contractId": "07iYtH5jrThMVE4QFRpF",
+      "createdTime": 1697373170851,
+      "probChanges": {
+        "day": 0.0016514337239909999,
+        "week": 0.0016514337239909999,
+        "month": -0.13454632638440675
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 55.72172541558802,
+      "pool": {
+        "YES": 491.15692816903425,
+        "NO": 12.942378084059825
+      },
+      "probability": 0.025674262835747332
+    },
+    {
+      "id": "a30ec9a7aee2",
+      "text": "Before 2030",
+      "index": 5,
+      "userId": "Bep4DiIoISY5MG7pPByF4vqk1Ub2",
+      "isOther": false,
+      "contractId": "07iYtH5jrThMVE4QFRpF",
+      "createdTime": 1697373170851,
+      "probChanges": {
+        "day": 0.0014685656078394088,
+        "week": 0.0014685656078394088,
+        "month": -0.26088186871098806
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 75.72172541558803,
+      "pool": {
+        "YES": 680.6967035443412,
+        "NO": 25.915425882335164
+      },
+      "probability": 0.03667560292711385
+    },
+    {
+      "id": "5edd4b4f3615",
+      "text": "Not by 2030",
+      "index": 6,
+      "userId": "Bep4DiIoISY5MG7pPByF4vqk1Ub2",
+      "isOther": false,
+      "contractId": "07iYtH5jrThMVE4QFRpF",
+      "createdTime": 1697373170851,
+      "probChanges": {
+        "day": 0.02213026340419122,
+        "week": 0.02213026340419122,
+        "month": 0.49739882641445343
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 95.72172541558803,
+      "pool": {
+        "YES": 103.58450401680322,
+        "NO": 259.12619917519794
+      },
+      "probability": 0.7144156400535809
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Joe Biden was born in 1942, making him the oldest president to ever take office. If he is elected to a second term, he would start it at 82. There have been a number of rumors and specualtions about his health, with many conservative pundits claiming he is suffering from dementia. On the other hand, routine medical check-ups describe him as \"vigorous\":",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "https://apnews.com/article/biden-politics-united-states-government-health-bdce6c15df6186e06710f2d903a3513e",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://apnews.com/article/biden-politics-united-states-government-health-bdce6c15df6186e06710f2d903a3513e",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "linkPreview",
+        "attrs": {
+          "id": "4c7c097c-f6ed-45bc-9967-6d059fcff0e1",
+          "url": "https://apnews.com/article/biden-politics-united-states-government-health-bdce6c15df6186e06710f2d903a3513e",
+          "image": "https://dims.apnews.com/dims4/default/747be0c/2147483647/strip/true/crop/3000x1688+0+156/resize/1440x810!/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fafs-prod%2Fmedia%2F340bf16703a541849e2ec49cb0591960%2F3000.jpeg",
+          "title": "Doctor says Biden's 'vigorous' as he readies for 2024 run",
+          "inputKey": "create market",
+          "deleteNode": null,
+          "description": "Despite testing positive twice last year for the coronavirus, President Joe Biden has no long-term symptoms and has been declared \u201chealthy, vigorous\u201d and \u201cfit\u201d to handle his White House responsibilities.",
+          "deleteCallback": null,
+          "hideCloseButton": false
+        }
+      }
+    ]
+  },
+  "groupSlugs": [
+    "the-life-of-biden",
+    "death-markets"
+  ],
+  "textDescription": "Joe Biden was born in 1942, making him the oldest president to ever take office. If he is elected to a second term, he would start it at 82. There have been a number of rumors and specualtions about his health, with many conservative pundits claiming he is suffering from dementia. On the other hand, routine medical check-ups describe him as \"vigorous\":\n\nhttps://apnews.com/article/biden-politics-united-states-government-health-bdce6c15df6186e06710f2d903a3513e\n\n[link preview]"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "l7bdn4gluq",
+  "creatorId": "A6omDpe59ueNOlyqCgYhgbCL05I2",
+  "creatorUsername": "octothorpe",
+  "creatorName": "octothorpe",
+  "createdTime": 1728252222873,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/AEdFTp6tbDKXAhRdj3ZSPc-7TND1_UeF-7xC_S1mdQ1V=s96-c",
+  "closeTime": 1730872932246,
+  "question": "Will Ted Cruz win the 2024 US Senate election in Texas?",
+  "slug": "will-ted-cruz-win-the-2024-us-senat--cash",
+  "url": "https://manifold.markets/octothorpe/will-ted-cruz-win-the-2024-us-senat--cash",
+  "pool": {
+    "NO": 2394.2357397878504,
+    "YES": 190.61459919724223
+  },
+  "probability": 0.9667097829060041,
+  "p": 0.6980583668428431,
+  "totalLiquidity": 400,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 4900.133991512406,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1730876241164,
+  "resolutionProbability": 0.9667097829060041,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 118,
+  "lastUpdatedTime": 1730872932246,
+  "lastBetTime": 1730871993133,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "xc0zZDrnhtbKQi8B289Y",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

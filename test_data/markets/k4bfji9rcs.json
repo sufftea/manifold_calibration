@@ -1,0 +1,56 @@
+{
+  "id": "k4bfji9rcs",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1729140222417,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1731819540000,
+  "question": "One month from today, will Chat GPT-5 have been announced?",
+  "slug": "one-month-from-today-will-chat-gpt5-bxrscgww6r",
+  "url": "https://manifold.markets/strutheo/one-month-from-today-will-chat-gpt5-bxrscgww6r",
+  "pool": {
+    "NO": 10.050378152592089,
+    "YES": 994.9874371066194
+  },
+  "probability": 0.009999999999999978,
+  "p": 0.5000000000000001,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 894.9874371066194,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1731820101986,
+  "resolutionProbability": 0.009999999999999978,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 9,
+  "lastUpdatedTime": 1731819540000,
+  "lastBetTime": 1731734896603,
+  "marketTier": "play",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Must be Chat GPT 5. Does not have to be fully released, just officially announced. ",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/yh529cgcbf.jpg",
+  "groupSlugs": [
+    "technology-default",
+    "ai",
+    "openai",
+    "gpt5-speculation",
+    "chatgpt"
+  ],
+  "textDescription": "Must be Chat GPT 5. Does not have to be fully released, just officially announced. "
+}

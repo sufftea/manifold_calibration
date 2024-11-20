@@ -1,0 +1,1113 @@
+{
+  "id": "XgJghq1bGVLIBpTsgqg6",
+  "creatorId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+  "creatorUsername": "AmmonLam",
+  "creatorName": "Ammon Lam",
+  "createdTime": 1704298555729,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ALm5wu3tZQ3FxKg9rh6V8N0P2Lax5R_TfROJtQmrapTp=s96-c",
+  "closeTime": 1735621199950,
+  "question": "If Biden became the Dem nominee, Which states will be won by him in the 2024 presidential election? [200M subsidy]",
+  "slug": "which-states-will-be-won-by-the-dem-6b4109c53c21",
+  "url": "https://manifold.markets/AmmonLam/which-states-will-be-won-by-the-dem-6b4109c53c21",
+  "totalLiquidity": 4490,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 24819.09551159025,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 22,
+  "lastUpdatedTime": 1731298129751,
+  "lastBetTime": 1731298129751,
+  "lastCommentTime": 1731250727000,
+  "marketTier": "play",
+  "token": "MANA",
+  "shouldAnswersSumToOne": false,
+  "addAnswersMode": "ONLY_CREATOR",
+  "answers": [
+    {
+      "id": "ab1eb9cc4f31",
+      "text": "Alabama",
+      "index": 0,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.06035606679250687,
+        "week": -0.06035606679250687,
+        "month": -0.06035606679250687
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 424.26925946701056,
+        "NO": 4.2855480754243445
+      },
+      "probability": 0.00999999999999999
+    },
+    {
+      "id": "ed718c5a5cb8",
+      "text": "Alaska",
+      "index": 1,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.08091662521385277,
+        "week": -0.08091662521385277,
+        "month": -0.08091662521385277
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 439.9998932646666,
+        "NO": 4.456378874399547
+      },
+      "probability": 0.01002658563676471
+    },
+    {
+      "id": "e012054cfa27",
+      "text": "Arizona",
+      "index": 2,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.5076075942162739,
+        "week": -0.5076075942162739,
+        "month": -0.5076075942162739
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 819.6903321203195,
+        "NO": 8.279700324447674
+      },
+      "probability": 0.010000000000000002
+    },
+    {
+      "id": "babba76fb051",
+      "text": "Arkansas",
+      "index": 3,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.025791229703164373,
+        "week": -0.025791229703164373,
+        "month": -0.025791229703164373
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 401.7359953269912,
+        "NO": 4.057939346737285
+      },
+      "probability": 0.010000000000000002
+    },
+    {
+      "id": "37d0d6daf2b3",
+      "text": "California",
+      "index": 4,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9779171445791799,
+        "week": -0.9779171445791799,
+        "month": -0.9779171445791799
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 402.61125655746605,
+        "NO": 4.066780369267406
+      },
+      "probability": 0.010000000000000175
+    },
+    {
+      "id": "7a7a9fee2351",
+      "text": "Colorado",
+      "index": 5,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9176328229139856,
+        "week": -0.9176328229139856,
+        "month": -0.9176328229139856
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 424.2692594670097,
+        "NO": 4.2855480754243445
+      },
+      "probability": 0.010000000000000009
+    },
+    {
+      "id": "138cb2bc4dba",
+      "text": "Connecticut",
+      "index": 6,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9643257713536261,
+        "week": -0.9643257713536261,
+        "month": -0.9643257713536261
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 379.5614073349979,
+        "NO": 3.833953609444336
+      },
+      "probability": 0.009999999999999775
+    },
+    {
+      "id": "f4cdd13a7791",
+      "text": "Delaware",
+      "index": 7,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9389167133096085,
+        "week": -0.9389167133096085,
+        "month": -0.9389167133096085
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 406.0985949691503,
+        "NO": 4.102006009789399
+      },
+      "probability": 0.010000000000000004
+    },
+    {
+      "id": "636d790858d2",
+      "text": "Florida",
+      "index": 8,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.12384656019782703,
+        "week": -0.12384656019782703,
+        "month": -0.12384656019782703
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 697.5736013596104,
+        "NO": 7.046197993531422
+      },
+      "probability": 0.010000000000000005
+    },
+    {
+      "id": "68cc13fed9e",
+      "text": "Georgia",
+      "index": 9,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.37306375936162184,
+        "week": -0.37306375936162184,
+        "month": -0.37306375936162184
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 623.4936189702145,
+        "NO": 6.297915343133496
+      },
+      "probability": 0.010000000000000026
+    },
+    {
+      "id": "a139fb553128",
+      "text": "Hawaii",
+      "index": 10,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9356315786936453,
+        "week": -0.9356315786936453,
+        "month": -0.9356315786936453
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 464.1791001848086,
+        "NO": 4.688677779644536
+      },
+      "probability": 0.010000000000000009
+    },
+    {
+      "id": "5ab3c9268c8a",
+      "text": "Idaho",
+      "index": 11,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.03576104568210166,
+        "week": -0.03576104568210166,
+        "month": -0.03576104568210166
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 415.287470552997,
+        "NO": 4.194822934878772
+      },
+      "probability": 0.010000000000000035
+    },
+    {
+      "id": "24458fbf9f80",
+      "text": "Illinois",
+      "index": 12,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9435878914390148,
+        "week": -0.9435878914390148,
+        "month": -0.9435878914390148
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 401.73599532699126,
+        "NO": 4.057939346737289
+      },
+      "probability": 0.010000000000000009
+    },
+    {
+      "id": "b761f7932f1c",
+      "text": "Indiana",
+      "index": 13,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.025791229703164366,
+        "week": -0.025791229703164366,
+        "month": -0.025791229703164366
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 401.7359953269912,
+        "NO": 4.057939346737285
+      },
+      "probability": 0.010000000000000002
+    },
+    {
+      "id": "7e77a5daa728",
+      "text": "Iowa",
+      "index": 14,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.105628983159204,
+        "week": -0.105628983159204,
+        "month": -0.105628983159204
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 459.63885322176196,
+        "NO": 4.6428166992097175
+      },
+      "probability": 0.010000000000000002
+    },
+    {
+      "id": "430e2f143033",
+      "text": "Kansas",
+      "index": 15,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.06035606679250674,
+        "week": -0.06035606679250674,
+        "month": -0.06035606679250674
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 424.26925946701056,
+        "NO": 4.285548075424401
+      },
+      "probability": 0.01000000000000012
+    },
+    {
+      "id": "6ed504a75921",
+      "text": "Kentucky",
+      "index": 16,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.06035606679250685,
+        "week": -0.06035606679250685,
+        "month": -0.06035606679250685
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 424.26925946701033,
+        "NO": 4.2855480754243445
+      },
+      "probability": 0.009999999999999995
+    },
+    {
+      "id": "eb2d458decf1",
+      "text": "Louisiana",
+      "index": 17,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.025791229703164324,
+        "week": -0.025791229703164324,
+        "month": -0.025791229703164324
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 401.7359953269912,
+        "NO": 4.057939346737285
+      },
+      "probability": 0.010000000000000002
+    },
+    {
+      "id": "a243784f76f7",
+      "text": "Maine",
+      "index": 18,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.8017160801785626,
+        "week": -0.8017160801785626,
+        "month": -0.8017160801785626
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 735.8271604111158,
+        "NO": 7.4325975799102935
+      },
+      "probability": 0.010000000000000044
+    },
+    {
+      "id": "7607627ed2f6",
+      "text": "Maryland",
+      "index": 19,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9643257713536257,
+        "week": -0.9643257713536257,
+        "month": -0.9643257713536257
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 379.5614073349983,
+        "NO": 3.8339536094444497
+      },
+      "probability": 0.010000000000000057
+    },
+    {
+      "id": "7772df466d5e",
+      "text": "Massachusetts",
+      "index": 20,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9789935713063009,
+        "week": -0.9789935713063009,
+        "month": -0.9789935713063009
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 404.0061558280834,
+        "NO": 4.08087026088964
+      },
+      "probability": 0.009999999999999776
+    },
+    {
+      "id": "f8a595f3a050",
+      "text": "Michigan",
+      "index": 21,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.6615091431236276,
+        "week": -0.6615091431236276,
+        "month": -0.6615091431236276
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 613.4220387717504,
+        "NO": 6.1961822098156745
+      },
+      "probability": 0.010000000000000023
+    },
+    {
+      "id": "feb1a0e2cd5b",
+      "text": "Minnesota",
+      "index": 22,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.770852911845314,
+        "week": -0.770852911845314,
+        "month": -0.770852911845314
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 802.2002491861808,
+        "NO": 8.103032820062424
+      },
+      "probability": 0.009999999999999988
+    },
+    {
+      "id": "7642cee0adf1",
+      "text": "Mississippi",
+      "index": 23,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.025791229703164345,
+        "week": -0.025791229703164345,
+        "month": -0.025791229703164345
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 401.7359953269911,
+        "NO": 4.057939346737285
+      },
+      "probability": 0.010000000000000004
+    },
+    {
+      "id": "3a023f65e22a",
+      "text": "Missouri",
+      "index": 24,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.08967437032468968,
+        "week": -0.08967437032468968,
+        "month": -0.08967437032468968
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 380.72088739287983,
+        "NO": 3.845665529221037
+      },
+      "probability": 0.010000000000000073
+    },
+    {
+      "id": "f8a4d769c801",
+      "text": "Montana",
+      "index": 25,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.06035606679250678,
+        "week": -0.06035606679250678,
+        "month": -0.06035606679250678
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 424.26925946701044,
+        "NO": 4.2855480754243445
+      },
+      "probability": 0.009999999999999992
+    },
+    {
+      "id": "5bad2f15d21f",
+      "text": "Nebraska",
+      "index": 26,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.06035606679250675,
+        "week": -0.06035606679250675,
+        "month": -0.06035606679250675
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 424.2692594670104,
+        "NO": 4.285548075424401
+      },
+      "probability": 0.010000000000000125
+    },
+    {
+      "id": "59e24402c6a2",
+      "text": "Nevada",
+      "index": 27,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.45473708294116616,
+        "week": -0.45473708294116616,
+        "month": -0.45473708294116616
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 627.3631917272103,
+        "NO": 6.337001936638501
+      },
+      "probability": 0.010000000000000021
+    },
+    {
+      "id": "f7bf75ebe03f",
+      "text": "New Hampshire",
+      "index": 28,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.8690814498995404,
+        "week": -0.8690814498995404,
+        "month": -0.8690814498995404
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 459.6388532217622,
+        "NO": 4.6428166992097175
+      },
+      "probability": 0.009999999999999997
+    },
+    {
+      "id": "bb95f82b913d",
+      "text": "New Jersey",
+      "index": 29,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9389167133096085,
+        "week": -0.9389167133096085,
+        "month": -0.9389167133096085
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 406.0985949691503,
+        "NO": 4.102006009789399
+      },
+      "probability": 0.010000000000000004
+    },
+    {
+      "id": "c52a6b120181",
+      "text": "New Mexico",
+      "index": 30,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.89032562967531,
+        "week": -0.89032562967531,
+        "month": -0.89032562967531
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 380.72088739287983,
+        "NO": 3.845665529221037
+      },
+      "probability": 0.010000000000000073
+    },
+    {
+      "id": "198daace640d",
+      "text": "New York",
+      "index": 31,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9453282969829168,
+        "week": -0.9453282969829168,
+        "month": -0.9453282969829168
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 395.1859328405163,
+        "NO": 3.991777099399158
+      },
+      "probability": 0.01000000000000001
+    },
+    {
+      "id": "b6d93ed4fd22",
+      "text": "North Carolina",
+      "index": 32,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.19253742427068948,
+        "week": -0.19253742427068948,
+        "month": -0.19253742427068948
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 649.8712772636422,
+        "NO": 6.5643563359963935
+      },
+      "probability": 0.01000000000000001
+    },
+    {
+      "id": "c74b94d03eae",
+      "text": "North Dakota",
+      "index": 33,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 401.735995326991,
+        "NO": 4.0579393467372995
+      },
+      "probability": 0.010000000000000042
+    },
+    {
+      "id": "c19199600617",
+      "text": "Ohio",
+      "index": 34,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.09509409019995772,
+        "week": -0.09509409019995772,
+        "month": -0.09509409019995772
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 553.2111575776572,
+        "NO": 5.587991490683407
+      },
+      "probability": 0.010000000000000002
+    },
+    {
+      "id": "25959a469f29",
+      "text": "Oklahoma",
+      "index": 35,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.04918813495286381,
+        "week": -0.04918813495286381,
+        "month": -0.04918813495286381
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 555.9887728286313,
+        "NO": 5.616048210390225
+      },
+      "probability": 0.010000000000000018
+    },
+    {
+      "id": "f5db5623be4e",
+      "text": "Oregon",
+      "index": 36,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9410632862840147,
+        "week": -0.9410632862840147,
+        "month": -0.9410632862840147
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 460.6834734401492,
+        "NO": 4.65336841858737
+      },
+      "probability": 0.010000000000000007
+    },
+    {
+      "id": "bf9922dfaf0d",
+      "text": "Pennsylvania",
+      "index": 37,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.7461000224897611,
+        "week": -0.7461000224897611,
+        "month": -0.7461000224897611
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 629.9731712623573,
+        "NO": 6.363365366286445
+      },
+      "probability": 0.010000000000000012
+    },
+    {
+      "id": "124128b006f2",
+      "text": "Rhode Island",
+      "index": 38,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9396822398607045,
+        "week": -0.9396822398607045,
+        "month": -0.9396822398607045
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 459.5577668886741,
+        "NO": 4.64199764534014
+      },
+      "probability": 0.009999999999999995
+    },
+    {
+      "id": "7694e7b69976",
+      "text": "South Carolina",
+      "index": 39,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.060356066792506796,
+        "week": -0.060356066792506796,
+        "month": -0.060356066792506796
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 424.26925946701033,
+        "NO": 4.2855480754243445
+      },
+      "probability": 0.009999999999999995
+    },
+    {
+      "id": "a6753f854185",
+      "text": "South Dakota",
+      "index": 40,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.030558298569085676,
+        "week": -0.030558298569085676,
+        "month": -0.030558298569085676
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 518.8128848111628,
+        "NO": 5.2405341900117435
+      },
+      "probability": 0.009999999999999995
+    },
+    {
+      "id": "accff4f85c89",
+      "text": "Tennessee",
+      "index": 41,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.03022515801343868,
+        "week": -0.03022515801343868,
+        "month": -0.03022515801343868
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 515.7141611387067,
+        "NO": 5.209233950896021
+      },
+      "probability": 0.009999999999999986
+    },
+    {
+      "id": "1a8734207bf4",
+      "text": "Texas",
+      "index": 42,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.024667595885718173,
+        "week": -0.024667595885718173,
+        "month": -0.024667595885718173
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 462.0010068775857,
+        "NO": 4.666676837147321
+      },
+      "probability": 0.009999999999999981
+    },
+    {
+      "id": "0cbabd75e44d",
+      "text": "Utah",
+      "index": 43,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.10910048556478413,
+        "week": -0.10910048556478413,
+        "month": -0.10910048556478413
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 573.9531407741929,
+        "NO": 5.797506472466608
+      },
+      "probability": 0.010000000000000023
+    },
+    {
+      "id": "b9531b5edd32",
+      "text": "Vermont",
+      "index": 44,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9490736428138583,
+        "week": -0.9490736428138583,
+        "month": -0.9490736428138583
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 500.4897530357848,
+        "NO": 5.055452050866521
+      },
+      "probability": 0.010000000000000014
+    },
+    {
+      "id": "8674dc673a41",
+      "text": "Virginia",
+      "index": 45,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.89032562967531,
+        "week": -0.89032562967531,
+        "month": -0.89032562967531
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 380.72088739287983,
+        "NO": 3.845665529221037
+      },
+      "probability": 0.010000000000000073
+    },
+    {
+      "id": "0e5d1862f581",
+      "text": "Washington",
+      "index": 46,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.9266060199984244,
+        "week": -0.9266060199984244,
+        "month": -0.9266060199984244
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 125,
+      "pool": {
+        "YES": 572.8028255631469,
+        "NO": 5.785887126900491
+      },
+      "probability": 0.010000000000000028
+    },
+    {
+      "id": "6bbe47c72f8f",
+      "text": "West Virginia",
+      "index": 47,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.06544934189205594,
+        "week": -0.06544934189205594,
+        "month": -0.06544934189205594
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 517.4846391413728,
+        "NO": 5.2271175670845835
+      },
+      "probability": 0.010000000000000018
+    },
+    {
+      "id": "f0dd712a7c38",
+      "text": "Wisconsin",
+      "index": 48,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.5329988555550608,
+        "week": -0.5329988555550608,
+        "month": -0.5329988555550608
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 777.7039232369649,
+        "NO": 7.855595184211779
+      },
+      "probability": 0.010000000000000016
+    },
+    {
+      "id": "fa2756c2885b",
+      "text": "Wyoming",
+      "index": 49,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "XgJghq1bGVLIBpTsgqg6",
+      "createdTime": 1704298555729,
+      "probChanges": {
+        "day": -0.028575598760715908,
+        "week": -0.028575598760715908,
+        "month": -0.028575598760715908
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 500.1854339847987,
+        "NO": 5.052378121058581
+      },
+      "probability": 0.010000000000000016
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Resolves Yes if Biden became the Democratic party nominee and won the state in the 2024 election",
+            "type": "text"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "Resolves No if Biden became the Democratic party nominee at any point and did not win the state in the 2024 election",
+            "type": "text"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "Resolves No if Biden became the Democratic party nominee at any point and later dropped out from the election for any reason (e.g. personal health)",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/AmmonLam%2F81b811d785f3.jpg",
+  "groupSlugs": [
+    "politics-default",
+    "us-politics",
+    "ammons-bounty-market-group"
+  ],
+  "textDescription": "Resolves Yes if Biden became the Democratic party nominee and won the state in the 2024 election\nResolves No if Biden became the Democratic party nominee at any point and did not win the state in the 2024 election\nResolves No if Biden became the Democratic party nominee at any point and later dropped out from the election for any reason (e.g. personal health)"
+}

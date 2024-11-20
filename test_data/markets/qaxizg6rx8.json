@@ -1,0 +1,43 @@
+{
+  "id": "qaxizg6rx8",
+  "creatorId": "8kaVOjw6w1eEHpdoEHQ6TevXHgw2",
+  "creatorUsername": "MikeChenSF",
+  "creatorName": "Mike Chen",
+  "createdTime": 1729695328122,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a-/AFdZucr-veg201DGQzF4jqPWo9dgBl01vEy2ksiaZA4BSRo=s96-c",
+  "closeTime": 1731050276991,
+  "question": "London Breed is re-elected Mayor of San Francisco in 2024",
+  "slug": "london-breed-is-reelected-mayor-of--cash",
+  "url": "https://manifold.markets/MikeChenSF/london-breed-is-reelected-mayor-of--cash",
+  "pool": {
+    "NO": 30.94810841839386,
+    "YES": 1360.660837242118
+  },
+  "probability": 0.010115361599634644,
+  "p": 0.3099999999999998,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 1448.4350053696442,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1731050276991,
+  "resolutionProbability": 0.010115361599634644,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 19,
+  "lastUpdatedTime": 1731050276991,
+  "lastBetTime": 1731042270032,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "lqQpaXdTvUPRWLF1xUuf",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

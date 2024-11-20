@@ -1,0 +1,43 @@
+{
+  "id": "6tya0k7tvc",
+  "creatorId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+  "creatorUsername": "mattyb",
+  "creatorName": "Matt",
+  "createdTime": 1728505643414,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fmattyb%2Feq8TCTaQW_.jpeg?alt=media&token=b8632c4a-5f41-4148-a6aa-3b42c0d89c03",
+  "closeTime": 1730793540000,
+  "question": "Will Kamala Harris hold a gun before election day?",
+  "slug": "will-kamala-harris-hold-a-gun-befor--cash",
+  "url": "https://manifold.markets/mattyb/will-kamala-harris-hold-a-gun-befor--cash",
+  "pool": {
+    "NO": 68.70213894922826,
+    "YES": 1003.3868669983138
+  },
+  "probability": 0.011023447186389,
+  "p": 0.13999999999999996,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 1186.7037391329095,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1730860976777,
+  "resolutionProbability": 0.011023447186389002,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 28,
+  "lastUpdatedTime": 1730793540000,
+  "lastBetTime": 1730782967005,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "xe4uknd0b2",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

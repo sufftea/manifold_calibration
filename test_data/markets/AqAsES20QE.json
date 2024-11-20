@@ -1,0 +1,400 @@
+{
+  "id": "AqAsES20QE",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1730578231072,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1925009940000,
+  "question": "Which college or university will the Rizzler attend?",
+  "slug": "which-college-or-university-will-th",
+  "url": "https://manifold.markets/strutheo/which-college-or-university-will-th",
+  "totalLiquidity": 2900,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 2274.1057033879197,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 10,
+  "lastUpdatedTime": 1731548388697,
+  "lastBetTime": 1731548388697,
+  "lastCommentTime": 1730610141595,
+  "marketTier": "plus",
+  "token": "MANA",
+  "shouldAnswersSumToOne": true,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "COhlzUNSLy",
+      "text": "NYU",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730578231072,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 28.86751345948129,
+      "pool": {
+        "YES": 1543.4970593029584,
+        "NO": 56.37143881470186
+      },
+      "probability": 0.03523504518091718
+    },
+    {
+      "id": "uEEqL0Nd5N",
+      "text": "Cornell",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730578231072,
+      "probChanges": {
+        "day": -0.01126778942248613,
+        "week": -0.01126778942248613,
+        "month": -0.21633263366233166
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 28.86751345948129,
+      "pool": {
+        "YES": 1544.8635717293555,
+        "NO": 50.223145075243956
+      },
+      "probability": 0.03148615341481548
+    },
+    {
+      "id": "0USdyQAcQu",
+      "text": "Rutgers",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730578231072,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 28.86751345948129,
+      "pool": {
+        "YES": 1543.4970593029584,
+        "NO": 56.37143881470186
+      },
+      "probability": 0.03523504518091718
+    },
+    {
+      "id": "UC5hqsCzhS",
+      "text": "Drexel",
+      "index": 3,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580204010,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 22.45155878640962,
+      "pool": {
+        "YES": 1542.8057811150545,
+        "NO": 66.16943364173319
+      },
+      "probability": 0.04112520381598007
+    },
+    {
+      "id": "tRzhstL0Zz",
+      "text": "Brandeis",
+      "index": 4,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580213570,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 21.824632532879885,
+      "pool": {
+        "YES": 1541.9766116550388,
+        "NO": 79.81772323599878
+      },
+      "probability": 0.04921568753744688
+    },
+    {
+      "id": "qc90E6S0uU",
+      "text": "Wellesley",
+      "index": 5,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580223022,
+      "probChanges": {
+        "day": -0.0048752087711281785,
+        "week": -0.0048752087711281785,
+        "month": -0.18383947527825206
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 21.95351853292099,
+      "pool": {
+        "YES": 1865.9464552068735,
+        "NO": 11.186282847796548
+      },
+      "probability": 0.005959239120931445
+    },
+    {
+      "id": "9sO8zuRQ5P",
+      "text": "Mount Holyoke",
+      "index": 6,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580234643,
+      "probChanges": {
+        "day": -0.005511406217633117,
+        "week": -0.005511406217633117,
+        "month": -0.15058635214718244
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 23.324540892723974,
+      "pool": {
+        "YES": 1864.8128797563425,
+        "NO": 12.753394378152713
+      },
+      "probability": 0.006792513560689977
+    },
+    {
+      "id": "yQsqLLUzLp",
+      "text": "Bryn Mawr",
+      "index": 7,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580240442,
+      "probChanges": {
+        "day": -0.002297746811179192,
+        "week": -0.002297746811179192,
+        "month": -0.14362567532054424
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 22.894273574310155,
+      "pool": {
+        "YES": 1876.9582041227081,
+        "NO": 13.743875875494354
+      },
+      "probability": 0.007269191704442099
+    },
+    {
+      "id": "8CgQ8Z92c6",
+      "text": "Howard University ",
+      "index": 8,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580252398,
+      "probChanges": {
+        "day": -0.0023495284651224597,
+        "week": -0.0023495284651224597,
+        "month": -0.13902475553690558
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 22.840775374310876,
+      "pool": {
+        "YES": 1896.5408871400875,
+        "NO": 14.462326934367411
+      },
+      "probability": 0.007567923919673712
+    },
+    {
+      "id": "tQqCCNnO8C",
+      "text": "Spelman",
+      "index": 9,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580255341,
+      "probChanges": {
+        "day": -0.0022816566443490446,
+        "week": -0.0022816566443490446,
+        "month": -0.13570235488636292
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 22.92586136756941,
+      "pool": {
+        "YES": 1927.7096301381555,
+        "NO": 14.596720075396291
+      },
+      "probability": 0.007515148201925725
+    },
+    {
+      "id": "EASlh6IAuc",
+      "text": "NJIT",
+      "index": 10,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580298260,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 1540.4205727898825,
+        "NO": 114.02523266040103
+      },
+      "probability": 0.06892050031784949
+    },
+    {
+      "id": "dRgg2d2zS8",
+      "text": "RPI",
+      "index": 11,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580303146,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 1540.0136618452811,
+        "NO": 127.84521669724062
+      },
+      "probability": 0.07665229854995866
+    },
+    {
+      "id": "yZO0hU95lp",
+      "text": "MIT",
+      "index": 12,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580305644,
+      "probChanges": {
+        "day": -0.009403343367386657,
+        "week": -0.009403343367386657,
+        "month": -0.03104261107524614
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 24.662418847293388,
+      "pool": {
+        "YES": 1692.511564281374,
+        "NO": 126.28571076140582
+      },
+      "probability": 0.0694336375440388
+    },
+    {
+      "id": "NAQucPt62g",
+      "text": "Penn State",
+      "index": 13,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580312193,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 23.795498338353703,
+      "pool": {
+        "YES": 1539.6747059656618,
+        "NO": 145.81309718797033
+      },
+      "probability": 0.08651091803521017
+    },
+    {
+      "id": "5nRuLt5yPq",
+      "text": "Clemson",
+      "index": 14,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730580315504,
+      "probChanges": {
+        "day": -0.017974208265137556,
+        "week": -0.017974208265137556,
+        "month": -0.01797420285580216
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 23.477136941739285,
+      "pool": {
+        "YES": 1539.5768816212958,
+        "NO": 155.06619706303388
+      },
+      "probability": 0.09150375026664767
+    },
+    {
+      "id": "AhUPI6I8s9",
+      "text": "Caltech",
+      "index": 15,
+      "userId": "cWcPyhxrIQa4OCGuWtlcCHadzZH2",
+      "isOther": false,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730643367358,
+      "probChanges": {
+        "day": -0.009034887789512037,
+        "week": -0.009034887789512037,
+        "month": -0.03729649532435226
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 1284.3992249674338,
+        "NO": 66.89557813241755
+      },
+      "probability": 0.04950479938127493
+    },
+    {
+      "id": "plN2ccAg6z",
+      "text": "Other",
+      "index": 16,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": true,
+      "contractId": "AqAsES20QE",
+      "createdTime": 1730578231072,
+      "probChanges": {
+        "day": 0,
+        "week": 0.004545831437648584,
+        "month": 0.1626372650162887
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 240.45994524621455,
+      "pool": {
+        "YES": 698.5071450711841,
+        "NO": 344.1540447561121
+      },
+      "probability": 0.33007274857244556
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/2cC9NqI2N2.jpg",
+  "groupSlugs": [
+    "colleges-universities",
+    "higher-education",
+    "college-admissions"
+  ],
+  "textDescription": ""
+}

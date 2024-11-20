@@ -1,0 +1,104 @@
+{
+  "id": "ge8cln68zl",
+  "creatorId": "emRNR82UsUQObGGWfgsggFXAqG83",
+  "creatorUsername": "nikstar",
+  "creatorName": "nikstar",
+  "createdTime": 1723369935408,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fnikstar%2F9tGaZWYA_o.jpg?alt=media&token=0c127368-27c2-457f-b013-39b219bbaa91",
+  "closeTime": 1735678740000,
+  "question": "Will Russia successfully remove Ukrainian troops from Kursk region by end of year?",
+  "slug": "will-russia-successfully-remove-ukr",
+  "url": "https://manifold.markets/nikstar/will-russia-successfully-remove-ukr",
+  "pool": {
+    "NO": 8184.683614610453,
+    "YES": 16328.537876962982
+  },
+  "probability": 0.1581161721509173,
+  "p": 0.27256209291995437,
+  "totalLiquidity": 10001,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 626198.3898974928,
+  "volume24Hours": 1231.7732608158562,
+  "isResolved": false,
+  "uniqueBettorCount": 832,
+  "lastUpdatedTime": 1732005880859,
+  "lastBetTime": 1732005880859,
+  "lastCommentTime": 1731984473658,
+  "marketTier": "premium",
+  "token": "MANA",
+  "siblingContractId": "zaizl9qvyd",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Resolves YES if Ukraine controls <10 km\u00b2 of Kursk oblast for 1 week continuously. ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Resolution source will be ",
+            "type": "text"
+          },
+          {
+            "text": "https://x.com/Pouletvolant3",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://x.com/Pouletvolant3",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": " or consensus of other credible mappers.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FevJur_wpiR.png?alt=media&token=80908375-9fa6-41d8-83ce-659a3512e353",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Current state as of Aug 11",
+            "type": "text",
+            "marks": [
+              {
+                "type": "italic"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "groupSlugs": [
+    "wars",
+    "ukrainerussia-war",
+    "russia",
+    "ukraine"
+  ],
+  "textDescription": "Resolves YES if Ukraine controls <10 km\u00b2 of Kursk oblast for 1 week continuously. \n\nResolution source will be https://x.com/Pouletvolant3 or consensus of other credible mappers.\n\n[image]Current state as of Aug 11"
+}

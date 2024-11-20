@@ -1,0 +1,39 @@
+{
+  "id": "annj9bn83t",
+  "creatorId": "XtJuqIcTwEa5WnmBtmypEKyjlfu1",
+  "creatorUsername": "HenriThunberg",
+  "creatorName": "Henri Thunberg \ud83d\udd38",
+  "createdTime": 1727382043608,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FHenriThunberg%2FC4rMRuElGd.jpeg?alt=media&token=c119866f-2a78-4b4d-8fa3-77eaaa8c1e8b",
+  "closeTime": 1735685940000,
+  "question": "Will the total number of Giving What We Can pledges made in 2024 be higher than in 2022?",
+  "slug": "will-the-total-number-of-giving-wha-cc4cca3a58ce--cash",
+  "url": "https://manifold.markets/HenriThunberg/will-the-total-number-of-giving-wha-cc4cca3a58ce--cash",
+  "pool": {
+    "NO": 86.79509342187129,
+    "YES": 238.6796288864528
+  },
+  "probability": 0.055889744070084804,
+  "p": 0.14,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 200.4985984294044,
+  "volume24Hours": 2,
+  "isResolved": false,
+  "uniqueBettorCount": 16,
+  "lastUpdatedTime": 1731976761222,
+  "lastBetTime": 1731976761222,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "Y3lXD7s2CWFoRwHcnlm4",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

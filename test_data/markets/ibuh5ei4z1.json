@@ -1,0 +1,46 @@
+{
+  "id": "ibuh5ei4z1",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1725141170668,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1733093520000,
+  "question": "Will North Korea have an open military conflict with South Korea that results in at least 1 death before Dec 1st?",
+  "slug": "will-north-korea-have-an-open-milit",
+  "url": "https://manifold.markets/strutheo/will-north-korea-have-an-open-milit",
+  "pool": {
+    "NO": 27.620657997066985,
+    "YES": 362.04785566882185
+  },
+  "probability": 0.07088244758915686,
+  "p": 0.5000000000000003,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 265,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 10,
+  "lastUpdatedTime": 1731213759494,
+  "lastBetTime": 1731213759494,
+  "marketTier": "play",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/qpvlzvvdpv.jpg",
+  "groupSlugs": [
+    "wars",
+    "geopolitics",
+    "nuclear-risk",
+    "north-korea",
+    "world-default"
+  ],
+  "textDescription": ""
+}

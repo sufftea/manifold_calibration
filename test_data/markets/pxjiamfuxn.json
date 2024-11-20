@@ -1,0 +1,257 @@
+{
+  "id": "pxjiamfuxn",
+  "creatorId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+  "creatorUsername": "SteveSokolowski",
+  "creatorName": "Steve Sokolowski",
+  "createdTime": 1721052622182,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/AAcHTtc1UM2wtQThBuAPyurW8TD4Y7ydKGRN-eB7Xv8txFEH_g=s96-c",
+  "closeTime": 1733029140000,
+  "question": "Was Trump actually changed by the assassination attempt?",
+  "slug": "was-trump-actually-changed-by-the-a",
+  "url": "https://manifold.markets/SteveSokolowski/was-trump-actually-changed-by-the-a",
+  "pool": {
+    "NO": 5118.743541690514,
+    "YES": 57604.559120911355
+  },
+  "probability": 0.032066786613559065,
+  "p": 0.2715743576489478,
+  "totalLiquidity": 10000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 167426.7147711748,
+  "volume24Hours": 34335.512102076784,
+  "isResolved": false,
+  "uniqueBettorCount": 152,
+  "lastUpdatedTime": 1731991171408,
+  "lastBetTime": 1731991171408,
+  "lastCommentTime": 1730999618978,
+  "marketTier": "premium",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Note:  The original market creator is no longer associated with this market.  It will remain open and the ",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "type": "mention",
+            "attrs": {
+              "id": "WQJ92QkoqDPuyj6DAZ5lR6g1x573",
+              "label": "mods"
+            },
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": " will resolve it instead when it closes.",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "On July 14, 2024, Donald Trump provided interviews to journalists, in which he stated that he was glad to be alive and that his survival had changed him.  Trump stated that he was going to rewrite his convention speech, unify the country, and change the way his campaign was run.  ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "People are often changed after significant events.  Was Trump changed too?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This market will resolve to ",
+            "type": "text"
+          },
+          {
+            "text": "YES ",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": "if, on November 30, 2024, it is clear that Donald Trump has run a less extreme campaign than he had been running before the attempt on his life.  The ",
+            "type": "text"
+          },
+          {
+            "type": "mention",
+            "attrs": {
+              "id": "WQJ92QkoqDPuyj6DAZ5lR6g1x573",
+              "label": "mods"
+            }
+          },
+          {
+            "text": " will make the sole judgment on whether Trump has changed, based on whether he has moderated according (but not limited) to the following criteria:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Whether Trump uses less hateful words during rallies, debates, and speeches",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Whether Trump calls for violence (other than in foreign policy)",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Whether Trump treats Biden gracefully when he wins, or concedes if he doesn't",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Whether Trump is more respectful of political traditions, such as how to debate",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The comparison is between the average of Trump's behavior in this campaign before the assassination attempt, compared to the average of Trump's behavior between July 13, 2024 and November 30, 2024. ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Trump does not have to become a typical generic politican to have been changed.  He only has to significantly and noticably behave in a less extreme manner than he did before July 13.  Trump's policy positions are not relevant to this market.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The market will resolve to ",
+            "type": "text"
+          },
+          {
+            "text": "N/A",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": " if Trump dies before November 30, and to ",
+            "type": "text"
+          },
+          {
+            "text": "NO",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": " otherwise.  ",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "textDescription": "Note:  The original market creator is no longer associated with this market.  It will remain open and the @mods will resolve it instead when it closes.\n\nOn July 14, 2024, Donald Trump provided interviews to journalists, in which he stated that he was glad to be alive and that his survival had changed him.  Trump stated that he was going to rewrite his convention speech, unify the country, and change the way his campaign was run.  \n\nPeople are often changed after significant events.  Was Trump changed too?\n\nThis market will resolve to YES if, on November 30, 2024, it is clear that Donald Trump has run a less extreme campaign than he had been running before the attempt on his life.  The @mods will make the sole judgment on whether Trump has changed, based on whether he has moderated according (but not limited) to the following criteria:\n\nWhether Trump uses less hateful words during rallies, debates, and speeches\n\nWhether Trump calls for violence (other than in foreign policy)\n\nWhether Trump treats Biden gracefully when he wins, or concedes if he doesn't\n\nWhether Trump is more respectful of political traditions, such as how to debate\n\nThe comparison is between the average of Trump's behavior in this campaign before the assassination attempt, compared to the average of Trump's behavior between July 13, 2024 and November 30, 2024. \n\nTrump does not have to become a typical generic politican to have been changed.  He only has to significantly and noticably behave in a less extreme manner than he did before July 13.  Trump's policy positions are not relevant to this market.\n\nThe market will resolve to N/A if Trump dies before November 30, and to NO otherwise.  "
+}

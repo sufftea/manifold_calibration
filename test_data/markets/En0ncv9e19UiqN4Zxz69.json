@@ -1,0 +1,521 @@
+{
+  "id": "En0ncv9e19UiqN4Zxz69",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1713128762544,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1735707540000,
+  "question": "Which #memefold post will be voted best Manifold meme of 2024?",
+  "slug": "what-memefold-post-will-be-voted-be",
+  "url": "https://manifold.markets/strutheo/what-memefold-post-will-be-voted-be",
+  "totalLiquidity": 1400,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 1801.2642617601498,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 20,
+  "lastUpdatedTime": 1731995067614,
+  "lastBetTime": 1730965628234,
+  "lastCommentTime": 1731995066369,
+  "marketTier": "plus",
+  "token": "MANA",
+  "shouldAnswersSumToOne": true,
+  "addAnswersMode": "ONLY_CREATOR",
+  "answers": [
+    {
+      "id": "a06e712ce94a",
+      "text": "Tie Me Up - stefanie",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "En0ncv9e19UiqN4Zxz69",
+      "createdTime": 1713128762544,
+      "probChanges": {
+        "day": -0.04636612188565177,
+        "week": -0.04636612188565177,
+        "month": -0.04636612188565177
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 75.35533905932738,
+      "pool": {
+        "YES": 1081.3337887158486,
+        "NO": 14.900465495847873
+      },
+      "probability": 0.013592410051593232
+    },
+    {
+      "id": "0ba8854c631c",
+      "text": "Stop Doing Prediction Markets - luis",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "En0ncv9e19UiqN4Zxz69",
+      "createdTime": 1713128762544,
+      "probChanges": {
+        "day": -0.02250819021337759,
+        "week": -0.02250819021337759,
+        "month": -0.02250819021337759
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 35.35533905932738,
+      "pool": {
+        "YES": 818.6873548778844,
+        "NO": 6.818112171057456
+      },
+      "probability": 0.008259318009644665
+    },
+    {
+      "id": "63e6543d9a20",
+      "text": "Dinofold Extinction - plasmaballin",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "En0ncv9e19UiqN4Zxz69",
+      "createdTime": 1714715821017,
+      "probChanges": {
+        "day": -0.0079294224013058,
+        "week": -0.0079294224013058,
+        "month": -0.0079294224013058
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 746.3450570298796,
+        "NO": 3.397909448971999
+      },
+      "probability": 0.004532099133827414
+    },
+    {
+      "id": "q2fwnvoto5",
+      "text": "Survivor - houstoneuler",
+      "index": 3,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "En0ncv9e19UiqN4Zxz69",
+      "createdTime": 1717346593046,
+      "probChanges": {
+        "day": -0.08461826179953164,
+        "week": -0.08461826179953164,
+        "month": -0.08461826179953164
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 145.13374863294186,
+      "pool": {
+        "YES": 496.2852670837163,
+        "NO": 71.14544956128847
+      },
+      "probability": 0.12538173820046897
+    },
+    {
+      "id": "5nvs2fd5re",
+      "text": "Virgin / Chad Folder - plasmaballin",
+      "index": 4,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "En0ncv9e19UiqN4Zxz69",
+      "createdTime": 1717384709026,
+      "probChanges": {
+        "day": -0.06110871681658536,
+        "week": -0.06110871681658536,
+        "month": -0.06110871681658536
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 190.77679885292338,
+      "pool": {
+        "YES": 499.76054300546633,
+        "NO": 124.07556377339301
+      },
+      "probability": 0.19889128318341465
+    },
+    {
+      "id": "dow7zpvb1s",
+      "text": "Hello HR? - chris/strutheo",
+      "index": 5,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "En0ncv9e19UiqN4Zxz69",
+      "createdTime": 1719769950473,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10,
+      "pool": {
+        "YES": 707.6013654164592,
+        "NO": 2.3509232775344144
+      },
+      "probability": 0.0033113820674613224
+    },
+    {
+      "id": "2eunfw7oqn",
+      "text": "trade on markets after im dead - stralor",
+      "index": 6,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "En0ncv9e19UiqN4Zxz69",
+      "createdTime": 1722755382087,
+      "probChanges": {
+        "day": -0.06781749919884612,
+        "week": -0.06781749919884612,
+        "month": -0.06781749919884612
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 438.7636662149615,
+        "NO": 49.936617090371335
+      },
+      "probability": 0.10218250080115394
+    },
+    {
+      "id": "n3j2ngfz87",
+      "text": "Me Creating / Me Resolving - chris/strutheo",
+      "index": 7,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "En0ncv9e19UiqN4Zxz69",
+      "createdTime": 1725165246924,
+      "probChanges": {
+        "day": -0.0372296145943552,
+        "week": -0.0372296145943552,
+        "month": -0.007349694189967448
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 321.43936332114185,
+        "NO": 109.12082553304005
+      },
+      "probability": 0.25343919005478716
+    },
+    {
+      "id": "j9xhkq0ya",
+      "text": "Sweepstakes Launched - scott",
+      "index": 8,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "En0ncv9e19UiqN4Zxz69",
+      "createdTime": 1727758744368,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.0406600652895726
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 1071.7196626695459,
+        "NO": 60.08349961154518
+      },
+      "probability": 0.053086527422710125
+    },
+    {
+      "id": "StghI0CQP0",
+      "text": "mfw reading breaking news  - retroid",
+      "index": 9,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "En0ncv9e19UiqN4Zxz69",
+      "createdTime": 1730959554263,
+      "probChanges": {
+        "day": 0.00017684545007787267,
+        "week": 0.00017684545007787267,
+        "month": -0.004933926505949343
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 739.5436469666073,
+        "NO": 92.7166826694878
+      },
+      "probability": 0.1114034627963441
+    },
+    {
+      "id": "8f0cba499437",
+      "text": "Other",
+      "index": 10,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": true,
+      "contractId": "En0ncv9e19UiqN4Zxz69",
+      "createdTime": 1713128762544,
+      "probChanges": {
+        "day": -0.08809789402611024,
+        "week": -0.08809789402611024,
+        "month": -0.08809789402611024
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 110.0221728064488,
+      "pool": {
+        "YES": 728.9217333874897,
+        "NO": 105.00855329055534
+      },
+      "probability": 0.12592006186614965
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Resolved by poll at year end, chosen between the winners of the monthly markets",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "January - Virgin/Chad Folder by plasmaballin",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FQZYu1Byx49.webp?alt=media&token=ac38da20-4848-42d4-958e-b277f537d601",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "February - Tie Me Up by stefanie",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FYFLjcmsRhE.png?alt=media&token=25369ebd-656e-4a34-8748-aef5362687fa",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "March - Stop doing prediction markets by luis",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FpPV_mxkI9P.webp?alt=media&token=a0fa9d21-d34b-42e3-9328-9bc2aba949ed",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "April - Dinofold extinction by plasma ballin",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2F0wWd4L3ngz.jpg?alt=media&token=a6d09add-2200-4287-ac0d-877606391d25",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "May - Survivor by houstoneuler",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FsQUSnPG3Xd.webp?alt=media&token=df1e5125-7983-4523-acea-bd83299bcd21",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "June - Hello HR? by chris/strutheo",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2Fz0dX4qYLSk.jpg?alt=media&token=26701a9d-05e9-46d6-a83c-88f34cac6e9c",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "July - trade on markets that close after im dead by stralor",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FY-2r7ck4X_.webp?alt=media&token=a66b10fc-2919-4022-8a0e-5729f7a43be5",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "August - me creating vs me resolving  by chris",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2F3bWvU-5ZJU.png?alt=media&token=8b303eef-ebc8-4025-803b-75f774bfbe47",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "September - sweepstakes launched - scott",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FCC3NyTTiwC.png?alt=media&token=c9e6158e-a2c3-4b9f-a16f-58bd7696dbc6",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "October - mfw reading breaking news - retroid",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2F0gY73TfRgC.webp?alt=media&token=08275b00-d4b9-46cf-b927-36af442ba3ac",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "November",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "December",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": null,
+  "groupSlugs": [
+    "manifold-6748e065087e",
+    "memes",
+    "manifold-users",
+    "metamarkets",
+    "2024-3d9da60b52f8"
+  ],
+  "textDescription": "Resolved by poll at year end, chosen between the winners of the monthly markets\n\nJanuary - Virgin/Chad Folder by plasmaballin\n\n[image]February - Tie Me Up by stefanie\n\n[image]March - Stop doing prediction markets by luis\n\n[image]April - Dinofold extinction by plasma ballin\n\n[image]May - Survivor by houstoneuler\n\n[image]June - Hello HR? by chris/strutheo\n\n[image]July - trade on markets that close after im dead by stralor\n\n[image]August - me creating vs me resolving  by chris\n\n[image]September - sweepstakes launched - scott\n\n[image]October - mfw reading breaking news - retroid\n\n[image]November\n\nDecember"
+}

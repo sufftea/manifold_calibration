@@ -1,0 +1,1083 @@
+{
+  "id": "b4i8d4l18a",
+  "creatorId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+  "creatorUsername": "SteveSokolowski",
+  "creatorName": "Steve Sokolowski",
+  "createdTime": 1724067972150,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/AAcHTtc1UM2wtQThBuAPyurW8TD4Y7ydKGRN-eB7Xv8txFEH_g=s96-c",
+  "closeTime": 1735707540000,
+  "question": "Will I win my lawsuit against Wells Fargo?",
+  "slug": "will-i-win-my-lawsuit-against-wells",
+  "url": "https://manifold.markets/SteveSokolowski/will-i-win-my-lawsuit-against-wells",
+  "pool": {
+    "NO": 351.5615246553269,
+    "YES": 2844.452335847646
+  },
+  "probability": 0.10999999999999999,
+  "p": 0.5000000000000001,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 14113.049303731237,
+  "volume24Hours": 25,
+  "isResolved": false,
+  "uniqueBettorCount": 48,
+  "lastUpdatedTime": 1732015343953,
+  "lastBetTime": 1732015275232,
+  "lastCommentTime": 1732015342300,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "CASE BACKGROUND:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "In the early 2010s, I spent most of my earnings purchasing hundreds of bitcoins.  I eventually deposited them at BlockFi, Genesis, Celsius, Voyager, FTX, and related companies.  These companies were all scams, with most CEOs, such as SBF, Alex Mashinsky, and Barry Silbert either convicted, on trial, or under investigation.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "After the companies failed, I decided to exit the cryptocurrency industry by selling the remaining coins I had in my possession as well as the bankruptcy claims for a large loss.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "The first deposit (see ",
+                    "type": "text"
+                  },
+                  {
+                    "text": "https://restructuring.ra.kroll.com/genesis/",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://restructuring.ra.kroll.com/genesis/",
+                          "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                          "target": "_blank"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", docket #50) from these sales was sent to my Wells Fargo accounts in February 2023.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "When the initial million dollars arrived at the account, Gail Macker Carlino of Seashore Wealth Management (",
+                    "type": "text"
+                  },
+                  {
+                    "text": "https://seashorewm.com",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://seashorewm.com",
+                          "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                          "target": "_blank"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "text": "), a Wells Fargo associate, told me that Wells Fargo was investigating my cryptocurrency involvement.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "On March 12, 2023, she notified me that Wells Fargo closed 13 accounts owned by me, my brother, my businesses, my brother's business, my friends' business, and four credit card accounts.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Wells Fargo attempted to charge additional cancellation fees to me which I negotiated successfully to get dismissed.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "One of the credit card accounts contained hundreds of dollars of Active Cash rewards points which had been earned through a promotional program they had advertised and which was the only reason I signed up for that card.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Wells Fargo seized the rewards points, claiming that when an account is closed for any reason, the rewards points are forfeit.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "I paid the balance on the card for the valid purchases - except for the value of the rewards points - and notified Wells Fargo the remaining debt was invalid.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Wells Fargo charged off the debt and reported to credit agencies, dropping my credit score from approximately 780 to approximately 615.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "I sent multiple demand letters to Wells Fargo offering a settlement and they declined.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "See previous discussion:  ",
+                    "type": "text"
+                  },
+                  {
+                    "type": "contract-mention",
+                    "attrs": {
+                      "id": "54XjmXjs44d3vAQ1D4PW",
+                      "label": "/SteveSokolowski/will-wells-fargo-sue-me"
+                    }
+                  },
+                  {
+                    "text": " ",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "CAUSES OF ACTION:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Damages amount",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": ":  $4,839.30 - the difference between 15 months of 22.24% APR and 0% APR, because I could not be approved to roll over this debt to a 0% APR card.  I would have been approved if Wells Fargo had not reduced my credit score.  Additionally requested $2,500 in damages in case primary damages are reduced - a conservative machine learning engineer salary of $125/hr for 20 hours of labor.  Requested jurisdictional maximum of $12,000.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "There are multiple causes of action listed, so that damages can still be awarded even if the judge finds one or two theories invalid:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "orderedList",
+        "attrs": {
+          "start": 1
+        },
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "False advertising:  ",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "the Pennsylvania Unfair Trade Practices and Consumer Protection Law provides for treble damages.  Wells Fargo's advertising at ",
+                    "type": "text"
+                  },
+                  {
+                    "text": "https://creditcards.wellsfargo.com/active-cash-credit-card",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://creditcards.wellsfargo.com/active-cash-credit-card/?sub_channel=SEO&vendor_code=G",
+                          "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                          "target": "_blank"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", which I relied upon, does not mention in a prominent position that the company may forfeit rewards unilaterally.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Negligent credit reporting",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ":  the Fair Credit Reporting Act (FCRA, 15 U.S.C. \u00a7 1681s-2) provides for penalties in the case that a person reports an inaccurate debt.  The debt for the rewards points value was not valid and should not have been reported.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Unconscionable contract",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ":  by common law, this contract shocks the conscience.  It is fundamentally unfair for a contract to be able to be ended by one side.  The fact that many other banks engage in similar credit card contracts, leading to a lack of consumer choice and prohibiting me from selecting another bank, supports this argument.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "OTHER NOTES:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "I will not sign any settlement which contains a non-disparagement clause.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "The mess I find myself in while attempting to turn the page out of cryptocurrencies (and an unrelated fraud case) has resulted in a 100% winrate so far in small claims cases mostly dealing with account freezes; I received awards against Angi, the City of Tallahassee, Coinbase, and Block Inc.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "There is a mandatory arbitration clause which still allows litigation in small claims court, which is why I pursued this venue.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Unlike the previous market, now that litigation has commenced I will only post information available to the public (such as court orders) as updates; I will not discuss legal strategy or reveal any communications with Wells Fargo.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "In my experience, small claims cases like this are usually settled within two months, or by October 2024.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "CASE FILING:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FBaBplj3JZ8.png?alt=media&token=65a70053-e766-4918-b3c6-b0b457cb0669",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "RESOLUTION:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The market will resolve to ",
+            "type": "text"
+          },
+          {
+            "text": "YES",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": " if:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "A judge awards a non-trivial amount to me for any reason",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "The judge orders the credit file expunged of Wells Fargo's reports",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "A settlement of a non-trivial amount is reached, even if the settlement amount is bound by a non-disclosure agreement.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The market will resolve to ",
+            "type": "text"
+          },
+          {
+            "text": "NO",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": " if:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "The case is dismissed with prejudice",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Litigation permanently terminates without an award or settlement",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "I die and the executor of my estate chooses not to continue the case",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "UPDATES:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "2024-08-29:  ",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": "Pennsylvania apparently has a \"tiered\" system for court fees.  The previous case was rejected because I paid the same amount as it cost to sue Coinbase.  This case is requesting larger damages, and the filing was rejected.  I mailed a new form that is identical to the old one, with the amount changed to be around $210 instead, along with their rejection note and requested for it to be refiled.  This is expected to cause a 7 day delay but has no impact on the case's disposition.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "2024-09-06:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FgzBNeE7miq.png?alt=media&token=efff15e4-d4aa-40ec-b540-1772f42a522f",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "These papers are self-explanatory and show the hearing dates.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "2024-09-12:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FWeLRfj8GmI.jpg?alt=media&token=6c9723a1-3b5f-4ec6-ade3-830d19060ae5",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This has not happened in any of the five previous cases.  I will pay the fee and ask the sheriff to serve them in person.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "2024-09-28:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "It turns out that the reason that they could not be served was because they were now registered at a different address.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "I paid them to serve the different address.  They returned the check, saying that because it was a different address, the check had to be made out to a different entity that differed by one number, the amount was a few dollars more, and the case may be transferred to a new judge because the address is across the street.  So, I resent a new check yet again and we'll see if this is rejected.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The frustrating part is that there does not appear to be a public explanation posted online as to why these fees differ, what they exactly are, and why the checks are required to be different and rewritten.  I'll update again when this is finally served.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "2024-10-29:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Wells Fargo decided to show up in person and defend the case.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "A hearing was scheduled for November 14 at 2:00pm EST.  I'll attend the hearing and provide an update after it concludes.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "2024-11-01:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Their attorney entered his appearance and the docket is now updated at ",
+            "type": "text"
+          },
+          {
+            "text": "https://ujsportal.pacourts.us/Report/MdjDocketSheet?docketNumber=MJ-49201-CV-0000156-2024&dnh=MglQW8BeFkUK%2F0vUd%2BobZw%3D%3D",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://ujsportal.pacourts.us/Report/MdjDocketSheet?docketNumber=MJ-49201-CV-0000156-2024&dnh=MglQW8BeFkUK%2F0vUd%2BobZw%3D%3D",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "2024-11-12:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The defendant will be attending the hearing/trial on November 14.  I spent 25 hours this weekend preparing the case, and printed 220 pages of evidence.  ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "I will be putting a rehearsal video through Gemini-1.5-Pro-002 to get its thoughts on what can be improved.  This market has also fallen so far that I will be exercising my right to buy ",
+            "type": "text"
+          },
+          {
+            "text": "YES",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": " shares, given what I've learned about the evidence so far.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "2024-11-13:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Wells Fargo removed the case to Federal court.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "As a result, I'll be hiring an attorney and seeking higher damages given there is no jurisdictional limit.  I probably will comment even less, now that the stakes are raised.  As I will continue the case, the market has not been resolved either ",
+            "type": "text"
+          },
+          {
+            "text": "YES",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": " or ",
+            "type": "text"
+          },
+          {
+            "text": "NO.",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The market will remain open and will be judged according to the outcome of the Federal case.  The next action on the case should be expected to be in January 2025.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/SteveSokolowski/r3ccef07xy.jpg",
+  "groupSlugs": [
+    "legal-decisions",
+    "court-cases",
+    "law-order",
+    "finance",
+    "crypto-speculation"
+  ],
+  "textDescription": "CASE BACKGROUND:\n\nIn the early 2010s, I spent most of my earnings purchasing hundreds of bitcoins.  I eventually deposited them at BlockFi, Genesis, Celsius, Voyager, FTX, and related companies.  These companies were all scams, with most CEOs, such as SBF, Alex Mashinsky, and Barry Silbert either convicted, on trial, or under investigation.\n\nAfter the companies failed, I decided to exit the cryptocurrency industry by selling the remaining coins I had in my possession as well as the bankruptcy claims for a large loss.\n\nThe first deposit (see https://restructuring.ra.kroll.com/genesis/, docket #50) from these sales was sent to my Wells Fargo accounts in February 2023.\n\nWhen the initial million dollars arrived at the account, Gail Macker Carlino of Seashore Wealth Management (https://seashorewm.com), a Wells Fargo associate, told me that Wells Fargo was investigating my cryptocurrency involvement.\n\nOn March 12, 2023, she notified me that Wells Fargo closed 13 accounts owned by me, my brother, my businesses, my brother's business, my friends' business, and four credit card accounts.\n\nWells Fargo attempted to charge additional cancellation fees to me which I negotiated successfully to get dismissed.\n\nOne of the credit card accounts contained hundreds of dollars of Active Cash rewards points which had been earned through a promotional program they had advertised and which was the only reason I signed up for that card.\n\nWells Fargo seized the rewards points, claiming that when an account is closed for any reason, the rewards points are forfeit.\n\nI paid the balance on the card for the valid purchases - except for the value of the rewards points - and notified Wells Fargo the remaining debt was invalid.\n\nWells Fargo charged off the debt and reported to credit agencies, dropping my credit score from approximately 780 to approximately 615.\n\nI sent multiple demand letters to Wells Fargo offering a settlement and they declined.\n\nSee previous discussion:  @/SteveSokolowski/will-wells-fargo-sue-me \n\nCAUSES OF ACTION:\n\nDamages amount:  $4,839.30 - the difference between 15 months of 22.24% APR and 0% APR, because I could not be approved to roll over this debt to a 0% APR card.  I would have been approved if Wells Fargo had not reduced my credit score.  Additionally requested $2,500 in damages in case primary damages are reduced - a conservative machine learning engineer salary of $125/hr for 20 hours of labor.  Requested jurisdictional maximum of $12,000.\n\nThere are multiple causes of action listed, so that damages can still be awarded even if the judge finds one or two theories invalid:\n\nFalse advertising:  the Pennsylvania Unfair Trade Practices and Consumer Protection Law provides for treble damages.  Wells Fargo's advertising at https://creditcards.wellsfargo.com/active-cash-credit-card, which I relied upon, does not mention in a prominent position that the company may forfeit rewards unilaterally.\n\nNegligent credit reporting:  the Fair Credit Reporting Act (FCRA, 15 U.S.C. \u00a7 1681s-2) provides for penalties in the case that a person reports an inaccurate debt.  The debt for the rewards points value was not valid and should not have been reported.\n\nUnconscionable contract:  by common law, this contract shocks the conscience.  It is fundamentally unfair for a contract to be able to be ended by one side.  The fact that many other banks engage in similar credit card contracts, leading to a lack of consumer choice and prohibiting me from selecting another bank, supports this argument.\n\nOTHER NOTES:\n\nI will not sign any settlement which contains a non-disparagement clause.\n\nThe mess I find myself in while attempting to turn the page out of cryptocurrencies (and an unrelated fraud case) has resulted in a 100% winrate so far in small claims cases mostly dealing with account freezes; I received awards against Angi, the City of Tallahassee, Coinbase, and Block Inc.\n\nThere is a mandatory arbitration clause which still allows litigation in small claims court, which is why I pursued this venue.\n\nUnlike the previous market, now that litigation has commenced I will only post information available to the public (such as court orders) as updates; I will not discuss legal strategy or reveal any communications with Wells Fargo.\n\nIn my experience, small claims cases like this are usually settled within two months, or by October 2024.\n\nCASE FILING:\n\n[image]RESOLUTION:\n\nThe market will resolve to YES if:\n\nA judge awards a non-trivial amount to me for any reason\n\nThe judge orders the credit file expunged of Wells Fargo's reports\n\nA settlement of a non-trivial amount is reached, even if the settlement amount is bound by a non-disclosure agreement.\n\nThe market will resolve to NO if:\n\nThe case is dismissed with prejudice\n\nLitigation permanently terminates without an award or settlement\n\nI die and the executor of my estate chooses not to continue the case\n\nUPDATES:\n\n2024-08-29:  Pennsylvania apparently has a \"tiered\" system for court fees.  The previous case was rejected because I paid the same amount as it cost to sue Coinbase.  This case is requesting larger damages, and the filing was rejected.  I mailed a new form that is identical to the old one, with the amount changed to be around $210 instead, along with their rejection note and requested for it to be refiled.  This is expected to cause a 7 day delay but has no impact on the case's disposition.\n\n2024-09-06:\n\n[image]These papers are self-explanatory and show the hearing dates.\n\n2024-09-12:\n\n[image]This has not happened in any of the five previous cases.  I will pay the fee and ask the sheriff to serve them in person.\n\n2024-09-28:\n\nIt turns out that the reason that they could not be served was because they were now registered at a different address.\n\nI paid them to serve the different address.  They returned the check, saying that because it was a different address, the check had to be made out to a different entity that differed by one number, the amount was a few dollars more, and the case may be transferred to a new judge because the address is across the street.  So, I resent a new check yet again and we'll see if this is rejected.\n\nThe frustrating part is that there does not appear to be a public explanation posted online as to why these fees differ, what they exactly are, and why the checks are required to be different and rewritten.  I'll update again when this is finally served.\n\n2024-10-29:\n\nWells Fargo decided to show up in person and defend the case.\n\nA hearing was scheduled for November 14 at 2:00pm EST.  I'll attend the hearing and provide an update after it concludes.\n\n2024-11-01:\n\nTheir attorney entered his appearance and the docket is now updated at https://ujsportal.pacourts.us/Report/MdjDocketSheet?docketNumber=MJ-49201-CV-0000156-2024&dnh=MglQW8BeFkUK%2F0vUd%2BobZw%3D%3D.\n\n2024-11-12:\n\nThe defendant will be attending the hearing/trial on November 14.  I spent 25 hours this weekend preparing the case, and printed 220 pages of evidence.  \n\nI will be putting a rehearsal video through Gemini-1.5-Pro-002 to get its thoughts on what can be improved.  This market has also fallen so far that I will be exercising my right to buy YES shares, given what I've learned about the evidence so far.\n\n2024-11-13:\n\nWells Fargo removed the case to Federal court.\n\nAs a result, I'll be hiring an attorney and seeking higher damages given there is no jurisdictional limit.  I probably will comment even less, now that the stakes are raised.  As I will continue the case, the market has not been resolved either YES or NO.\n\nThe market will remain open and will be judged according to the outcome of the Federal case.  The next action on the case should be expected to be in January 2025."
+}

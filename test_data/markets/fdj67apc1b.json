@@ -1,0 +1,43 @@
+{
+  "id": "fdj67apc1b",
+  "creatorId": "Dv63mNz5TRbmGAnT7XT8EiItbe53",
+  "creatorUsername": "Moggy",
+  "creatorName": "Moggy",
+  "createdTime": 1728359077541,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FUsersnubi%2Fq0SQwQ0oKZ.jpg?alt=media&token=c0d2dc4e-76f5-4c8e-b842-aa2fe3a2531b",
+  "closeTime": 1730859832783,
+  "question": "Will Donald Trump flip Miami-Dade county in 2024?",
+  "slug": "will-donald-trump-flip-miamidade-co--cash",
+  "url": "https://manifold.markets/Moggy/will-donald-trump-flip-miamidade-co--cash",
+  "pool": {
+    "NO": 388.31679795265313,
+    "YES": 7.182665718277428
+  },
+  "probability": 0.9653387488884374,
+  "p": 0.3399999999999994,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 933.6927514840339,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1730860919152,
+  "resolutionProbability": 0.9653387488884374,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 31,
+  "lastUpdatedTime": 1730859832783,
+  "lastBetTime": 1730859635657,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "vq7xnmbod1",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

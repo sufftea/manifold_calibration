@@ -1,0 +1,330 @@
+{
+  "id": "lij9efk07s",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1727882787577,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1730519940000,
+  "question": "Which will be the best meme posted in #memefold in October 2024 according to Manifold?",
+  "slug": "which-will-be-the-best-meme-posted-a8scfmj00v",
+  "url": "https://manifold.markets/strutheo/which-will-be-the-best-meme-posted-a8scfmj00v",
+  "totalLiquidity": 225,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 853.6888496435479,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "1r5y3go3bs",
+  "resolutionTime": 1730569322702,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 16,
+  "lastUpdatedTime": 1730519940000,
+  "lastBetTime": 1730506273080,
+  "lastCommentTime": 1730431872333,
+  "marketTier": "play",
+  "token": "MANA",
+  "shouldAnswersSumToOne": true,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "mn14jni572",
+      "text": "Manifold but its not - sg",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "lij9efk07s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727882787000,
+      "probChanges": {
+        "day": -0.0011114002749292098,
+        "week": -0.0491882272819117,
+        "month": -0.03672427702728068
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730569322702,
+      "totalLiquidity": 50.00000000000001,
+      "resolutionProbability": 0.008402077290431164,
+      "pool": {
+        "YES": 777.0416828303585,
+        "NO": 6.584084261882417
+      },
+      "probability": 0.008402077290431164
+    },
+    {
+      "id": "dy43poxxs",
+      "text": "house md ill burn my winnings. bigger flame - chris ",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "lij9efk07s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728523978000,
+      "probChanges": {
+        "day": -0.000598278537719162,
+        "week": -0.0023724167923517407,
+        "month": -0.49753993362960347
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730569322702,
+      "totalLiquidity": 17.934782575455152,
+      "resolutionProbability": 0.002460066370396533,
+      "pool": {
+        "YES": 459.4134328454428,
+        "NO": 1.1329747292815142
+      },
+      "probability": 0.002460066370396533
+    },
+    {
+      "id": "hyyzgp9ud6",
+      "text": "sweepcash vs apy",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "lij9efk07s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1729208537000,
+      "probChanges": {
+        "day": -0.0005064821258532427,
+        "week": -0.0024129729706975495,
+        "month": -0.49802011710831434
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730569322702,
+      "totalLiquidity": 18.535875403064455,
+      "resolutionProbability": 0.0019798828916856633,
+      "pool": {
+        "YES": 440.5881664341696,
+        "NO": 0.8740434767283318
+      },
+      "probability": 0.0019798828916856633
+    },
+    {
+      "id": "1r5y3go3bs",
+      "text": "mfw reading breaking news - retroid",
+      "index": 3,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "lij9efk07s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1729208613000,
+      "probChanges": {
+        "day": 0.3501037298619904,
+        "week": 0.08183200099667054,
+        "month": 0.3108484121715675
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730569322702,
+      "totalLiquidity": 20.235826406693757,
+      "resolutionProbability": 0.7337033157871253,
+      "pool": {
+        "YES": 15.78138604556294,
+        "NO": 43.48103433420969
+      },
+      "probability": 0.7337033157871253
+    },
+    {
+      "id": "huPggIsydn",
+      "text": "57 keys - plasma",
+      "index": 4,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "lij9efk07s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730004951000,
+      "probChanges": {
+        "day": -0.34531059596282787,
+        "week": -0.07197136840795185,
+        "month": -0.07197136840795185
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730569322702,
+      "totalLiquidity": 20.138828237283974,
+      "resolutionProbability": 0.24254678354319922,
+      "pool": {
+        "YES": 54.018143192267075,
+        "NO": 17.297341406177228
+      },
+      "probability": 0.24254678354319922
+    },
+    {
+      "id": "UqRqdSQlhZ",
+      "text": "freddi please stop - ptaki",
+      "index": 5,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "lij9efk07s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730390107000,
+      "probChanges": {
+        "day": -0.0017227406089393585,
+        "week": -0.25866310550772104,
+        "month": -0.25866310550772104
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730569322702,
+      "totalLiquidity": 20.982045844669067,
+      "resolutionProbability": 0.006652314117735743,
+      "pool": {
+        "YES": 431.6086216031562,
+        "NO": 2.8904241361140564
+      },
+      "probability": 0.006652314117735743
+    },
+    {
+      "id": "hiiacigmx8",
+      "text": "Other",
+      "index": 6,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": true,
+      "contractId": "lij9efk07s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727882787000,
+      "probChanges": {
+        "day": -0.0008537647438869415,
+        "week": -0.31026238992573524,
+        "month": -0.49574423797458417
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730569322702,
+      "totalLiquidity": 20.982045844669067,
+      "resolutionProbability": 0.004255762025415844,
+      "pool": {
+        "YES": 540.2702785589524,
+        "NO": 2.3090886668135724
+      },
+      "probability": 0.004255762025415844
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Decided by LIKES on the comments below after market close, 'Other' will not be eligible to win.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Has to be related to Manifold in some way by my judgement, and not just because it is recent news. ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "TO SUBMIT",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Post the meme from #memefold with the title and creator",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Add an answer above with the same name",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Screenshots of conversations might not count as memes!",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Has to be manifold related ",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "See: ",
+            "type": "text"
+          },
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "En0ncv9e19UiqN4Zxz69",
+              "label": "/strutheo/what-memefold-post-will-be-voted-be"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/hvbuj8hf7u.jpg",
+  "groupSlugs": [
+    "manifold-6748e065087e",
+    "2024-3d9da60b52f8",
+    "manifold-users",
+    "manifold-features-25bad7c7792e",
+    "manifold-business-future"
+  ],
+  "textDescription": "Decided by LIKES on the comments below after market close, 'Other' will not be eligible to win.\n\nHas to be related to Manifold in some way by my judgement, and not just because it is recent news. \n\nTO SUBMIT\n\nPost the meme from #memefold with the title and creator\n\nAdd an answer above with the same name\n\nScreenshots of conversations might not count as memes!\n\nHas to be manifold related \n\nSee: @/strutheo/what-memefold-post-will-be-voted-be "
+}

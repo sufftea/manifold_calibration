@@ -1,0 +1,60 @@
+{
+  "id": "i7GoraRmufAGZAlNYAXE",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1709542501522,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1731005037784,
+  "question": "Will Bitcoin reach $76543.21 before the end of 2024?",
+  "slug": "will-bitcoin-reach-7654321-before-t-8974f13d7fe5",
+  "url": "https://manifold.markets/strutheo/will-bitcoin-reach-7654321-before-t-8974f13d7fe5",
+  "pool": {
+    "NO": 8205.750044587558,
+    "YES": 343.99463156251363
+  },
+  "probability": 0.9799999999999999,
+  "p": 0.6725752926199047,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 49379.870849531435,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1731005037784,
+  "resolutionProbability": 0.9799999999999999,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 80,
+  "lastUpdatedTime": 1731005065542,
+  "lastBetTime": 1731004916000,
+  "lastCommentTime": 1731005064210,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Going by Google for BTC price",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "groupSlugs": [
+    "technology-default",
+    "culture-default",
+    "bitcoin",
+    "crypto-speculation",
+    "crypto-prices",
+    "internet",
+    "prices",
+    "crypto-news",
+    "numbers"
+  ],
+  "textDescription": "Going by Google for BTC price"
+}

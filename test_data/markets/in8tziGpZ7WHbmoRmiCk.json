@@ -1,0 +1,39 @@
+{
+  "id": "in8tziGpZ7WHbmoRmiCk",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1710195322411,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1735707540000,
+  "question": "What will the price of Bitcoin BTC be at the end of 2024?",
+  "slug": "what-will-the-price-of-bitcoin-be-a",
+  "url": "https://manifold.markets/strutheo/what-will-the-price-of-bitcoin-be-a",
+  "totalLiquidity": 1000,
+  "outcomeType": "NUMBER",
+  "mechanism": "cpmm-multi-1",
+  "volume": 2336.1058009823287,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 17,
+  "lastUpdatedTime": 1731901941872,
+  "lastBetTime": 1731901941872,
+  "lastCommentTime": 1711042519945,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "groupSlugs": [
+    "bitcoin",
+    "crypto-speculation",
+    "bitcoin-maxi",
+    "crypto-prices"
+  ],
+  "textDescription": ""
+}

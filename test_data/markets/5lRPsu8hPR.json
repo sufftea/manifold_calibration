@@ -1,0 +1,409 @@
+{
+  "id": "5lRPsu8hPR",
+  "creatorId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+  "creatorUsername": "mattyb",
+  "creatorName": "Matt",
+  "createdTime": 1731679109380,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fmattyb%2Feq8TCTaQW_.jpeg?alt=media&token=b8632c4a-5f41-4148-a6aa-3b42c0d89c03",
+  "closeTime": 1731974340000,
+  "question": "[short-fuse \ud83d\udca3] What movie am I seeing on Monday, November 18th?",
+  "slug": "shortfuse-what-movie-am-i-seeing-on",
+  "url": "https://manifold.markets/mattyb/shortfuse-what-movie-am-i-seeing-on",
+  "totalLiquidity": 100,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 115.76088419450973,
+  "volume24Hours": 6.760884194509728,
+  "isResolved": true,
+  "resolution": "CNqqL0dOId",
+  "resolutionTime": 1731996932844,
+  "resolverId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+  "uniqueBettorCount": 6,
+  "lastUpdatedTime": 1731974340000,
+  "lastBetTime": 1731957980873,
+  "lastCommentTime": 1731976081504,
+  "marketTier": "play",
+  "token": "MANA",
+  "shouldAnswersSumToOne": true,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "CNqqL0dOId",
+      "text": "Gladiator II [2hrs 28mins], Nov 22nd release",
+      "index": 0,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": false,
+      "contractId": "5lRPsu8hPR",
+      "resolverId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "createdTime": 1731679109000,
+      "probChanges": {
+        "day": -0.030553581722386286,
+        "week": -0.1208610658665587,
+        "month": -0.1208610658665587
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731996932844,
+      "totalLiquidity": 28.86751345948129,
+      "resolutionProbability": 0.1291389341334413,
+      "pool": {
+        "YES": 74.96442523705255,
+        "NO": 11.116383947427956
+      },
+      "probability": 0.1291389341334413
+    },
+    {
+      "id": "l62cqQqRnl",
+      "text": "Queer [2hrs 17mins], Nov 27th release",
+      "index": 1,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": false,
+      "contractId": "5lRPsu8hPR",
+      "resolverId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "createdTime": 1731679109000,
+      "probChanges": {
+        "day": -0.012221991446920641,
+        "week": -0.02436257905874191,
+        "month": -0.02436257905874191
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731996932844,
+      "totalLiquidity": 28.86751345948129,
+      "resolutionProbability": 0.1156016401057479,
+      "pool": {
+        "YES": 79.84566519930532,
+        "NO": 10.436801187055348
+      },
+      "probability": 0.1156016401057479
+    },
+    {
+      "id": "syQlyUA5cq",
+      "text": "The End [2hrs 27mins], Dec 6th release",
+      "index": 2,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": false,
+      "contractId": "5lRPsu8hPR",
+      "resolverId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "createdTime": 1731679109000,
+      "probChanges": {
+        "day": 0.07716798336740359,
+        "week": -0.023591708702312808,
+        "month": -0.023591708702312808
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731996932844,
+      "totalLiquidity": 28.86751345948129,
+      "resolutionProbability": 0.19999999999999998,
+      "pool": {
+        "YES": 57.735026918962554,
+        "NO": 14.433756729740638
+      },
+      "probability": 0.19999999999999998
+    },
+    {
+      "id": "ORZ9u2yOn6",
+      "text": "Other",
+      "index": 3,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": true,
+      "contractId": "5lRPsu8hPR",
+      "resolverId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "createdTime": 1731679109000,
+      "probChanges": {
+        "day": -0.04731961179367361,
+        "week": 0.34154332247025854,
+        "month": 0.34154332247025854
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731996932844,
+      "totalLiquidity": 28.86751345948129,
+      "resolutionProbability": 0.5552575645912597,
+      "pool": {
+        "YES": 25.835473172812986,
+        "NO": 32.255392721440856
+      },
+      "probability": 0.5552575645912597
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "AMC Theaters hold Screen Unseen showings, where you don\u2019t know what movie you\u2019re seeing going in, but are assured that the movie hasn\u2019t been shown in an AMC Theater before.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "You\u2019re given 2 pieces of information: the film\u2019s rating, and its length (often obfuscated slightly by +/- 10minutes). This movie will be R-rated and ~2hrs 30mins long.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2F-nYMxA1iez.jpeg?alt=media&token=0643faab-9ad5-46f2-8ccd-2f2f20a2ad85",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "What movie am I seeing on Monday, November 18th, 2024?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "I will be betting here, but the market will close before the showtimes on the east coast, so I will only be betting blind. If for any reason I don\u2019t make the screening, this market will Resolve based on ",
+            "type": "text"
+          },
+          {
+            "text": "this [VERY helpful] Reddit thread",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.reddit.com/r/AMCsAList/s/ungWeVdMGA",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Also, \u201chorror\u201d are less likely unless it\u2019s rebranded as \u201cScream Unseen\u201d.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Past versions of this market:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "contract-mention",
+                    "attrs": {
+                      "id": "epzlwbfd8p",
+                      "label": "/mattyb/what-movie-am-i-seeing-on-monday-oc-xmlpvvll2x"
+                    }
+                  },
+                  {
+                    "text": " ",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "contract-mention",
+                    "attrs": {
+                      "id": "ujwg3uaav7",
+                      "label": "/mattyb/what-movie-am-i-seeing-on-monday-oc"
+                    }
+                  },
+                  {
+                    "text": " ",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Past Unseens I\u2019ve seen:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Your Monster [Oct 21st], reported time was 1min shorter",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Exhibiting Forgiveness [Oct 7th], reported time was 1min longer",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Slingshot [Aug 26th], reported time was 3mins shorter",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Skincare [Aug 12th], reported time was 5mins longer",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Kneecap [July 22nd], reported time was 8mins longer",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Sing Sing [July 15th], reported time was 8mins longer",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "The Bikeriders [June 17th], reported time was 7mins longer",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Babes [May 13th], reported time was 11mins longer",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/mattyb/g9ptlzl09g.jpg",
+  "groupSlugs": [
+    "short-fuse",
+    "television-film",
+    "movies",
+    "hollywood",
+    "cinema"
+  ],
+  "textDescription": "AMC Theaters hold Screen Unseen showings, where you don\u2019t know what movie you\u2019re seeing going in, but are assured that the movie hasn\u2019t been shown in an AMC Theater before.\n\nYou\u2019re given 2 pieces of information: the film\u2019s rating, and its length (often obfuscated slightly by +/- 10minutes). This movie will be R-rated and ~2hrs 30mins long.\n\n[image]What movie am I seeing on Monday, November 18th, 2024?\n\nI will be betting here, but the market will close before the showtimes on the east coast, so I will only be betting blind. If for any reason I don\u2019t make the screening, this market will Resolve based on this [VERY helpful] Reddit thread.\n\nAlso, \u201chorror\u201d are less likely unless it\u2019s rebranded as \u201cScream Unseen\u201d.\n\nPast versions of this market:\n\n@/mattyb/what-movie-am-i-seeing-on-monday-oc-xmlpvvll2x \n\n@/mattyb/what-movie-am-i-seeing-on-monday-oc \n\nPast Unseens I\u2019ve seen:\n\nYour Monster [Oct 21st], reported time was 1min shorter\n\nExhibiting Forgiveness [Oct 7th], reported time was 1min longer\n\nSlingshot [Aug 26th], reported time was 3mins shorter\n\nSkincare [Aug 12th], reported time was 5mins longer\n\nKneecap [July 22nd], reported time was 8mins longer\n\nSing Sing [July 15th], reported time was 8mins longer\n\nThe Bikeriders [June 17th], reported time was 7mins longer\n\nBabes [May 13th], reported time was 11mins longer"
+}

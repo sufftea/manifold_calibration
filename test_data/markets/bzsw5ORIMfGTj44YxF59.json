@@ -1,0 +1,250 @@
+{
+  "id": "bzsw5ORIMfGTj44YxF59",
+  "creatorId": "uyzAXSRdCCUWs4KstCLq2GfzAip2",
+  "creatorUsername": "BoltonBailey",
+  "creatorName": "Bolton Bailey",
+  "createdTime": 1704139125599,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FBoltonBailey%2Fsandpile.gif?alt=media&token=0ee5d4ad-984f-439d-a636-412c606f9103",
+  "closeTime": 1735642740000,
+  "question": "Which prices will BTC be above on 2024-12-31?",
+  "slug": "which-prices-will-btc-be-above-on-2-a64270d212e8",
+  "url": "https://manifold.markets/BoltonBailey/which-prices-will-btc-be-above-on-2-a64270d212e8",
+  "totalLiquidity": 1265,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 7191.236947078777,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 26,
+  "lastUpdatedTime": 1731868424415,
+  "lastBetTime": 1731868424415,
+  "lastCommentTime": 1704139291223,
+  "marketTier": "plus",
+  "token": "MANA",
+  "shouldAnswersSumToOne": false,
+  "addAnswersMode": "ONLY_CREATOR",
+  "answers": [
+    {
+      "id": "b6290817ec83",
+      "text": "$20000",
+      "index": 0,
+      "userId": "uyzAXSRdCCUWs4KstCLq2GfzAip2",
+      "isOther": false,
+      "contractId": "bzsw5ORIMfGTj44YxF59",
+      "createdTime": 1704139125600,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.03366923120030141
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 4.527155129375473,
+        "NO": 448.18835780817005
+      },
+      "probability": 0.9899999999999999
+    },
+    {
+      "id": "819a1323e2c7",
+      "text": "$30000",
+      "index": 1,
+      "userId": "uyzAXSRdCCUWs4KstCLq2GfzAip2",
+      "isOther": false,
+      "contractId": "bzsw5ORIMfGTj44YxF59",
+      "createdTime": 1704139125600,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.03611353130752459
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 4.370122766983087,
+        "NO": 432.6421539313259
+      },
+      "probability": 0.9900000000000001
+    },
+    {
+      "id": "ef6913b1b426",
+      "text": "$40000",
+      "index": 2,
+      "userId": "uyzAXSRdCCUWs4KstCLq2GfzAip2",
+      "isOther": false,
+      "contractId": "bzsw5ORIMfGTj44YxF59",
+      "createdTime": 1704139125600,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.022992747906222966
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 12.20476544968389,
+        "NO": 388.7810065648062
+      },
+      "probability": 0.9695630959962269
+    },
+    {
+      "id": "fe33512180cd",
+      "text": "$50000",
+      "index": 3,
+      "userId": "uyzAXSRdCCUWs4KstCLq2GfzAip2",
+      "isOther": false,
+      "contractId": "bzsw5ORIMfGTj44YxF59",
+      "createdTime": 1704139125600,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.16222373135094015
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 185,
+      "pool": {
+        "YES": 43.37876460362304,
+        "NO": 593.2066096073592
+      },
+      "probability": 0.931857113969373
+    },
+    {
+      "id": "974e950c29be",
+      "text": "$60000",
+      "index": 4,
+      "userId": "uyzAXSRdCCUWs4KstCLq2GfzAip2",
+      "isOther": false,
+      "contractId": "bzsw5ORIMfGTj44YxF59",
+      "createdTime": 1704139125600,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.2881395622017997
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 205,
+      "pool": {
+        "YES": 52.77671199709678,
+        "NO": 576.6787527990632
+      },
+      "probability": 0.9161549705280774
+    },
+    {
+      "id": "4d3e3648878d",
+      "text": "$70000",
+      "index": 5,
+      "userId": "uyzAXSRdCCUWs4KstCLq2GfzAip2",
+      "isOther": false,
+      "contractId": "bzsw5ORIMfGTj44YxF59",
+      "createdTime": 1704139125600,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.4908688399643829
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 205,
+      "pool": {
+        "YES": 44.81587335990713,
+        "NO": 629.0727075991811
+      },
+      "probability": 0.933496612606012
+    },
+    {
+      "id": "66279ad002e4",
+      "text": "$42545",
+      "index": 6,
+      "userId": "uyzAXSRdCCUWs4KstCLq2GfzAip2",
+      "isOther": false,
+      "contractId": "bzsw5ORIMfGTj44YxF59",
+      "createdTime": 1704139351375,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.09187310439927343
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 165,
+      "pool": {
+        "YES": 24.684779192371508,
+        "NO": 619.7045967449955
+      },
+      "probability": 0.9616927588905954
+    },
+    {
+      "id": "ab10c3b89469",
+      "text": "$100000",
+      "index": 7,
+      "userId": "uyzAXSRdCCUWs4KstCLq2GfzAip2",
+      "isOther": false,
+      "contractId": "bzsw5ORIMfGTj44YxF59",
+      "createdTime": 1704139657075,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.23769029797290397
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 185,
+      "pool": {
+        "YES": 122.27171387957449,
+        "NO": 70.77158916786016
+      },
+      "probability": 0.3666099162759878
+    },
+    {
+      "id": "e7b7697a70d1",
+      "text": "$10000",
+      "index": 8,
+      "userId": "uyzAXSRdCCUWs4KstCLq2GfzAip2",
+      "isOther": false,
+      "contractId": "bzsw5ORIMfGTj44YxF59",
+      "createdTime": 1704388925101,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 2.817151451862941,
+        "NO": 278.89799373443117
+      },
+      "probability": 0.9900000000000001
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Resolves to the price given by CoinMarketCap on 2024-12-31.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "I may add more answers later, depending on if there is particular demand or wide spreads between adjacent answers. I recommend sorting by %.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/BoltonBailey%2F738fed3d940c.jpg",
+  "groupSlugs": [
+    "bitcoin",
+    "crypto-speculation",
+    "crypto-prices"
+  ],
+  "textDescription": "Resolves to the price given by CoinMarketCap on 2024-12-31.\n\nI may add more answers later, depending on if there is particular demand or wide spreads between adjacent answers. I recommend sorting by %."
+}

@@ -1,0 +1,40 @@
+{
+  "id": "v7CEEO59HzfshYvj4jh5",
+  "creatorId": "OdBj5DW6PbYtnImvybpyZzfhb133",
+  "creatorUsername": "jim",
+  "creatorName": "jim",
+  "createdTime": 1704902037575,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fjim%2Fs683etIf3B.jpg?alt=media&token=48689783-1735-4612-b9bd-1f9dcd4cd13f",
+  "closeTime": 1924945140000,
+  "question": "Will the next Bond film reference Skibidi Toilet?",
+  "slug": "will-the-next-bond-film-reference-s",
+  "url": "https://manifold.markets/jim/will-the-next-bond-film-reference-s",
+  "pool": {
+    "NO": 956.784048165248,
+    "YES": 1088.852552435465
+  },
+  "probability": 0.13719028042751436,
+  "p": 0.1532255556975131,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 1002.4589526991199,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 14,
+  "lastUpdatedTime": 1731220546522,
+  "lastBetTime": 1731220546522,
+  "lastCommentTime": 1704903488863,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/jim%2Fca648d0c0b8a.jpg",
+  "textDescription": ""
+}

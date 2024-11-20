@@ -1,0 +1,60 @@
+{
+  "id": "sILDACV4r2UotDSp7b5e",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1713402972558,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1733029140000,
+  "question": "Will Manifold unban @firstuserhere OR @BTE by the end of November 2024?",
+  "slug": "will-manifold-unban-firstuserhere-o",
+  "url": "https://manifold.markets/strutheo/will-manifold-unban-firstuserhere-o",
+  "pool": {
+    "NO": 347.69530954731414,
+    "YES": 4584.862351837283
+  },
+  "probability": 0.04903965861993641,
+  "p": 0.4047638961319196,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 5828.252598443244,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 25,
+  "lastUpdatedTime": 1731354328883,
+  "lastBetTime": 1731354328883,
+  "lastCommentTime": 1717219285186,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "UwBR3KhCbH3tpsRXL5yZ",
+              "label": "/strutheo/will-manifold-unban-firstuserhere-a"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": null,
+  "groupSlugs": [
+    "manifold-business-future",
+    "manifold-user-retention",
+    "manifold-users",
+    "manifold-drama",
+    "manifold-6748e065087e"
+  ],
+  "textDescription": "@/strutheo/will-manifold-unban-firstuserhere-a "
+}

@@ -1,0 +1,83 @@
+{
+  "id": "zhyjd6z1zc",
+  "creatorId": "XtJuqIcTwEa5WnmBtmypEKyjlfu1",
+  "creatorUsername": "HenriThunberg",
+  "creatorName": "Henri Thunberg \ud83d\udd38",
+  "createdTime": 1727381994938,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FHenriThunberg%2FC4rMRuElGd.jpeg?alt=media&token=c119866f-2a78-4b4d-8fa3-77eaaa8c1e8b",
+  "closeTime": 1735660740000,
+  "question": "Will Vladimir Putin attend the G20 in Brazil in 2024?",
+  "slug": "will-vladimir-putin-attend-the-g20-de36a6365070--cash",
+  "url": "https://manifold.markets/HenriThunberg/will-vladimir-putin-attend-the-g20-de36a6365070--cash",
+  "pool": {
+    "NO": 87.33944920358267,
+    "YES": 298.9929268615681
+  },
+  "probability": 0.034845682138404666,
+  "p": 0.10999999999999992,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 919.8001230612509,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 23,
+  "lastUpdatedTime": 1731570081337,
+  "lastBetTime": 1731570081337,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "fN12OYGS30DGubdZuKEC",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Being in Brazil at the same time of the event is not enough, he needs to be confirmed at the venue (through text or images).",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Being part of the official pictures of delegates is an example of something that immediately resolve YES.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "If no such such evidence arises by a few days after the event, this resolves to NO.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "textDescription": "Being in Brazil at the same time of the event is not enough, he needs to be confirmed at the venue (through text or images).\n\nBeing part of the official pictures of delegates is an example of something that immediately resolve YES.\n\nIf no such such evidence arises by a few days after the event, this resolves to NO."
+}

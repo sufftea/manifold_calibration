@@ -1,0 +1,39 @@
+{
+  "id": "7sr1g8wk8u",
+  "creatorId": "oK0iNRZNtNQZHXcvS59XWKWvqk52",
+  "creatorUsername": "dlin007",
+  "creatorName": "David Lin",
+  "createdTime": 1728320715317,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdlin007%2FjZgnASFe5l.jpg?alt=media&token=2f0994a6-e2ea-44b1-9532-7d0313118b1d",
+  "closeTime": 1731613890415,
+  "question": "Will Donald Trump win >20% of votes in Philadelphia County, PA?",
+  "slug": "will-donald-trump-win-20-of-votes-i--cash",
+  "url": "https://manifold.markets/dlin007/will-donald-trump-win-20-of-votes-i--cash",
+  "pool": {
+    "NO": 515.6398678049692,
+    "YES": 6.124712523251944
+  },
+  "probability": 0.9801764106627631,
+  "p": 0.369999999999996,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 637.4148388261475,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 26,
+  "lastUpdatedTime": 1731027056191,
+  "lastBetTime": 1731024486301,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "fo2cx7uz6w",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

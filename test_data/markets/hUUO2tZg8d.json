@@ -1,0 +1,51 @@
+{
+  "id": "hUUO2tZg8d",
+  "creatorId": "G5jwaQ60Q6a8bBwbze60cEYM2PE2",
+  "creatorUsername": "Zeo",
+  "creatorName": "zeozea",
+  "createdTime": 1730151129717,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocK4fT8-rJAZu4maPcI8YuRXuSxxzwfzhcRLY5P5RkB7iysP9wg=s96-c",
+  "closeTime": 1730757540000,
+  "question": "Will Maia Sandu win the second tour of  the presidential elections in Moldova?",
+  "slug": "will-maia-sandu-win-the-second-tour",
+  "url": "https://manifold.markets/Zeo/will-maia-sandu-win-the-second-tour",
+  "pool": {
+    "NO": 9949.874361297936,
+    "YES": 100.50378162459128
+  },
+  "probability": 0.9899999999805613,
+  "p": 0.4999999999999998,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 8979.874370967536,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1731093213938,
+  "resolutionProbability": 0.9899999999805613,
+  "resolverId": "hqdXgp0jK2YMMhPs067eFK4afEH3",
+  "uniqueBettorCount": 14,
+  "lastUpdatedTime": 1730757540000,
+  "lastBetTime": 1730710646748,
+  "lastCommentTime": 1731093207601,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/sergiuflorea/CR9d6cQutq.jpg",
+  "groupSlugs": [
+    "elections",
+    "elections-world",
+    "international-elections",
+    "world-default",
+    "eastern-europe"
+  ],
+  "textDescription": ""
+}

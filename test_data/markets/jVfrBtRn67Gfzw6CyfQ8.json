@@ -1,0 +1,51 @@
+{
+  "id": "jVfrBtRn67Gfzw6CyfQ8",
+  "creatorId": "U6qF7eg8XLXRo4Xc077i1BdgHxx2",
+  "creatorUsername": "Panfilo",
+  "creatorName": "Panfilo",
+  "createdTime": 1708198208339,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FDavePanfilo%2Fako2NLf1kH.png?alt=media&token=e195d482-83bd-4544-a30c-2f62a625fa0b",
+  "closeTime": 1730606340000,
+  "question": "Will any video game released in October have a Metacritic score of 95 or higher?",
+  "slug": "will-any-video-game-released-in-oct",
+  "url": "https://manifold.markets/Panfilo/will-any-video-game-released-in-oct",
+  "pool": {
+    "NO": 13.64587834646619,
+    "YES": 348.18246100555837
+  },
+  "probability": 0.038405447871506015,
+  "p": 0.5047237482162847,
+  "totalLiquidity": 70,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 322.5320430679856,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 8,
+  "lastUpdatedTime": 1730580876498,
+  "lastBetTime": 1730580876498,
+  "marketTier": "play",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Score will be considered two days after release, and needs to be the overall score (not console-specific).",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/Panfilo%2F29fdff86324c.jpg",
+  "groupSlugs": [
+    "metacritic",
+    "gaming",
+    "entertainment",
+    "video-games"
+  ],
+  "textDescription": "Score will be considered two days after release, and needs to be the overall score (not console-specific)."
+}

@@ -1,0 +1,116 @@
+{
+  "id": "WCsjjEUk1vxRy1wHNi63",
+  "creatorId": "JlVpsgzLsbOUT4pajswVMr0ZzmM2",
+  "creatorUsername": "Joshua",
+  "creatorName": "Joshua",
+  "createdTime": 1689965788266,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FJoshua%2Fujp23gvEwG.jpg?alt=media&token=18568211-45f0-470f-8de8-3682ec5c0978",
+  "closeTime": 1847602740000,
+  "question": "Will Eliezer Yudkowsky win his $150,000 - $1,000 bet about UFOs not having a worldview-shattering origin?",
+  "slug": "will-eliezer-yudkowsky-win-his-1500",
+  "url": "https://manifold.markets/Joshua/will-eliezer-yudkowsky-win-his-1500",
+  "pool": {
+    "NO": 9036.103276573136,
+    "YES": 9903.445884747765
+  },
+  "probability": 0.8516714893425015,
+  "p": 0.8628808231424983,
+  "totalLiquidity": 10000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 3876439.2107234173,
+  "volume24Hours": 5556,
+  "isResolved": false,
+  "uniqueBettorCount": 598,
+  "lastUpdatedTime": 1732021419688,
+  "lastBetTime": 1732021419688,
+  "lastCommentTime": 1730748239901,
+  "marketTier": "premium",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Original Lesswrong thread ",
+            "type": "text"
+          },
+          {
+            "text": "here.",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.lesswrong.com/posts/t5W87hQF5gKyTofQB/?commentId=rsKjPAPqeFwQuNibD",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "Original tweet ",
+            "type": "text"
+          },
+          {
+            "text": "here:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://twitter.com/ESYudkowsky/status/1682446903953457152",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FKcRGdC7tXa.png?alt=media&token=2c48d1cc-2353-4b2f-8cbf-df2c03a65bef",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Unlinked market with shorter timeframes here: ",
+            "type": "text"
+          },
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "CqOaFTLHmggE8iVdZgsa",
+              "label": "/Joshua/when-will-we-know-that-any-past-ufo"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "groupSlugs": [
+    "eliezer-yudkowsky-25acf68e45f1",
+    "aliens",
+    "ufo"
+  ],
+  "textDescription": "Original Lesswrong thread here.\n\nOriginal tweet here:\n\n[image]Unlinked market with shorter timeframes here: @/Joshua/when-will-we-know-that-any-past-ufo "
+}

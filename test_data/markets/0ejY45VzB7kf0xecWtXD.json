@@ -1,0 +1,3163 @@
+{
+  "id": "0ejY45VzB7kf0xecWtXD",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1702594624433,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1735707540000,
+  "question": "\ud83d\udcc6What will happen in 2024? [ADD RESPONSES]",
+  "slug": "what-will-happen-by-eoy-2024-add-re",
+  "url": "https://manifold.markets/strutheo/what-will-happen-by-eoy-2024-add-re",
+  "totalLiquidity": 26515,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 145772.6719053201,
+  "volume24Hours": 100,
+  "isResolved": false,
+  "uniqueBettorCount": 340,
+  "lastUpdatedTime": 1731948948499,
+  "lastBetTime": 1731948948499,
+  "lastCommentTime": 1731051843766,
+  "marketTier": "plus",
+  "token": "MANA",
+  "shouldAnswersSumToOne": false,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "a0f74939ad90",
+      "text": "Large Tech company announces layoffs",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1702594624433,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1704321259720,
+      "totalLiquidity": 245,
+      "resolutionProbability": 0.95,
+      "pool": {
+        "YES": 30.588462910831694,
+        "NO": 581.1807953058016
+      },
+      "probability": 1
+    },
+    {
+      "id": "37a20dc86e99",
+      "text": "Manifold hits 11000 Monthly Active Users",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1702594624433,
+      "probChanges": {
+        "day": -1.1102230246251565e-16,
+        "week": -1.1102230246251565e-16,
+        "month": 0.0013033619948790154
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 345,
+      "pool": {
+        "YES": 225.91961547774662,
+        "NO": 242.4765693425311
+      },
+      "probability": 0.5176740912942506
+    },
+    {
+      "id": "6ea91ff3f821",
+      "text": "Israel : Hamas Ceasefire",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1702594624433,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.1397106924562745
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 965,
+      "pool": {
+        "YES": 1142.4639738539047,
+        "NO": 270.27315605914094
+      },
+      "probability": 0.19131170996813562
+    },
+    {
+      "id": "c73b5cb5831d",
+      "text": "Taylor Swift becomes engaged to be married (to anyone)",
+      "index": 3,
+      "userId": "GJ8hthQbXcUVZiSQZe1LydKyr7v2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1702608189086,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.115547774473052
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 805,
+      "pool": {
+        "YES": 1110.884789636471,
+        "NO": 271.73291586764816
+      },
+      "probability": 0.19653510495771573
+    },
+    {
+      "id": "1893cfd2ae1f",
+      "text": "Assassination of a European or Asian head of state",
+      "index": 4,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1702613166935,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.06505475258588689
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 565,
+      "pool": {
+        "YES": 1213.6758615130495,
+        "NO": 78.50753891435664
+      },
+      "probability": 0.06075572468148815
+    },
+    {
+      "id": "87b5f19511f0",
+      "text": "MLB World Series won by the National League team",
+      "index": 5,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1702772133532,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5179022065956449
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730388877285,
+      "totalLiquidity": 125,
+      "resolutionProbability": 0.9898791124678497,
+      "pool": {
+        "YES": 11.329664082167483,
+        "NO": 1108.1041845973384
+      },
+      "probability": 1
+    },
+    {
+      "id": "a0048c71df82",
+      "text": "Earthquake over 8.0 magnitude ",
+      "index": 6,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1702857886113,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.0765341693739415
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 625,
+      "pool": {
+        "YES": 1065.7675597042626,
+        "NO": 213.1161633283797
+      },
+      "probability": 0.16664232993990502
+    },
+    {
+      "id": "22088797f77c",
+      "text": "Joe Biden wins USA 2024 election according to most reputable news sites",
+      "index": 7,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1703142663009,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1721612978502,
+      "totalLiquidity": 525,
+      "resolutionProbability": 0.01,
+      "pool": {
+        "YES": 4925.538337822488,
+        "NO": 49.75291250325745
+      },
+      "probability": 0
+    },
+    {
+      "id": "c9447bd13cd4",
+      "text": "Donald Trump wins USA 2024 election according to most reputable news sites",
+      "index": 8,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1703142690391,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5031194189939705
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731107387750,
+      "totalLiquidity": 565,
+      "resolutionProbability": 0.9894703971976767,
+      "pool": {
+        "YES": 51.66649605010992,
+        "NO": 4855.118405533302
+      },
+      "probability": 1
+    },
+    {
+      "id": "1f4eaa787e9e",
+      "text": "Russia : Ukraine ceasefire",
+      "index": 9,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703142738848,
+      "probChanges": {
+        "day": 0,
+        "week": -0.023745934130285917,
+        "month": -0.023745934130285917
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 445,
+      "pool": {
+        "YES": 807.5011156750811,
+        "NO": 78.26935758211334
+      },
+      "probability": 0.08836302399457704
+    },
+    {
+      "id": "34d956929ee4",
+      "text": "MLB World Series won by the American League team",
+      "index": 10,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1703142757508,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.4499039035111104
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730388891284,
+      "totalLiquidity": 105,
+      "resolutionProbability": 0.010000000000000057,
+      "pool": {
+        "YES": 972.0778996888893,
+        "NO": 9.818968683726212
+      },
+      "probability": 0
+    },
+    {
+      "id": "f5ea4a0da96b",
+      "text": "Musk : Zuckerberg fight actually happens",
+      "index": 11,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703142807944,
+      "probChanges": {
+        "day": -6.938893903907228e-18,
+        "week": -6.938893903907228e-18,
+        "month": 0.00048154387872311605
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 425,
+      "pool": {
+        "YES": 903.4529183989205,
+        "NO": 19.902614932195554
+      },
+      "probability": 0.021554660381353303
+    },
+    {
+      "id": "dcc485218ee5",
+      "text": "Assassination of a North American or South American head of state",
+      "index": 12,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703142920824,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.04220866475080018
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 285,
+      "pool": {
+        "YES": 690.0956247400386,
+        "NO": 46.078593771160584
+      },
+      "probability": 0.06259196887436178
+    },
+    {
+      "id": "0daa4c350586",
+      "text": "Assassination of an African head of state",
+      "index": 13,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703142971949,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.06732886832969634
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 385,
+      "pool": {
+        "YES": 933.596727701477,
+        "NO": 76.02660004679413
+      },
+      "probability": 0.07530194475235996
+    },
+    {
+      "id": "1b6640ea2875",
+      "text": "Pope Francis dies",
+      "index": 14,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703143058249,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.01313350574888282
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 385,
+      "pool": {
+        "YES": 583.5366776824621,
+        "NO": 46.13324951047346
+      },
+      "probability": 0.07326576594841552
+    },
+    {
+      "id": "2e91f1c66857",
+      "text": "Jimmy Carter dies",
+      "index": 15,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703143066116,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.11202312783566298
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 905,
+      "pool": {
+        "YES": 970.9855641325688,
+        "NO": 308.9138190635869
+      },
+      "probability": 0.24135789353391945
+    },
+    {
+      "id": "60c94fbfc438",
+      "text": "Vladimir Putin dies",
+      "index": 16,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703143078697,
+      "probChanges": {
+        "day": -2.0816681711721685e-17,
+        "week": -2.0816681711721685e-17,
+        "month": -2.0816681711721685e-17
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 345,
+      "pool": {
+        "YES": 525.8211207534391,
+        "NO": 34.43770352321535
+      },
+      "probability": 0.06146748972258953
+    },
+    {
+      "id": "3f49be3cb2f1",
+      "text": "Taylor Swift drops a new album (not a Taylor\u2019s Version of an older album actually majority new tracks)",
+      "index": 17,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1703143119566,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1714100827672,
+      "totalLiquidity": 345,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 17.384309216717593,
+        "NO": 1958.6606700096143
+      },
+      "probability": 1
+    },
+    {
+      "id": "0d19a3c461e5",
+      "text": "USA government shutdown",
+      "index": 18,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703143290135,
+      "probChanges": {
+        "day": -4.163336342344337e-17,
+        "week": -4.163336342344337e-17,
+        "month": -0.0578881172732042
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 465,
+      "pool": {
+        "YES": 1092.911852631312,
+        "NO": 122.84720073064665
+      },
+      "probability": 0.10104568038455913
+    },
+    {
+      "id": "0670d92793c4",
+      "text": "Sweden joins NATO",
+      "index": 19,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1703143338994,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1709915895819,
+      "totalLiquidity": 625,
+      "resolutionProbability": 1,
+      "pool": {
+        "YES": 12.864664986301705,
+        "NO": 5490.503729260676
+      },
+      "probability": 1
+    },
+    {
+      "id": "45cc152a4498",
+      "text": "AI wipes out humanity",
+      "index": 20,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1703143462763,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1709939126535,
+      "totalLiquidity": 265,
+      "resolutionProbability": 0.02,
+      "pool": {
+        "YES": 456.8994052379676,
+        "NO": 9.324477657917711
+      },
+      "probability": 0
+    },
+    {
+      "id": "b6f4df61d3bf",
+      "text": "Donald Trump dies",
+      "index": 21,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703143677977,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.009665081242843598
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 265,
+      "pool": {
+        "YES": 541.0726882858487,
+        "NO": 19.97715032456898
+      },
+      "probability": 0.03560673036471673
+    },
+    {
+      "id": "ce9e1a8ea963",
+      "text": "Joe Biden dies",
+      "index": 22,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703143687396,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 385,
+      "pool": {
+        "YES": 622.377247755902,
+        "NO": 39.50213659772202
+      },
+      "probability": 0.05968177515650965
+    },
+    {
+      "id": "a922362dfc17",
+      "text": "Someone other than Netanyahu becomes prime minister of Israel",
+      "index": 23,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703143823649,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.0366772582281452
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 485,
+      "pool": {
+        "YES": 1075.6680467438814,
+        "NO": 153.46499314031152
+      },
+      "probability": 0.12485629151647472
+    },
+    {
+      "id": "ae114a32d517",
+      "text": "China invades Taiwan",
+      "index": 24,
+      "userId": "g6qrSrv9gxR4YiQCYJryNssGPMs1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703143869641,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.021639860566345863
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 245,
+      "pool": {
+        "YES": 459.70720777524105,
+        "NO": 17.301483293548728
+      },
+      "probability": 0.03627079258196088
+    },
+    {
+      "id": "18efa39dede5",
+      "text": "Skibidi Toilet ends their original series",
+      "index": 25,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1703256316340,
+      "probChanges": {
+        "day": 2.7755575615628914e-17,
+        "week": 2.7755575615628914e-17,
+        "month": -0.05442331072827164
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 165,
+      "pool": {
+        "YES": 286.2509868296649,
+        "NO": 48.65795719475959
+      },
+      "probability": 0.14528712374791347
+    },
+    {
+      "id": "4a48ecca9cf6",
+      "text": "New Pope",
+      "index": 26,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704135827607,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.012569585674091055
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 265,
+      "pool": {
+        "YES": 526.831051763396,
+        "NO": 34.526833030656924
+      },
+      "probability": 0.061505919781146196
+    },
+    {
+      "id": "c065940f1817",
+      "text": "New CEO of Twitter",
+      "index": 27,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704135843298,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1709657557784,
+      "totalLiquidity": 145,
+      "resolutionProbability": 0.35,
+      "pool": {
+        "YES": 154.22295198448631,
+        "NO": 81.386779498474
+      },
+      "probability": 0.34543046667136507
+    },
+    {
+      "id": "c66aa8ab7a5e",
+      "text": "Manifold reaches 20K MAU",
+      "index": 28,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704215887910,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 145,
+      "pool": {
+        "YES": 280.2845748602015,
+        "NO": 49.8342897501688
+      },
+      "probability": 0.15095862458204795
+    },
+    {
+      "id": "c7e34f7c968a",
+      "text": "Mel Brooks Lives to see 98 Years Old",
+      "index": 29,
+      "userId": "M1GUv0trZIM7iM0drRSGy5dBB5Z2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704238464109,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1721152680951,
+      "totalLiquidity": 225,
+      "resolutionProbability": 0.97,
+      "pool": {
+        "YES": 26.325867741566185,
+        "NO": 743.7848087585062
+      },
+      "probability": 1
+    },
+    {
+      "id": "6326014a5f44",
+      "text": "Skate 4 Release",
+      "index": 30,
+      "userId": "M1GUv0trZIM7iM0drRSGy5dBB5Z2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704238555059,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 210.74223000437064,
+        "NO": 11.141416636479676
+      },
+      "probability": 0.050212878709865516
+    },
+    {
+      "id": "7e5f3b20c4ad",
+      "text": ">6.8 million articles on english wikipedia",
+      "index": 31,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704344802916,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1710975689764,
+      "totalLiquidity": 105,
+      "resolutionProbability": 1,
+      "pool": {
+        "YES": 3.5853147835839714,
+        "NO": 1278.145774100658
+      },
+      "probability": 1
+    },
+    {
+      "id": "dee384424b8",
+      "text": "Super Mario 64 120 star speedrun world record beat (n64)",
+      "index": 32,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704486807719,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1706118551238,
+      "totalLiquidity": 85,
+      "resolutionProbability": 0.67,
+      "pool": {
+        "YES": 48.37316519479032,
+        "NO": 99.13231955341725
+      },
+      "probability": 1
+    },
+    {
+      "id": "9b764fa61040",
+      "text": "Taylor Swift breaks up with Kelce",
+      "index": 33,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704576383225,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.021137816907993767
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 365,
+      "pool": {
+        "YES": 645.4342264310142,
+        "NO": 109.30620379340922
+      },
+      "probability": 0.14482622026874437
+    },
+    {
+      "id": "f2483f69100e",
+      "text": "nuclear detonation occurs (can be a test)",
+      "index": 34,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704576426190,
+      "probChanges": {
+        "day": 0,
+        "week": -0.022917195269604423,
+        "month": -0.022917195269604423
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 205,
+      "pool": {
+        "YES": 306.87299849168295,
+        "NO": 53.93250976830413
+      },
+      "probability": 0.14947806653063003
+    },
+    {
+      "id": "a254dcfff553",
+      "text": "announcement of 2nd elden ring DLC",
+      "index": 35,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704576445899,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.12334616622412298
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 233.79386046240938,
+        "NO": 18.93487184857348
+      },
+      "probability": 0.07492172209875253
+    },
+    {
+      "id": "9ce94c9d5528",
+      "text": "Vivek Ramaswamy comes out as LGBTQ",
+      "index": 36,
+      "userId": "AuRHvphmJ1XLQ8fO2r8OiKvFCwM2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704595159345,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.003553163695991726
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 145,
+      "pool": {
+        "YES": 516.1742911810694,
+        "NO": 9.658946763999097
+      },
+      "probability": 0.018368840284318667
+    },
+    {
+      "id": "d9bff16b2eb6",
+      "text": "Donald Trump escapes from prison",
+      "index": 37,
+      "userId": "AuRHvphmJ1XLQ8fO2r8OiKvFCwM2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704595189991,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1708015575256,
+      "totalLiquidity": 185,
+      "resolutionProbability": 0.01,
+      "pool": {
+        "YES": 789.5658364496699,
+        "NO": 8.098092184906797
+      },
+      "probability": 0.010152260738139345
+    },
+    {
+      "id": "8738fa1d9e6c",
+      "text": "France wins EURO 2024",
+      "index": 38,
+      "userId": "cMNsFz6pr3TgU79K6H7fJukUopE3",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704653922631,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1723636067076,
+      "totalLiquidity": 145,
+      "resolutionProbability": 0.01,
+      "pool": {
+        "YES": 926.647880135672,
+        "NO": 10.50205925828402
+      },
+      "probability": 0
+    },
+    {
+      "id": "5bc01ad587e3",
+      "text": "Bitcoin hits $100k USD",
+      "index": 39,
+      "userId": "MaWKBofJ84bWOF5IhCf041Z5UfK2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704655198649,
+      "probChanges": {
+        "day": 1.1102230246251565e-16,
+        "week": 0.2857232603898397,
+        "month": 0.4142124835811676
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 425,
+      "pool": {
+        "YES": 237.9461567881665,
+        "NO": 339.1244619923583
+      },
+      "probability": 0.5876654450178069
+    },
+    {
+      "id": "5b4917f4c1ae",
+      "text": "MrBeast hits 250 Million subscribers",
+      "index": 40,
+      "userId": "ziqgoIsq7jXFLCUTN0gnNEj1yO23",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704655324439,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1712587968409,
+      "totalLiquidity": 305,
+      "resolutionProbability": 1,
+      "pool": {
+        "YES": 2.4837580924690883,
+        "NO": 2434.1453101983325
+      },
+      "probability": 1
+    },
+    {
+      "id": "2740fa31273c",
+      "text": "LK99 or another room temperature superconductor causes another wave of mainstream global news hype ",
+      "index": 41,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704663866578,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.07182540517340467
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 225,
+      "pool": {
+        "YES": 488.73502083238355,
+        "NO": 41.40916085284124
+      },
+      "probability": 0.07810924326512385
+    },
+    {
+      "id": "3c4cd1d40613",
+      "text": "Undersea internet cables severed around taiwan/china",
+      "index": 42,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704664025951,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 165,
+      "pool": {
+        "YES": 248.8630426901613,
+        "NO": 43.088691112810906
+      },
+      "probability": 0.14758840631475723
+    },
+    {
+      "id": "581e12f7328c",
+      "text": "Tesla catches fire reported by https://www.tesla-fire.com/",
+      "index": 43,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704771371764,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1708318197062,
+      "totalLiquidity": 285,
+      "resolutionProbability": 0.94,
+      "pool": {
+        "YES": 20.34191266163092,
+        "NO": 318.6899650322175
+      },
+      "probability": 1
+    },
+    {
+      "id": "3a9777287395",
+      "text": "Vivek drops out of Republican race before Christie",
+      "index": 44,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704771449023,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1705379539352,
+      "totalLiquidity": 85,
+      "resolutionProbability": 0.05,
+      "pool": {
+        "YES": 228.47867330548442,
+        "NO": 11.609948149100674
+      },
+      "probability": 0
+    },
+    {
+      "id": "ad01df67632b",
+      "text": "Casa Bonita reopens to the general public with full normal restaurant hours (no longer invite/reservation only)",
+      "index": 45,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704771518888,
+      "probChanges": {
+        "day": -5.551115123125783e-17,
+        "week": -5.551115123125783e-17,
+        "month": -5.551115123125783e-17
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 88.21041224403335,
+        "NO": 42.44403904535935
+      },
+      "probability": 0.3248571987137893
+    },
+    {
+      "id": "9289d673dcea",
+      "text": "Destiny speaks to Ben Shapiro",
+      "index": 46,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704771624452,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1705292866586,
+      "totalLiquidity": 105,
+      "resolutionProbability": 0.98,
+      "pool": {
+        "YES": 5.818063981565373,
+        "NO": 337.88697305966076
+      },
+      "probability": 1
+    },
+    {
+      "id": "f50c64e182a2",
+      "text": "Chat GPT 6 releases",
+      "index": 47,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704771660828,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 165,
+      "pool": {
+        "YES": 499.5156985327068,
+        "NO": 5.045613116491978
+      },
+      "probability": 0.009999999999999981
+    },
+    {
+      "id": "47f5df21d1a7",
+      "text": "Manifold raises more money (through grant, investment, or other means, at least $100K)",
+      "index": 48,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704771748716,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.28369444412749567
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 145,
+      "pool": {
+        "YES": 208.0035122316957,
+        "NO": 53.53142600870004
+      },
+      "probability": 0.20468173915446594
+    },
+    {
+      "id": "a7ea6b3baa1a",
+      "text": "Someone other than biden wins the presidency",
+      "index": 49,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704782359131,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1721608362809,
+      "totalLiquidity": 345,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 30.324591146418697,
+        "NO": 3002.1345234954456
+      },
+      "probability": 1
+    },
+    {
+      "id": "5f99752318a7",
+      "text": "an official legend of zelda movie trailer releases",
+      "index": 50,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704782404897,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.10031510316069525
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 185,
+      "pool": {
+        "YES": 402.1728696575381,
+        "NO": 57.79804393527684
+      },
+      "probability": 0.125655866984759
+    },
+    {
+      "id": "ebf883eafc29",
+      "text": "at least one equipment caused death at a theme park in the USA due to ride failure, negligence, or other similar cause (not: pool drowning, natural disasters , medical, or forced violence)",
+      "index": 51,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704782492632,
+      "probChanges": {
+        "day": -8.326672684688674e-17,
+        "week": -0.10523776312171246,
+        "month": -0.162914185850342
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 145,
+      "pool": {
+        "YES": 223.27203657876456,
+        "NO": 72.61123716110338
+      },
+      "probability": 0.245405008006438
+    },
+    {
+      "id": "f3ab623d2242",
+      "text": "at least two instances of whales attacking boats in the ocean reported by the news",
+      "index": 52,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704782746636,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1722283851395,
+      "totalLiquidity": 85,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 7.544674707107845,
+        "NO": 567.9090780348893
+      },
+      "probability": 1
+    },
+    {
+      "id": "801c283519be",
+      "text": "Three or more teslas catch fire as reported by the Tesla-fire website (or multiple mainstream news)",
+      "index": 53,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704820230005,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1718481931858,
+      "totalLiquidity": 165,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 8.374129462756173,
+        "NO": 657.574040392984
+      },
+      "probability": 1
+    },
+    {
+      "id": "1d6c9613feb9",
+      "text": "A famous global brand undergoes a rebranding ",
+      "index": 54,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704833442594,
+      "probChanges": {
+        "day": -1.1102230246251565e-16,
+        "week": -1.1102230246251565e-16,
+        "month": -0.25850310598671566
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 165,
+      "pool": {
+        "YES": 101.93906895800714,
+        "NO": 106.73732983807189
+      },
+      "probability": 0.5114968940132844
+    },
+    {
+      "id": "34af4c7382d7",
+      "text": "Manifold users rate manifold politics as a successful experiment at eoy",
+      "index": 55,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704833555717,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.016424275041516112
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 125,
+      "pool": {
+        "YES": 33.42075441097207,
+        "NO": 167.39582960379684
+      },
+      "probability": 0.8335757249584816
+    },
+    {
+      "id": "763001bb9b4e",
+      "text": "bitcoin reaches 30k or less ",
+      "index": 56,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704840352929,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.05549264933077693
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 265,
+      "pool": {
+        "YES": 791.1445462804713,
+        "NO": 45.903542741271536
+      },
+      "probability": 0.05483979157627485
+    },
+    {
+      "id": "48865ce528df",
+      "text": "Twitter releases peer to peer payment system, for at least all premium users if not everyone ",
+      "index": 57,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1704850494063,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.07484567804134393
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 225,
+      "pool": {
+        "YES": 431.2277161895617,
+        "NO": 68.2084000094837
+      },
+      "probability": 0.13657082016531602
+    },
+    {
+      "id": "adb891c08b7c",
+      "text": "Ten Large tech companies announce layoffs",
+      "index": 58,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704860122862,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1708015350497,
+      "totalLiquidity": 165,
+      "resolutionProbability": 1,
+      "pool": {
+        "YES": 3.7670101295620952,
+        "NO": 1577.619182486057
+      },
+      "probability": 1
+    },
+    {
+      "id": "b6f45e3d5d02",
+      "text": "Trump's VP pick is a woman",
+      "index": 59,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704869809523,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1721078365228,
+      "totalLiquidity": 285,
+      "resolutionProbability": 0.01,
+      "pool": {
+        "YES": 2153.419567455028,
+        "NO": 21.751712802576094
+      },
+      "probability": 0
+    },
+    {
+      "id": "637a49960656",
+      "text": "support ceases for manifold.love by my judgement",
+      "index": 60,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1705025399749,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1710163357723,
+      "totalLiquidity": 145,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 7.525495750795509,
+        "NO": 553.2347036917762
+      },
+      "probability": 1
+    },
+    {
+      "id": "029fd9b75999",
+      "text": "Mr Beast hits 280M Subscribers",
+      "index": 61,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1705292898354,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1719202524220,
+      "totalLiquidity": 165,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 12.04592238717646,
+        "NO": 1135.8364408313735
+      },
+      "probability": 1
+    },
+    {
+      "id": "ceb5bf7aa19b",
+      "text": "The same city wins at least two of the Super Bowl, NBA Finals, Stanley Cup, and World Series",
+      "index": 62,
+      "userId": "Rcnau899SsWFEuL0ukY1hMGkath2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1705379457709,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.043341285161137395
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 324.22481358065846,
+        "NO": 14.748805909508746
+      },
+      "probability": 0.04351018799543064
+    },
+    {
+      "id": "0b8728ebe6d0",
+      "text": "Nikki Haley reaches 25% or more on 538's republican primary page at any point",
+      "index": 63,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1705426867305,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1709835392974,
+      "totalLiquidity": 185,
+      "resolutionProbability": 0,
+      "pool": {
+        "YES": 1953.855803147242,
+        "NO": 7.5986787035002
+      },
+      "probability": 0
+    },
+    {
+      "id": "0967ea2e5715",
+      "text": "Ethereum ETH reaches $2700 on major exchanges at some point in time ",
+      "index": 64,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1705682520749,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1708199072300,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.97,
+      "pool": {
+        "YES": 6.483069009858525,
+        "NO": 238.0612244897959
+      },
+      "probability": 1
+    },
+    {
+      "id": "dcb6776a4266",
+      "text": "Trump and Biden shake hands",
+      "index": 65,
+      "userId": "b6kdYEDZoicFBYv2RLk7FunhgIj2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1705762372268,
+      "probChanges": {
+        "day": 0,
+        "week": 0.8914188625724528,
+        "month": 0.8914188625724528
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 285,
+      "pool": {
+        "YES": 31.34379722593917,
+        "NO": 1569.3211784490736
+      },
+      "probability": 0.9804182650946547
+    },
+    {
+      "id": "14ad9ffe3d0a",
+      "text": "Trump or Biden are hospitalized for any period of time",
+      "index": 66,
+      "userId": "b6kdYEDZoicFBYv2RLk7FunhgIj2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1705762465250,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1720936845553,
+      "totalLiquidity": 365,
+      "resolutionProbability": 0.98,
+      "pool": {
+        "YES": 48.27439782489,
+        "NO": 2326.959748223634
+      },
+      "probability": 1
+    },
+    {
+      "id": "1d833bc060db",
+      "text": "Deagle's old \"2025 forecast\" will turn out to be completely wrong",
+      "index": 67,
+      "userId": "3ovGrYGPkpWNszlR2rIBdknDFtp1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1705811988451,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.022640398931926264
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 42.6790270281696,
+        "NO": 66.01846600684802
+      },
+      "probability": 0.6073596010680736
+    },
+    {
+      "id": "8f8062f45c94",
+      "text": "Bitcoin closes higher on Festivus (Dec. 23, 2024) than it closed on Festivus (Dec. 23, 2023) [EST] ***- $43,739.54 - closing price on Festivus 2023***",
+      "index": 68,
+      "userId": "vgw2DrrywnV5LmLPhclJc0SXcrB3",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1705919184579,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.0075001102692003885
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 145,
+      "pool": {
+        "YES": 25.12247722731533,
+        "NO": 464.5413830087615
+      },
+      "probability": 0.9486944427240285
+    },
+    {
+      "id": "0c266d1bd03b",
+      "text": "A \"Cameo\" of anyone with a Wikipedia page at least 1-year-old is posted in the comments and the person clearly says the word, \"rationalussy\".",
+      "index": 69,
+      "userId": "vgw2DrrywnV5LmLPhclJc0SXcrB3",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1705919978906,
+      "probChanges": {
+        "day": 0,
+        "week": 0.0222118367059978,
+        "month": 0.11879155047535381
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 165,
+      "pool": {
+        "YES": 186.8657571849849,
+        "NO": 104.61967638182657
+      },
+      "probability": 0.3589190550677952
+    },
+    {
+      "id": "e8acb93beb04",
+      "text": "Anyone from the 2023 Time100 passes away (https://time.com/collection/100-most-influential-people-2023/)",
+      "index": 70,
+      "userId": "vgw2DrrywnV5LmLPhclJc0SXcrB3",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1705930981442,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.1775073487090595
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 145,
+      "pool": {
+        "YES": 138.79115048744032,
+        "NO": 110.68598333488654
+      },
+      "probability": 0.4436718573723679
+    },
+    {
+      "id": "bcf5a190c4a5",
+      "text": "Trump gets more votes in 2024 than Biden got in 2020 (POPULAR VOTES)",
+      "index": 71,
+      "userId": "vgw2DrrywnV5LmLPhclJc0SXcrB3",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1705931446223,
+      "probChanges": {
+        "day": 0,
+        "week": -0.02607520886037805,
+        "month": -0.171473255736122
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 165,
+      "pool": {
+        "YES": 1306.8968493673142,
+        "NO": 13.200978276437581
+      },
+      "probability": 0.010000000000000049
+    },
+    {
+      "id": "2759b53fe7c2",
+      "text": "6 or more people die in a single shooting incident in the united states",
+      "index": 72,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1705954898650,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1707344914960,
+      "totalLiquidity": 125,
+      "resolutionProbability": 1,
+      "pool": {
+        "YES": 2.691171648436932,
+        "NO": 932.5053916767093
+      },
+      "probability": 1
+    },
+    {
+      "id": "e4f74cc33ef4",
+      "text": "official trailer releases for S&box (new facepunch / garry mod game)",
+      "index": 73,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1705955783319,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.02366167933360508
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 38.61373504242092,
+        "NO": 72.96895500963974
+      },
+      "probability": 0.6539451143864243
+    },
+    {
+      "id": "4b0ce8419a70",
+      "text": "there is a need to replace an existing supreme court justice (dies/retires/etc) or they add another justice",
+      "index": 74,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1705958653985,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.06890604006327461
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 185,
+      "pool": {
+        "YES": 365.4449695286788,
+        "NO": 37.32884899092745
+      },
+      "probability": 0.09267943266056741
+    },
+    {
+      "id": "16773173836e",
+      "text": "a twitter account has reached 175M followers",
+      "index": 75,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706028318300,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1709646927160,
+      "totalLiquidity": 105,
+      "resolutionProbability": 1,
+      "pool": {
+        "YES": 0.44473101031359086,
+        "NO": 5058.443449342784
+      },
+      "probability": 1
+    },
+    {
+      "id": "75759715f1f0",
+      "text": "North Korea and South Korea conflict reignites into a hot war, and results in at least one death",
+      "index": 76,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1706039675118,
+      "probChanges": {
+        "day": -1.3877787807814457e-17,
+        "week": -1.3877787807814457e-17,
+        "month": -0.03570718515679547
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 205,
+      "pool": {
+        "YES": 364.3336892527647,
+        "NO": 24.810581316983267
+      },
+      "probability": 0.06375676887304027
+    },
+    {
+      "id": "0ac26d5178bf",
+      "text": "prong.studio releases a 3rd product and starts taking preorders or sales (not including accessories / parts)",
+      "index": 77,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1706145960319,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.10777683962608198
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 29.819508287370258,
+        "NO": 58.462175916852516
+      },
+      "probability": 0.662223160373917
+    },
+    {
+      "id": "4e52155d1fb6",
+      "text": "Trump posts a tweet to @realdonaldtrump",
+      "index": 78,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706149946389,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1723754437128,
+      "totalLiquidity": 165,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 13.096772551481422,
+        "NO": 1296.5804825966602
+      },
+      "probability": 1
+    },
+    {
+      "id": "313ac5194c56",
+      "text": "Alaska-Hawaii airline Merger finalized",
+      "index": 79,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706156547168,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1726692097708,
+      "totalLiquidity": 105,
+      "resolutionProbability": 0.98,
+      "pool": {
+        "YES": 14.415499334658023,
+        "NO": 625.0811345889149
+      },
+      "probability": 1
+    },
+    {
+      "id": "9f84ffc1f22e",
+      "text": "Microsoft unveils windows 12 (or whatever the next version is called)",
+      "index": 80,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1706164499086,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 125,
+      "pool": {
+        "YES": 192.143376109956,
+        "NO": 74.95863055378172
+      },
+      "probability": 0.28063671812151253
+    },
+    {
+      "id": "f5b2dd1ce0fc",
+      "text": "Mr Beast physically hits ten subscribers ",
+      "index": 81,
+      "userId": "fIldPqVOGBVA3kl2fk8ci9Yiju52",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1706237591365,
+      "probChanges": {
+        "day": 2.7755575615628914e-17,
+        "week": 2.7755575615628914e-17,
+        "month": -0.01894018503384251
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 225,
+      "pool": {
+        "YES": 446.0846297273949,
+        "NO": 37.81870960379944
+      },
+      "probability": 0.07815343794913443
+    },
+    {
+      "id": "f1ee89a618b7",
+      "text": "Mr Beat hits 1 million suscribers (the history YouTuber, not Mr Beast)",
+      "index": 82,
+      "userId": "fIldPqVOGBVA3kl2fk8ci9Yiju52",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706237703994,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1714672246699,
+      "totalLiquidity": 85,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 4.006367637290936,
+        "NO": 387.3694151680189
+      },
+      "probability": 1
+    },
+    {
+      "id": "46c3f865e4e9",
+      "text": "gpt 5 released",
+      "index": 83,
+      "userId": "gPSYNnNzGYcud85p9rXwirBmsGe2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1706285469306,
+      "probChanges": {
+        "day": 0,
+        "week": -0.030902620546958734,
+        "month": -0.2006155244498128
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 185,
+      "pool": {
+        "YES": 352.1753880910529,
+        "NO": 38.75547236179212
+      },
+      "probability": 0.09913638518304414
+    },
+    {
+      "id": "135f9c4c9995",
+      "text": "grimace shake returns at mcdonalds ",
+      "index": 84,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706397827082,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1720044005157,
+      "totalLiquidity": 145,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 15.167052397501266,
+        "NO": 1098.1572065623325
+      },
+      "probability": 1
+    },
+    {
+      "id": "4ea832dce086",
+      "text": "Sealand is recognized by the UN",
+      "index": 85,
+      "userId": "Gc46WaXJ3qdTJpCemzaSm76Rtks1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706667210100,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1713469629505,
+      "totalLiquidity": 105,
+      "resolutionProbability": 0.01,
+      "pool": {
+        "YES": 454.4878260501304,
+        "NO": 3.4946115087532497
+      },
+      "probability": 0
+    },
+    {
+      "id": "bf3af04bf359",
+      "text": "Travis Kelce appears on stage at a Taylor Swift concert",
+      "index": 86,
+      "userId": "Gc46WaXJ3qdTJpCemzaSm76Rtks1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706667303340,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1719200845896,
+      "totalLiquidity": 145,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 12.212667972462896,
+        "NO": 1209.0541292738303
+      },
+      "probability": 1
+    },
+    {
+      "id": "7338ec647abe",
+      "text": "Trump and/or Biden \"freeze\" on stage",
+      "index": 87,
+      "userId": "HBFt77FEJING7HsvkAywz5Y1Fmt2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706805274050,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1708120198093,
+      "totalLiquidity": 125,
+      "resolutionProbability": 0.86,
+      "pool": {
+        "YES": 38.08843960731841,
+        "NO": 235.31766555796378
+      },
+      "probability": 1
+    },
+    {
+      "id": "86aa1525014f",
+      "text": "Taylor Swift endorses Joe Biden",
+      "index": 88,
+      "userId": "vgw2DrrywnV5LmLPhclJc0SXcrB3",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706812421225,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1721612986423,
+      "totalLiquidity": 225,
+      "resolutionProbability": 0.05,
+      "pool": {
+        "YES": 578.212930213759,
+        "NO": 29.81020105823916
+      },
+      "probability": 0
+    },
+    {
+      "id": "2751debe3050",
+      "text": "Michelle Obama is elected POTUS",
+      "index": 89,
+      "userId": "vgw2DrrywnV5LmLPhclJc0SXcrB3",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706818257329,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1706822022944,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.01,
+      "pool": {
+        "YES": 294.02897159061735,
+        "NO": 2.847761682800396
+      },
+      "probability": 0.009592404400979656
+    },
+    {
+      "id": "b1f5b8def44f",
+      "text": "Any world leader says a racial slur ",
+      "index": 90,
+      "userId": "a4Y150jRVKWdZnH0wnciZuENtjN2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1706912291580,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.3848106170921253
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 145,
+      "pool": {
+        "YES": 208.45936571288223,
+        "NO": 47.787602458499336
+      },
+      "probability": 0.1864904111823025
+    },
+    {
+      "id": "9293f11af048",
+      "text": "Kanye West is arrested or admitted to a mental hospital",
+      "index": 91,
+      "userId": "fIldPqVOGBVA3kl2fk8ci9Yiju52",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1706912350657,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.05894419363450526
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 165,
+      "pool": {
+        "YES": 261.2497512398454,
+        "NO": 42.10026354933482
+      },
+      "probability": 0.138784445349684
+    },
+    {
+      "id": "5b8f606b40fe",
+      "text": "Total funding for the Effective Altruism movement grows >25% compared to 2023",
+      "index": 92,
+      "userId": "a4Y150jRVKWdZnH0wnciZuENtjN2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1706912531050,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.29944174858219
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 77.6222048316538,
+        "NO": 26.084452773667273
+      },
+      "probability": 0.25152148739512464
+    },
+    {
+      "id": "4710feb25161",
+      "text": "The next actor to play James Bond will be announced",
+      "index": 93,
+      "userId": "fIldPqVOGBVA3kl2fk8ci9Yiju52",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1706914217990,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.06332629126232275
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 205,
+      "pool": {
+        "YES": 147.69237288577273,
+        "NO": 136.3314211253286
+      },
+      "probability": 0.4799999999999998
+    },
+    {
+      "id": "7d33dd558f85",
+      "text": "Donald Trump says a racial slur",
+      "index": 94,
+      "userId": "rK2EcetgPQYOME12Qt1xJDobuBD3",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1706914579401,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.012470127537374906
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 245,
+      "pool": {
+        "YES": 712.4719400904679,
+        "NO": 41.844737384142675
+      },
+      "probability": 0.05547370041483819
+    },
+    {
+      "id": "ebcf2163bd44",
+      "text": "biden visits japan ",
+      "index": 95,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1706925313866,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.02890335811486657
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 304.26666985005585,
+        "NO": 16.384181733529523
+      },
+      "probability": 0.0510966418851334
+    },
+    {
+      "id": "8fe6425a187c",
+      "text": "reddit r/Worldnews unpins the Russia/Ukraine thread",
+      "index": 96,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1707016482193,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.11983040869443504
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 125,
+      "pool": {
+        "YES": 187.74932199518713,
+        "NO": 49.242500265591715
+      },
+      "probability": 0.20778143226987264
+    },
+    {
+      "id": "ed253a81b8c8",
+      "text": "English Wikipedia will reach 6.93 million articles.",
+      "index": 97,
+      "userId": "FrlI0G9SHwOCNYAfflbL4WrExEl1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1707343655547,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.007463617399660061
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 18.638354944536133,
+        "NO": 331.6155309221879
+      },
+      "probability": 0.9467861579938952
+    },
+    {
+      "id": "d129067d9364",
+      "text": "Ray William Johnson releases a sequel to \"Doin' Your Mom\"",
+      "index": 98,
+      "userId": "fIldPqVOGBVA3kl2fk8ci9Yiju52",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1707525933120,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 112.58732060378672,
+        "NO": 39.55770723916842
+      },
+      "probability": 0.26000000000000056
+    },
+    {
+      "id": "3d532d108283",
+      "text": "something related to seinfeld (the show) happens as jerry seinfeld hinted at last fall ",
+      "index": 99,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1707767567661,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.4326766198424365
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 80.42410105136936,
+        "NO": 48.09719987280379
+      },
+      "probability": 0.37423523981585644
+    },
+    {
+      "id": "e8e83618b435",
+      "text": "Imu face reveal in One Piece",
+      "index": 100,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1708015385579,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 59.84068485187212,
+        "NO": 31.71362096385206
+      },
+      "probability": 0.34639136500781964
+    },
+    {
+      "id": "c5f1a2a10f0a",
+      "text": "A terrorist bombing is perpetrated by a Christian, Hindu or Buddhist religious extremist somewhere in the world (in the name of religious extremism)",
+      "index": 101,
+      "userId": "3ovGrYGPkpWNszlR2rIBdknDFtp1",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1708016384322,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.09724250576696739
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 177.8417465785092,
+        "NO": 36.15602707149108
+      },
+      "probability": 0.16895515525607915
+    },
+    {
+      "id": "a609f7784a9b",
+      "text": "Nintendo Direct airs",
+      "index": 102,
+      "userId": "I2bVfkY49dQ54suiyzZ2SN15QZA3",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1708069868590,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1708532909381,
+      "totalLiquidity": 105,
+      "resolutionProbability": 0.93,
+      "pool": {
+        "YES": 14.575213555599861,
+        "NO": 193.64212295296966
+      },
+      "probability": 0.9299999999999999
+    },
+    {
+      "id": "9b43f636b34c",
+      "text": "someone has reached 10 million mana profit on manifold ",
+      "index": 103,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1708108916104,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1714100821301,
+      "totalLiquidity": 165,
+      "resolutionProbability": 0.89,
+      "pool": {
+        "YES": 32.7263968948876,
+        "NO": 268.81769937936406
+      },
+      "probability": 0.8914706097740237
+    },
+    {
+      "id": "5065b7cc0c36",
+      "text": "ethereum hits $3000 at some point in 2024",
+      "index": 104,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1708199118289,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1708999933312,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 3.1772095172742203,
+        "NO": 524.9999999999999
+      },
+      "probability": 1
+    },
+    {
+      "id": "6e976eabb611",
+      "text": "commercial airline hijacking",
+      "index": 105,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1708318206395,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.06407781171335736
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 232.86204163357394,
+        "NO": 23.97605128340203
+      },
+      "probability": 0.09335083830867874
+    },
+    {
+      "id": "9e183efd127c",
+      "text": "coup of a UN recognized country happens",
+      "index": 106,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1708318234567,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 102.53767904529934,
+        "NO": 54.65364682794956
+      },
+      "probability": 0.347688694171455
+    },
+    {
+      "id": "e921f8c4ab7b",
+      "text": "any country starts a new invasion of another country ",
+      "index": 107,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1708318335810,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.017211145430327313
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1729398111815,
+      "totalLiquidity": 125,
+      "resolutionProbability": 0.98,
+      "pool": {
+        "YES": 13.911014596655093,
+        "NO": 794.3451617844291
+      },
+      "probability": 1
+    },
+    {
+      "id": "b407b91b2b2d",
+      "text": "bitcoin reaches a new all time high",
+      "index": 108,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1708318492990,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1709657454504,
+      "totalLiquidity": 85,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 3.713393931929407,
+        "NO": 543.0612244897961
+      },
+      "probability": 1
+    },
+    {
+      "id": "af065b043b65",
+      "text": "linda yaccarino still ceo of twitter at end of year",
+      "index": 109,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1708318715665,
+      "probChanges": {
+        "day": -1.1102230246251565e-16,
+        "week": -1.1102230246251565e-16,
+        "month": 0.021360610670476787
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 25.40558473957791,
+        "NO": 295.0328303386493
+      },
+      "probability": 0.9207161702713584
+    },
+    {
+      "id": "542d655d07cc",
+      "text": "joseph anderson releases his long awaited witcher 3 video ",
+      "index": 110,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1708318891468,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.43503549083951265
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 154.1075801466215,
+        "NO": 26.346094301857363
+      },
+      "probability": 0.14599921216555448
+    },
+    {
+      "id": "4f814058b444",
+      "text": "a new instance of a country invading another country (guyana, armenia, etc )",
+      "index": 111,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1708538065692,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1708538077548,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.5,
+      "pool": {
+        "YES": 25,
+        "NO": 25
+      },
+      "probability": 0.5
+    },
+    {
+      "id": "41d9f265185f",
+      "text": "crane collapse in a USA city",
+      "index": 112,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1708538112258,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1709356901054,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.4,
+      "pool": {
+        "YES": 70.61862178478972,
+        "NO": 47.07908118985984
+      },
+      "probability": 0.40000000000000013
+    },
+    {
+      "id": "dcb13c230ae0",
+      "text": "eth ethereum hits $4000 USD",
+      "index": 113,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1708999945474,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1710163340158,
+      "totalLiquidity": 110,
+      "resolutionProbability": 1,
+      "pool": {
+        "YES": 3.328229500881465,
+        "NO": 1460
+      },
+      "probability": 1
+    },
+    {
+      "id": "9b922a88789c",
+      "text": "crane collapse in the downtown area of a major usa city",
+      "index": 114,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1709356917934,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1728999485680,
+      "totalLiquidity": 105,
+      "resolutionProbability": 0.97,
+      "pool": {
+        "YES": 11.710039054174644,
+        "NO": 449.7854462133509
+      },
+      "probability": 1
+    },
+    {
+      "id": "cd9f4505340a",
+      "text": "new iphone releases ",
+      "index": 115,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1709657426099,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1728409079213,
+      "totalLiquidity": 105,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 5.052691377562432,
+        "NO": 500.21644637868087
+      },
+      "probability": 1
+    },
+    {
+      "id": "6ff405a835c5",
+      "text": "contrapoints releases a video after Twilight",
+      "index": 116,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1709658733205,
+      "probChanges": {
+        "day": -1.1102230246251565e-16,
+        "week": 0.028125412139183736,
+        "month": -0.09824629020378095
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 68.84666874497728,
+        "NO": 90.36819423042532
+      },
+      "probability": 0.5675864209008331
+    },
+    {
+      "id": "de66b770c225",
+      "text": "hollow knight silksong releases",
+      "index": 117,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1709699641613,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.09295267089547316
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 170.4278951277106,
+        "NO": 26.410808957090637
+      },
+      "probability": 0.1341748772421934
+    },
+    {
+      "id": "e176c874f54e",
+      "text": "Spider Man beyond the Spiderverse releases after the delay from March 2024",
+      "index": 118,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1709934270001,
+      "probChanges": {
+        "day": 0,
+        "week": -0.030878639351696255,
+        "month": -0.030878639351696255
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 537.2106604241766,
+        "NO": 5.426370307314926
+      },
+      "probability": 0.010000000000000021
+    },
+    {
+      "id": "03d20582fd21",
+      "text": "i slay 15 top creators",
+      "index": 119,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1709934316929,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1714100840496,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.98,
+      "pool": {
+        "YES": 5.61146984951845,
+        "NO": 224.91773945496956
+      },
+      "probability": 0.9756583130335268
+    },
+    {
+      "id": "b056f10fb725",
+      "text": "nvidia ends the year over $1000 USD",
+      "index": 120,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1709934430999,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.004908419022827029
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 582.1230967435044,
+        "NO": 15.37691564515206
+      },
+      "probability": 0.025735423140292455
+    },
+    {
+      "id": "7ee101924a92",
+      "text": "destiny talks to joe rogan",
+      "index": 121,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1710163457278,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.012034856506918282
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 168.66271717549188,
+        "NO": 19.74558962599866
+      },
+      "probability": 0.10480211812955187
+    },
+    {
+      "id": "4291c19963f9",
+      "text": "biden takes a trip outside the USA",
+      "index": 122,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1710163466704,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1719178238620,
+      "totalLiquidity": 105,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 7.583716129625429,
+        "NO": 750.7878968329205
+      },
+      "probability": 1
+    },
+    {
+      "id": "a287f8228d49",
+      "text": "spacex makes 100 launches in 1 year, all in 2024",
+      "index": 123,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1713472690599,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1728997754465,
+      "totalLiquidity": 105,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 6.709065216221234,
+        "NO": 664.1974564059003
+      },
+      "probability": 1
+    },
+    {
+      "id": "691334fbb164",
+      "text": "elon musk has another child",
+      "index": 124,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1713475142881,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1720043977568,
+      "totalLiquidity": 65,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 5.7672022842767205,
+        "NO": 532.4842344695436
+      },
+      "probability": 1
+    },
+    {
+      "id": "a9fa3075a6d7",
+      "text": "23andMe goes private",
+      "index": 125,
+      "userId": "9GvIXLtI42XrGhWIeT3h9L6NIpA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1713753639412,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.07792454868201432
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 149.98143268726886,
+        "NO": 11.888108756706124
+      },
+      "probability": 0.07344253063706085
+    },
+    {
+      "id": "04e4cb43fe91",
+      "text": "someone gets 1M spice (points)",
+      "index": 126,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1714100905384,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.06364734732372175
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 162.25829915627267,
+        "NO": 11.69594903606032
+      },
+      "probability": 0.06723577697929321
+    },
+    {
+      "id": "4cdf9a73003d",
+      "text": "tiktok USA company sale is signed and finalized ",
+      "index": 127,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1714100937751,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 133.3359789022292,
+        "NO": 13.017264133076715
+      },
+      "probability": 0.08894414543268073
+    },
+    {
+      "id": "5315142af216",
+      "text": "bitcoin reaches 80k USD",
+      "index": 128,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1714101052447,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.9018172872097067
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731256743674,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 4.3782806431287895,
+        "NO": 433.44978366974766
+      },
+      "probability": 1
+    },
+    {
+      "id": "6bbcdbdb7e88",
+      "text": "trump and biden debate",
+      "index": 129,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1714790426455,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1719544600779,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 2.5125945381480506,
+        "NO": 248.74685927665544
+      },
+      "probability": 1
+    },
+    {
+      "id": "pqaberaqox",
+      "text": "Dutch coalition resigns ",
+      "index": 130,
+      "userId": "108tp4wNYKfBeVJ62CvCpwu27oC3",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1721119091197,
+      "probChanges": {
+        "day": 1.3877787807814457e-17,
+        "week": 1.3877787807814457e-17,
+        "month": -0.1888356317769973
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 281.73176166856325,
+        "NO": 35.49475551061324
+      },
+      "probability": 0.11189088423703565
+    },
+    {
+      "id": "nklrevmimf",
+      "text": "Kamala and Trump debate ",
+      "index": 131,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1721649040000,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1726670966189,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 10.056428291739252,
+        "NO": 994.3888336790899
+      },
+      "probability": 1
+    },
+    {
+      "id": "z7xhdn564i",
+      "text": "vance replaced as trumps VP",
+      "index": 132,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1722283900350,
+      "probChanges": {
+        "day": 1.3877787807814457e-17,
+        "week": 1.3877787807814457e-17,
+        "month": 1.3877787807814457e-17
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 495.9257557979884,
+        "NO": 20.16430863508816
+      },
+      "probability": 0.0390712978697596
+    },
+    {
+      "id": "ch4mutfw1u",
+      "text": "Starliner program terminated",
+      "index": 133,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "createdTime": 1722698159079,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.06855487305515334
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 263.5821531480759,
+        "NO": 37.93883569340966
+      },
+      "probability": 0.1258248582932139
+    },
+    {
+      "id": "r37ev2dykn",
+      "text": "jd vance and walz debate",
+      "index": 134,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1722698198731,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1727939223950,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 10.050378152592124,
+        "NO": 994.9874371066193
+      },
+      "probability": 1
+    },
+    {
+      "id": "pbcy2yahx1",
+      "text": "First Female President",
+      "index": 135,
+      "userId": "hEP9ioZCTTdmF8V8lPCqE5ZE49d2",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "CANCEL",
+      "resolverId": "qnIAzz9RamaodeiJSiGZO6xRGC63",
+      "createdTime": 1729394991195,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.15000000000000002
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1729510238717,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.35,
+      "pool": {
+        "YES": 134.9348129222716,
+        "NO": 74.10985929747025
+      },
+      "probability": 0.3545168528359721
+    },
+    {
+      "id": "qPR5l2ng9l",
+      "text": "President elect will be uncontested by Veterans Day (Nov 11)",
+      "index": 136,
+      "userId": "RENPmnXDYmbTnIzOBdoy8QiOWHH3",
+      "isOther": false,
+      "contractId": "0ejY45VzB7kf0xecWtXD",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1729866428112,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731256741374,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 10.050378152592117,
+        "NO": 994.9874371066189
+      },
+      "probability": 1
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "I reserve the right to NA any answer for any reason, to combat duplicates or abuse.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo%2Ffcff615c7ae2.jpg",
+  "groupSlugs": [
+    "coolfold",
+    "grab-bag",
+    "what-will-happen-markets",
+    "world-default"
+  ],
+  "textDescription": "I reserve the right to NA any answer for any reason, to combat duplicates or abuse."
+}

@@ -1,0 +1,107 @@
+{
+  "id": "fo2cx7uz6w",
+  "creatorId": "oK0iNRZNtNQZHXcvS59XWKWvqk52",
+  "creatorUsername": "dlin007",
+  "creatorName": "David Lin",
+  "createdTime": 1728063185924,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdlin007%2FjZgnASFe5l.jpg?alt=media&token=2f0994a6-e2ea-44b1-9532-7d0313118b1d",
+  "closeTime": 1731563369647,
+  "question": "Will Donald Trump win >20% of votes in Philadelphia County, PA?",
+  "slug": "will-donald-trump-win-20-of-votes-i",
+  "url": "https://manifold.markets/dlin007/will-donald-trump-win-20-of-votes-i",
+  "pool": {
+    "NO": 6510.747018833803,
+    "YES": 153.5922064099995
+  },
+  "probability": 0.9769531230000702,
+  "p": 0.4999999999999969,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 53788.79763093602,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 96,
+  "lastUpdatedTime": 1731871794421,
+  "lastBetTime": 1731026156573,
+  "lastCommentTime": 1731871793169,
+  "marketTier": "plus",
+  "token": "MANA",
+  "siblingContractId": "7sr1g8wk8u",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "State-level markets = boring, played out. Manifold deserves to speculate on midwestern counties they haven't the first clue about. ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "For reference:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "https://www.nytimes.com/elections/2016/results/pennsylvania",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.nytimes.com/elections/2016/results/pennsylvania",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "https://www.nytimes.com/interactive/2020/11/03/us/elections/results-pennsylvania.html",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.nytimes.com/interactive/2020/11/03/us/elections/results-pennsylvania.html",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/dlin007/7d5az5mkjc.jpg",
+  "groupSlugs": [
+    "us-politics",
+    "politics-default",
+    "2024-us-presidential-election",
+    "donald-trump",
+    "magaland"
+  ],
+  "textDescription": "State-level markets = boring, played out. Manifold deserves to speculate on midwestern counties they haven't the first clue about. \n\nFor reference:\n\nhttps://www.nytimes.com/elections/2016/results/pennsylvania\n\nhttps://www.nytimes.com/interactive/2020/11/03/us/elections/results-pennsylvania.html"
+}

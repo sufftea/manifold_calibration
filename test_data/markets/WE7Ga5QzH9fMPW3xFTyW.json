@@ -1,0 +1,62 @@
+{
+  "id": "WE7Ga5QzH9fMPW3xFTyW",
+  "creatorId": "YGZdZUSFQyM8j2YzPaBqki8NBz23",
+  "creatorUsername": "jack",
+  "creatorName": "Jack",
+  "createdTime": 1669783669359,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FJackC%2Fmetal-jacks-thumbnail.jpg?alt=media&token=89d230f3-05a9-4ad4-9606-5fc6e2c6b096",
+  "closeTime": 1735707540000,
+  "question": "Will Manifold announce they intend to shut down before 2025?",
+  "slug": "will-manifold-announce-they-intend",
+  "url": "https://manifold.markets/jack/will-manifold-announce-they-intend",
+  "pool": {
+    "NO": 1569.5502672865875,
+    "YES": 6390.281554895117
+  },
+  "probability": 0.042271693865773154,
+  "p": 0.1523280563677316,
+  "totalLiquidity": 1985,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 39403.82783001932,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 114,
+  "lastUpdatedTime": 1731544022532,
+  "lastBetTime": 1731544022532,
+  "lastCommentTime": 1679970115057,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Resolves YES if by the end of 2024, Manifold officially announces their intention to shut down. Otherwise resolves NO.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The date of the planned shutdown does not matter for this question. For example, if in November 2024 Manifold announces they will shutdown in June 2025, that resolves YES.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/dream%2FNf7oSBwAxO.png?alt=media&token=22a7b62a-897a-472c-996f-ab320086a4fe",
+  "groupSlugs": [
+    "manifold-6748e065087e",
+    "manifold-business-future"
+  ],
+  "textDescription": "Resolves YES if by the end of 2024, Manifold officially announces their intention to shut down. Otherwise resolves NO.\n\nThe date of the planned shutdown does not matter for this question. For example, if in November 2024 Manifold announces they will shutdown in June 2025, that resolves YES."
+}

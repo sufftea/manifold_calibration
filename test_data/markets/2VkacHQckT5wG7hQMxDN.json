@@ -1,0 +1,99 @@
+{
+  "id": "2VkacHQckT5wG7hQMxDN",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1713138407400,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1767243540000,
+  "question": "Will New York City crack down on unlicensed weed dispensaries before the end of 2025?",
+  "slug": "will-new-york-city-crack-down-on-un-0e17b7988dd7",
+  "url": "https://manifold.markets/strutheo/will-new-york-city-crack-down-on-un-0e17b7988dd7",
+  "pool": {
+    "NO": 414.5628595976656,
+    "YES": 74.42232669435299
+  },
+  "probability": 0.8405939755856318,
+  "p": 0.48629982211973444,
+  "totalLiquidity": 180,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 274.4213215667955,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 8,
+  "lastUpdatedTime": 1731043808669,
+  "lastBetTime": 1731043808669,
+  "marketTier": "play",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Right now you can walk down almost any street in Manhattan and find a storefront that is selling weed/marijuana without a license, because currently there are loopholes in the legislation and it is not fully regulated yet.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "If they pass legislation to crack down on this or I no longer see these storefronts being operated publicly without worry of legal consequences, I will resolve this YES",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "93v0XQzKX8NJKARwoQEk",
+              "label": "/strutheo/will-new-york-city-crack-down-on-un"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "9OgmQLe0DccYYS8sHy63",
+              "label": "/strutheo/will-new-york-city-crack-down-on-un-2501996b4e59"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": null,
+  "groupSlugs": [
+    "new-york-city",
+    "cannabis",
+    "drug-policy",
+    "drugs",
+    "new-york"
+  ],
+  "textDescription": "Right now you can walk down almost any street in Manhattan and find a storefront that is selling weed/marijuana without a license, because currently there are loopholes in the legislation and it is not fully regulated yet.\n\nIf they pass legislation to crack down on this or I no longer see these storefronts being operated publicly without worry of legal consequences, I will resolve this YES\n\n@/strutheo/will-new-york-city-crack-down-on-un \n\n@/strutheo/will-new-york-city-crack-down-on-un-2501996b4e59 "
+}

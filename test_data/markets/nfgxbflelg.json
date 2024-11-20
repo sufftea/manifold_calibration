@@ -1,0 +1,80 @@
+{
+  "id": "nfgxbflelg",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1727313253241,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1730429368810,
+  "question": "Will Eric Adams resign or announce he will resign as mayor of NYC before the end of October?",
+  "slug": "will-eric-adams-resign-or-announce",
+  "url": "https://manifold.markets/strutheo/will-eric-adams-resign-or-announce",
+  "pool": {
+    "NO": 2317.5384238581064,
+    "YES": 118629.70531803998
+  },
+  "probability": 0.01136165462618399,
+  "p": 0.3703808743381818,
+  "totalLiquidity": 10000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 127468.47459445313,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1730429368810,
+  "resolutionProbability": 0.011361654626183992,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 157,
+  "lastUpdatedTime": 1730497111558,
+  "lastBetTime": 1730424856901,
+  "lastCommentTime": 1730497110121,
+  "marketTier": "premium",
+  "token": "MANA",
+  "siblingContractId": "mksamw7ob5",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "https://www.nytimes.com/live/2024/09/25/nyregion/eric-adams-indicted-corruption",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.nytimes.com/live/2024/09/25/nyregion/eric-adams-indicted-corruption",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Will resolve YES if Eric Adams issues a statement saying he will step down, even if the day he step's down is after October 31st.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/i4cdbhb1va.jpg",
+  "groupSlugs": [
+    "politics-default",
+    "news",
+    "law-order",
+    "new-york",
+    "nyc"
+  ],
+  "textDescription": "https://www.nytimes.com/live/2024/09/25/nyregion/eric-adams-indicted-corruption\n\nWill resolve YES if Eric Adams issues a statement saying he will step down, even if the day he step's down is after October 31st."
+}

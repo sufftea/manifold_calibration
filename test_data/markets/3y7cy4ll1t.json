@@ -1,0 +1,39 @@
+{
+  "id": "3y7cy4ll1t",
+  "creatorId": "JljMq9ITGFVYhXqKk1oS1MtmXf83",
+  "creatorUsername": "mr_mino",
+  "creatorName": "mr_mino",
+  "createdTime": 1728529833117,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIhpVDFQAVKbt-9Od9WSi01Lp_CQJnMybA5BxSxLa6a=s96-c",
+  "closeTime": 1735718340000,
+  "question": "Will Ding Liren win the 2024 World Chess Championship?",
+  "slug": "will-ding-liren-win-the-2024-world--cash",
+  "url": "https://manifold.markets/mr_mino/will-ding-liren-win-the-2024-world--cash",
+  "pool": {
+    "NO": 98.31695614716979,
+    "YES": 106.59360859252162
+  },
+  "probability": 0.19690486918611463,
+  "p": 0.21000000000000021,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 111.03417991131019,
+  "volume24Hours": 5,
+  "isResolved": false,
+  "uniqueBettorCount": 17,
+  "lastUpdatedTime": 1731965236076,
+  "lastBetTime": 1731965236076,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "FLEmirOfw1jW61cXFZbS",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

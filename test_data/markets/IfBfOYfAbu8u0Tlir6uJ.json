@@ -1,0 +1,156 @@
+{
+  "id": "IfBfOYfAbu8u0Tlir6uJ",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1713076245795,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1730438474689,
+  "question": "What will be the overall ROI of the CoolFold Financial Portfolio after 6 months?",
+  "slug": "what-will-be-the-overall-roi-of-my-388c53ed4654",
+  "url": "https://manifold.markets/strutheo/what-will-be-the-overall-roi-of-my-388c53ed4654",
+  "totalLiquidity": 1000,
+  "outcomeType": "NUMBER",
+  "mechanism": "cpmm-multi-1",
+  "volume": 5025.0282265865135,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "dea2b7fc6eea",
+  "resolutionTime": 1730438474689,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 15,
+  "lastUpdatedTime": 1730438474689,
+  "lastBetTime": 1730438465032,
+  "lastCommentTime": 1730320759115,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Fractional shares if needed, Reinveseting dividends",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Tracking spreadsheet: ",
+            "type": "text"
+          },
+          {
+            "text": "HERE",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://docs.google.com/spreadsheets/d/1s1OxlwEalnadLVi8z0OMdV-tToKSRUnu8NpE52AF1hQ/edit#gid=0",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "10% into the following 10 picks determined by Manifold predictions:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "META, DPZ, TQQQ, COST, MSFT, BRK.B, SPY, GOOG, AMZN, QCOM",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "See: ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "contract-mention",
+                    "attrs": {
+                      "id": "1y0FHXHuFnJAuSndRGKJ",
+                      "label": "/strutheo/coolfold-financial-advice-suggest-i"
+                    }
+                  },
+                  {
+                    "text": " ",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "contract-mention",
+                    "attrs": {
+                      "id": "AuVRc8mAIU68fbiAj31m",
+                      "label": "/strutheo/will-my-coolfold-financial-portfoli"
+                    }
+                  },
+                  {
+                    "text": " ",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": null,
+  "groupSlugs": [
+    "investing",
+    "finance",
+    "crypto-speculation",
+    "manifold-users",
+    "stocks"
+  ],
+  "textDescription": "Fractional shares if needed, Reinveseting dividends\n\nTracking spreadsheet: HERE\n\n10% into the following 10 picks determined by Manifold predictions:\n\nMETA, DPZ, TQQQ, COST, MSFT, BRK.B, SPY, GOOG, AMZN, QCOM\n\nSee: \n\n@/strutheo/coolfold-financial-advice-suggest-i \n\n@/strutheo/will-my-coolfold-financial-portfoli "
+}

@@ -1,0 +1,113 @@
+{
+  "id": "d1pyc7lyhn",
+  "creatorId": "XtJuqIcTwEa5WnmBtmypEKyjlfu1",
+  "creatorUsername": "HenriThunberg",
+  "creatorName": "Henri Thunberg \ud83d\udd38",
+  "createdTime": 1727732633455,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FHenriThunberg%2FC4rMRuElGd.jpeg?alt=media&token=c119866f-2a78-4b4d-8fa3-77eaaa8c1e8b",
+  "closeTime": 1735685940000,
+  "question": "Will Kim Jong Un go abroad in 2024?",
+  "slug": "will-kim-jong-un-go-abroad-in-2024--cash",
+  "url": "https://manifold.markets/HenriThunberg/will-kim-jong-un-go-abroad-in-2024--cash",
+  "pool": {
+    "NO": 79.35874902411618,
+    "YES": 252.12780754765603
+  },
+  "probability": 0.07294874437237422,
+  "p": 0.19999999999999993,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 311.5637785990331,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 14,
+  "lastUpdatedTime": 1731570050780,
+  "lastBetTime": 1731570050780,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "8zTcvS8ltJrJqguGjjEP",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Resolves YES if credible media (e.g. Reuters, AFP, BBC) say Kim Jong Un has been in any country apart from North Korea, before EOY 2024.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Otherwise resolves NO at EOY.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Suspicious unconfirmed photos (e.g. traveling incognito/false identity) would ",
+                    "type": "text"
+                  },
+                  {
+                    "text": "not",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " be enough for this to resolve YES.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Resolves NO immediately if Kim Jong Un is no longer alive, and has not yet been abroad in the given year.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "textDescription": "Resolves YES if credible media (e.g. Reuters, AFP, BBC) say Kim Jong Un has been in any country apart from North Korea, before EOY 2024.\n\nOtherwise resolves NO at EOY.\n\nSuspicious unconfirmed photos (e.g. traveling incognito/false identity) would not be enough for this to resolve YES.\n\nResolves NO immediately if Kim Jong Un is no longer alive, and has not yet been abroad in the given year."
+}

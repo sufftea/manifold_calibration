@@ -1,0 +1,137 @@
+{
+  "id": "ow1608cmfh",
+  "creatorId": "5UEJDhfkuLNxnh3UKgg0rHesRCg2",
+  "creatorUsername": "jks",
+  "creatorName": "JKS",
+  "createdTime": 1721687901979,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fjks%2Fb22eNvFe2_.jpg?alt=media&token=b9898827-31b1-4e0a-b638-cbc4a0a8faa6",
+  "closeTime": 1731391140000,
+  "question": "\ud83c\udfc8 2024 NFL: Will any Week 10 game end in Scorigami?",
+  "slug": "-2024-nfl-will-any-week-10-game-end",
+  "url": "https://manifold.markets/jks/-2024-nfl-will-any-week-10-game-end",
+  "pool": {
+    "NO": 100.50378152592111,
+    "YES": 9949.874371066195
+  },
+  "probability": 0.009999999999999998,
+  "p": 0.5000000000000001,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 9227.37465948541,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1731395967741,
+  "resolutionProbability": 0.009999999999999998,
+  "resolverId": "5UEJDhfkuLNxnh3UKgg0rHesRCg2",
+  "uniqueBettorCount": 9,
+  "lastUpdatedTime": 1731391140000,
+  "lastBetTime": 1731385735362,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Scorigami explained:",
+            "type": "text"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "https://nflscorigami.com/",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://nflscorigami.com/",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "Scorigami frequency:",
+            "type": "text"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "https://twitter.com/search?q=%22That%27s%20Scorigami!!%22%20(from%3Anfl_scorigami)&src=typed_query&f=live",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://twitter.com/search?q=%22That%27s%20Scorigami!!%22%20(from%3Anfl_scorigami)&src=typed_query&f=live",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "Last Week:",
+            "type": "text"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "ap6x7uiu71",
+              "label": "/jks/-2024-nfl-will-any-week-9-game-end"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "Next Week:",
+            "type": "text"
+          },
+          {
+            "type": "hardBreak"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/jks/sb6gjwfz4d.jpg",
+  "groupSlugs": [
+    "football",
+    "scorigami"
+  ],
+  "textDescription": "Scorigami explained:\nhttps://nflscorigami.com/\n\nScorigami frequency:\nhttps://twitter.com/search?q=%22That%27s%20Scorigami!!%22%20(from%3Anfl_scorigami)&src=typed_query&f=live\n\nLast Week:\n@/jks/-2024-nfl-will-any-week-9-game-end \n\n\nNext Week:\n"
+}

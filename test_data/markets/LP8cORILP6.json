@@ -1,0 +1,134 @@
+{
+  "id": "LP8cORILP6",
+  "creatorId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+  "creatorUsername": "mattyb",
+  "creatorName": "Matt",
+  "createdTime": 1731282724908,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fmattyb%2Feq8TCTaQW_.jpeg?alt=media&token=b8632c4a-5f41-4148-a6aa-3b42c0d89c03",
+  "closeTime": 1733039940000,
+  "question": "Will Mariah\u2019s All I Want for Christmas Is You Reach #1 on Billboard in November 2024?",
+  "slug": "will-mariahs-all-i-want-for-christm",
+  "url": "https://manifold.markets/mattyb/will-mariahs-all-i-want-for-christm",
+  "pool": {
+    "NO": 161.37254763880009,
+    "YES": 6196.840879269581
+  },
+  "probability": 0.025380171567670397,
+  "p": 0.5000000000000002,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 20489.3663565651,
+  "volume24Hours": 53.61689607176413,
+  "isResolved": false,
+  "uniqueBettorCount": 32,
+  "lastUpdatedTime": 1732003235121,
+  "lastBetTime": 1732003235121,
+  "lastCommentTime": 1731990548854,
+  "marketTier": "plus",
+  "token": "MANA",
+  "siblingContractId": "ANysgyQpgh",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Billboard\u2019s Hot 100 edition are weekly leaderboards with a Saturday date, and there are 2 Saturday\u2019s at the end of this month: the 23rd and the 30th.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Since 2019, Mariah Carey\u2019s All I Want For Christmas Is You has reached #1 on the Billboard Hot 100 in the month of November every year (",
+            "type": "text"
+          },
+          {
+            "text": "seen below and here",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://en.m.wikipedia.org/wiki/All_I_Want_for_Christmas_Is_You#Chart_performance",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": "). Will she do it again this year?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Can Mariah Carey get her 6th consecutive #1 on the ",
+            "type": "text"
+          },
+          {
+            "text": "Billboard Hot 100",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.billboard.com/charts/hot-100",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": " before December?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Resolves NO on December 1st.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FVorhDgjBde.jpeg?alt=media&token=f3ab4033-a539-433f-9e5b-267c21699419",
+          "title": null
+        }
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/mattyb/I85IcgyC59.jpg",
+  "groupSlugs": [
+    "christmas",
+    "celebrities",
+    "billboard-hot-100",
+    "music-f213cbf1eab5",
+    "music-artists"
+  ],
+  "textDescription": "Billboard\u2019s Hot 100 edition are weekly leaderboards with a Saturday date, and there are 2 Saturday\u2019s at the end of this month: the 23rd and the 30th.\n\nSince 2019, Mariah Carey\u2019s All I Want For Christmas Is You has reached #1 on the Billboard Hot 100 in the month of November every year (seen below and here). Will she do it again this year?\n\nCan Mariah Carey get her 6th consecutive #1 on the Billboard Hot 100 before December?\n\nResolves NO on December 1st.\n\n[image]"
+}

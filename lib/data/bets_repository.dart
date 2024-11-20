@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:dio/dio.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:manifold_callibration/config.dart';
 import 'package:manifold_callibration/data/dio_provider.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
@@ -12,11 +13,15 @@ import 'package:manifold_callibration/entities/loading_batch.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
 
 class BetsRepository {
-  BetsRepository(this._dio);
+  BetsRepository(this._dio, this._config);
 
+  final Config _config;
   final Dio _dio;
 
   Stream<LoadingBatch> getUserBets(Context ctx, String username) async* {
+    // fetch all user's bets in json
+    // The max number of bets returned at once is 10000. If we receive this many,
+    // make another request to fetch the rest.
     String? lastBetId;
     List<dynamic> betsJson = [];
     while (true) {
@@ -24,10 +29,10 @@ class BetsRepository {
         return;
       }
 
-      final batch = await _getBets(ctx, username, lastBetId);
+      final batch = await _getBetsJson(username, lastBetId);
       betsJson.addAll(batch);
 
-      if (batch.length == 10000) {
+      if (batch.length == _config.manifoldBetsPerRequestLimit) {
         lastBetId = betsJson.last['id'];
         continue;
       } else {
@@ -37,53 +42,64 @@ class BetsRepository {
 
     debugPrint('received ${betsJson.length} user bets. requesting markets');
 
-    const marketBatchSize = 1000;
-    Iterable<dynamic> betsJsonIterable = betsJson;
+    final marketIdToBetsJson = <String, List<dynamic>>{};
+    for (final betJson in betsJson) {
+      if (betJson["contractId"] case final marketId?) {
+        if (marketIdToBetsJson[marketId] case final betsForMarket?) {
+          betsForMarket.add(betJson);
+        } else {
+          marketIdToBetsJson[marketId] = [betJson];
+        }
+      }
+    }
+
+    var uniqueMraketIds = marketIdToBetsJson.keys;
+    final totalMarketIds = uniqueMraketIds.length;
+
     do {
       if (ctx.done) {
         return;
       }
 
-      debugPrint(
-          'requesting $marketBatchSize markets. ${betsJson.length} left');
-      final failedMarketIds = <String>[];
-      final bets = await Future.wait<Bet?>([
-        for (final betJson in betsJsonIterable.take(marketBatchSize))
-          () async {
-            try {
-              final market = await _getMarket(betJson["contractId"] as String);
-              if (market == null) {
-                return null;
-              }
+      final marketIdsBatch =
+          uniqueMraketIds.take(_config.marketRequestBatchSize);
 
-              return _parseBet(betJson, market);
-            } on DioException catch (_) {
-              debugPrint('error requesting market. bet data: $betJson');
-              failedMarketIds.add(betJson["contractId"]);
-              return null;
+      final markets = await Future.wait<Market?>(
+        [for (final marketId in marketIdsBatch) _getMarket(marketId)],
+      );
+
+      debugPrint(
+          'fetched ${markets.length} markets. ${uniqueMraketIds.length} left');
+
+      final bets = <Bet>[];
+      for (final market in markets.nonNulls) {
+        if (marketIdToBetsJson[market.id] case final betsJson?) {
+          for (final betJson in betsJson) {
+            final bet = _parseBet(betJson, market);
+            if (bet == null) {
+              continue;
             }
-          }(),
-      ]);
+            bets.add(bet);
+          }
+        }
+      }
+
+      uniqueMraketIds = uniqueMraketIds.skip(_config.marketRequestBatchSize);
+      final batch = LoadingBatch(
+        bets: bets,
+        errored: 0,
+        total: totalMarketIds,
+        loaded: totalMarketIds - uniqueMraketIds.length,
+      );
 
       if (ctx.done) {
         return;
       }
-
-      final successfulResults = bets.whereType<Bet>().toList();
-      betsJsonIterable = betsJsonIterable.skip(marketBatchSize);
-      betsJsonIterable.followedBy(failedMarketIds);
-
-      final batch = LoadingBatch(
-        bets: successfulResults,
-        errored: bets.length - successfulResults.length,
-        total: betsJson.length,
-        loaded: betsJson.length - betsJsonIterable.length,
-      );
       yield batch;
-    } while (betsJsonIterable.isNotEmpty);
+    } while (uniqueMraketIds.isNotEmpty);
   }
 
-  Future<Bet?> _parseBet(dynamic betJson, Market market) async {
+  Bet? _parseBet(dynamic betJson, Market market) {
     try {
       final bet = Bet(
         id: betJson["id"] as String,
@@ -100,7 +116,7 @@ class BetsRepository {
 
       return bet;
     } on TypeError catch (_) {
-      // TODO: log this
+      debugPrint('failed to parse bet: $betJson');
       return null;
     }
   }
@@ -135,36 +151,32 @@ class BetsRepository {
           _ => UnimplementedMarketOutcome(),
         },
       );
+    } on DioException catch (_) {
+      debugPrint('error requesting market: $marketId');
+      return null;
     } on TypeError catch (_) {
-      // TODO: log this
       throw UnexpectedResponseException("Hmm. Couldn't parse the response.");
     }
   }
 
-  Future<List<dynamic>> _getBets(Context ctx, String username,
+  Future<List<dynamic>> _getBetsJson(String username,
       [String? beforeBetId]) async {
-    final Response resp;
     try {
-      resp = await _dio.get(
+      final resp = await _dio.get(
         '/bets',
         queryParameters: {
           'username': username,
           if (beforeBetId != null) 'before': beforeBetId,
         },
       );
+
+      if (resp.data case final List<dynamic> betsJson) {
+        return betsJson;
+      } else {
+        throw UnexpectedResponseException("Unexpected response");
+      }
     } on DioException catch (_) {
       throw InvalidUsernameException(username);
-    }
-
-    if (resp.statusCode != 200) {
-      throw InvalidUsernameException(username);
-    }
-
-    if (resp.data case final List<dynamic> betsJson) {
-      return betsJson;
-    } else {
-      // TODO: i need to setup logging.
-      throw UnexpectedResponseException("Hmm. Couldn't parse the response.");
     }
   }
 }
@@ -172,6 +184,9 @@ class BetsRepository {
 final betsRepositoryProvider = Provider(
   (ref) {
     // return BetsRepositoryMock();
-    return BetsRepository(ref.watch(dioProvider));
+    return BetsRepository(
+      ref.watch(dioProvider),
+      ref.watch(configProvider),
+    );
   },
 );

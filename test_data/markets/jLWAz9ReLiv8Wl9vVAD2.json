@@ -1,0 +1,58 @@
+{
+  "id": "jLWAz9ReLiv8Wl9vVAD2",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1705451745196,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1731220560708,
+  "question": "Will Skibidi Toilet still be uploading new episodes after Trump's birthday? (June 14)",
+  "slug": "will-skibidi-toilet-still-be-upload-63701052434e",
+  "url": "https://manifold.markets/strutheo/will-skibidi-toilet-still-be-upload-63701052434e",
+  "pool": {
+    "NO": 510.8819666271669,
+    "YES": 39.58370599968941
+  },
+  "probability": 0.9532398669138491,
+  "p": 0.6123294506413949,
+  "totalLiquidity": 110,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 403,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1731220560708,
+  "resolutionProbability": 0.9532398669138491,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 4,
+  "lastUpdatedTime": 1731220560708,
+  "lastBetTime": 1731220554774,
+  "marketTier": "play",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo%2Ff74805b314ea.jpg",
+  "groupSlugs": [
+    "us-politics",
+    "politics-default",
+    "2024-us-presidential-election",
+    "donald-trump",
+    "youtube",
+    "magaland",
+    "internet",
+    "memes",
+    "future-us-presidents",
+    "2024-republican-primaries",
+    "2024-primaries",
+    "meme-markets",
+    "skibidi-toilet"
+  ],
+  "textDescription": ""
+}

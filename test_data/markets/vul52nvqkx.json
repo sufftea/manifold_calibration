@@ -1,0 +1,79 @@
+{
+  "id": "vul52nvqkx",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1725724150366,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1731214740000,
+  "question": "Will Wikileaks post a new leak before the election?",
+  "slug": "will-wikileaks-post-a-new-leak-befo",
+  "url": "https://manifold.markets/strutheo/will-wikileaks-post-a-new-leak-befo",
+  "pool": {
+    "NO": 454.9555597706312,
+    "YES": 13296.486827123303
+  },
+  "probability": 0.010000000000000005,
+  "p": 0.2279251065692535,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 12722.547550612138,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1731214812509,
+  "resolutionProbability": 0.010000000000000005,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 21,
+  "lastUpdatedTime": 1731214740000,
+  "lastBetTime": 1731020091476,
+  "lastCommentTime": 1726053924535,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "https://wikileaks.org/-Leaks-.html",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://wikileaks.org/-Leaks-.html",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The last one is from Dec 2018",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/xlqhiuvy0h.jpg",
+  "groupSlugs": [
+    "us-politics",
+    "politics-default",
+    "2024-us-presidential-election",
+    "donald-trump",
+    "magaland"
+  ],
+  "textDescription": "https://wikileaks.org/-Leaks-.html\n\nThe last one is from Dec 2018"
+}

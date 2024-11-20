@@ -1,0 +1,106 @@
+{
+  "id": "dei4ssmcwz",
+  "creatorId": "OdBj5DW6PbYtnImvybpyZzfhb133",
+  "creatorUsername": "jim",
+  "creatorName": "jim",
+  "createdTime": 1719729720157,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fjim%2Fs683etIf3B.jpg?alt=media&token=48689783-1735-4612-b9bd-1f9dcd4cd13f",
+  "closeTime": 1737370740000,
+  "question": "Will Biden finish his term?",
+  "slug": "will-biden-finish-his-term",
+  "url": "https://manifold.markets/jim/will-biden-finish-his-term",
+  "pool": {
+    "NO": 521616.4605460269,
+    "YES": 21866.80140228461
+  },
+  "probability": 0.9643257001822366,
+  "p": 0.5312182300653321,
+  "totalLiquidity": 69406,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 4366269.711126563,
+  "volume24Hours": 2858.556442487425,
+  "isResolved": false,
+  "uniqueBettorCount": 2326,
+  "lastUpdatedTime": 1731994940384,
+  "lastBetTime": 1731994940384,
+  "lastCommentTime": 1731304621360,
+  "marketTier": "premium",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Clone of ",
+            "type": "text"
+          },
+          {
+            "text": "https://polymarket.com/event/will-biden-complete-his-term-as-president?tid=1719729460020",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://polymarket.com/event/will-biden-complete-his-term-as-president?tid=1719729460020",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "blockquote",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "This market will resolve to \"Yes\" if Joe Biden successfully finishes his term as President of the United States of America without any interruptions. Otherwise, this market will resolve to \"No\".",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "This market will not resolve \"Yes\" until the presidency is successfully transferred from Biden to another person at the completion of his term on January 20, 2025, or until Biden is sworn into the presidency again on that date.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "The primary resolution source for this market is official information from the US federal government, however a consensus of credible reporting will also be used.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Resolves identically to the Polymarket market. ",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/jim/h5c62j3ywl.jpg",
+  "textDescription": "Clone of https://polymarket.com/event/will-biden-complete-his-term-as-president?tid=1719729460020\n\nThis market will resolve to \"Yes\" if Joe Biden successfully finishes his term as President of the United States of America without any interruptions. Otherwise, this market will resolve to \"No\".\n\nThis market will not resolve \"Yes\" until the presidency is successfully transferred from Biden to another person at the completion of his term on January 20, 2025, or until Biden is sworn into the presidency again on that date.\n\nThe primary resolution source for this market is official information from the US federal government, however a consensus of credible reporting will also be used.\n\nResolves identically to the Polymarket market. "
+}

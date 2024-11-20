@@ -1,0 +1,95 @@
+{
+  "id": "8wJpf4C9hUN3OoBuCpHw",
+  "creatorId": "2eLbfaaBmjeKLKMgnpV6TkDmCU83",
+  "creatorUsername": "JoshuaWilkes",
+  "creatorName": "Josh Wilkes",
+  "createdTime": 1684156799316,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FJoshuaWilkes%2FXIGVWxU1ja.jpg?alt=media&token=f06848d8-7813-437c-a516-65b151c295c8",
+  "closeTime": 1893513540000,
+  "question": "By 2030, will an organisation be manufacturing products in Earth orbit?",
+  "slug": "by-2030-will-an-organisation-be-man",
+  "url": "https://manifold.markets/JoshuaWilkes/by-2030-will-an-organisation-be-man",
+  "pool": {
+    "NO": 1855.2127521742104,
+    "YES": 1244.8406274879278
+  },
+  "probability": 0.7170782997397273,
+  "p": 0.629721676161302,
+  "totalLiquidity": 1485,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 34029.731255477665,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 146,
+  "lastUpdatedTime": 1731417451210,
+  "lastBetTime": 1731417451210,
+  "lastCommentTime": 1721181180537,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The process should be a going concern. It doesn't need to be profit-making by 2030, but the company must be routinuely operating their in-orbit factories/manufacturing facilities.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "As a reference, one can look at the plans of Space Forge, but I will try to take an expansive view of what qualifies. ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "A clairification comment:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "\"So it looks like I'll need to make some sort of ruling on Varda. The key word is 'routine'. What I'd always been imagining was a successful repeat of a normal flight mode, rather than a test flight or a proof-of-concept flight. It's easy to say that the first flight is automatically a test (and does not count towards the two flights necessary for a 'repeat'). What's a bit trickier is subsequent flights. If Varda themselves describe the/a second flight as still a test, that's easy enough (to discount it). If they don't, then we'll have to consider the evidence of whether they are actually selling the 'products' they are making.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Obviously, the same criteria will be applied to other companies (at least those using this kind of model).\"",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/dream%2Fa8cLOv96Z1.png?alt=media&token=87e9ece8-16a4-42cd-b4d6-9a56708f04b5",
+  "groupSlugs": [
+    "space",
+    "technology-default"
+  ],
+  "textDescription": "The process should be a going concern. It doesn't need to be profit-making by 2030, but the company must be routinuely operating their in-orbit factories/manufacturing facilities.\n\nAs a reference, one can look at the plans of Space Forge, but I will try to take an expansive view of what qualifies. \n\nA clairification comment:\n\n\"So it looks like I'll need to make some sort of ruling on Varda. The key word is 'routine'. What I'd always been imagining was a successful repeat of a normal flight mode, rather than a test flight or a proof-of-concept flight. It's easy to say that the first flight is automatically a test (and does not count towards the two flights necessary for a 'repeat'). What's a bit trickier is subsequent flights. If Varda themselves describe the/a second flight as still a test, that's easy enough (to discount it). If they don't, then we'll have to consider the evidence of whether they are actually selling the 'products' they are making.\n\nObviously, the same criteria will be applied to other companies (at least those using this kind of model).\""
+}

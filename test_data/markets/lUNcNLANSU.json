@@ -1,0 +1,47 @@
+{
+  "id": "lUNcNLANSU",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1731220269878,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1733893140000,
+  "question": "In the next 30 days will Joe Biden pardon Hunter?",
+  "slug": "in-the-next-30-days-will-joe-biden",
+  "url": "https://manifold.markets/strutheo/in-the-next-30-days-will-joe-biden",
+  "pool": {
+    "NO": 32.44598552816607,
+    "YES": 308.2045386267918
+  },
+  "probability": 0.09524713225865118,
+  "p": 0.5000000000000004,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 329.42084164265646,
+  "volume24Hours": 50,
+  "isResolved": false,
+  "uniqueBettorCount": 11,
+  "lastUpdatedTime": 1731940401255,
+  "lastBetTime": 1731940401255,
+  "lastCommentTime": 1731230466008,
+  "marketTier": "play",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/Al5hygUuQz.jpg",
+  "groupSlugs": [
+    "pardon-markets",
+    "hunter-biden",
+    "donald-trump",
+    "us-politics",
+    "politics-default"
+  ],
+  "textDescription": ""
+}

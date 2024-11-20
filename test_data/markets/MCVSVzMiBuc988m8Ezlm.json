@@ -1,0 +1,58 @@
+{
+  "id": "MCVSVzMiBuc988m8Ezlm",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1709678632428,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1731286326174,
+  "question": "Will True Detective Season 5 release before Bitcoin reaches 80k?",
+  "slug": "will-true-detective-season-5-releas-af37670a5205",
+  "url": "https://manifold.markets/strutheo/will-true-detective-season-5-releas-af37670a5205",
+  "pool": {
+    "NO": 77.13258675264814,
+    "YES": 2539.406974391137
+  },
+  "probability": 0.015198211538939682,
+  "p": 0.3369082741004293,
+  "totalLiquidity": 260,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 2295,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1731286326174,
+  "resolutionProbability": 0.015198211538939682,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 12,
+  "lastUpdatedTime": 1731286326174,
+  "lastBetTime": 1731286323652,
+  "lastCommentTime": 1711300227153,
+  "marketTier": "play",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Using Google for the price",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "groupSlugs": [
+    "bitcoin",
+    "crypto-speculation",
+    "crypto-prices",
+    "television-film",
+    "tv",
+    "bitcoin-alltimehigh",
+    "true-detective"
+  ],
+  "textDescription": "Using Google for the price"
+}

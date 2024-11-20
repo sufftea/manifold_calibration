@@ -1,0 +1,49 @@
+{
+  "id": "fqj95emal8",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1728948455697,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1730960374979,
+  "question": "Will Trump win Pennsylvania AND Arizona?",
+  "slug": "will-trump-win-pennsylvania-and-ari",
+  "url": "https://manifold.markets/strutheo/will-trump-win-pennsylvania-and-ari",
+  "pool": {
+    "NO": 994.9874371066196,
+    "YES": 10.050378152592145
+  },
+  "probability": 0.99,
+  "p": 0.5000000000000004,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 1048.9010583690779,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1730960374979,
+  "resolutionProbability": 0.99,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 13,
+  "lastUpdatedTime": 1730960374979,
+  "lastBetTime": 1730960370137,
+  "marketTier": "play",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "groupSlugs": [
+    "us-politics",
+    "politics-default",
+    "2024-us-presidential-election",
+    "donald-trump",
+    "magaland"
+  ],
+  "textDescription": ""
+}

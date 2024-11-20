@@ -1,0 +1,72 @@
+{
+  "id": "ETQ3bI2Mghw7x6hZZ6ru",
+  "creatorId": "kB8B9wkkCeRj0a3rvri2ZzZxhpN2",
+  "creatorUsername": "jonsimon",
+  "creatorName": "Jon Simon",
+  "createdTime": 1680785809438,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fjon_simon%2FPA2FCvtIY2.jpg?alt=media&token=15f0eced-064a-4a78-9044-b37f36b0f757",
+  "closeTime": 1730678340000,
+  "question": "A compromising recording of a political opponent will be blamed on AI voice synthesis in the 2024 US presidential election",
+  "slug": "a-comprising-recording-of-a-politic",
+  "url": "https://manifold.markets/jonsimon/a-comprising-recording-of-a-politic",
+  "pool": {
+    "NO": 86.42501142039123,
+    "YES": 3500.0742320642503
+  },
+  "probability": 0.045529681169304136,
+  "p": 0.6589166650739902,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 3280.6164071476824,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 29,
+  "lastUpdatedTime": 1730665596589,
+  "lastBetTime": 1730665596589,
+  "lastCommentTime": 1719505917219,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "A ",
+            "type": "text"
+          },
+          {
+            "text": "pussygate",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.thespectrum.com/story/news/2017/10/06/how-trump-tape-changed-face-politics-forever/728274001/",
+                  "class": null,
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": "-esque recording of a political opponent will be claimed to have been fabricated using AI voice synthesis",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/dream%2FyunV_E4DxU.png?alt=media&token=2a779176-d137-428c-9fe3-98c56e7e1984",
+  "groupSlugs": [
+    "ai",
+    "technology-default",
+    "politics-default",
+    "2024-us-presidential-election",
+    "us-politics",
+    "donald-trump"
+  ],
+  "textDescription": "A pussygate-esque recording of a political opponent will be claimed to have been fabricated using AI voice synthesis"
+}

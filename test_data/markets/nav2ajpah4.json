@@ -1,0 +1,58 @@
+{
+  "id": "nav2ajpah4",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1720067238453,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1735707540000,
+  "question": "Will Tesla TSLA reach a new all time high this year?",
+  "slug": "will-tesla-tsla-reach-a-new-all-tim",
+  "url": "https://manifold.markets/strutheo/will-tesla-tsla-reach-a-new-all-tim",
+  "pool": {
+    "NO": 1084.9481603107627,
+    "YES": 246.2454193022148
+  },
+  "probability": 0.30000000000000004,
+  "p": 0.08864792494145714,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 15047.70948492935,
+  "volume24Hours": 1000,
+  "isResolved": false,
+  "uniqueBettorCount": 39,
+  "lastUpdatedTime": 1731958366708,
+  "lastBetTime": 1731958366708,
+  "lastCommentTime": 1720084217867,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Using $407 as ATH",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Must be verified by multiple exchanges",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/i0h09zei6u.jpg",
+  "textDescription": "Using $407 as ATH\n\nMust be verified by multiple exchanges"
+}

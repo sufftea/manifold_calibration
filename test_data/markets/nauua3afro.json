@@ -1,0 +1,39 @@
+{
+  "id": "nauua3afro",
+  "creatorId": "sA7V30Ic73XZtniboy2eKr6ekkn1",
+  "creatorUsername": "MartinRandall",
+  "creatorName": "Martin Randall",
+  "createdTime": 1729092803686,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FMartinRandall%2FY9en-a3AWz.jpg?alt=media&token=1511b7d4-7173-4308-bd20-bee14ed5221b",
+  "closeTime": 1737521940000,
+  "question": "Will the Doomsday Clock advance toward midnight in/by January 2025?",
+  "slug": "will-the-doomsday-clock-advance-tow-267cd4b639d9--cash",
+  "url": "https://manifold.markets/MartinRandall/will-the-doomsday-clock-advance-tow-267cd4b639d9--cash",
+  "pool": {
+    "NO": 73.97832491125443,
+    "YES": 103.79539747363943
+  },
+  "probability": 0.8522164211107013,
+  "p": 0.8899999999999997,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 183.56512447637934,
+  "volume24Hours": 3,
+  "isResolved": false,
+  "uniqueBettorCount": 14,
+  "lastUpdatedTime": 1731938121483,
+  "lastBetTime": 1731938121483,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "rmT6JDxJN4DvwUlh7Vlh",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

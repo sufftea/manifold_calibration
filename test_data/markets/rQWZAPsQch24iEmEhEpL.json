@@ -1,0 +1,54 @@
+{
+  "id": "rQWZAPsQch24iEmEhEpL",
+  "creatorId": "Tyvak1BQikcjRKZRZRWpnZdAdy32",
+  "creatorUsername": "LawrenceLessig",
+  "creatorName": "Lawrence Lessig",
+  "createdTime": 1701455808332,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocLVFlGDkvUeTLiXxzmFpVkOnS0lXMjJHmHZRNYAAhY4JixO=s96-c",
+  "closeTime": 1730782740000,
+  "question": "Will the Republicans win a trifecta in 2024 (controlling House, Senate and President)?",
+  "slug": "will-the-republicans-win-a-trifecta",
+  "url": "https://manifold.markets/LawrenceLessig/will-the-republicans-win-a-trifecta",
+  "pool": {
+    "NO": 987.550384763101,
+    "YES": 993.7581824363201
+  },
+  "probability": 0.35344796301600667,
+  "p": 0.35488128385841966,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 50982.66880310298,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1731790205278,
+  "resolutionProbability": 0.35344796301600667,
+  "resolverId": "srFlJRuVlGa7SEJDM4cY9B5k4Lj2",
+  "uniqueBettorCount": 121,
+  "lastUpdatedTime": 1730782740000,
+  "lastBetTime": 1730781416274,
+  "lastCommentTime": 1731790136135,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The 2024 election will put the control of the US government up for grabs. There's a good chance the Republicans will win each of the three federal electoral institutions \u2014 the House, Senate and President. How likely is that? ",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "groupSlugs": [
+    "politics-default",
+    "us-politics",
+    "2024-us-presidential-election"
+  ],
+  "textDescription": "The 2024 election will put the control of the US government up for grabs. There's a good chance the Republicans will win each of the three federal electoral institutions \u2014 the House, Senate and President. How likely is that? "
+}

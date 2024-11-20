@@ -1,0 +1,43 @@
+{
+  "id": "2lj5rnkl93",
+  "creatorId": "rFJu0EIdR6RP8d1vHKSh62pbnbH2",
+  "creatorUsername": "SimonGrayson",
+  "creatorName": "Simon Grayson",
+  "createdTime": 1729093375433,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FSimonGrayson%2FiMbHeih3Ag.jpg?alt=media&token=9581e11d-a233-44a8-a846-fd0042ad0696",
+  "closeTime": 1731761864320,
+  "question": "Will the Mike Tyson vs Jake Paul boxing match be rearranged and go ahead in 2024?",
+  "slug": "will-the-mike-tyson-vs-jake-paul-bo-cmzic7avgf--cash",
+  "url": "https://manifold.markets/SimonGrayson/will-the-mike-tyson-vs-jake-paul-bo-cmzic7avgf--cash",
+  "pool": {
+    "NO": 1071.5990179998093,
+    "YES": 12.206049420586279
+  },
+  "probability": 0.99,
+  "p": 0.5299999999999913,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 1418.763990740189,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1731938483272,
+  "resolutionProbability": 0.99,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 23,
+  "lastUpdatedTime": 1731761864320,
+  "lastBetTime": 1731736691726,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "oyoKbnPVdKGZqCJJD1wO",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

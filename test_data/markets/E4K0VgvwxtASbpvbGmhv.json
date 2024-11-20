@@ -1,0 +1,76 @@
+{
+  "id": "E4K0VgvwxtASbpvbGmhv",
+  "creatorId": "nGar3wy95KSg5LUVTHNaihXEPhu1",
+  "creatorUsername": "EduardoFilippi",
+  "creatorName": "Eduardo Filippi",
+  "createdTime": 1679234864376,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/AEdFTp7Xj_4vSCo13-W6-97YCyBVHzdKxVAT0aaiVzrX=s96-c",
+  "closeTime": 1730678340000,
+  "question": "Will the 2024 presidential election have at least 60% voter turnout",
+  "slug": "will-the-2024-presidential-election-4cb3f2987ffa",
+  "url": "https://manifold.markets/EduardoFilippi/will-the-2024-presidential-election-4cb3f2987ffa",
+  "pool": {
+    "NO": 272.40788535836236,
+    "YES": 102.16101132334174
+  },
+  "probability": 0.8236604328495224,
+  "p": 0.636590534540558,
+  "totalLiquidity": 150,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 175,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 12,
+  "lastUpdatedTime": 1730660750633,
+  "lastBetTime": 1730660750633,
+  "lastCommentTime": 1707683505320,
+  "marketTier": "play",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "for reference 2020's election had historic turnout that passed the 60% treshold.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Calculating the exact voter turnout in the US is a complicated problem, so I'll be resolving with whatever number appears for VEP on ",
+            "type": "text"
+          },
+          {
+            "text": "https://en.wikipedia.org/wiki/Voter_turnout_in_United_States_presidential_elections",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://en.wikipedia.org/wiki/Voter_turnout_in_United_States_presidential_elections",
+                  "class": null,
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "one month after the election is over",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/dream%2FuapHxQPt8J.png?alt=media&token=90dbdf01-25a0-43c8-aa32-360771070790",
+  "textDescription": "for reference 2020's election had historic turnout that passed the 60% treshold.\n\nCalculating the exact voter turnout in the US is a complicated problem, so I'll be resolving with whatever number appears for VEP on https://en.wikipedia.org/wiki/Voter_turnout_in_United_States_presidential_elections\none month after the election is over"
+}

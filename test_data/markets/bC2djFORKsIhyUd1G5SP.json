@@ -1,0 +1,1210 @@
+{
+  "id": "bC2djFORKsIhyUd1G5SP",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1704295813861,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1733029140000,
+  "question": "\ud83e\udd83What will happen in November 2024? [ADD RESPONSES]",
+  "slug": "what-will-happen-in-november-2024-a",
+  "url": "https://manifold.markets/strutheo/what-will-happen-in-november-2024-a",
+  "totalLiquidity": 5200,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 40992.220585814786,
+  "volume24Hours": 1496,
+  "isResolved": false,
+  "uniqueBettorCount": 123,
+  "lastUpdatedTime": 1731965417070,
+  "lastBetTime": 1731965417070,
+  "lastCommentTime": 1731943386008,
+  "marketTier": "plus",
+  "token": "MANA",
+  "shouldAnswersSumToOne": false,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "11b412400f54",
+      "text": "8.0+ magnitude earthquake",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1704295813861,
+      "probChanges": {
+        "day": -1.3877787807814457e-17,
+        "week": -0.012792006141241187,
+        "month": -0.016103812793168575
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 459.20745673622577,
+        "NO": 20.0670985011554
+      },
+      "probability": 0.04186973475196553
+    },
+    {
+      "id": "5b7c7f2137fb",
+      "text": "NASDAQ hits an all time high",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704295813861,
+      "probChanges": {
+        "day": 0,
+        "week": 0.010000000000000009,
+        "month": 0.5673362013441399
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731652545774,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.9902189746157537,
+      "pool": {
+        "YES": 8.062958076262198,
+        "NO": 816.2839543904744
+      },
+      "probability": 1
+    },
+    {
+      "id": "0693d498b739",
+      "text": "This market hits 1000 unique traders",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1704295813861,
+      "probChanges": {
+        "day": 3.469446951953614e-18,
+        "week": -0.017772667898475116,
+        "month": -0.07905181724328071
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 553.1462585803968,
+        "NO": 11.835337733772207
+      },
+      "probability": 0.020948182756719277
+    },
+    {
+      "id": "4bba1df54c10",
+      "text": "Joe Biden is elected president for a second term",
+      "index": 3,
+      "userId": "nvwiMP9zkuh9FQ2v8UH9xDCnSUe2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704302259819,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1723402678450,
+      "totalLiquidity": 85,
+      "resolutionProbability": 0.01,
+      "pool": {
+        "YES": 1243.1252193346645,
+        "NO": 12.556820397319825
+      },
+      "probability": 0
+    },
+    {
+      "id": "bd10ff24f423",
+      "text": "Manifold reaches a peak in site traffic",
+      "index": 4,
+      "userId": "nvwiMP9zkuh9FQ2v8UH9xDCnSUe2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1704302312790,
+      "probChanges": {
+        "day": 0,
+        "week": 1.8086991904198157e-09,
+        "month": -0.3931035608255684
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 185.28618041325225,
+        "NO": 64.93692433753962
+      },
+      "probability": 0.25951610025066685
+    },
+    {
+      "id": "5b288a21cd12",
+      "text": "The AP declares a winner in the presidential election before 6 am the next day",
+      "index": 5,
+      "userId": "nvwiMP9zkuh9FQ2v8UH9xDCnSUe2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704303286820,
+      "probChanges": {
+        "day": 0,
+        "week": 0.010168063837024843,
+        "month": 0.7918470194604215
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731652572304,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.9898319361629752,
+      "pool": {
+        "YES": 7.097307620170568,
+        "NO": 690.9026001230553
+      },
+      "probability": 1
+    },
+    {
+      "id": "86c36482509f",
+      "text": "Turnout will be over 160 million in the US presidential election",
+      "index": 6,
+      "userId": "nvwiMP9zkuh9FQ2v8UH9xDCnSUe2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1704303570365,
+      "probChanges": {
+        "day": -0.025375073909390283,
+        "week": -0.03330321435616052,
+        "month": -0.5154851361546132
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 125,
+      "pool": {
+        "YES": 960.4831574479354,
+        "NO": 23.562209433858925
+      },
+      "probability": 0.023944230852406698
+    },
+    {
+      "id": "6f2855883067",
+      "text": "A lawsuit regarding the presidential election results is filed",
+      "index": 7,
+      "userId": "nvwiMP9zkuh9FQ2v8UH9xDCnSUe2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1704303637870,
+      "probChanges": {
+        "day": 0,
+        "week": -0.15944133937110036,
+        "month": -0.4828733949659735
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 242.34173136796613,
+        "NO": 62.05147138541126
+      },
+      "probability": 0.20385301256442975
+    },
+    {
+      "id": "0c0b1557ae9e",
+      "text": "An American presidential candidate receiving over 10 million votes concedes.",
+      "index": 8,
+      "userId": "I2bVfkY49dQ54suiyzZ2SN15QZA3",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1704653918930,
+      "probChanges": {
+        "day": 0,
+        "week": 0.009481377998921126,
+        "month": 0.4391667293292679
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731652574660,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.9816330983606248,
+      "pool": {
+        "YES": 11.097143041872968,
+        "NO": 593.0952928822574
+      },
+      "probability": 1
+    },
+    {
+      "id": "32025e7f395f",
+      "text": "A tesla catches fire as reported by news or  tesla-fire.com",
+      "index": 9,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1706148113504,
+      "probChanges": {
+        "day": 0,
+        "week": 0.07221604084102706,
+        "month": 0.05499329643917428
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731652560503,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 8.392031901304904,
+        "NO": 830.811158229182
+      },
+      "probability": 1
+    },
+    {
+      "id": "1598a1a024ed",
+      "text": "Donald Trump elected President",
+      "index": 10,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1707221653168,
+      "probChanges": {
+        "day": 0,
+        "week": 0.010000000000000009,
+        "month": 0.4501750485896068
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731652576628,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.9886537780433846,
+      "pool": {
+        "YES": 7.751035258224268,
+        "NO": 675.3869544498905
+      },
+      "probability": 1
+    },
+    {
+      "id": "bfce4437c149",
+      "text": "Donald Trump elected President but loses the popular vote",
+      "index": 11,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1707221670135,
+      "probChanges": {
+        "day": 0,
+        "week": -0.011759594883336838,
+        "month": -0.3487378873414832
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 818.6466349286732,
+        "NO": 9.743821842102085
+      },
+      "probability": 0.011762354047492736
+    },
+    {
+      "id": "292787bfe224",
+      "text": "Donald Trump concedes",
+      "index": 12,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1707221680702,
+      "probChanges": {
+        "day": 0,
+        "week": -0.0013488576833794556,
+        "month": -0.1012026463319684
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 744.161035716746,
+        "NO": 6.4940237501392915
+      },
+      "probability": 0.008651142316620557
+    },
+    {
+      "id": "3c8097a7e89b",
+      "text": "Eliezer Yudkowsky is alive for the entire month",
+      "index": 13,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1707221699598,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1707230146280,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.91,
+      "pool": {
+        "YES": 14.523416171988403,
+        "NO": 146.84787462788276
+      },
+      "probability": 0.91
+    },
+    {
+      "id": "0379a51e7a7c",
+      "text": "Eliezer Yudkowsky remains unwavering that the probability of AI annihilation is greater than or equal to 95%",
+      "index": 14,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1707221726082,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1707230153648,
+      "totalLiquidity": 45,
+      "resolutionProbability": 0.88,
+      "pool": {
+        "YES": 18.41635380205957,
+        "NO": 135.05326121510365
+      },
+      "probability": 0.8800000000000001
+    },
+    {
+      "id": "b0719d33e81a",
+      "text": "2 or more inches of snow fall in nyc",
+      "index": 15,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1707221750968,
+      "probChanges": {
+        "day": -0.02869843029626984,
+        "week": -0.04027642624815482,
+        "month": -0.041758386703059536
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 419.99027821627624,
+        "NO": 18.76442808876611
+      },
+      "probability": 0.04276746851740941
+    },
+    {
+      "id": "cc97f38291ea",
+      "text": "Weak AGI exists, as indicated by the Metaculus market on the topic having resolved YES any time before the end of the month",
+      "index": 16,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1707221779802,
+      "probChanges": {
+        "day": 0,
+        "week": -0.03083561091878957,
+        "month": -0.07494391766957736
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 562.9259104496849,
+        "NO": 13.362129254216214
+      },
+      "probability": 0.023186546194992566
+    },
+    {
+      "id": "dd77312d6f02",
+      "text": "William is King of the United Kingdom",
+      "index": 17,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1707222793116,
+      "probChanges": {
+        "day": -6.938893903907228e-18,
+        "week": -0.007266759413992973,
+        "month": -0.012722625839597705
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 637.7001997783184,
+        "NO": 12.370593384246234
+      },
+      "probability": 0.019029609566157964
+    },
+    {
+      "id": "416a6816ea54",
+      "text": "Democrats hold the Senate",
+      "index": 18,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1707223764675,
+      "probChanges": {
+        "day": 0,
+        "week": -0.0002735750655011443,
+        "month": -0.11923394715265519
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 825.1141185381896,
+        "NO": 8.334486045840322
+      },
+      "probability": 0.010000000000000028
+    },
+    {
+      "id": "b5d156fd5d7c",
+      "text": "Tumbles is late to pay back a loan https://manifold.markets/Tumbles/will-tumbles-ever-be-late-to-pay-ba",
+      "index": 19,
+      "userId": "rQPOELuW5zaapaNPnBYQBMoonk92",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1707873052319,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1707873571249,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.34,
+      "pool": {
+        "YES": 82.18446847743242,
+        "NO": 42.337453458071245
+      },
+      "probability": 0.34
+    },
+    {
+      "id": "bdc20c6bc480",
+      "text": "A \"superintelligent oracle\" exists, as indicated by the YES resolution of the Metaculus market on the topic",
+      "index": 20,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1708655935830,
+      "probChanges": {
+        "day": 0,
+        "week": 0.00011395544943448507,
+        "month": -0.021709059712692068
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 450.6727961871194,
+        "NO": 8.473786648280772
+      },
+      "probability": 0.018455515003404796
+    },
+    {
+      "id": "3b48832658bf",
+      "text": "Someone other than Joe Biden or Donald Trump elected President",
+      "index": 21,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1708655962513,
+      "probChanges": {
+        "day": 0,
+        "week": -0.00198118559240266,
+        "month": -0.4137402130514141
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 401.4539164568934,
+        "NO": 4.400535248453753
+      },
+      "probability": 0.010842643785138445
+    },
+    {
+      "id": "93ab2a918480",
+      "text": "Electoral college vote opposite the popular vote",
+      "index": 22,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1708655990651,
+      "probChanges": {
+        "day": 0,
+        "week": 0.007959074431373963,
+        "month": -0.5229117956432662
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 564.8774652121716,
+        "NO": 10.330197223172995
+      },
+      "probability": 0.017959074431373984
+    },
+    {
+      "id": "a14619200fe8",
+      "text": "The New York Times has not yet called election for President on November 9 at 11:59:59pm EST",
+      "index": 23,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1708656067790,
+      "probChanges": {
+        "day": -3.469446951953614e-18,
+        "week": -0.0008816822166468376,
+        "month": -0.1671051537519466
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 537.8760032825493,
+        "NO": 4.949656870231504
+      },
+      "probability": 0.009118317783353131
+    },
+    {
+      "id": "86b5ef8a6594",
+      "text": "At least one share of nVidia stock is traded for greater than or equal to $150.00 during premarket, aftermarket, or normal trading hours",
+      "index": 24,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1708656131968,
+      "probChanges": {
+        "day": 0,
+        "week": -0.3700376173064761,
+        "month": 0.10839152537312996
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 55.01869897443412,
+        "NO": 70.81309316843257
+      },
+      "probability": 0.5627599509036072
+    },
+    {
+      "id": "fb28326be391",
+      "text": "It can be inferred from Eliezer Yudkowsky's current or past public statements that human civilization has one year or less remaining",
+      "index": 25,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "CANCEL",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1708689001430,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1708695931168,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.5,
+      "pool": {
+        "YES": 72.35294117647061,
+        "NO": 72.35294117647061
+      },
+      "probability": 0.5
+    },
+    {
+      "id": "b22a3b2a5912",
+      "text": "T1 wins League of Legends World Championship",
+      "index": 26,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1710676237811,
+      "probChanges": {
+        "day": 0,
+        "week": 0.010000000000000009,
+        "month": 0.9181425181164606
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731682175097,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.990754820918426,
+      "pool": {
+        "YES": 6.8189424516218935,
+        "NO": 730.7484309281227
+      },
+      "probability": 1
+    },
+    {
+      "id": "6fcef48185cd",
+      "text": "Novak Djokovic mentions Nova Scotia, supernovae, novels, embers, or embryos on social media",
+      "index": 27,
+      "userId": "a4Y150jRVKWdZnH0wnciZuENtjN2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1713345704913,
+      "probChanges": {
+        "day": 0,
+        "week": -0.06693233521689756,
+        "month": -0.06693233521689756
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 172.80953320475564,
+        "NO": 30.293167279626402
+      },
+      "probability": 0.14915196699689304
+    },
+    {
+      "id": "f04ed4c59eae",
+      "text": "Donald Trump elected President while imprisoned",
+      "index": 28,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1713974194891,
+      "probChanges": {
+        "day": -3.469446951953614e-18,
+        "week": -3.469446951953614e-18,
+        "month": -0.0007710837373053493
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 383.2315730330123,
+        "NO": 3.871025990232452
+      },
+      "probability": 0.010000000000000012
+    },
+    {
+      "id": "5bb3a6413738",
+      "text": "Democrats capture the House",
+      "index": 29,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1714733035407,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.47042176620456866
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 588.0468219210741,
+        "NO": 5.939866888091672
+      },
+      "probability": 0.010000000000000023
+    },
+    {
+      "id": "0f098e4496d0",
+      "text": "Eagles have the most wins in the NFL",
+      "index": 30,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1714733064746,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.1622129329660021
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 342.5137249757971,
+        "NO": 15.283907520073058
+      },
+      "probability": 0.0427166256340432
+    },
+    {
+      "id": "5a0c6af66149",
+      "text": "Taylor Swift breaks up with Travis Kelce",
+      "index": 31,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1714733096159,
+      "probChanges": {
+        "day": 0,
+        "week": 0.0091395252746755,
+        "month": -0.022567975165953
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 173.1906271450082,
+        "NO": 9.2181241428372
+      },
+      "probability": 0.05053553668755057
+    },
+    {
+      "id": "ed96f0643361",
+      "text": "Phillies win the World Series",
+      "index": 32,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1714733126538,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 535.2866954882619,
+        "NO": 5.406936318063231
+      },
+      "probability": 0.009999999999999962
+    },
+    {
+      "id": "1e6e8e7b240d",
+      "text": "The Nintendo Switch successor system is offically revealed (including official name)",
+      "index": 33,
+      "userId": "I2bVfkY49dQ54suiyzZ2SN15QZA3",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1714779858056,
+      "probChanges": {
+        "day": -0.06239295696607433,
+        "week": -0.06239295696607433,
+        "month": -0.22922144784763615
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 442.30569862635485,
+        "NO": 7.090062386509032
+      },
+      "probability": 0.015776878648185735
+    },
+    {
+      "id": "roi2nw8liv",
+      "text": "Recount in Pennsylvania",
+      "index": 34,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723561084832,
+      "probChanges": {
+        "day": 0,
+        "week": 0.99,
+        "month": 0.8570121315657917
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731682177676,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.9905381075682478,
+      "pool": {
+        "YES": 9.773574080432354,
+        "NO": 1023.1671564265198
+      },
+      "probability": 1
+    },
+    {
+      "id": "o95kpcr874",
+      "text": "Trump wins Florida",
+      "index": 35,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723561231935,
+      "probChanges": {
+        "day": 0,
+        "week": 0.01000000000000012,
+        "month": 0.1443026593817639
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731652567897,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.9899999999999999,
+      "pool": {
+        "YES": 10.050378152592145,
+        "NO": 994.9874371066194
+      },
+      "probability": 1
+    },
+    {
+      "id": "kpagi4ujww",
+      "text": "Trump is in Venezuela",
+      "index": 36,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1723599377545,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.0162929075285401
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 638.3291064164041,
+        "NO": 15.665900081135646
+      },
+      "probability": 0.023954158557011215
+    },
+    {
+      "id": "5zz3ooj0uc",
+      "text": "Trump wins North Carolina",
+      "index": 37,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723648056783,
+      "probChanges": {
+        "day": 0,
+        "week": 0.010000000000000009,
+        "month": 0.4050659943795918
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731652563862,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 10.050378152592089,
+        "NO": 994.9874371066185
+      },
+      "probability": 1
+    },
+    {
+      "id": "uj7aelfp27",
+      "text": "Jay and Dope win in the 65-state sweep detailed here: https://substack.com/profile/112100096-plasma-bloggin/note/c-65526578",
+      "index": 38,
+      "userId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1723705251648,
+      "probChanges": {
+        "day": 3.469446951953614e-18,
+        "week": 3.469446951953614e-18,
+        "month": 3.469446951953614e-18
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 636.4094845677346,
+        "NO": 15.71315362591156
+      },
+      "probability": 0.024095396641092497
+    },
+    {
+      "id": "aw7qehn0ym",
+      "text": ">=30% of Manifold respondents agree that weak AGI has been achieved in the monthly poll",
+      "index": 39,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1724514178462,
+      "probChanges": {
+        "day": 0,
+        "week": -0.09855878925960382,
+        "month": -0.09855878925960382
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 83.15966293981336,
+        "NO": 120.250607644207
+      },
+      "probability": 0.5911727431409932
+    },
+    {
+      "id": "0yb794amxa",
+      "text": "Jon Tester reelected",
+      "index": 40,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1724514200825,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.3113324883005048
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 994.9874371066194,
+        "NO": 10.050378152592089
+      },
+      "probability": 0.009999999999999974
+    },
+    {
+      "id": "wo1ahhml4k",
+      "text": "Trump wins Texas",
+      "index": 41,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1724587336827,
+      "probChanges": {
+        "day": 0,
+        "week": 0.01000000000000012,
+        "month": 0.10811860614585267
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731652570416,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.9894181480588976,
+      "pool": {
+        "YES": 10.34167545098872,
+        "NO": 966.9613059694266
+      },
+      "probability": 1
+    },
+    {
+      "id": "wncmeth3le",
+      "text": "twitter releases peer to peer payment system to USA members, paid or unpaid users ",
+      "index": 42,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1724603033208,
+      "probChanges": {
+        "day": -0.024031923361156823,
+        "week": -0.040644708394935856,
+        "month": -0.351253131874297
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 722.8478796128211,
+        "NO": 13.834169376489399
+      },
+      "probability": 0.01877902331876983
+    },
+    {
+      "id": "d427boflrv",
+      "text": "taylor swift announces pregnancy or engagement or wedding",
+      "index": 43,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1724603064643,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.02179465322003795
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 419.08091367369474,
+        "NO": 23.86174047474327
+      },
+      "probability": 0.05387094751716274
+    },
+    {
+      "id": "avvu3qmwh5",
+      "text": "Pennsylvania votes for the winner",
+      "index": 44,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1725383073876,
+      "probChanges": {
+        "day": 0,
+        "week": 0.01000000000000012,
+        "month": 0.17162514833709297
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1731652566223,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.9899999999999999,
+      "pool": {
+        "YES": 10.050378152592145,
+        "NO": 994.9874371066198
+      },
+      "probability": 1
+    },
+    {
+      "id": "uwpu1jktgl",
+      "text": "usa troops set foot in lebanon",
+      "index": 45,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1728059882322,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.20899826344532324
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 445,
+        "NO": 22.471910112359566
+      },
+      "probability": 0.048071145295036685
+    },
+    {
+      "id": "pcvzm8b1vc",
+      "text": "usa bombs or missle strikes or has troops conduct operations in iran",
+      "index": 46,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1728059899337,
+      "probChanges": {
+        "day": -0.13045924886422755,
+        "week": -0.40878094662577874,
+        "month": -0.4319165156800721
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 467.75252316519465,
+        "NO": 21.378826419431903
+      },
+      "probability": 0.04370774115702651
+    },
+    {
+      "id": "wsxs1ivpgh",
+      "text": "usa bombs or missle strikes lebanon ",
+      "index": 47,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1728059907211,
+      "probChanges": {
+        "day": -0.014756391193919624,
+        "week": -0.0030271976811014,
+        "month": -0.13777947060747137
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 416.776440563486,
+        "NO": 23.993678688939106
+      },
+      "probability": 0.054435810507377294
+    },
+    {
+      "id": "y2usny2Qy0",
+      "text": "Ted Cruz defeated",
+      "index": 48,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1729974268788,
+      "probChanges": {
+        "day": 0,
+        "week": 0.008718316181228545,
+        "month": -0.4812816838187715
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 724.0414956570892,
+        "NO": 13.811363105542279
+      },
+      "probability": 0.01871831618122851
+    },
+    {
+      "id": "qZZdPtAZ80",
+      "text": "BTC crashes 10% lower on Nov 6 compared to its highest price on Nov 5, Eastern Standard Time",
+      "index": 49,
+      "userId": "J611lCgdyQdv306O7QPCWtAL0Gc2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1730218904523,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.49000000000000005
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 994.9874371066192,
+        "NO": 10.050378152592089
+      },
+      "probability": 0.009999999999999976
+    },
+    {
+      "id": "5Scgp96ZN5",
+      "text": "Hurricane landfalls in Florida",
+      "index": 50,
+      "userId": "APtmK3Sep3TJB92vIgWeSmAEwVa2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1730417132605,
+      "probChanges": {
+        "day": -0.033447827197609414,
+        "week": -0.048080355836978825,
+        "month": -0.4480803558369789
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 452.3234444727092,
+        "NO": 22.1080735968868
+      },
+      "probability": 0.04659908280723392
+    },
+    {
+      "id": "Uq0Php9A0N",
+      "text": "kamala gives an interview post election loss",
+      "index": 51,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "bC2djFORKsIhyUd1G5SP",
+      "createdTime": 1731652596394,
+      "probChanges": {
+        "day": -0.12452830188679245,
+        "week": -0.42452830188679236,
+        "month": -0.42452830188679236
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 338.16425120772954,
+        "NO": 29.571428571428598
+      },
+      "probability": 0.08041490178268144
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "I reserve the right to NA any answer for any reason, to combat duplicates or abuse.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo%2F0ac9ecea47de.jpg",
+  "groupSlugs": [
+    "grab-bag",
+    "november",
+    "2024-3d9da60b52f8",
+    "what-will-happen-markets",
+    "coolfold",
+    "world-default",
+    "news",
+    "culture-default"
+  ],
+  "textDescription": "I reserve the right to NA any answer for any reason, to combat duplicates or abuse."
+}

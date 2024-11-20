@@ -1,0 +1,38 @@
+{
+  "id": "EQIEldPQRy",
+  "creatorId": "tuLs71AxUDftq1vudwJ1qy3UBnl1",
+  "creatorUsername": "Arch1e",
+  "creatorName": "Archie",
+  "createdTime": 1729873056393,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FArch1e%2F6tXpbVbmVK.PNG?alt=media&token=ae673ff9-0277-463f-9904-e72df9cde7a1",
+  "closeTime": 1733788740000,
+  "question": "[2024 Formula 1 Season] Will a race be won by any team besides Red Bull, Mercedes, McLaren, or Ferrari?",
+  "slug": "2024-formula-1-season-will-a-race-b--cash",
+  "url": "https://manifold.markets/Arch1e/2024-formula-1-season-will-a-race-b--cash",
+  "pool": {
+    "NO": 99.42797702285561,
+    "YES": 103.91379203159119
+  },
+  "probability": 0.1250900749600248,
+  "p": 0.13,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 54.086207968408814,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 3,
+  "lastUpdatedTime": 1731611373020,
+  "lastBetTime": 1731611373020,
+  "token": "CASH",
+  "siblingContractId": "equjWu8xnfsR99hGS7TF",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

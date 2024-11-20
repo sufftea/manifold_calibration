@@ -1,0 +1,42 @@
+{
+  "id": "Tx9a1HiZ66t1WLiNuCul",
+  "creatorId": "OlF7Kr25fPdQXlo5rf1QXs6qHVw1",
+  "creatorUsername": "AmygDala",
+  "creatorName": "Amyg Dala",
+  "createdTime": 1654546322137,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/AATXAJwGJ2SqoiPLfLQPdg3xYGHxCPzzR1BxcyS7WAKH=s96-c",
+  "closeTime": 1730913204586,
+  "question": "If Trump is elected President in 2024, will he have won the popular vote?",
+  "slug": "if-trump-is-elected-president-in-20",
+  "url": "https://manifold.markets/AmygDala/if-trump-is-elected-president-in-20",
+  "pool": {
+    "NO": 4510.374721257896,
+    "YES": 51.553107135563096
+  },
+  "probability": 0.9789517579962115,
+  "p": 0.3470894271588111,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 187976.8806182249,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1730913204586,
+  "resolutionProbability": 0.9789517579962115,
+  "resolverId": "OlF7Kr25fPdQXlo5rf1QXs6qHVw1",
+  "uniqueBettorCount": 702,
+  "lastUpdatedTime": 1730928020190,
+  "lastBetTime": 1730912309129,
+  "lastCommentTime": 1730928018174,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": "This question resolves to \"YES\" if Donald Trump is elected president of the United States in 2024, and has won the popular vote.\nThis question resolves to \"NO\" if Donald Trump is elected president of the United States in 2024, and has not won the popular vote.\nThis question resolves to \"INVALID\" if Donald Trump is not elected president of the United States in 2024.",
+  "groupSlugs": [
+    "2024-us-presidential-election",
+    "politics-default",
+    "donald-trump",
+    "magaland"
+  ],
+  "textDescription": "This question resolves to \"YES\" if Donald Trump is elected president of the United States in 2024, and has won the popular vote.\nThis question resolves to \"NO\" if Donald Trump is elected president of the United States in 2024, and has not won the popular vote.\nThis question resolves to \"INVALID\" if Donald Trump is not elected president of the United States in 2024."
+}

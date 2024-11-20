@@ -1,0 +1,38 @@
+{
+  "id": "EQzQNIuhlI",
+  "creatorId": "YGZdZUSFQyM8j2YzPaBqki8NBz23",
+  "creatorUsername": "jack",
+  "creatorName": "Jack",
+  "createdTime": 1731438068471,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FJackC%2Fmetal-jacks-thumbnail.jpg?alt=media&token=89d230f3-05a9-4ad4-9606-5fc6e2c6b096",
+  "closeTime": 1733029140000,
+  "question": "Will there be a 6th Starship launch in November?",
+  "slug": "will-there-be-a-6th-starship-launch-9NQREZU5qn--cash",
+  "url": "https://manifold.markets/jack/will-there-be-a-6th-starship-launch-9NQREZU5qn--cash",
+  "pool": {
+    "NO": 339.8158281871461,
+    "YES": 88.60524357598413
+  },
+  "probability": 0.9748603434037958,
+  "p": 0.9100000000000006,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 282.14,
+  "volume24Hours": 198.6,
+  "isResolved": false,
+  "uniqueBettorCount": 11,
+  "lastUpdatedTime": 1732012890065,
+  "lastBetTime": 1732012890065,
+  "token": "CASH",
+  "siblingContractId": "SQpEqsNhQ9",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

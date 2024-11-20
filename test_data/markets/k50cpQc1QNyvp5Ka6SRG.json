@@ -1,0 +1,702 @@
+{
+  "id": "k50cpQc1QNyvp5Ka6SRG",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1706926675040,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1730519940000,
+  "question": "What will be the top 10 most popular Halloween costumes in the USA in 2024 according to Frightgeist?",
+  "slug": "what-will-be-the-top-10-most-popula",
+  "url": "https://manifold.markets/strutheo/what-will-be-the-top-10-most-popula",
+  "totalLiquidity": 1105,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 2063.7376429266446,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 29,
+  "lastUpdatedTime": 1730471673016,
+  "lastBetTime": 1730471673016,
+  "lastCommentTime": 1730396879202,
+  "marketTier": "play",
+  "token": "MANA",
+  "shouldAnswersSumToOne": false,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "c10d1e33b114",
+      "text": "Cowboy",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": -0.1769327599064312,
+        "week": -0.1769327599064312,
+        "month": -0.1769327599064312
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 27.420696427334327,
+        "NO": 47.55577047923216
+      },
+      "probability": 0.6342759593952966
+    },
+    {
+      "id": "f02024a50b1b",
+      "text": "Witch",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 4.6296296296296315,
+        "NO": 135
+      },
+      "probability": 0.9668435013262601
+    },
+    {
+      "id": "284cee32c398",
+      "text": "Pirate",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 28.061224489795904,
+        "NO": 55
+      },
+      "probability": 0.6621621621621623
+    },
+    {
+      "id": "fca950498bed",
+      "text": "Spider-man (any incarnation)",
+      "index": 3,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 1.1102230246251565e-16,
+        "week": 1.1102230246251565e-16,
+        "month": 0.049300184404816316
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 8.114092254574167,
+        "NO": 101.53971392740253
+      },
+      "probability": 0.9260026392416477
+    },
+    {
+      "id": "6c4fc971543a",
+      "text": "Princess Peach",
+      "index": 4,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 5.551115123125783e-17,
+        "week": 5.551115123125783e-17,
+        "month": 5.551115123125783e-17
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 38.5374096374023,
+        "NO": 16.21800753814572
+      },
+      "probability": 0.29619000958663416
+    },
+    {
+      "id": "69dfd7f2720d",
+      "text": "Princess (Generic)",
+      "index": 5,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": -1.1102230246251565e-16,
+        "week": -1.1102230246251565e-16,
+        "month": -1.1102230246251565e-16
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 5.315500685871056,
+        "NO": 155.00000000000003
+      },
+      "probability": 0.96684350132626
+    },
+    {
+      "id": "8b60e91de1ea",
+      "text": "Dinosaur",
+      "index": 6,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 24.335192967146853,
+        "NO": 135.00000000000006
+      },
+      "probability": 0.8472704459449553
+    },
+    {
+      "id": "10a185e43d94",
+      "text": "Minion (from Despicable Me)",
+      "index": 7,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 66.89647847091814,
+        "NO": 23.07098044943759
+      },
+      "probability": 0.25643694649485793
+    },
+    {
+      "id": "7a9569c2a891",
+      "text": "Bunny & Rabbit (will be counted together and take up 1 spot)",
+      "index": 8,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 38.32167171351074,
+        "NO": 65.362730378518
+      },
+      "probability": 0.6304008033966672
+    },
+    {
+      "id": "78273e2427ce",
+      "text": "Ninja",
+      "index": 9,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 22.68161771816396,
+        "NO": 68.04485315449132
+      },
+      "probability": 0.7499999999999984
+    },
+    {
+      "id": "694576d7ee40",
+      "text": "Batman",
+      "index": 10,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 44.517697675251945,
+        "NO": 14.039360358643323
+      },
+      "probability": 0.23975522046406014
+    },
+    {
+      "id": "ff437fdc427f",
+      "text": "1980s Guy/Gal",
+      "index": 11,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 0,
+        "week": 0.10154392381493882,
+        "month": 0.10154392381493882
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 43.62914478143491,
+        "NO": 35.37468714251559
+      },
+      "probability": 0.4477591311845158
+    },
+    {
+      "id": "628f7fe9127b",
+      "text": "Taylor Swift",
+      "index": 12,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": -0.054274016475476805,
+        "week": -0.054274016475476805,
+        "month": -0.054274016475476805
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 50.03386084735391,
+        "NO": 30.84645719520562
+      },
+      "probability": 0.38138397501075727
+    },
+    {
+      "id": "517a51996c3e",
+      "text": "Vampire",
+      "index": 13,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 0.09420732370123558,
+        "week": 0.09420732370123558,
+        "month": 0.09420732370123558
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 21.577799584316804,
+        "NO": 28.964955279975058
+      },
+      "probability": 0.5730782850627443
+    },
+    {
+      "id": "7426388fa61e",
+      "text": "Pumpkin",
+      "index": 14,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": 0,
+        "week": 0.06754057383891693,
+        "month": 0.06754057383891693
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 69.33671930879137,
+        "NO": 38.06423945475485
+      },
+      "probability": 0.3544124735288166
+    },
+    {
+      "id": "e1444588307c",
+      "text": "Ghost",
+      "index": 15,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926675040,
+      "probChanges": {
+        "day": -0.18199446587448095,
+        "week": -0.18199446587448095,
+        "month": -0.18199446587448095
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 71.98039858166996,
+        "NO": 21.4414948701298
+      },
+      "probability": 0.2295125272877536
+    },
+    {
+      "id": "79fb7dbc1a6b",
+      "text": "Fairy",
+      "index": 16,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706926720872,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 5.849580032206794,
+        "NO": 106.84527719235508
+      },
+      "probability": 0.9480936381990298
+    },
+    {
+      "id": "9dd25e21a991",
+      "text": "Harley Quinn",
+      "index": 17,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706985701184,
+      "probChanges": {
+        "day": 0.05126486193707808,
+        "week": 0.0800846323645667,
+        "month": 0.0800846323645667
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 73.08465448759279,
+        "NO": 44.79382049239558
+      },
+      "probability": 0.38
+    },
+    {
+      "id": "4dad17ffc851",
+      "text": "Beetlejuice",
+      "index": 18,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706996979107,
+      "probChanges": {
+        "day": 0.1274569141862946,
+        "week": 0.1274569141862946,
+        "month": 0.1274569141862946
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 32.96830275322041,
+        "NO": 18.957603146220453
+      },
+      "probability": 0.36508950239469173
+    },
+    {
+      "id": "ffd31da85cb0",
+      "text": "Joker",
+      "index": 19,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1706997003061,
+      "probChanges": {
+        "day": -1.1102230246251565e-16,
+        "week": 0.1421090908304508,
+        "month": 0.1421090908304508
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 45,
+      "pool": {
+        "YES": 39.05518664799023,
+        "NO": 39.51760263878283
+      },
+      "probability": 0.5029425962536782
+    },
+    {
+      "id": "0dc505fa0293",
+      "text": "Barbie",
+      "index": 20,
+      "userId": "0OXZrWKVi3Si3HbEb59CCU2anUi1",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1707159246714,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 38.18813079129864,
+        "NO": 16.36634176769944
+      },
+      "probability": 0.30000000000000027
+    },
+    {
+      "id": "296f6d270fd3",
+      "text": "Dune / Paul Atreides",
+      "index": 21,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1709651619935,
+      "probChanges": {
+        "day": -0.028352971000147165,
+        "week": -0.028352971000147165,
+        "month": -0.028352971000147165
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 65,
+      "pool": {
+        "YES": 81.28766944867175,
+        "NO": 38.7402491929282
+      },
+      "probability": 0.3227603180273876
+    },
+    {
+      "id": "49f5728565a0",
+      "text": "Godzilla",
+      "index": 22,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1709651723298,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 48.30127018922193,
+        "NO": 12.93961830716958
+      },
+      "probability": 0.21129050581838013
+    },
+    {
+      "id": "cbef7d5d55df",
+      "text": "Fallout Vault Suit",
+      "index": 23,
+      "userId": "Yu8S59IUnuUmzFTVNRxSMxMGZMO2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1713918512808,
+      "probChanges": {
+        "day": -0.7626067291982841,
+        "week": -0.7626067291982841,
+        "month": -0.7626067291982841
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 233.48051273010105,
+        "NO": 2.6768829342193783
+      },
+      "probability": 0.011335164527408497
+    },
+    {
+      "id": "3bad5c1ee82e",
+      "text": "Biden",
+      "index": 24,
+      "userId": "jpyISdL4APOg3400CHUBgylhwU32",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1715364835203,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.05220044313041543
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 92.7003200386327,
+        "NO": 6.742155795573652
+      },
+      "probability": 0.06779955686958547
+    },
+    {
+      "id": "6740d04c74d0",
+      "text": "Trump",
+      "index": 25,
+      "userId": "jpyISdL4APOg3400CHUBgylhwU32",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1715364839738,
+      "probChanges": {
+        "day": -0.1033573406441563,
+        "week": -0.1033573406441563,
+        "month": -0.1033573406441563
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 44.715286448479034,
+        "NO": 13.97732296135742
+      },
+      "probability": 0.2381445143077064
+    },
+    {
+      "id": "fmaak7qlub",
+      "text": "JD Vance (with or without couch)",
+      "index": 26,
+      "userId": "aLcMG0Cj63WLil96xiNOksVffg12",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1726608269521,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.10233039507756955
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10,
+      "pool": {
+        "YES": 29.770267854770296,
+        "NO": 3.359056105502134
+      },
+      "probability": 0.10139223213640583
+    },
+    {
+      "id": "Lt8n990Cy5",
+      "text": "Raygun",
+      "index": 27,
+      "userId": "RCNI5NCVsvZN0LpwQDGF1DifJNw2",
+      "isOther": false,
+      "contractId": "k50cpQc1QNyvp5Ka6SRG",
+      "createdTime": 1730396834932,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 25,
+        "NO": 25
+      },
+      "probability": 0.5
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Info: ",
+            "type": "text"
+          },
+          {
+            "text": "https://frightgeist.withgoogle.com/costumes",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://frightgeist.withgoogle.com/costumes",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Info: ",
+            "type": "text"
+          },
+          {
+            "text": "https://www.visualcapitalist.com/most-popular-halloween-costumes-2023/",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.visualcapitalist.com/most-popular-halloween-costumes-2023/",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The top 3 most popular costumes in the USA in 2023 were Barbie, Princess (generic) and Spider-man in that order. ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2F9XlBCskWOM.jpg?alt=media&token=d278c3fd-8c8d-4283-a4ff-5beacfe576a3",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo%2F531a5ba88116.jpg",
+  "groupSlugs": [
+    "entertainment",
+    "television-film",
+    "cartoons-animations",
+    "holidays",
+    "horror",
+    "halloween",
+    "comics",
+    "cosplay"
+  ],
+  "textDescription": "Info: https://frightgeist.withgoogle.com/costumes\n\nInfo: https://www.visualcapitalist.com/most-popular-halloween-costumes-2023/\n\nThe top 3 most popular costumes in the USA in 2023 were Barbie, Princess (generic) and Spider-man in that order. \n\n[image]"
+}

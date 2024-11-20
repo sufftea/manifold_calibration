@@ -1,0 +1,43 @@
+{
+  "id": "Mi1ugsM0CvPNINOq2S2K",
+  "creatorId": "lkkqZxiWCpOgtJ9ztJcAKz4d9y33",
+  "creatorUsername": "NathanpmYoung",
+  "creatorName": "Nathan Young",
+  "createdTime": 1682897655608,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a-/AOh14GgkQaxe_5plRQ-3y-nDcRIXjbUwl4yBWOweF_D8ZA=s96-c",
+  "closeTime": 1730678340000,
+  "question": "Republican elites will make a unified effort to line up behind a non-Trump republican candidate",
+  "slug": "republican-elites-will-make-a-unifi",
+  "url": "https://manifold.markets/NathanpmYoung/republican-elites-will-make-a-unifi",
+  "pool": {
+    "NO": 346.7495885281869,
+    "YES": 9417.085533249901
+  },
+  "probability": 0.016667573938161245,
+  "p": 0.31522491731055075,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 9119.032740839923,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1730744088041,
+  "resolutionProbability": 0.016667573938161245,
+  "resolverId": "lkkqZxiWCpOgtJ9ztJcAKz4d9y33",
+  "uniqueBettorCount": 16,
+  "lastUpdatedTime": 1730678340000,
+  "lastBetTime": 1730660736593,
+  "lastCommentTime": 1686404820944,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

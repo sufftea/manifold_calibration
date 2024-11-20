@@ -1,0 +1,123 @@
+{
+  "id": "cALsOdgNzC",
+  "creatorId": "fOP9OVWrlXSpFMsoODOhF7qoG3W2",
+  "creatorUsername": "RichardHanania",
+  "creatorName": "Richard Hanania",
+  "createdTime": 1730147656434,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FRichardHanania%2FpVoHZsFLvw.jpg?alt=media&token=2a462f26-82e8-4afc-a8a1-46352d135209",
+  "closeTime": 1737532740000,
+  "question": "Major Election Riots in 2024-2025?",
+  "slug": "major-election-riots-in-20242025",
+  "url": "https://manifold.markets/RichardHanania/major-election-riots-in-20242025",
+  "pool": {
+    "NO": 851.7627139320896,
+    "YES": 10366.163293830841
+  },
+  "probability": 0.09553381709603807,
+  "p": 0.5624545247729659,
+  "totalLiquidity": 3500,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 225010.95174524502,
+  "volume24Hours": 4769.684009455815,
+  "isResolved": false,
+  "uniqueBettorCount": 826,
+  "lastUpdatedTime": 1732022935379,
+  "lastBetTime": 1732022935379,
+  "lastCommentTime": 1731566359363,
+  "marketTier": "plus",
+  "token": "MANA",
+  "siblingContractId": "hILQS5Euhl",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This market will settle as YES if there is one or more significant riots related to the US presidential election between October 28, 2024, and midnight Eastern Time on January 20, 2025.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "To settle as YES, the following criteria must be met:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "orderedList",
+        "attrs": {
+          "start": 1
+        },
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "One or more incidents referred to by credible news sources as riots, involving at least 500 participants across one or more cities motivated by the same grievance, leading to either:",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "A) The death or hospitalization of at least 10 people\u2014including rioters, police, bystanders, targets, or others,",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "or",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "B) At least $1 million in property damage.",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "All criteria must be met by the same side. For example, if Harris supporters cause $500K in damages and Trump supporters cause another $500K in damages in different cities, this will not be sufficient to settle the market as YES. Edge cases with ambiguities under the resolution criteria will be settled in accordance with the spirit of the market.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/RichardHanania/Rg2ytQuAcu.jpg",
+  "groupSlugs": [
+    "politics-default"
+  ],
+  "textDescription": "This market will settle as YES if there is one or more significant riots related to the US presidential election between October 28, 2024, and midnight Eastern Time on January 20, 2025.\n\nTo settle as YES, the following criteria must be met:\n\nOne or more incidents referred to by credible news sources as riots, involving at least 500 participants across one or more cities motivated by the same grievance, leading to either:\n\nA) The death or hospitalization of at least 10 people\u2014including rioters, police, bystanders, targets, or others,\n\nor\n\nB) At least $1 million in property damage.\n\nAll criteria must be met by the same side. For example, if Harris supporters cause $500K in damages and Trump supporters cause another $500K in damages in different cities, this will not be sufficient to settle the market as YES. Edge cases with ambiguities under the resolution criteria will be settled in accordance with the spirit of the market."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "hKB9iD8knG4R2RuSyyCu",
+  "creatorId": "oYe61d7Yx7Wv3vCFJegIk90dMS22",
+  "creatorUsername": "bitSanjay",
+  "creatorName": "Sanjay Shah",
+  "createdTime": 1704183399969,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocKgmWmI0f_KFPHov8_G_cc8Mo0z2MHj0Mcshc72aPen=s96-c",
+  "closeTime": 1735718340000,
+  "question": "Will Bitcoin hit $100K in 2024?",
+  "slug": "will-bitcoin-reach-100k-in-2024",
+  "url": "https://manifold.markets/bitSanjay/will-bitcoin-reach-100k-in-2024",
+  "pool": {
+    "NO": 22657.964134396698,
+    "YES": 5885.448502440614
+  },
+  "probability": 0.6350806083624764,
+  "p": 0.3113205124119998,
+  "totalLiquidity": 15000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 680463.6790980942,
+  "volume24Hours": 40095.3633892041,
+  "isResolved": false,
+  "uniqueBettorCount": 693,
+  "lastUpdatedTime": 1732020750618,
+  "lastBetTime": 1732020750618,
+  "lastCommentTime": 1731998205496,
+  "marketTier": "premium",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FeEqtNF6L5l.webp?alt=media&token=a547e8a7-9667-41c9-aeea-e27c05d2eef9",
+  "groupSlugs": [
+    "bitcoin",
+    "crypto-speculation",
+    "crypto-prices",
+    "bitcoin-maxi",
+    "economics-default"
+  ],
+  "textDescription": ""
+}

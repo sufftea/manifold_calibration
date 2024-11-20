@@ -1,0 +1,47 @@
+{
+  "id": "2tPdpdyEqP",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1730683922128,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1830315540000,
+  "question": "Will a Gullah Gullah Island reboot or remake air before the end of 2027?",
+  "slug": "will-a-gullah-gullah-island-reboot",
+  "url": "https://manifold.markets/strutheo/will-a-gullah-gullah-island-reboot",
+  "pool": {
+    "NO": 94.33962264150942,
+    "YES": 106
+  },
+  "probability": 0.4708984742889432,
+  "p": 0.5,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 6,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 2,
+  "lastUpdatedTime": 1730731569743,
+  "lastBetTime": 1730731569743,
+  "lastCommentTime": 1730683960480,
+  "marketTier": "play",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/2n2P9NLdP0.jpg",
+  "groupSlugs": [
+    "culture-default",
+    "entertainment",
+    "news",
+    "world-default",
+    "tv"
+  ],
+  "textDescription": ""
+}

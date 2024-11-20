@@ -1,0 +1,39 @@
+{
+  "id": "jnfyhl8444",
+  "creatorId": "fOP9OVWrlXSpFMsoODOhF7qoG3W2",
+  "creatorUsername": "RichardHanania",
+  "creatorName": "Richard Hanania",
+  "createdTime": 1728252318742,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FRichardHanania%2FpVoHZsFLvw.jpg?alt=media&token=2a462f26-82e8-4afc-a8a1-46352d135209",
+  "closeTime": 1737532740000,
+  "question": "Will there be a US presidential inauguration on January 20, 2025?",
+  "slug": "will-there-be-a-us-presidential-ina--cash",
+  "url": "https://manifold.markets/RichardHanania/will-there-be-a-us-presidential-ina--cash",
+  "pool": {
+    "NO": 866.5527658467669,
+    "YES": 78.6684428924863
+  },
+  "probability": 0.9900137084732132,
+  "p": 0.9000000000000008,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 1318.4662701699099,
+  "volume24Hours": 0.01090132719116621,
+  "isResolved": false,
+  "uniqueBettorCount": 19,
+  "lastUpdatedTime": 1731950891910,
+  "lastBetTime": 1731950891910,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "w3llwteb5n",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

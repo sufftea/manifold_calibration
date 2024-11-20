@@ -1,0 +1,63 @@
+{
+  "id": "zvkr514dud",
+  "creatorId": "brEHeVfwNxdHIZ0cF4B3JsNnU212",
+  "creatorUsername": "Predict",
+  "creatorName": "Predict",
+  "createdTime": 1722473778893,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FForBet%2FpkdpwGzy1Z.jpeg?alt=media&token=f4b5bd69-dc59-47f6-826e-437e1b348c8e",
+  "closeTime": 1735685940000,
+  "question": "Will at least 10 people die from Iranian strikes on Israel before 2025?",
+  "slug": "will-at-least-10-people-die-from-ir-8ahnvbgpsi",
+  "url": "https://manifold.markets/Predict/will-at-least-10-people-die-from-ir-8ahnvbgpsi",
+  "pool": {
+    "NO": 582.1452563223037,
+    "YES": 1717.7843315558184
+  },
+  "probability": 0.2531143820187042,
+  "p": 0.5000000000000001,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 4417.40319215568,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 17,
+  "lastUpdatedTime": 1731234013482,
+  "lastBetTime": 1731234013482,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Strikes on Israelis outside of Israel doesn't count. For the purpose of this question, Israel's borders are defined by the internationally recognized border plus the Golan Heights.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Strikes by Iranian proxies (such as Hamas, Hezbollah, Houthies) doesn't count.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "groupSlugs": [
+    "israel",
+    "wars",
+    "arabisraeli-conflict",
+    "israelhamas-conflict-2023",
+    "iran"
+  ],
+  "textDescription": "Strikes on Israelis outside of Israel doesn't count. For the purpose of this question, Israel's borders are defined by the internationally recognized border plus the Golan Heights.\n\nStrikes by Iranian proxies (such as Hamas, Hezbollah, Houthies) doesn't count."
+}

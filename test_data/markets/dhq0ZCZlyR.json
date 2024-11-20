@@ -1,0 +1,42 @@
+{
+  "id": "dhq0ZCZlyR",
+  "creatorId": "fc6IfyoepwUtBF2twPqF6UVZHzp2",
+  "creatorUsername": "Nightsquared",
+  "creatorName": "Quinn",
+  "createdTime": 1729873874030,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FNightsquared%2FQWtGfZI3vm.png?alt=media&token=68afaa0e-c5d9-4167-b668-78be0a4b2c0f",
+  "closeTime": 1730561696313,
+  "question": "Will Pia Cramling win her match against Levy Rozman?",
+  "slug": "will-pia-cramling-win-her-match-aga--cash",
+  "url": "https://manifold.markets/Nightsquared/will-pia-cramling-win-her-match-aga--cash",
+  "pool": {
+    "NO": 10.039787827935477,
+    "YES": 409.11580054529645
+  },
+  "probability": 0.03849786352312234,
+  "p": 0.6199999999999997,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 403.7569294064668,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1730689250958,
+  "resolutionProbability": 0.03849786352312234,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 10,
+  "lastUpdatedTime": 1730561696313,
+  "lastBetTime": 1730561654862,
+  "token": "CASH",
+  "siblingContractId": "pnZNA5plOg",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

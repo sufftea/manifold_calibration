@@ -1,0 +1,71 @@
+{
+  "id": "WsN04kCj1qigtynhRFNl",
+  "creatorId": "4aW01GHrlgafwAPLI1St7MPnOni1",
+  "creatorUsername": "CarsonGale",
+  "creatorName": "Carson Gale",
+  "createdTime": 1681363647633,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FCarsonGale%2Fhqs4q-lat4.jpg?alt=media&token=56f63f36-5d81-45fd-9ff3-a1fc33070eae",
+  "closeTime": 5554079940000,
+  "question": "Will I live to be 150 years old?",
+  "slug": "will-i-live-to-be-150-years-old",
+  "url": "https://manifold.markets/CarsonGale/will-i-live-to-be-150-years-old",
+  "pool": {
+    "NO": 935.5450764975581,
+    "YES": 1204.2440338558995
+  },
+  "probability": 0.16223360531181608,
+  "p": 0.19953166503270456,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 7429.061873213207,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 21,
+  "lastUpdatedTime": 1731384525763,
+  "lastBetTime": 1731384525763,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "I'm currently 28 years old. I have no major health issues or family history of health issues, other than one relative's case of diabetes. I drive a few times a week and generally don't participate in dangerous activities.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "I love my life and want to stay alive for as long as I'm relatively healthy / enjoying it. I could see myself wanting to live for thousands of years if I could. I do not intend to continue living if I foresee my utility being net negative for the foreseeable future.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Market resolves \"n/a\" if I die as a result of intentional market manipulation.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "groupSlugs": [
+    "markets-about-carson"
+  ],
+  "textDescription": "I'm currently 28 years old. I have no major health issues or family history of health issues, other than one relative's case of diabetes. I drive a few times a week and generally don't participate in dangerous activities.\n\nI love my life and want to stay alive for as long as I'm relatively healthy / enjoying it. I could see myself wanting to live for thousands of years if I could. I do not intend to continue living if I foresee my utility being net negative for the foreseeable future.\n\nMarket resolves \"n/a\" if I die as a result of intentional market manipulation."
+}

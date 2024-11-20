@@ -1,0 +1,358 @@
+{
+  "id": "f93i0oo1kn",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1721622356943,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1730916436850,
+  "question": "Which of the bets in BuccoCapital's six way parlay bet Pelosi meme will actually resolve YES?",
+  "slug": "which-of-the-bets-in-buccocapitals",
+  "url": "https://manifold.markets/strutheo/which-of-the-bets-in-buccocapitals",
+  "totalLiquidity": 1000,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 15287.24711649992,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "MKT",
+  "resolutionTime": 1730916436850,
+  "resolutionProbability": 0.015623578827397717,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 44,
+  "lastUpdatedTime": 1730916436850,
+  "lastBetTime": 1730915219192,
+  "lastCommentTime": 1730910582434,
+  "marketTier": "plus",
+  "token": "MANA",
+  "shouldAnswersSumToOne": false,
+  "addAnswersMode": "DISABLED",
+  "answers": [
+    {
+      "id": "tvyul3t7jp",
+      "text": "biden drops out on sunday (DONE)",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f93i0oo1kn",
+      "resolution": "CANCEL",
+      "resolverId": "HTbxWFlzWGeHUTiwZvvF0qm8W433",
+      "createdTime": 1721622356943,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1721622867124,
+      "totalLiquidity": 166.66666666666666,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 19.730302917920824,
+        "NO": 1407.873862521768
+      },
+      "probability": 0.9861794302681625
+    },
+    {
+      "id": "i6bohmpqj5",
+      "text": "kamala wins the convention",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f93i0oo1kn",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1721622356943,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1724606298697,
+      "totalLiquidity": 166.66666666666666,
+      "resolutionProbability": 0.99,
+      "pool": {
+        "YES": 15.096616058685036,
+        "NO": 1840.0002801818102
+      },
+      "probability": 1
+    },
+    {
+      "id": "yjv5bga6u1",
+      "text": "trump wins pa",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f93i0oo1kn",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1721622356943,
+      "probChanges": {
+        "day": 0.536829311130578,
+        "week": 0.4823378378043036,
+        "month": 0.5669746786693999
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730916431488,
+      "totalLiquidity": 166.66666666666666,
+      "resolutionProbability": 0.9869746786693998,
+      "pool": {
+        "YES": 19.146525180353024,
+        "NO": 1450.7999501800814
+      },
+      "probability": 1
+    },
+    {
+      "id": "pennqaq40k",
+      "text": "trump wins az",
+      "index": 3,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f93i0oo1kn",
+      "resolution": "YES",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1721622356943,
+      "probChanges": {
+        "day": 0.3178247027420539,
+        "week": 0.38152367928819775,
+        "month": 0.41797819959922644
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730916429669,
+      "totalLiquidity": 166.66666666666666,
+      "resolutionProbability": 0.9878502823218567,
+      "pool": {
+        "YES": 18.48358796377721,
+        "NO": 1502.834721928157
+      },
+      "probability": 1
+    },
+    {
+      "id": "16a1ggxy2d",
+      "text": "kamala wins electoral vote",
+      "index": 4,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f93i0oo1kn",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1721622356943,
+      "probChanges": {
+        "day": -0.5261394228841969,
+        "week": -0.4970321805700124,
+        "month": -0.5892562750035203
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730916436850,
+      "totalLiquidity": 166.66666666666666,
+      "resolutionProbability": 0.015623578827397717,
+      "pool": {
+        "YES": 1322.9367757262976,
+        "NO": 20.997056161302595
+      },
+      "probability": 0
+    },
+    {
+      "id": "3mwbnzetmk",
+      "text": "kamala wins popular vote",
+      "index": 5,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "f93i0oo1kn",
+      "resolution": "NO",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1721622356943,
+      "probChanges": {
+        "day": -0.8009194058972224,
+        "week": -0.8107529472621209,
+        "month": -0.852127112214527
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730916435114,
+      "totalLiquidity": 166.66666666666666,
+      "resolutionProbability": 0.01520593268032239,
+      "pool": {
+        "YES": 1341.2660431920467,
+        "NO": 20.71011781649989
+      },
+      "probability": 0
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "\u201csix way parlay. i want Biden step down on Sunday. i want Kamala at the convention. I want trump pennsylvania and arizona, kamala electoral, kamala popular. read it back to me\u201d",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Will resolve YES if",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "biden drops out on sunday (DONE)",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "kamala at the convention",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "trump wins pa",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "trump wins az",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "kamala wins electoral vote",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "kamala wins popular vote",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Market for All 6: ",
+            "type": "text"
+          },
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "toygy58u4p",
+              "label": "/strutheo/will-buccocapitals-meme-pelosi-parl"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "https://x.com/buccocapital/status/1814082904362012980",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://x.com/buccocapital/status/1814082904362012980",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FFMeLGV80hB.png?alt=media&token=aaa8275d-0056-454c-af2e-5a6cc77fe441",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2F15Kt1yrhVI.png?alt=media&token=6d9ee096-e8a6-4713-99a4-b9407db0b099",
+  "textDescription": "\u201csix way parlay. i want Biden step down on Sunday. i want Kamala at the convention. I want trump pennsylvania and arizona, kamala electoral, kamala popular. read it back to me\u201d\n\nWill resolve YES if\n\nbiden drops out on sunday (DONE)\n\nkamala at the convention\n\ntrump wins pa\n\ntrump wins az\n\nkamala wins electoral vote\n\nkamala wins popular vote\n\nMarket for All 6: @/strutheo/will-buccocapitals-meme-pelosi-parl \n\nhttps://x.com/buccocapital/status/1814082904362012980\n\n[image]"
+}

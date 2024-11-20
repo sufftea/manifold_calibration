@@ -1,0 +1,43 @@
+{
+  "id": "3eej4qtpex",
+  "creatorId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+  "creatorUsername": "mattyb",
+  "creatorName": "Matt",
+  "createdTime": 1729162961643,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fmattyb%2Feq8TCTaQW_.jpeg?alt=media&token=b8632c4a-5f41-4148-a6aa-3b42c0d89c03",
+  "closeTime": 1731121186169,
+  "question": "Will Trump get more votes in 2024 than he got in 2020?",
+  "slug": "will-trump-get-more-votes-in-2024-t--cash",
+  "url": "https://manifold.markets/mattyb/will-trump-get-more-votes-in-2024-t--cash",
+  "pool": {
+    "NO": 5488.009851190548,
+    "YES": 70.29520379601568
+  },
+  "probability": 0.9896794193010673,
+  "p": 0.5512255505567779,
+  "totalLiquidity": 500,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 7681.5973369572885,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1731121186169,
+  "resolutionProbability": 0.9896794193010673,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 98,
+  "lastUpdatedTime": 1731121186169,
+  "lastBetTime": 1731120276066,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "qu1c70mgso",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

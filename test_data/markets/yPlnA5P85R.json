@@ -1,0 +1,38 @@
+{
+  "id": "yPlnA5P85R",
+  "creatorId": "Z9aZTIVJnUhuuq6utvNs9jSJiHu2",
+  "creatorUsername": "Tulip",
+  "creatorName": "Alyssa",
+  "createdTime": 1729873412111,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a-/ACNPEu_S1biLuCg60Z2_YY6AP1AB96QvecyAjv40j_2EHQ=s96-c",
+  "closeTime": 1735707540000,
+  "question": "Will Alecto the Ninth be released in 2024?",
+  "slug": "will-alecto-the-ninth-be-released-i--cash",
+  "url": "https://manifold.markets/Tulip/will-alecto-the-ninth-be-released-i--cash",
+  "pool": {
+    "NO": 92.92491182307025,
+    "YES": 210
+  },
+  "probability": 0.04192873823533702,
+  "p": 0.08999999999999998,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 110,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 4,
+  "lastUpdatedTime": 1731482952051,
+  "lastBetTime": 1731482952051,
+  "token": "CASH",
+  "siblingContractId": "4VnKERrFhG28dalnzDNH",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

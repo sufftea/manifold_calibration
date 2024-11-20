@@ -1,0 +1,52 @@
+{
+  "id": "jgAddS2VkD054y4pBRBw",
+  "creatorId": "SqOJYkeySMQjqP3UAypw6DxPx4Z2",
+  "creatorUsername": "Shump",
+  "creatorName": "Shump",
+  "createdTime": 1704417512504,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FPelegShilo%2FIDAn2qNGE3.jpg?alt=media&token=ba6fbc77-f113-40ea-8b42-86292dabc67f",
+  "closeTime": 1731387540000,
+  "question": "Will Manifold's 2024 general election predictions outperform Polymarket's?",
+  "slug": "will-manifolds-2024-general-electio-ff5065e18048",
+  "url": "https://manifold.markets/Shump/will-manifolds-2024-general-electio-ff5065e18048",
+  "pool": {
+    "NO": 90.41212721456577,
+    "YES": 9510.771756400954
+  },
+  "probability": 0.010000000000000056,
+  "p": 0.5151658578024502,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 8959.558307238842,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 28,
+  "lastUpdatedTime": 1731359827931,
+  "lastBetTime": 1731359827931,
+  "lastCommentTime": 1731276858436,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "On the eve of election day, I will note down probabilities from the most popular Manifold market for each state's presidential, senate, and house election outcomes, as well as those of Polymarkets. Territories are excluded. Races for which either lacks predictions will be excluded. Races that lack a market with at least 10 traders on either side will also be excluded. Resolves YES iff Manifold's predictions have a better Brier score.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/Shump%2F016643f59a95.jpg",
+  "groupSlugs": [
+    "manifold-track-record",
+    "politics-default",
+    "us-politics",
+    "2024-us-presidential-election"
+  ],
+  "textDescription": "On the eve of election day, I will note down probabilities from the most popular Manifold market for each state's presidential, senate, and house election outcomes, as well as those of Polymarkets. Territories are excluded. Races for which either lacks predictions will be excluded. Races that lack a market with at least 10 traders on either side will also be excluded. Resolves YES iff Manifold's predictions have a better Brier score."
+}

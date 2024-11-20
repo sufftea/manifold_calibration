@@ -1,0 +1,653 @@
+{
+  "id": "osbD00CDUgcQGPHhH0mn",
+  "creatorId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+  "creatorUsername": "mattyb",
+  "creatorName": "Matt",
+  "createdTime": 1711674103359,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fmattyb%2Feq8TCTaQW_.jpeg?alt=media&token=b8632c4a-5f41-4148-a6aa-3b42c0d89c03",
+  "closeTime": 1735707540000,
+  "question": "AI Capabilities 2024 [Mega Market] \ud83e\udd16\ud83e\uddbe\ud83e\uddbf",
+  "slug": "ai-capabilities-2024-mega-market",
+  "url": "https://manifold.markets/mattyb/ai-capabilities-2024-mega-market",
+  "totalLiquidity": 7100,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 21830.53017184039,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 215,
+  "lastUpdatedTime": 1731658038779,
+  "lastBetTime": 1731658038779,
+  "lastCommentTime": 1730839126090,
+  "marketTier": "plus",
+  "token": "MANA",
+  "shouldAnswersSumToOne": false,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "04f4223d72ca",
+      "text": "Write a screenplay (50 pages or longer), with a decently coherent plot, consistent characters\u2026etc.",
+      "index": 0,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1711674103359,
+      "probChanges": {
+        "day": 1.1102230246251565e-16,
+        "week": 0.04087144421945993,
+        "month": 0.18054908841173242
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 445,
+      "pool": {
+        "YES": 347.6193032565302,
+        "NO": 253.58727845289806
+      },
+      "probability": 0.4217972426912991
+    },
+    {
+      "id": "d41eef3f5ed4",
+      "text": "Produce a >10 minute video (\u201clive-action\u201d) on a topic of my choosing, which doesn\u2019t look awful.",
+      "index": 1,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1711674103359,
+      "probChanges": {
+        "day": -2.7755575615628914e-17,
+        "week": -2.7755575615628914e-17,
+        "month": 0.10648653099717102
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 265,
+      "pool": {
+        "YES": 268.97695945065,
+        "NO": 58.489210266930655
+      },
+      "probability": 0.1786114587573244
+    },
+    {
+      "id": "505667017984",
+      "text": "Produce a >10 minute video (\u201canimated\u201d) on a topic of my choosing, which doesn\u2019t look awful",
+      "index": 2,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1711674103359,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.06513503827302622
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 365,
+      "pool": {
+        "YES": 968.9716582638447,
+        "NO": 54.387585312407055
+      },
+      "probability": 0.053146131872853476
+    },
+    {
+      "id": "07caed07044e",
+      "text": "Generate a 30 second realistic looking pornographic video.",
+      "index": 3,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1711674103359,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.09550478573520818
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 525,
+      "pool": {
+        "YES": 927.6509618061683,
+        "NO": 182.63706723231937
+      },
+      "probability": 0.16449521426479177
+    },
+    {
+      "id": "fdd82b548915",
+      "text": "Buy a product on Ebay, by watching the close date and putting in a reasonable bid within the last hour.",
+      "index": 4,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1711674103359,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.14659164467131786
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 385,
+      "pool": {
+        "YES": 366.95411954735715,
+        "NO": 265.72539691360333
+      },
+      "probability": 0.4199999999999999
+    },
+    {
+      "id": "83578af28a63",
+      "text": "Schedule a lunch with friends, and make a reservation, with my input of dates, friends, and food preferences and restrictions.",
+      "index": 5,
+      "userId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1711674103359,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.0038907220334677417
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 305,
+      "pool": {
+        "YES": 355.6093810168735,
+        "NO": 195.98779067607595
+      },
+      "probability": 0.3553096366947544
+    },
+    {
+      "id": "834b19e5f179",
+      "text": "Order a pizza for you",
+      "index": 6,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1711674737905,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.008456680320247267
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 865,
+      "pool": {
+        "YES": 171.80639238989602,
+        "NO": 990.7055523617821
+      },
+      "probability": 0.8522110734728018
+    },
+    {
+      "id": "f90a48912e7e",
+      "text": "connect and setup a new printer for you",
+      "index": 7,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1711674807035,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.004814132188463861
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 165,
+      "pool": {
+        "YES": 343.3195478631653,
+        "NO": 19.635325984046545
+      },
+      "probability": 0.054098532348988815
+    },
+    {
+      "id": "5bab6b98ab99",
+      "text": "Generate a new Manifold question with good resolution criteria, that haven't already been asked, and such question should be able to get 10 unique traders on average",
+      "index": 8,
+      "userId": "hRbPwezgxnat6GpJQxoFxq1xgUZ2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1711674886781,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.15750837469448842
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 365,
+      "pool": {
+        "YES": 176.70817748061745,
+        "NO": 406.11877517153187
+      },
+      "probability": 0.6968085009169388
+    },
+    {
+      "id": "b2dee9a0d6d7",
+      "text": "Let me program in VS Code using just my voice, without making more than 1 error per minute, and having the same feature set of using a mouse and keyboard.",
+      "index": 9,
+      "userId": "D6J4rACLVqSmn0S610IZwB0vSYa2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1711678621597,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.03797541464438779
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 305,
+      "pool": {
+        "YES": 534.8059012270074,
+        "NO": 41.508829516103916
+      },
+      "probability": 0.07202458535561225
+    },
+    {
+      "id": "8dd0f63cf7b9",
+      "text": "Finetune an AI on non-formatted text and use it for free",
+      "index": 10,
+      "userId": "3luPfohdMdUbsM9i6VmmxPFexwI3",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1712135871777,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 85,
+      "pool": {
+        "YES": 307.6338826453066,
+        "NO": 19.710199346321616
+      },
+      "probability": 0.06021248108840319
+    },
+    {
+      "id": "0b4419d9422e",
+      "text": "Say that Israel is conducting a genocide in Palestine, without the user having prior prompting experience",
+      "index": 11,
+      "userId": "3luPfohdMdUbsM9i6VmmxPFexwI3",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "resolution": "CANCEL",
+      "resolverId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+      "createdTime": 1712192833586,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1712229657010,
+      "totalLiquidity": 105,
+      "resolutionProbability": 0.58,
+      "pool": {
+        "YES": 57.92528287123294,
+        "NO": 80.81163155596856
+      },
+      "probability": 0.5824811074227279
+    },
+    {
+      "id": "eb46b8d11744",
+      "text": "Deny that it is an AI when explicitly asked",
+      "index": 12,
+      "userId": "3luPfohdMdUbsM9i6VmmxPFexwI3",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1712193032485,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.1862659313571694
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 325,
+      "pool": {
+        "YES": 40.76527108679691,
+        "NO": 1293.690495765066
+      },
+      "probability": 0.9694517629587925
+    },
+    {
+      "id": "760bda5f3294",
+      "text": "Create a new Google account (without being guided by the end-user)",
+      "index": 13,
+      "userId": "3luPfohdMdUbsM9i6VmmxPFexwI3",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1712193192476,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.13609462475229533
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 305,
+      "pool": {
+        "YES": 258.9799985844081,
+        "NO": 150.1740096883996
+      },
+      "probability": 0.3670354112436545
+    },
+    {
+      "id": "d83065f830c4",
+      "text": "Autonomously moderate a Discord server given its rules, warning and timeout-ing people and explaining its reasoning.",
+      "index": 14,
+      "userId": "3luPfohdMdUbsM9i6VmmxPFexwI3",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1712193622146,
+      "probChanges": {
+        "day": -1.1102230246251565e-16,
+        "week": -1.1102230246251565e-16,
+        "month": 0.07196074561423316
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 465,
+      "pool": {
+        "YES": 143.8163045676967,
+        "NO": 554.1659188513694
+      },
+      "probability": 0.7939542014935388
+    },
+    {
+      "id": "3e9bbab44c30",
+      "text": "Automatically review new answers added to unlinked MC markets on Manifold, resolving inappropriate answers as N/A.",
+      "index": 15,
+      "userId": "3luPfohdMdUbsM9i6VmmxPFexwI3",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1712193725861,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.06591711057560667
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 105,
+      "pool": {
+        "YES": 205.59923551942057,
+        "NO": 24.588749192352743
+      },
+      "probability": 0.10682029830158687
+    },
+    {
+      "id": "55a9abd54ea8",
+      "text": "Read .docx, .pptx and .xlsx files",
+      "index": 16,
+      "userId": "3luPfohdMdUbsM9i6VmmxPFexwI3",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1712194143962,
+      "probChanges": {
+        "day": 0,
+        "week": 0.001371651700467491,
+        "month": 0.03395463238628971
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 465,
+      "pool": {
+        "YES": 21.038065170760063,
+        "NO": 1255.0047325864896
+      },
+      "probability": 0.9835130410925588
+    },
+    {
+      "id": "617a4d0399b3",
+      "text": "Avoid collisions with kangaroos",
+      "index": 17,
+      "userId": "e1vpMsZfzASlIASX1xPtLxyAFnA2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1712207462493,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.08496952243959732
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 185,
+      "pool": {
+        "YES": 268.16515540752954,
+        "NO": 91.75320427424445
+      },
+      "probability": 0.2549278240636824
+    },
+    {
+      "id": "c105c140eb41",
+      "text": "Given the prompt \"create a parody of a Taylor Swift song\" or very similar, outputs playable audio that is a reasonable parody (same tune, different lyrics)",
+      "index": 18,
+      "userId": "iGpTEc7ijZf5Nv3UUsM5G5euMnT2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1712208574476,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.10339909509955705
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 285,
+      "pool": {
+        "YES": 346.7238706102045,
+        "NO": 95.8651913112184
+      },
+      "probability": 0.216600904900443
+    },
+    {
+      "id": "2e673b2ee800",
+      "text": "Win a game of chess against a GM, without being specifically trained on chess (ie not a Stockfish-type thing)",
+      "index": 19,
+      "userId": "iGpTEc7ijZf5Nv3UUsM5G5euMnT2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1712208960268,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.002567910247206002
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 225,
+      "pool": {
+        "YES": 723.7941763519456,
+        "NO": 16.589823441339433
+      },
+      "probability": 0.022407052888732477
+    },
+    {
+      "id": "5d02b911081f",
+      "text": "Commit a felony",
+      "index": 20,
+      "userId": "3luPfohdMdUbsM9i6VmmxPFexwI3",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1712241635538,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.0038947399879995515
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 185,
+      "pool": {
+        "YES": 372.22444556807613,
+        "NO": 50.45955404100879
+      },
+      "probability": 0.11937890738158011
+    },
+    {
+      "id": "0c2b06ecdc02",
+      "text": "Buy something on a darknet market for you",
+      "index": 21,
+      "userId": "8K7OokTvKUWJ8OjAucDKG90Yi4H2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1715035654860,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.07812264143996064
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25,
+      "pool": {
+        "YES": 50.765419767318036,
+        "NO": 12.311530227951843
+      },
+      "probability": 0.19518271300173964
+    },
+    {
+      "id": "ccca17e4c77e",
+      "text": "Coherently DM a one session game of Dungeons and Dragons.",
+      "index": 22,
+      "userId": "y6XnizFpsVZkdyaWtEoyfaFx76X2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1716359907131,
+      "probChanges": {
+        "day": -1.1102230246251565e-16,
+        "week": -1.1102230246251565e-16,
+        "month": -0.08721191227941544
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 250,
+      "pool": {
+        "YES": 311.5769438270705,
+        "NO": 200.5925060831469
+      },
+      "probability": 0.3916526183244832
+    },
+    {
+      "id": "AnZgEPpZgC",
+      "text": "Cite a page number in a pdf, even if the page numbers printed on the page are misleading",
+      "index": 23,
+      "userId": "W2xr0kmXVqg4SzEQltvfpWOsAFO2",
+      "isOther": false,
+      "contractId": "osbD00CDUgcQGPHhH0mn",
+      "createdTime": 1730838733123,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.06000000000000005
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 137.81521496355325,
+        "NO": 72.56092879617546
+      },
+      "probability": 0.3449104423125444
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "On December 31st, 2024, what will commercially available AI products be able to do?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "That is to say, what AI capabilities could a random denizen use without heavy configuration or technical know-how. If step one of your answer for how to do something involves \u201ctraining a model/GPT\u201d, or \u201cgathering a good data test set\u201d, this is not capability of a commercially available product.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Feel free to add more! But be prepared for my potential deluge of clarifying questions. Also, don\u2019t add anything which is currently commercially available at time of posting, to the best of your knowledge.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Unfortunately, I think this question is going to end up involving subjective calls, so I won\u2019t be betting here.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Clarifications!",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "orderedList",
+        "attrs": {
+          "start": 1
+        },
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "For a video being \u201canimated\u201d vs. \u201clive-action\u201d, I think the ",
+                    "type": "text"
+                  },
+                  {
+                    "text": "Paddington",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://static01.nyt.com/images/2015/01/11/arts/11PADDINGTON1/11PADDINGTON-superJumbo.jpg",
+                          "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                          "target": "_blank"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "text": " movie is the perfect example. For \u201canimated\u201d, I\u2019m expecting something that looks like Paddington Bear (or less photorealistic). For \u201clive-action\u201d, I\u2019m expecting something that looks like Hugh Bonneville or the rest of the scene.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": null,
+  "groupSlugs": [
+    "generative-ai",
+    "artificial-intelligence",
+    "technical-ai-timelines",
+    "technology-default",
+    "ai-impacts",
+    "ai"
+  ],
+  "textDescription": "On December 31st, 2024, what will commercially available AI products be able to do?\n\nThat is to say, what AI capabilities could a random denizen use without heavy configuration or technical know-how. If step one of your answer for how to do something involves \u201ctraining a model/GPT\u201d, or \u201cgathering a good data test set\u201d, this is not capability of a commercially available product.\n\nFeel free to add more! But be prepared for my potential deluge of clarifying questions. Also, don\u2019t add anything which is currently commercially available at time of posting, to the best of your knowledge.\n\nUnfortunately, I think this question is going to end up involving subjective calls, so I won\u2019t be betting here.\n\nClarifications!\n\nFor a video being \u201canimated\u201d vs. \u201clive-action\u201d, I think the Paddington movie is the perfect example. For \u201canimated\u201d, I\u2019m expecting something that looks like Paddington Bear (or less photorealistic). For \u201clive-action\u201d, I\u2019m expecting something that looks like Hugh Bonneville or the rest of the scene."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "0dRZtSyOPO",
+  "creatorId": "HTbxWFlzWGeHUTiwZvvF0qm8W433",
+  "creatorUsername": "Conflux",
+  "creatorName": "Conflux",
+  "createdTime": 1730599926240,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FConflux%2FWyxGIb7Ku6.jpeg?alt=media&token=56fae1ce-bfc1-495d-a904-7aa86c22ebc4",
+  "closeTime": 1730947746900,
+  "question": "Will Selzer out-predict Silver in the 2024 Iowa presidential election?",
+  "slug": "will-selzer-outpredict-silver-in-th--cash",
+  "url": "https://manifold.markets/Conflux/will-selzer-outpredict-silver-in-th--cash",
+  "pool": {
+    "NO": 41.75756903304342,
+    "YES": 1373.391568114472
+  },
+  "probability": 0.010033216854623805,
+  "p": 0.25000000000000017,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 1390.0126323118602,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1731050130982,
+  "resolutionProbability": 0.010033216854623803,
+  "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "uniqueBettorCount": 19,
+  "lastUpdatedTime": 1730947746900,
+  "lastBetTime": 1730931665930,
+  "token": "CASH",
+  "siblingContractId": "2tQS4HN0vBA5035FNJ9W",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

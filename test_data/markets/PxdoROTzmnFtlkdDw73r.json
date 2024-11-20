@@ -1,0 +1,228 @@
+{
+  "id": "PxdoROTzmnFtlkdDw73r",
+  "creatorId": "oPxjIzlvC5fRbGCaVgkvAiyoXBB2",
+  "creatorUsername": "mattyb",
+  "creatorName": "Matt",
+  "createdTime": 1714491247442,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fmattyb%2Feq8TCTaQW_.jpeg?alt=media&token=b8632c4a-5f41-4148-a6aa-3b42c0d89c03",
+  "closeTime": 1732435140000,
+  "question": "Will Trump get a millennium high Jewish vote?",
+  "slug": "will-trump-get-a-millennium-high-je",
+  "url": "https://manifold.markets/mattyb/will-trump-get-a-millennium-high-je",
+  "pool": {
+    "NO": 2666.9998873874565,
+    "YES": 693.7374845215068
+  },
+  "probability": 0.9183534348969977,
+  "p": 0.7452746143513097,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 4038.668112523396,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 26,
+  "lastUpdatedTime": 1731607394868,
+  "lastBetTime": 1731607394868,
+  "lastCommentTime": 1730945592733,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Will Donald Trump get more than 30% of the Jewish vote in the 2024 elections, which would be ",
+            "type": "text"
+          },
+          {
+            "text": "a high watermark since H.W. Bush got 35% in 1988",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.jewishvirtuallibrary.org/jewish-voting-record-in-u-s-presidential-elections",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Note: if there is no singular polling of the Jewish vote (as was the case in 2020), this market will use the Pew Research\u2019s value for Resolution.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Recent Jewish Republican vote totals",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.jewishvirtuallibrary.org/jewish-voting-record-in-u-s-presidential-elections",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": ":",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "2020 [Trump]: 30%",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "2016 [Trump]: 24%",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "2012 [Romney]: 30%",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "2008 [McCain]: 22%",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "2004 [Bush]: 24%",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "2000 [Bush]: 19%",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "See a related market from ",
+            "type": "text"
+          },
+          {
+            "type": "mention",
+            "attrs": {
+              "id": "cb6PJqGOSVPEUhprDHCKWWMuJqu1",
+              "label": "DanMan314"
+            }
+          },
+          {
+            "text": " with a much higher bar:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "iframe",
+        "attrs": {
+          "src": "https://manifold.markets/embed/DanMan314/will-trump-win-a-majority-of-the-je",
+          "frameBorder": 0
+        }
+      }
+    ]
+  },
+  "coverImageUrl": null,
+  "groupSlugs": [
+    "politics-default",
+    "donald-trump",
+    "2024-us-presidential-election",
+    "jewish-people",
+    "us-politics"
+  ],
+  "textDescription": "Will Donald Trump get more than 30% of the Jewish vote in the 2024 elections, which would be a high watermark since H.W. Bush got 35% in 1988.\n\nNote: if there is no singular polling of the Jewish vote (as was the case in 2020), this market will use the Pew Research\u2019s value for Resolution.\n\nRecent Jewish Republican vote totals:\n\n2020 [Trump]: 30%\n\n2016 [Trump]: 24%\n\n2012 [Romney]: 30%\n\n2008 [McCain]: 22%\n\n2004 [Bush]: 24%\n\n2000 [Bush]: 19%\n\nSee a related market from @DanMan314 with a much higher bar:\n\n(https://manifold.markets/embed/DanMan314/will-trump-win-a-majority-of-the-je)"
+}

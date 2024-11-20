@@ -1,0 +1,51 @@
+{
+  "id": "hJgUxUpCe5NNWhnC5qsU",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1705126682742,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1735707540000,
+  "question": "Will Manifold add at least one Guild/Clan/Team feature by EOY 2024? (by my judgement)",
+  "slug": "will-manifold-add-at-least-one-guil-cfca5a8fa7a2",
+  "url": "https://manifold.markets/strutheo/will-manifold-add-at-least-one-guil-cfca5a8fa7a2",
+  "pool": {
+    "NO": 603.6601646657319,
+    "YES": 2230.8001753012077
+  },
+  "probability": 0.14388963179273945,
+  "p": 0.383138373508014,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 1255.0241908242808,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 14,
+  "lastUpdatedTime": 1731259877999,
+  "lastBetTime": 1731259877999,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo%2Fca2e8041c5b5.jpg",
+  "groupSlugs": [
+    "start-ups",
+    "manifold-guilds",
+    "feature-requests",
+    "startups",
+    "manifold-user-retention",
+    "manifold-users",
+    "manifold-features-25bad7c7792e",
+    "manifold-business-future",
+    "manifold-6748e065087e",
+    "ozark-manifold"
+  ],
+  "textDescription": ""
+}

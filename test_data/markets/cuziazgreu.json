@@ -1,0 +1,317 @@
+{
+  "id": "cuziazgreu",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1724739173234,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1798779540000,
+  "question": "Which college will Gus Walz attend?",
+  "slug": "which-college-will-gus-walz-attend",
+  "url": "https://manifold.markets/strutheo/which-college-will-gus-walz-attend",
+  "totalLiquidity": 180,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 311.2426434493078,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 7,
+  "lastUpdatedTime": 1730610036710,
+  "lastBetTime": 1730610036710,
+  "marketTier": "play",
+  "token": "MANA",
+  "shouldAnswersSumToOne": true,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "lvaj8q9cxs",
+      "text": "NYU",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724739173234,
+      "probChanges": {
+        "day": -0.002325293058436085,
+        "week": -0.002325293058436085,
+        "month": -0.002325293058436085
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25.000000000000004,
+      "pool": {
+        "YES": 164.18636933505238,
+        "NO": 5.0404960479819145
+      },
+      "probability": 0.029785436470580903
+    },
+    {
+      "id": "z98b77x73e",
+      "text": "Cornell",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724739173234,
+      "probChanges": {
+        "day": -0.003204217311245386,
+        "week": -0.003204217311245386,
+        "month": -0.003204217311245386
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25.000000000000004,
+      "pool": {
+        "YES": 148.81340993579536,
+        "NO": 5.822375298769569
+      },
+      "probability": 0.03765218568223187
+    },
+    {
+      "id": "6dpxujx6tp",
+      "text": "Rutgers",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724739173234,
+      "probChanges": {
+        "day": -0.003657184963352808,
+        "week": -0.003657184963352808,
+        "month": -0.003657184963352808
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25.000000000000004,
+      "pool": {
+        "YES": 142.92573546985736,
+        "NO": 6.194463578020735
+      },
+      "probability": 0.04154007047718516
+    },
+    {
+      "id": "dvrto9h1xb",
+      "text": "University of Minnesota",
+      "index": 3,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724739173234,
+      "probChanges": {
+        "day": -0.003204217311245386,
+        "week": -0.003204217311245386,
+        "month": -0.003204217311245386
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 25.000000000000004,
+      "pool": {
+        "YES": 148.81340993579536,
+        "NO": 5.822375298769569
+      },
+      "probability": 0.03765218568223187
+    },
+    {
+      "id": "9lf1eokig3",
+      "text": "Clemson",
+      "index": 4,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724776473705,
+      "probChanges": {
+        "day": -0.0008371269262241405,
+        "week": -0.0008371269262241405,
+        "month": -0.0008371269262241405
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10,
+      "pool": {
+        "YES": 127.73234407434751,
+        "NO": 1.005268906173331
+      },
+      "probability": 0.007808665104932754
+    },
+    {
+      "id": "mze4sidzv7",
+      "text": "U Penn",
+      "index": 5,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724776528937,
+      "probChanges": {
+        "day": -0.008227712352421215,
+        "week": -0.008227712352421215,
+        "month": -0.008227712352421215
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10,
+      "pool": {
+        "YES": 58.807337285185696,
+        "NO": 2.0978582321109336
+      },
+      "probability": 0.0344446514668056
+    },
+    {
+      "id": "5ofdbxbgg4",
+      "text": "Drexel",
+      "index": 6,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724776538564,
+      "probChanges": {
+        "day": -0.011937858075328323,
+        "week": -0.011937858075328323,
+        "month": -0.011937858075328323
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 10,
+      "pool": {
+        "YES": 59.9235653098459,
+        "NO": 3.4027775070185653
+      },
+      "probability": 0.05373399687487354
+    },
+    {
+      "id": "ec4zuucnij",
+      "text": "John Hopkins",
+      "index": 7,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724776554190,
+      "probChanges": {
+        "day": -0.014360707758903496,
+        "week": -0.014360707758903496,
+        "month": -0.014360707758903496
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 9.887528694735071,
+      "pool": {
+        "YES": 60.925556593902066,
+        "NO": 4.479841460933537
+      },
+      "probability": 0.06849345152180952
+    },
+    {
+      "id": "oqr45uajz4",
+      "text": "Caltech",
+      "index": 8,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724776565976,
+      "probChanges": {
+        "day": -0.0037716506907631148,
+        "week": -0.0037716506907631148,
+        "month": -0.0037716506907631148
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 9.217277840717404,
+      "pool": {
+        "YES": 101.54185022719366,
+        "NO": 3.0096460494236172
+      },
+      "probability": 0.02878625516234451
+    },
+    {
+      "id": "t1sas2ri9m",
+      "text": "NJIT",
+      "index": 9,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724776586461,
+      "probChanges": {
+        "day": -0.07909699137277862,
+        "week": -0.07909699137277862,
+        "month": -0.07909699137277862
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 9.041909028306796,
+      "pool": {
+        "YES": 128.57022819344797,
+        "NO": 2.726641334327958
+      },
+      "probability": 0.020766994248489188
+    },
+    {
+      "id": "ak4sgvtv3b",
+      "text": "RPI",
+      "index": 10,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724776598316,
+      "probChanges": {
+        "day": -0.017550932927927643,
+        "week": -0.017550932927927643,
+        "month": -0.017550932927927643
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 9.043046795085107,
+      "pool": {
+        "YES": 62.79666320825349,
+        "NO": 6.3815436688272404
+      },
+      "probability": 0.09224789072903096
+    },
+    {
+      "id": "swspv6c1k6",
+      "text": "WPI",
+      "index": 11,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724776604304,
+      "probChanges": {
+        "day": -0.06311955999754854,
+        "week": -0.06311955999754854,
+        "month": -0.06311955999754854
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 9.101709800586026,
+      "pool": {
+        "YES": 129.33531710981862,
+        "NO": 3.501028385981215
+      },
+      "probability": 0.026355952302917835
+    },
+    {
+      "id": "ugyq6ksawq",
+      "text": "Other",
+      "index": 12,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": true,
+      "contractId": "cuziazgreu",
+      "createdTime": 1724739173234,
+      "probChanges": {
+        "day": 0.2112955521550542,
+        "week": 0.2112955521550542,
+        "month": 0.2112955521550542
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 9.101709800586026,
+      "pool": {
+        "YES": 20.414472206324888,
+        "NO": 22.18066731948453
+      },
+      "probability": 0.5207323550623595
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/uqlwu5af37.jpg",
+  "groupSlugs": [
+    "colleges-universities",
+    "politics-default",
+    "us-politics",
+    "vice-president",
+    "tim-walz"
+  ],
+  "textDescription": ""
+}

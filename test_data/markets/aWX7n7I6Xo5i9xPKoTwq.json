@@ -1,0 +1,403 @@
+{
+  "id": "aWX7n7I6Xo5i9xPKoTwq",
+  "creatorId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+  "creatorUsername": "JohnSanchez590a",
+  "creatorName": "John Sanchez",
+  "createdTime": 1706300734320,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ1RMLJlFDyPvKcWSI0quO5BLQBLo0SE5qybDN_mOlRc6Y-=s96-c",
+  "closeTime": 2272251540000,
+  "question": "Who will be the first woman president of the United States?",
+  "slug": "who-will-be-the-first-woman-preside",
+  "url": "https://manifold.markets/JohnSanchez590a/who-will-be-the-first-woman-preside",
+  "totalLiquidity": 1385,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 10250.348409755652,
+  "volume24Hours": 5,
+  "isResolved": false,
+  "uniqueBettorCount": 58,
+  "lastUpdatedTime": 1731994988965,
+  "lastBetTime": 1731994988965,
+  "lastCommentTime": 1723144567798,
+  "marketTier": "play",
+  "token": "MANA",
+  "shouldAnswersSumToOne": true,
+  "addAnswersMode": "DISABLED",
+  "answers": [
+    {
+      "id": "623c705503b1",
+      "text": "Kamala Harris",
+      "index": 0,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0.001704350888605214,
+        "week": 0.001704350888605214,
+        "month": -0.5573001391679167
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 93.125,
+      "pool": {
+        "YES": 1459.8613203774778,
+        "NO": 17.33144322922501
+      },
+      "probability": 0.011732688959908446
+    },
+    {
+      "id": "cd7d8aa9fe06",
+      "text": "Nikki Haley",
+      "index": 1,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0.012514611525806714,
+        "week": 0.012514611525806714,
+        "month": 0.012514611525806714
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 823.0223824625025,
+        "NO": 18.58931112761343
+      },
+      "probability": 0.022087752902191553
+    },
+    {
+      "id": "ba035c2a85e2",
+      "text": "Hillary Clinton",
+      "index": 2,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": -0.02619865315668144,
+        "week": -0.02619865315668144,
+        "month": -0.02619865315668144
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 1185.4327013815498,
+        "NO": 8.79146219186821
+      },
+      "probability": 0.00736165157265111
+    },
+    {
+      "id": "6d0c3034e5ba",
+      "text": "Sarah Palin",
+      "index": 3,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 1254.809356879678,
+        "NO": 7.595902452234789
+      },
+      "probability": 0.006017007926800522
+    },
+    {
+      "id": "70cf4d4f8095",
+      "text": "Amy Klobuchar",
+      "index": 4,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0.002213321143346757,
+        "week": 0.002213321143346757,
+        "month": 0.002213321143346757
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 1254.8093568797012,
+        "NO": 7.595902452234547
+      },
+      "probability": 0.006017007926800222
+    },
+    {
+      "id": "220f2c7f98bf",
+      "text": "Michelle Obama",
+      "index": 5,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0.02860486537720698,
+        "week": 0.02860486537720698,
+        "month": 0.02860486537720698
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 488.2258968437726,
+        "NO": 20.747092494840217
+      },
+      "probability": 0.04076265917725834
+    },
+    {
+      "id": "34b46ecce84d",
+      "text": "Condoleezza Rice",
+      "index": 6,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0.0027851128927303824,
+        "week": 0.0027851128927303824,
+        "month": 0.0027851128927303824
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 1254.8093568796075,
+        "NO": 7.595902452235258
+      },
+      "probability": 0.006017007926801227
+    },
+    {
+      "id": "c23a45a90218",
+      "text": "Marjorie Taylor Greene",
+      "index": 7,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 1254.809356879678,
+        "NO": 7.595902452234789
+      },
+      "probability": 0.006017007926800522
+    },
+    {
+      "id": "83f7f6eaf34d",
+      "text": "Alexandria Ocasio-Cortez",
+      "index": 8,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0.016562061509920616,
+        "week": 0.016562061509920616,
+        "month": 0.016562061509920616
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 694.8456735016987,
+        "NO": 19.056336792471093
+      },
+      "probability": 0.02669321071755878
+    },
+    {
+      "id": "0c0f269b856a",
+      "text": "Liz Cheney",
+      "index": 9,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0.003973812087822563,
+        "week": 0.003973812087822563,
+        "month": 0.003973812087822563
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 1151.5196286903301,
+        "NO": 11.730971947459869
+      },
+      "probability": 0.010084647229950262
+    },
+    {
+      "id": "15e503343b29",
+      "text": "Marianne Williamson",
+      "index": 10,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 1254.809356879678,
+        "NO": 7.595902452234789
+      },
+      "probability": 0.006017007926800522
+    },
+    {
+      "id": "ad177f69faac",
+      "text": "Tulsi Gabbard",
+      "index": 11,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0.002781179006796305,
+        "week": 0.002781179006796305,
+        "month": 0.002781179006796305
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 1254.8142056425731,
+        "NO": 7.585439952787272
+      },
+      "probability": 0.006008746896637398
+    },
+    {
+      "id": "fd3a0e8b905d",
+      "text": "Elizabeth Warren",
+      "index": 12,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0.0034959251131013304,
+        "week": 0.0034959251131013304,
+        "month": 0.0034959251131013304
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 1209.4526878629663,
+        "NO": 9.010347471017127
+      },
+      "probability": 0.0073948467944678934
+    },
+    {
+      "id": "7554524af217",
+      "text": "Stacey Abrams",
+      "index": 13,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": -0.07016583795576097,
+        "week": -0.07016583795576097,
+        "month": -0.07016583795576097
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 1207.3382273261984,
+        "NO": 9.118499600288793
+      },
+      "probability": 0.007495950656072817
+    },
+    {
+      "id": "3c868d69d12b",
+      "text": "Gretchen Whitmer",
+      "index": 14,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0,
+        "week": -0.09610974017905322,
+        "month": -0.09610974017905322
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 73.125,
+      "pool": {
+        "YES": 466.3972498531417,
+        "NO": 57.171124157438996
+      },
+      "probability": 0.10919514431229499
+    },
+    {
+      "id": "d3d785340afd",
+      "text": "Joni Ernst",
+      "index": 15,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0.002785049741357003,
+        "week": 0.002785049741357003,
+        "month": 0.002785049741357003
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 53.125,
+      "pool": {
+        "YES": 1254.80935687968,
+        "NO": 7.5959024522347285
+      },
+      "probability": 0.006017007926800466
+    },
+    {
+      "id": "d72c1470fad7",
+      "text": "Other/none of the above",
+      "index": 16,
+      "userId": "eiMxwCKBiod8aSD3Klng6KaLcah2",
+      "isOther": false,
+      "contractId": "aWX7n7I6Xo5i9xPKoTwq",
+      "createdTime": 1706300734320,
+      "probChanges": {
+        "day": 0.05333523647636784,
+        "week": 0.05333523647636784,
+        "month": 0.38192935553807406
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 253.125,
+      "pool": {
+        "YES": 307.8794269777551,
+        "NO": 772.7050778575697
+      },
+      "probability": 0.7150806571812962
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/JohnSanchez590a%2F9e09bd9fc014.jpg",
+  "groupSlugs": [
+    "us-politics",
+    "politics-default",
+    "2024-us-presidential-election",
+    "future-us-presidents",
+    "2028-us-presidential-election",
+    "unsubsidized"
+  ],
+  "textDescription": ""
+}

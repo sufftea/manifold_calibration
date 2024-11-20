@@ -1,0 +1,94 @@
+{
+  "id": "ayItxgs6ZhO0rkUURAeu",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1713972888465,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1730429347363,
+  "question": "Will Biden's favorability be higher than Trump's on FiveThirtyEight at the end of Halloween?",
+  "slug": "will-bidens-favorability-be-higher",
+  "url": "https://manifold.markets/strutheo/will-bidens-favorability-be-higher",
+  "pool": {
+    "NO": 100.04819750532693,
+    "YES": 6802.182297525117
+  },
+  "probability": 0.017316074139403687,
+  "p": 0.5450510893572543,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 7327.973011547034,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "NO",
+  "resolutionTime": 1730429347363,
+  "resolutionProbability": 0.017316074139403687,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 22,
+  "lastUpdatedTime": 1730429347363,
+  "lastBetTime": 1730429344885,
+  "lastCommentTime": 1713973142556,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Biden: ",
+            "type": "text"
+          },
+          {
+            "text": "https://projects.fivethirtyeight.com/polls/favorability/joe-biden/",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://projects.fivethirtyeight.com/polls/favorability/joe-biden/",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Trump: ",
+            "type": "text"
+          },
+          {
+            "text": "https://projects.fivethirtyeight.com/polls/favorability/donald-trump/",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://projects.fivethirtyeight.com/polls/favorability/donald-trump/",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": null,
+  "groupSlugs": [
+    "2024-us-presidential-election",
+    "politics-default",
+    "donald-trump",
+    "the-life-of-biden",
+    "us-politics"
+  ],
+  "textDescription": "Biden: https://projects.fivethirtyeight.com/polls/favorability/joe-biden/\n\nTrump: https://projects.fivethirtyeight.com/polls/favorability/donald-trump/"
+}

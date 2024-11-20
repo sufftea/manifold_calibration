@@ -1,0 +1,51 @@
+{
+  "id": "P8XDlVq05lw128oU9IGH",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1714675471290,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1730926410051,
+  "question": "Will Donald Trump win Georgia in the 2024 presidential election?",
+  "slug": "will-donald-trump-win-georgia-in-th",
+  "url": "https://manifold.markets/strutheo/will-donald-trump-win-georgia-in-th",
+  "pool": {
+    "NO": 7687.112123985382,
+    "YES": 124.17125972775943
+  },
+  "probability": 0.9837503567054917,
+  "p": 0.49441585444881087,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 9821.175098179792,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1730926410051,
+  "resolutionProbability": 0.9837503567054917,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 25,
+  "lastUpdatedTime": 1730926410051,
+  "lastBetTime": 1730926401553,
+  "lastCommentTime": 1730926271237,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": null,
+  "groupSlugs": [
+    "us-politics",
+    "politics-default",
+    "georgia",
+    "2024-us-presidential-election",
+    "donald-trump"
+  ],
+  "textDescription": ""
+}

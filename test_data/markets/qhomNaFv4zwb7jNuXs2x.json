@@ -1,0 +1,73 @@
+{
+  "id": "qhomNaFv4zwb7jNuXs2x",
+  "creatorId": "7FqgWue8XzZmwxRr2eF305lGs7q1",
+  "creatorUsername": "ChristopherRandles42ce",
+  "creatorName": "Christopher Randles",
+  "createdTime": 1701603120729,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocKixCXn9ULiACc6IcRUvPAM9A11gAjsqi1p4hreJ50X=s96-c",
+  "closeTime": 1751324340000,
+  "question": "Will Starship refuel in orbit before Starship is successfully caught?",
+  "slug": "will-starship-refuel-in-orbit-befor",
+  "url": "https://manifold.markets/ChristopherRandles42ce/will-starship-refuel-in-orbit-befor",
+  "pool": {
+    "NO": 685.6286939068746,
+    "YES": 1471.4237425182073
+  },
+  "probability": 0.30256688477464233,
+  "p": 0.4821439136604431,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 2469.199570523558,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 26,
+  "lastUpdatedTime": 1730694799656,
+  "lastBetTime": 1730694799656,
+  "lastCommentTime": 1728697570185,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Refers to upper stage only.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Successfully caught means remains in one piece allowing inspection. It does not have to be capable of reflight, a few serious scratches would be ok as vehicle could be inspected.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Will extend deadline until one occurs. If neither is going to happen resolves na.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/ChristopherRandles42ce/ee8228fba4aa.jpg?GoogleAccessId=mantic-markets%40appspot.gserviceaccount.com&Expires=16447017600&Signature=T2Wir77xypyHcAC5OvpNHBbDpzZ9lalv16BkIwazSO30GAJf60SXUNwy97%2FKGlJ4ZN0vVv9%2BnRZcbjYzMauJorNSgBJJ66ScE9XhjTHTKv80tR0la173RYqJJYo%2Bcx17OiJ8jqsS6rq9NIN0%2BPLfZZlRNw94QWB%2F75Syhlvo%2FwKDaBBF4O2T7PXB0tEhMJrLlfJy6Thml6ewD3nhZ5zF8V0n8XlNBdI1zsl0PWzDEWtk4lDVrUyKPkmxo%2B5PWiA8nMquRM8BpTgxIfYUr4tt9FxTqPzrH7u2aA5RJSq19RRN2ubvA%2BjejINismYkZw4yiU%2B7BGxZ3Z6n2eBzAxsttA%3D%3D",
+  "groupSlugs": [
+    "spacex",
+    "starship-launch-party",
+    "space",
+    "elon-musk-14d9d9498c7e"
+  ],
+  "textDescription": "Refers to upper stage only.\n\nSuccessfully caught means remains in one piece allowing inspection. It does not have to be capable of reflight, a few serious scratches would be ok as vehicle could be inspected.\n\nWill extend deadline until one occurs. If neither is going to happen resolves na."
+}

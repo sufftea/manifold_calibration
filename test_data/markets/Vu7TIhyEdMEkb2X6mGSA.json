@@ -1,0 +1,410 @@
+{
+  "id": "Vu7TIhyEdMEkb2X6mGSA",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1714760581300,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1730438390904,
+  "question": "Of the 10 CoolFold Financial portfolio stocks, which will perform the worst?",
+  "slug": "of-the-10-coolfold-financial-portfo",
+  "url": "https://manifold.markets/strutheo/of-the-10-coolfold-financial-portfo",
+  "totalLiquidity": 200,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 1450.6825285886205,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "ec088b2d60f1",
+  "resolutionTime": 1730438390904,
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "uniqueBettorCount": 14,
+  "lastUpdatedTime": 1730438390904,
+  "lastBetTime": 1730438384975,
+  "lastCommentTime": 1728932416892,
+  "marketTier": "play",
+  "token": "MANA",
+  "shouldAnswersSumToOne": true,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "ec088b2d60f1",
+      "text": "Dominos Pizza DPZ",
+      "index": 0,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "Vu7TIhyEdMEkb2X6mGSA",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1714760581300,
+      "probChanges": {
+        "day": 0,
+        "week": 0.011320336983361545,
+        "month": 0.37741254464621216
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730438390904,
+      "totalLiquidity": 28.86751345948129,
+      "resolutionProbability": 0.9821805011006117,
+      "pool": {
+        "YES": 4.076329457855678,
+        "NO": 224.680353368709
+      },
+      "probability": 0.9821805011006117
+    },
+    {
+      "id": "8aefb8b936f5",
+      "text": "Google GOOG",
+      "index": 1,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "Vu7TIhyEdMEkb2X6mGSA",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1714760581300,
+      "probChanges": {
+        "day": 0,
+        "week": 0.0005781628443546835,
+        "month": -0.024879343025697095
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730438390904,
+      "totalLiquidity": 28.86751345948129,
+      "resolutionProbability": 0.002079375147741258,
+      "pool": {
+        "YES": 659.0856725125202,
+        "NO": 1.3733420610058715
+      },
+      "probability": 0.002079375147741258
+    },
+    {
+      "id": "1ec944f05c88",
+      "text": "Amazon AMZN",
+      "index": 2,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "Vu7TIhyEdMEkb2X6mGSA",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1714760581300,
+      "probChanges": {
+        "day": 0,
+        "week": 0.0005831219228930318,
+        "month": -0.025082920581801
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730438390904,
+      "totalLiquidity": 28.86751345948129,
+      "resolutionProbability": 0.002097634372120691,
+      "pool": {
+        "YES": 659.018968258396,
+        "NO": 1.385286664621276
+      },
+      "probability": 0.002097634372120691
+    },
+    {
+      "id": "604003850ba0",
+      "text": "ProShares UltraPro QQQ (TQQQ)",
+      "index": 3,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "Vu7TIhyEdMEkb2X6mGSA",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1714761442323,
+      "probChanges": {
+        "day": 0,
+        "week": 0.00044149903773708574,
+        "month": -0.029538396753449592
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730438390904,
+      "totalLiquidity": 20.833333333333336,
+      "resolutionProbability": 0.002492143695376639,
+      "pool": {
+        "YES": 701.5217627833925,
+        "NO": 1.752660921154927
+      },
+      "probability": 0.002492143695376639
+    },
+    {
+      "id": "fa2259ee0434",
+      "text": "BRK.B",
+      "index": 4,
+      "userId": "cA1JupYR5AR8btHUs2xvkui7jA93",
+      "isOther": false,
+      "contractId": "Vu7TIhyEdMEkb2X6mGSA",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1715112875367,
+      "probChanges": {
+        "day": 0,
+        "week": 0.0008447652357011746,
+        "month": -0.03862847261108464
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730438390904,
+      "totalLiquidity": 25,
+      "resolutionProbability": 0.0023809013004472634,
+      "pool": {
+        "YES": 637.4128219297695,
+        "NO": 1.5212389364163528
+      },
+      "probability": 0.0023809013004472634
+    },
+    {
+      "id": "u87oqbll5o",
+      "text": "Qualcomm QCOM",
+      "index": 5,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "Vu7TIhyEdMEkb2X6mGSA",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1718126678378,
+      "probChanges": {
+        "day": 0,
+        "week": 0.00023776569722178467,
+        "month": -0.032476200936193314
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730438390904,
+      "totalLiquidity": 10,
+      "resolutionProbability": 0.0010248351700355741,
+      "pool": {
+        "YES": 680.3977078290696,
+        "NO": 0.6980108466595425
+      },
+      "probability": 0.0010248351700355741
+    },
+    {
+      "id": "tuabqoyzie",
+      "text": "SPY",
+      "index": 6,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "Vu7TIhyEdMEkb2X6mGSA",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1718126968848,
+      "probChanges": {
+        "day": -1.0408340855860843e-17,
+        "week": 0.0008554332718045642,
+        "month": -0.04727596663754194
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730438390904,
+      "totalLiquidity": 10,
+      "resolutionProbability": 0.0014939274147827422,
+      "pool": {
+        "YES": 608.234977520382,
+        "NO": 0.9100184089966206
+      },
+      "probability": 0.0014939274147827422
+    },
+    {
+      "id": "xqreofp0pl",
+      "text": "Meta Facebook ",
+      "index": 7,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "Vu7TIhyEdMEkb2X6mGSA",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1718126980772,
+      "probChanges": {
+        "day": 0,
+        "week": 0.0006010463492315335,
+        "month": -0.05863387688038291
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730438390904,
+      "totalLiquidity": 10,
+      "resolutionProbability": 0.0015443869769257515,
+      "pool": {
+        "YES": 634.4028535198504,
+        "NO": 0.9812789795773824
+      },
+      "probability": 0.0015443869769257515
+    },
+    {
+      "id": "lk6rq8tvc3",
+      "text": "Costco cost ",
+      "index": 8,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "Vu7TIhyEdMEkb2X6mGSA",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1718126993980,
+      "probChanges": {
+        "day": 0,
+        "week": 0.00034946337284382303,
+        "month": -0.026503068570575883
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730438390904,
+      "totalLiquidity": 10,
+      "resolutionProbability": 0.0014926282362633949,
+      "pool": {
+        "YES": 677.4436444100368,
+        "NO": 1.0126830714704624
+      },
+      "probability": 0.0014926282362633949
+    },
+    {
+      "id": "on9u6it7fs",
+      "text": "Microsoft msft ",
+      "index": 9,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "contractId": "Vu7TIhyEdMEkb2X6mGSA",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1718127006648,
+      "probChanges": {
+        "day": 0,
+        "week": -0.015873827370943526,
+        "month": -0.09258572551303758
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730438390904,
+      "totalLiquidity": 10,
+      "resolutionProbability": 0.001768956586805437,
+      "pool": {
+        "YES": 648.8119188134863,
+        "NO": 1.149753982263121
+      },
+      "probability": 0.001768956586805437
+    },
+    {
+      "id": "136ff70e9282",
+      "text": "Other",
+      "index": 10,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": true,
+      "contractId": "Vu7TIhyEdMEkb2X6mGSA",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1714760581300,
+      "probChanges": {
+        "day": 2.6020852139652106e-18,
+        "week": 6.23137727039846e-05,
+        "month": -0.0018903261645016028
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1730438390904,
+      "totalLiquidity": 15.864718859291315,
+      "resolutionProbability": 0.0014448302145214148,
+      "pool": {
+        "YES": 939.2825120637713,
+        "NO": 1.3590673750082942
+      },
+      "probability": 0.0014448302145214148
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "META, DPZ, TQQQ, COST, MSFT, BRK.B, SPY, GOOG, AMZN, QCOM",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "hardBreak",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://docs.google.com/spreadsheets/d/1s1OxlwEalnadLVi8z0OMdV-tToKSRUnu8NpE52AF1hQ/edit#gid=0",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": "Tracking spreadsheet HERE",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://docs.google.com/spreadsheets/d/1s1OxlwEalnadLVi8z0OMdV-tToKSRUnu8NpE52AF1hQ/edit#gid=0",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "1y0FHXHuFnJAuSndRGKJ",
+              "label": "/strutheo/coolfold-financial-advice-suggest-i"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "dj5bArre1QqVeOeP0XrC",
+              "label": "/strutheo/will-nvidia-nvda-outperform-five-or"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "contract-mention",
+            "attrs": {
+              "id": "ww1rEG9yipAzwyt2NPqb",
+              "label": "/strutheo/of-the-10-coolfold-financial-portfo-d75c9ce849e6"
+            }
+          },
+          {
+            "text": " ",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": null,
+  "groupSlugs": [
+    "business",
+    "stocks",
+    "coolfold",
+    "economics-default",
+    "investing"
+  ],
+  "textDescription": "META, DPZ, TQQQ, COST, MSFT, BRK.B, SPY, GOOG, AMZN, QCOM\n\n\nTracking spreadsheet HERE\n\n@/strutheo/coolfold-financial-advice-suggest-i \n\n@/strutheo/will-nvidia-nvda-outperform-five-or \n\n@/strutheo/of-the-10-coolfold-financial-portfo-d75c9ce849e6 "
+}

@@ -1,0 +1,58 @@
+{
+  "id": "lbwk3oakv6",
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "creatorUsername": "strutheo",
+  "creatorName": "chris (strutheo)",
+  "createdTime": 1720300362006,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "closeTime": 1847159940000,
+  "question": "Will Kamala Harris be the first woman president of the USA before the end of 2028?",
+  "slug": "will-kamala-harris-be-the-first-wom",
+  "url": "https://manifold.markets/strutheo/will-kamala-harris-be-the-first-wom",
+  "pool": {
+    "NO": 577.2719881046381,
+    "YES": 3799.7473934642403
+  },
+  "probability": 0.057019814265131745,
+  "p": 0.28469917033532577,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 10421.1787621545,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 60,
+  "lastUpdatedTime": 1731476913870,
+  "lastBetTime": 1731476913870,
+  "lastCommentTime": 1721671802270,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "If elected or the president dying while she is vice president and then being approved as President, this resolves yes ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "if she wins the 2028 election this resolves YES",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/7dgnmg50l2.jpg",
+  "textDescription": "If elected or the president dying while she is vice president and then being approved as President, this resolves yes \n\nif she wins the 2028 election this resolves YES"
+}

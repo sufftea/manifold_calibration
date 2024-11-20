@@ -1,0 +1,43 @@
+{
+  "id": "0QyCO5CUUI",
+  "creatorId": "MaWKBofJ84bWOF5IhCf041Z5UfK2",
+  "creatorUsername": "nick",
+  "creatorName": "nick",
+  "createdTime": 1729828895536,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fmistersplice%2FqlGc-89ifU.png?alt=media&token=a86e0ff8-97ab-42fa-a758-cf4ab3185e8a",
+  "closeTime": 1735711140000,
+  "question": "Will Microsoft shareholders vote for Bitcoin investment?",
+  "slug": "will-microsoft-shareholders-vote-fo",
+  "url": "https://manifold.markets/nick/will-microsoft-shareholders-vote-fo",
+  "pool": {
+    "NO": 254.3460123712228,
+    "YES": 39.316519676372224
+  },
+  "probability": 0.8661166632248475,
+  "p": 0.5000000000000003,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 1128.1292896023558,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 11,
+  "lastUpdatedTime": 1731623786319,
+  "lastBetTime": 1731623786319,
+  "marketTier": "play",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/nick/POQz686Upt.jpg",
+  "groupSlugs": [
+    "microsoft",
+    "bitcoin"
+  ],
+  "textDescription": ""
+}

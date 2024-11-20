@@ -1,0 +1,227 @@
+{
+  "id": "c5SOzUZAhA",
+  "creatorId": "X1xu1kvOxuevx09xuR2urWfzf7i1",
+  "creatorUsername": "PuckMinder",
+  "creatorName": "PuckMinder",
+  "createdTime": 1729872650571,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FKeenenW%2FrSyMilsj6P.png?alt=media&token=a804b145-1357-4c86-978c-04d08cd777b2",
+  "closeTime": 1733032740000,
+  "question": "Will the Winnipeg Jets have 34 points by end of November",
+  "slug": "will-the-winnipeg-jets-have-34-poin--cash",
+  "url": "https://manifold.markets/PuckMinder/will-the-winnipeg-jets-have-34-poin--cash",
+  "pool": {
+    "NO": 359.25832378388844,
+    "YES": 27.83512402628555
+  },
+  "probability": 0.9280919783485058,
+  "p": 0.5,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 634.3398860849074,
+  "volume24Hours": 70,
+  "isResolved": false,
+  "uniqueBettorCount": 13,
+  "lastUpdatedTime": 1731980940791,
+  "lastBetTime": 1731980940791,
+  "token": "CASH",
+  "siblingContractId": "hAstOc2cQL",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This market resolves ",
+            "type": "text"
+          },
+          {
+            "text": "Yes",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": " if the Winnipeg Jets have at least 34 points in the",
+            "type": "text"
+          },
+          {
+            "text": " NHL standings",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.nhl.com/standings/",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          },
+          {
+            "text": " by November 30. Resolves ",
+            "type": "text"
+          },
+          {
+            "text": "No ",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": "if they have 33 or less points.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Winnipeg Jets are currently 13-1-0 and have 26 points (as of 1/07). Will they continue to dominate?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Jets Schedule:",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.google.com/search?client=firefox-b-1-d&q=NHL+Jets+Games#sie=t;/m/0gvt8sz;7;/m/05gwr;mt;fp;1",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Stars - Nov 9",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Rangers - Nov 12",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Lightning - Nov 14",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Panthers - Nov 16",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Panthers - Nov 19",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Penguins - Nov 22",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Predators -  Nov 23",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Wild - Nov 25",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Kings - Nov 27",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Knights - Nov 29",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "20 potential points left",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "textDescription": "This market resolves Yes if the Winnipeg Jets have at least 34 points in the NHL standings by November 30. Resolves No if they have 33 or less points.\n\nWinnipeg Jets are currently 13-1-0 and have 26 points (as of 1/07). Will they continue to dominate?\n\nJets Schedule:\n\nStars - Nov 9\n\nRangers - Nov 12\n\nLightning - Nov 14\n\nPanthers - Nov 16\n\nPanthers - Nov 19\n\nPenguins - Nov 22\n\nPredators -  Nov 23\n\nWild - Nov 25\n\nKings - Nov 27\n\nKnights - Nov 29\n\n20 potential points left"
+}

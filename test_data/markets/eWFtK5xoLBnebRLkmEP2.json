@@ -1,0 +1,347 @@
+{
+  "id": "eWFtK5xoLBnebRLkmEP2",
+  "creatorId": "4xOTMCIOkGesdJft50wVFZFb5IB3",
+  "creatorUsername": "Tripping",
+  "creatorName": "Tripping",
+  "createdTime": 1709148578773,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FTripping%2F3RfJx0JW5H.png?alt=media&token=085f2ca7-f22f-4cce-925f-2823bd2dce88",
+  "closeTime": 1736515740000,
+  "question": "What video game will have the highest score of 2024 on Metacritic?",
+  "slug": "what-video-game-will-have-the-highe-be08b92fa9ea",
+  "url": "https://manifold.markets/Tripping/what-video-game-will-have-the-highe-be08b92fa9ea",
+  "totalLiquidity": 1710,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 5114.202631757759,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 24,
+  "lastUpdatedTime": 1731285551886,
+  "lastBetTime": 1731285551886,
+  "lastCommentTime": 1719175015024,
+  "marketTier": "plus",
+  "token": "MANA",
+  "shouldAnswersSumToOne": false,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "145e46bce98e",
+      "text": "Final Fantasy VII Rebirth",
+      "index": 0,
+      "userId": "4xOTMCIOkGesdJft50wVFZFb5IB3",
+      "isOther": false,
+      "contractId": "eWFtK5xoLBnebRLkmEP2",
+      "createdTime": 1709148578773,
+      "probChanges": {
+        "day": 0,
+        "week": -0.11048511240225375,
+        "month": -0.11048511240225375
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 230,
+      "pool": {
+        "YES": 336.7831057747927,
+        "NO": 95.6814198170471
+      },
+      "probability": 0.22124686339556845
+    },
+    {
+      "id": "3d657f2e67ab",
+      "text": "Balatro",
+      "index": 1,
+      "userId": "4xOTMCIOkGesdJft50wVFZFb5IB3",
+      "isOther": false,
+      "contractId": "eWFtK5xoLBnebRLkmEP2",
+      "createdTime": 1709148578773,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 150,
+      "pool": {
+        "YES": 325.15114681450626,
+        "NO": 28.547798625859127
+      },
+      "probability": 0.08071213950133861
+    },
+    {
+      "id": "0854d042dffa",
+      "text": "Dragon's Dogma 2",
+      "index": 2,
+      "userId": "4xOTMCIOkGesdJft50wVFZFb5IB3",
+      "isOther": false,
+      "contractId": "eWFtK5xoLBnebRLkmEP2",
+      "createdTime": 1709148578773,
+      "probChanges": {
+        "day": 0,
+        "week": -0.04607186856289072,
+        "month": -0.04607186856289072
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 130,
+      "pool": {
+        "YES": 462.6095899947667,
+        "NO": 20.523917090728105
+      },
+      "probability": 0.04248083974663387
+    },
+    {
+      "id": "6c29fab2309e",
+      "text": "Elden Ring: Shadow of the Erdtree",
+      "index": 3,
+      "userId": "4xOTMCIOkGesdJft50wVFZFb5IB3",
+      "isOther": false,
+      "contractId": "eWFtK5xoLBnebRLkmEP2",
+      "createdTime": 1709148578773,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 250,
+      "pool": {
+        "YES": 133.34879571262877,
+        "NO": 309.4913166856798
+      },
+      "probability": 0.6988782362319306
+    },
+    {
+      "id": "0ba820dfaa70",
+      "text": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "index": 4,
+      "userId": "4xOTMCIOkGesdJft50wVFZFb5IB3",
+      "isOther": false,
+      "contractId": "eWFtK5xoLBnebRLkmEP2",
+      "createdTime": 1709148578773,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 150,
+      "pool": {
+        "YES": 194.9694223041584,
+        "NO": 57.84110305066179
+      },
+      "probability": 0.2287923058958153
+    },
+    {
+      "id": "ea7d711bf931",
+      "text": "Kingmakers",
+      "index": 5,
+      "userId": "4xOTMCIOkGesdJft50wVFZFb5IB3",
+      "isOther": false,
+      "contractId": "eWFtK5xoLBnebRLkmEP2",
+      "createdTime": 1709148578773,
+      "probChanges": {
+        "day": 1.3877787807814457e-17,
+        "week": 1.3877787807814457e-17,
+        "month": 1.3877787807814457e-17
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 150,
+      "pool": {
+        "YES": 297.1635417235427,
+        "NO": 36.72807819055022
+      },
+      "probability": 0.11
+    },
+    {
+      "id": "ae892a9eb817",
+      "text": "Metaphor: ReFantazio",
+      "index": 6,
+      "userId": "4xOTMCIOkGesdJft50wVFZFb5IB3",
+      "isOther": false,
+      "contractId": "eWFtK5xoLBnebRLkmEP2",
+      "createdTime": 1709148578773,
+      "probChanges": {
+        "day": -1.1102230246251565e-16,
+        "week": 0.3928804456031045,
+        "month": 0.3928804456031045
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 150,
+      "pool": {
+        "YES": 66.11694754773218,
+        "NO": 165.07485902799357
+      },
+      "probability": 0.7140169086136021
+    },
+    {
+      "id": "03cc3a8e7086",
+      "text": "Paper Mario: The Thousand-Year Door",
+      "index": 7,
+      "userId": "4xOTMCIOkGesdJft50wVFZFb5IB3",
+      "isOther": false,
+      "contractId": "eWFtK5xoLBnebRLkmEP2",
+      "createdTime": 1709148578773,
+      "probChanges": {
+        "day": 0,
+        "week": -0.05445561182028606,
+        "month": -0.05445561182028606
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 150,
+      "pool": {
+        "YES": 456.16354172354323,
+        "NO": 23.926168572274236
+      },
+      "probability": 0.049836870191472385
+    },
+    {
+      "id": "67d325952cc6",
+      "text": "Vampire: The Masquerade \u2013 Bloodlines 2",
+      "index": 8,
+      "userId": "4xOTMCIOkGesdJft50wVFZFb5IB3",
+      "isOther": false,
+      "contractId": "eWFtK5xoLBnebRLkmEP2",
+      "createdTime": 1709148578773,
+      "probChanges": {
+        "day": 0,
+        "week": -0.10635762536603426,
+        "month": -0.10635762536603426
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 150,
+      "pool": {
+        "YES": 442.60958999476657,
+        "NO": 25.478992552683167
+      },
+      "probability": 0.05443198894965652
+    },
+    {
+      "id": "doganaty3l",
+      "text": "Squirrel with a Gun",
+      "index": 9,
+      "userId": "vEGHPznXKbTXFIzEf8iLwwO3okY2",
+      "isOther": false,
+      "contractId": "eWFtK5xoLBnebRLkmEP2",
+      "createdTime": 1719182780600,
+      "probChanges": {
+        "day": -1.0408340855860843e-17,
+        "week": -0.18528413180619052,
+        "month": -0.18528413180619052
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 592.2158289787732,
+        "NO": 16.885735758269362
+      },
+      "probability": 0.027722364767785758
+    },
+    {
+      "id": "sqA0NnLpEE",
+      "text": "Astro Bot",
+      "index": 10,
+      "userId": "v0CLvsusyUfPcTKlU1cD0t8szKg1",
+      "isOther": false,
+      "contractId": "eWFtK5xoLBnebRLkmEP2",
+      "createdTime": 1731099242175,
+      "probChanges": {
+        "day": 0,
+        "week": 0.20609845701689944,
+        "month": 0.20609845701689944
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 100,
+      "pool": {
+        "YES": 64.51612903225806,
+        "NO": 155
+      },
+      "probability": 0.7060984570168994
+    }
+  ],
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This market resolves to the highest scoring game/s of 2024 on according to this page:",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "https://www.metacritic.com/browse/game/?releaseYearMin=2024&releaseYearMax=2024",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.metacritic.com/browse/game/?releaseYearMin=2024&releaseYearMax=2024",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This means games on any platform with a release year of 2024, sorted by Metascore. ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "If there are multiple games with the same whole number top score on that page, all of those games will be chosen.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The page will be checked after the market closes, giving time for any late releases or late reviews to be taken into account in time for resolution of the market. ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "DLC releases, remakes etc. listed by Metacritic on that page are eligible to be chosen - Metacritic is the final arbiter of what gets to count. ",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/Tripping%2Fc8daca4623c5.jpg",
+  "groupSlugs": [
+    "video-games",
+    "metacritic",
+    "gaming"
+  ],
+  "textDescription": "This market resolves to the highest scoring game/s of 2024 on according to this page:\n\nhttps://www.metacritic.com/browse/game/?releaseYearMin=2024&releaseYearMax=2024\n\nThis means games on any platform with a release year of 2024, sorted by Metascore. \n\nIf there are multiple games with the same whole number top score on that page, all of those games will be chosen.\n\nThe page will be checked after the market closes, giving time for any late releases or late reviews to be taken into account in time for resolution of the market. \n\nDLC releases, remakes etc. listed by Metacritic on that page are eligible to be chosen - Metacritic is the final arbiter of what gets to count. "
+}

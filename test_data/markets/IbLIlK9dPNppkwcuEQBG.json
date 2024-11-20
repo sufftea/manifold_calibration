@@ -1,0 +1,208 @@
+{
+  "id": "IbLIlK9dPNppkwcuEQBG",
+  "creatorId": "Wo2etMvKRKaOrlEMWUD9liFY5xk2",
+  "creatorUsername": "Orca",
+  "creatorName": "Orcatron",
+  "createdTime": 1705016313690,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocLhML-PPkGeBCMJUgxx90-h3AzhZwuGvkTJjFyB-ROE=s96-c",
+  "closeTime": 1731398340000,
+  "question": "Will Mother Nature influence the US Elections in 2024",
+  "slug": "will-mother-nature-influence-the-us",
+  "url": "https://manifold.markets/Orca/will-mother-nature-influence-the-us",
+  "pool": {
+    "NO": 603.4512685819928,
+    "YES": 3713.3407644104523
+  },
+  "probability": 0.05752182281666713,
+  "p": 0.27302545608490614,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 2945.309719353984,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 21,
+  "lastUpdatedTime": 1731518542872,
+  "lastBetTime": 1731316736144,
+  "lastCommentTime": 1731518541889,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This is third in my series based on this article. This article talks about a Climate  Surprise. ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Article in the Politico for Unpredictable by Entirely Plausible 2024 events.",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.politico.com/news/magazine/2024/01/05/unpredictable-events-2024-election-turmoil-experts-00133873",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              },
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "hardBreak"
+          },
+          {
+            "text": "Mother Nature wreaks havoc on the election",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "BY ALEC ROSS",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Alec Ross is the author of ",
+            "type": "text",
+            "marks": [
+              {
+                "type": "italic"
+              }
+            ]
+          },
+          {
+            "text": "The Raging 2020s",
+            "type": "text"
+          },
+          {
+            "text": " and a former senior State Department official during the Obama administration.",
+            "type": "text",
+            "marks": [
+              {
+                "type": "italic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "T",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "text": "he latest-breaking event that will shape the 2024 presidential election will be a spectacularly destructive Category 5 hurricane that tears through the country just weeks before the election creating a Climate v. Christ binary in the electorate.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The Biden campaign will cite the hurricane as evidence of the extreme weather events produced by climate change that affirm his strategy to invest in next generation solutions to mitigate climate change. Trump will cite the storm as God\u2019s wrath against Joe Biden.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Biden will spend the last weeks of the campaign visiting with victims and working from the White House and FEMA headquarters directing a response demonstrating his credentials as a competent and empathetic president. This will drive a youth vote that was withholding support back into the Democratic camp. Trump will visit a different disaster site every day and give speeches with his arms frequently spread in a crucifix pose. Millions of his evangelical Christian supporters will build a movement rooted in the belief that Trump is the resurrection of Christ to whom all worldly, secular powers must be transferred. Trump will do nothing to dissuade them. The election outcome will not be known until more than a month afterward because of the difficulty of administering an election with millions of Americans dislocated from their homes and home states due to the storm.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Back to Message from OP",
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Will some major climate event like a Hurricane, Wildfire, Tornado etc.. significantly impact the elections of 2024?  Resolves YES if so. Otherwise NO. Given the subjective nature of this question -- I will review all the data from reputable news sources, election pundits and also potentially feedback from this community to make the final resolution.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/Orca%2Ff4705ed78725.jpg",
+  "groupSlugs": [
+    "us-politics",
+    "climate-change",
+    "politics-default",
+    "2024-us-presidential-election",
+    "climate",
+    "us-congressional-elections-2024"
+  ],
+  "textDescription": "This is third in my series based on this article. This article talks about a Climate  Surprise. \n\nArticle in the Politico for Unpredictable by Entirely Plausible 2024 events.\n\n\nMother Nature wreaks havoc on the election\n\nBY ALEC ROSS\n\nAlec Ross is the author of The Raging 2020s and a former senior State Department official during the Obama administration.\n\nThe latest-breaking event that will shape the 2024 presidential election will be a spectacularly destructive Category 5 hurricane that tears through the country just weeks before the election creating a Climate v. Christ binary in the electorate.\n\nThe Biden campaign will cite the hurricane as evidence of the extreme weather events produced by climate change that affirm his strategy to invest in next generation solutions to mitigate climate change. Trump will cite the storm as God\u2019s wrath against Joe Biden.\n\nBiden will spend the last weeks of the campaign visiting with victims and working from the White House and FEMA headquarters directing a response demonstrating his credentials as a competent and empathetic president. This will drive a youth vote that was withholding support back into the Democratic camp. Trump will visit a different disaster site every day and give speeches with his arms frequently spread in a crucifix pose. Millions of his evangelical Christian supporters will build a movement rooted in the belief that Trump is the resurrection of Christ to whom all worldly, secular powers must be transferred. Trump will do nothing to dissuade them. The election outcome will not be known until more than a month afterward because of the difficulty of administering an election with millions of Americans dislocated from their homes and home states due to the storm.\n\nBack to Message from OP\n\nWill some major climate event like a Hurricane, Wildfire, Tornado etc.. significantly impact the elections of 2024?  Resolves YES if so. Otherwise NO. Given the subjective nature of this question -- I will review all the data from reputable news sources, election pundits and also potentially feedback from this community to make the final resolution."
+}

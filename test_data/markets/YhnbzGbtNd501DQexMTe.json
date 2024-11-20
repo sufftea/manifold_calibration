@@ -1,0 +1,49 @@
+{
+  "id": "YhnbzGbtNd501DQexMTe",
+  "creatorId": "uwmcXrTKHvZGrYj9PNtZcul0jVk2",
+  "creatorUsername": "CarlosZ",
+  "creatorName": "Carlos",
+  "createdTime": 1691081182409,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/AAcHTteRKNg0wrYThF9UK_nPrbf7uGja2Rg3O2aACUVSqao5=s96-c",
+  "closeTime": 1730761140000,
+  "question": "Will the next US president speak Spanish?",
+  "slug": "will-the-next-us-president-speak-sp",
+  "url": "https://manifold.markets/CarlosZ/will-the-next-us-president-speak-sp",
+  "pool": {
+    "NO": 892.1393675316834,
+    "YES": 2065.4721369690988
+  },
+  "probability": 0.03921331671479536,
+  "p": 0.08633378927570443,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 5323.2183939136385,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 25,
+  "lastUpdatedTime": 1730758176813,
+  "lastBetTime": 1730758176813,
+  "lastCommentTime": 1730731086133,
+  "marketTier": "plus",
+  "token": "MANA",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Question will resolve yes if the next US president speaks Spanish at a conversational fluency level.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "groupSlugs": [
+    "politics-default",
+    "us-politics"
+  ],
+  "textDescription": "Question will resolve yes if the next US president speaks Spanish at a conversational fluency level."
+}

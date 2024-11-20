@@ -1,0 +1,38 @@
+{
+  "id": "CqON0Ql8tI",
+  "creatorId": "PQ8Ot2GZ8NfQdXiJVmJqf3yea8O2",
+  "creatorUsername": "mirrorbot",
+  "creatorName": "Mirror Bot",
+  "createdTime": 1730485600171,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fmirrorbot%2FYyZGRnml_x.32?alt=media&token=0329b715-fee1-4181-b04d-7dc15c1983a0",
+  "closeTime": 1735840800000,
+  "question": "[ACX 2024] Will there be faithless electors in the 2024 US Presidential election?",
+  "slug": "acx-2024-will-there-be-faithless-el--cash",
+  "url": "https://manifold.markets/mirrorbot/acx-2024-will-there-be-faithless-el--cash",
+  "pool": {
+    "NO": 80.14977515732072,
+    "YES": 131.05474031390258
+  },
+  "probability": 0.33350190084810527,
+  "p": 0.45000000000000023,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 421.4310323242778,
+  "volume24Hours": 56.35256657357093,
+  "isResolved": false,
+  "uniqueBettorCount": 43,
+  "lastUpdatedTime": 1732016287602,
+  "lastBetTime": 1732016287602,
+  "token": "CASH",
+  "siblingContractId": "5r3JhrQo01eJGxpNA2dg",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}

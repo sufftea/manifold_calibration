@@ -1,0 +1,39 @@
+{
+  "id": "z1v2wb8lek",
+  "creatorId": "m5K4FlZLo0aeDd5Z7W4xX3TAGHs1",
+  "creatorUsername": "JeffBerman",
+  "creatorName": "Jeff Berman",
+  "createdTime": 1728252242840,
+  "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocJs_c1tZ1T6PMCtwsXu9NiUuQCqnjN1hMqXJXkPgADYqnQ=s96-c",
+  "closeTime": 1733461140000,
+  "question": "The result of the US Presidential election will not be certified by Jan. 6, 2025.",
+  "slug": "the-result-of-the-us-presidential-e--cash",
+  "url": "https://manifold.markets/JeffBerman/the-result-of-the-us-presidential-e--cash",
+  "pool": {
+    "NO": 59.850352161279496,
+    "YES": 617.1629493626767
+  },
+  "probability": 0.026624135558424876,
+  "p": 0.21999999999999997,
+  "totalLiquidity": 100,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 805.2736094325323,
+  "volume24Hours": 0,
+  "isResolved": false,
+  "uniqueBettorCount": 21,
+  "lastUpdatedTime": 1731933607940,
+  "lastBetTime": 1731933607940,
+  "marketTier": "play",
+  "token": "CASH",
+  "siblingContractId": "2pfu7ov7td",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "textDescription": ""
+}
