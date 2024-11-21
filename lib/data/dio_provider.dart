@@ -3,6 +3,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final dioProvider = Provider(
   (ref) => Dio(
-    BaseOptions(baseUrl: 'https://api.manifold.markets/v0'),
+    BaseOptions(
+      baseUrl: 'https://api.manifold.markets/v0',
+    ),
   ),
 );

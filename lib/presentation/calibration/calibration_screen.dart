@@ -102,92 +102,114 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           const SizedBox(height: 16),
           buildControlls(colors),
           const SizedBox(height: 16),
-          Consumer(
-            builder: (context, ref, child) {
-              final state = ref.watch(calibrationControllerProvider);
-
-              if (state case final CalibrationStateData data) {
-                return Container(
-                  padding: const EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                    color: colors.surface,
-                    boxShadow: [
-                      BoxShadow(
-                        color: colors.shadow,
-                        offset: const Offset(0, 2),
-                        blurRadius: 5,
-                      )
-                    ],
-                    borderRadius: BorderRadius.circular(4),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      if (state.nofLoadedMarkets < state.nofTotalMarkets) ...[
-                        LinearProgressIndicator(
-                          value: state.nofLoadedMarkets / state.nofTotalMarkets,
-                          color: colors.secondary,
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            'Loading markets: ${state.nofLoadedMarkets} / ${state.nofTotalMarkets}',
-                            style: GoogleFonts.poppins(
-                              fontSize: 12,
-                              fontWeight: FontWeight.w400,
-                            ),
-                          ),
-                        ),
-                      ],
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: CalibrationPage(state: data),
-                      ),
-                    ],
-                  ),
-                );
-              }
-
-              if (state case final CalibrationStateLoading _) {
-                return const Padding(
-                  padding: EdgeInsets.all(8.0),
-                  child: Center(child: CircularProgressIndicator()),
-                );
-              }
-
-              if (state case final CalibrationStateError state) {
-                {
-                  if (state.err is UnexpectedResponseException) {
-                    return Text(
-                      state.err.toString(),
-                      style: GoogleFonts.poppins(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w400,
-                        color: colors.error,
-                      ),
-                    );
-                  } else if (state.err is InvalidUsernameException) {
-                    return const SizedBox.shrink();
-                  } else {
-                    debugPrint(state.err.toString());
-                    debugPrint(state.stackTrace.toString());
-                    return Text(
-                      state.err.toString(),
-                      style: GoogleFonts.poppins(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w400,
-                        color: colors.error,
-                      ),
-                    );
-                  }
-                }
-              }
-
-              return const SizedBox.shrink();
-            },
-          ),
+          buildOutputBanner(colors),
         ],
       ),
+    );
+  }
+
+  Consumer buildOutputBanner(ColorScheme colors) {
+    return Consumer(
+      builder: (context, ref, child) {
+        final state = ref.watch(calibrationControllerProvider);
+
+        if (state case final CalibrationStateData data) {
+          return Container(
+            padding: const EdgeInsets.all(8),
+            decoration: BoxDecoration(
+              color: colors.surface,
+              boxShadow: [
+                BoxShadow(
+                  color: colors.shadow,
+                  offset: const Offset(0, 2),
+                  blurRadius: 2,
+                )
+              ],
+              borderRadius: BorderRadius.circular(4),
+            ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                buildProgressIndicator(state, colors),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: CalibrationPage(state: data),
+                ),
+              ],
+            ),
+          );
+        }
+
+        if (state case final CalibrationStateLoading _) {
+          return const Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Center(child: CircularProgressIndicator()),
+          );
+        }
+
+        if (state case final CalibrationStateError state) {
+          {
+            if (state.err is UnexpectedResponseException) {
+              return Text(
+                state.err.toString(),
+                style: GoogleFonts.poppins(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w400,
+                  color: colors.error,
+                ),
+              );
+            } else if (state.err is InvalidUsernameException) {
+              return const SizedBox.shrink();
+            } else {
+              debugPrint(state.err.toString());
+              debugPrint(state.stackTrace.toString());
+              return Text(
+                state.err.toString(),
+                style: GoogleFonts.poppins(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w400,
+                  color: colors.error,
+                ),
+              );
+            }
+          }
+        }
+
+        return const SizedBox.shrink();
+      },
+    );
+  }
+
+  Widget buildProgressIndicator(
+    CalibrationStateData state,
+    ColorScheme colors,
+  ) {
+    return Column(
+      children: [
+        if (state.nofLoadedMarkets < state.nofTotalMarkets) ...[
+          LinearProgressIndicator(
+            value: state.nofLoadedMarkets / state.nofTotalMarkets,
+            color: colors.secondary,
+            minHeight: 16,
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'Loading markets: ${state.nofLoadedMarkets} / ${state.nofTotalMarkets}',
+            style: GoogleFonts.poppins(
+              color: colors.onSurface,
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ] else
+          Text(
+            '${state.bets.length} bets',
+            style: GoogleFonts.poppins(
+              fontSize: 12,
+              fontWeight: FontWeight.w400,
+            ),
+          ),
+      ],
     );
   }
 
@@ -305,7 +327,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                   BoxShadow(
                     color: colors.shadow,
                     offset: const Offset(0, 2),
-                    blurRadius: 6,
+                    blurRadius: 2,
                   )
               ],
             ),
@@ -398,7 +420,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           BoxShadow(
             color: colors.shadow,
             offset: const Offset(0, 2),
-            blurRadius: 6,
+            blurRadius: 2,
           )
         ],
       ),

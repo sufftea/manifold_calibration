@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
     return ProviderScope(
       child: MaterialApp.router(
         theme: FlexThemeData.light(
-          scheme: FlexScheme.mandyRed,
+          scheme: FlexScheme.purpleBrown,
         ),
         routerConfig: router,
       ),
