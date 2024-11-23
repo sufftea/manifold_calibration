@@ -1,3 +1,4 @@
+import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:manifold_callibration/domain/calibration_service.dart';
 import 'package:manifold_callibration/entities/bet.dart';
@@ -86,5 +87,7 @@ void main() {
         1 / 2,
       ],
     );
+
+    debugPrint('test successfull i guess ');
   });
 }

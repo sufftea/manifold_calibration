@@ -4,6 +4,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:manifold_callibration/config.dart';
+import 'package:manifold_callibration/data/bets_repository_mock.dart';
 import 'package:manifold_callibration/data/dio_provider.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
@@ -196,7 +197,7 @@ class BetsRepository {
 
 final betsRepositoryProvider = Provider(
   (ref) {
-    // return BetsRepositoryMock();
+    return BetsRepositoryMock();
     return BetsRepository(
       ref.watch(dioProvider),
       ref.watch(configProvider),
