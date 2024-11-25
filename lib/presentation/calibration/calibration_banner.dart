@@ -1,50 +1,73 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:manifold_callibration/entities/outcome_bucket.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_chart_widget.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_controller.dart';
 
-class CalibrationPage extends StatelessWidget {
-  const CalibrationPage({
-    required this.state,
+class CalibrationBanner extends StatelessWidget {
+  const CalibrationBanner({
+    required this.nofResolvedMarkets,
+    required this.buckets,
+    required this.brierScore,
     super.key,
   });
 
-  final CalibrationStateData state;
+  final int nofResolvedMarkets;
+  final List<OutcomeBucket> buckets;
+  final double brierScore;
+
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).colorScheme;
+    return Container(
+      padding: const EdgeInsets.all(8),
+      decoration: BoxDecoration(
+        color: colors.surface,
+        boxShadow: [
+          BoxShadow(
+            color: colors.shadow,
+            offset: const Offset(0, 2),
+            blurRadius: 2,
+          )
+        ],
+        borderRadius: BorderRadius.circular(4),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          buildBetsCount(colors),
+          AspectRatio(
+            aspectRatio: 1,
+            child: CalibrationChartWidget(buckets: buckets),
+          ),
+          const SizedBox(height: 16),
+          buildBucketButtons(colors),
+          const SizedBox(height: 16),
+          buildBrierScore(context),
+        ],
+      ),
+    );
+  }
 
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        AspectRatio(
-          aspectRatio: 1,
-          child: CalibrationChartWidget(buckets: state.buckets),
+  Widget buildBetsCount(ColorScheme colors) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Text(
+        '$nofResolvedMarkets resolved markets',
+        textAlign: TextAlign.center,
+        style: GoogleFonts.poppins(
+          fontSize: 12,
+          fontWeight: FontWeight.w400,
+          color: colors.onSurface,
         ),
-        const SizedBox(height: 16),
-        buildBucketButtons(colors),
-        const SizedBox(height: 16),
-        buildBrierScore(context),
-        const SizedBox(height: 16),
-        buildStandardError(context),
-      ],
+      ),
     );
   }
 
   Widget buildBrierScore(BuildContext context) {
     return Text(
-      'Brier score: ${state.brierScore}',
-      style: GoogleFonts.poppins(
-        fontSize: 16,
-        fontWeight: FontWeight.w400,
-      ),
-    );
-  }
-
-  Widget buildStandardError(BuildContext context) {
-    return Text(
-      'Standard error: ${state.standardError}',
+      'Brier score: $brierScore',
       style: GoogleFonts.poppins(
         fontSize: 16,
         fontWeight: FontWeight.w400,
@@ -130,7 +153,7 @@ class CalibrationPage extends StatelessWidget {
                   label: Text('20'),
                 ),
               ],
-              selected: {state.buckets.length},
+              selected: {buckets.length},
             );
           }),
         ),

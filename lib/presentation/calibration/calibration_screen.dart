@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:hyper_router/hyper_router.dart';
 import 'package:hyper_router/srs/url/url_data.dart';
 import 'package:manifold_callibration/entities/exceptions.dart';
+import 'package:manifold_callibration/presentation/calibration/calibration_banner.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_controller.dart';
-import 'package:manifold_callibration/presentation/calibration/calibration_page.dart';
 
 class CalibrationRouteValue extends RouteValue {
   final String? username;
@@ -108,35 +108,16 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
     );
   }
 
-  Consumer buildOutputBanner(ColorScheme colors) {
+  Widget buildOutputBanner(ColorScheme colors) {
     return Consumer(
       builder: (context, ref, child) {
         final state = ref.watch(calibrationControllerProvider);
 
         if (state case final CalibrationStateData data) {
-          return Container(
-            padding: const EdgeInsets.all(8),
-            decoration: BoxDecoration(
-              color: colors.surface,
-              boxShadow: [
-                BoxShadow(
-                  color: colors.shadow,
-                  offset: const Offset(0, 2),
-                  blurRadius: 2,
-                )
-              ],
-              borderRadius: BorderRadius.circular(4),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                buildProgressIndicator(state, colors),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: CalibrationPage(state: data),
-                ),
-              ],
-            ),
+          return CalibrationBanner(
+            nofResolvedMarkets: data.nofResolvedMarkets,
+            buckets: data.buckets,
+            brierScore: data.brierScore,
           );
         }
 
@@ -178,75 +159,6 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
         return const SizedBox.shrink();
       },
     );
-  }
-
-  Widget buildProgressIndicator(
-    CalibrationStateData state,
-    ColorScheme colors,
-  ) {
-    return Column(
-      children: [
-        if (state.nofLoadedMarkets < state.nofTotalMarkets) ...[
-          LinearProgressIndicator(
-            value: state.nofLoadedMarkets / state.nofTotalMarkets,
-            color: colors.secondary,
-            minHeight: 16,
-          ),
-          const SizedBox(height: 8),
-          Text(
-            'Loading markets: ${state.nofLoadedMarkets} / ${state.nofTotalMarkets}',
-            style: GoogleFonts.poppins(
-              color: colors.onSurface,
-              fontSize: 16,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-        ] else
-          Text(
-            '${state.bets.length} bets',
-            style: GoogleFonts.poppins(
-              fontSize: 12,
-              fontWeight: FontWeight.w400,
-            ),
-          ),
-      ],
-    );
-  }
-
-  Widget? buildPageFromState(
-    CalibrationState state,
-    ColorScheme colors,
-  ) {
-    if (state case final CalibrationStateData data) {
-      return CalibrationPage(state: data);
-    }
-
-    if (state case final CalibrationStateError state) {
-      {
-        if (state.err is UnexpectedResponseException) {
-          return Text(
-            state.err.toString(),
-            style: GoogleFonts.poppins(
-              fontSize: 16,
-              fontWeight: FontWeight.w400,
-              color: colors.error,
-            ),
-          );
-        } else if (state.err is InvalidUsernameException) {
-          return null;
-        } else {
-          // TODO: log this
-
-          throw Error.throwWithStackTrace(state.err, state.stackTrace);
-        }
-      }
-    }
-
-    if (state case final CalibrationStateLoading _) {
-      return const Center(child: CircularProgressIndicator());
-    }
-
-    return null;
   }
 
   Widget buildControlls(ColorScheme colors) {
@@ -485,7 +397,10 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                   fontSize: 12,
                 ),
                 errorText: switch (state) {
-                  CalibrationStateError(err: final error) => error.toString(),
+                  CalibrationStateError(
+                    err: final InvalidUsernameException error
+                  ) =>
+                    error.toString(),
                   _ => null,
                 },
               ),

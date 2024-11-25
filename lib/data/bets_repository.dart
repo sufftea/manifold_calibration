@@ -4,7 +4,6 @@ import 'package:dio/dio.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:manifold_callibration/config.dart';
-import 'package:manifold_callibration/data/bets_repository_mock.dart';
 import 'package:manifold_callibration/data/dio_provider.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
@@ -19,9 +18,6 @@ class BetsRepository {
 
   Future<List<Bet>> getUserBets(String username) async {
     final userId = await _getUserId(username);
-    if (userId is! String) {
-      throw InvalidUsernameException(username);
-    }
 
     final betsJson = await _getAllUserBetsJson(username);
 
@@ -122,7 +118,7 @@ class BetsRepository {
       '/get-user-contract-metrics-with-contracts',
       data: {
         "userId": userId,
-        "limit": 10000,
+        "limit": 999999999,
       },
     );
 
@@ -148,12 +144,19 @@ class BetsRepository {
     }
   }
 
-  Future<dynamic> _getUserId(String username) async {
-    final resp = await _dio.get(
-      '/v0/user/$username',
-    );
+  Future<String> _getUserId(String username) async {
+    try {
+      final resp = await _dio.get(
+        '/v0/user/$username',
+      );
 
-    return resp.data;
+      if (resp.data case <dynamic, dynamic>{'id': final String userId}) {
+        return userId;
+      }
+      throw InvalidUsernameException(username);
+    } on DioException catch (_) {
+      throw InvalidUsernameException(username);
+    }
   }
 
   Bet? _parseBet(dynamic betJson, Map<String, Market> idToMarket) {
@@ -192,7 +195,7 @@ class BetsRepository {
 
 final betsRepositoryProvider = Provider(
   (ref) {
-    return BetsRepositoryMock();
+    // return BetsRepositoryMock();
     return BetsRepository(
       ref.watch(dioProvider),
       ref.watch(configProvider),

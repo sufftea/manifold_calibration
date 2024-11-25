@@ -58,7 +58,9 @@ void main() {
                   options.path.split('/').last,
                   equals(actualUsername),
                 );
-                return actualUserId;
+                return {
+                  'id': actualUserId,
+                };
               },
             );
           },
@@ -139,7 +141,9 @@ void main() {
                   options.path.split('/').last,
                   equals(actualUsername),
                 );
-                return actualUserId;
+                return {
+                  'id': actualUserId,
+                };
               },
             );
           },
