@@ -8,9 +8,7 @@ import 'package:manifold_callibration/data/bets_repository_mock.dart';
 import 'package:manifold_callibration/data/dio_provider.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
-import 'package:manifold_callibration/entities/context.dart';
 import 'package:manifold_callibration/entities/exceptions.dart';
-import 'package:manifold_callibration/entities/loading_batch.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
 
 class BetsRepository {
@@ -19,18 +17,46 @@ class BetsRepository {
   final Config _config;
   final Dio _dio;
 
-  Stream<LoadingBatch> getUserBets(Context ctx, String username) async* {
-    // fetch all user's bets in json
-    // The max number of bets returned at once is 10000. If we receive this many,
-    // make another request to fetch the rest.
+  Future<List<Bet>> getUserBets(String username) async {
+    final userId = await _getUserId(username);
+    if (userId is! String) {
+      throw InvalidUsernameException(username);
+    }
+
+    final betsJson = await _getAllUserBetsJson(username);
+
+    debugPrint('received ${betsJson.length} user bets. requesting markets');
+
+    final metricsJson = await _getMetricsJson(userId);
+    final markets = _parseMetrics(metricsJson);
+    final idToMarket = <String, Market>{
+      for (final market in markets) market.id: market,
+    };
+
+    final bets = betsJson
+        .map(
+          (betJson) {
+            return _parseBet(betJson, idToMarket);
+          },
+        )
+        .nonNulls
+        .toList();
+
+    return bets;
+  }
+
+  // Fetch all user's bets in json
+  // The max number of bets returned at once is 10000. If we receive this many,
+  // make another request to fetch the rest.
+  Future<List<dynamic>> _getAllUserBetsJson(String username) async {
     String? lastBetId;
     List<dynamic> betsJson = [];
     while (true) {
-      if (ctx.done) {
-        return;
+      final batch = await _getUserBetsJson(username, lastBetId);
+      if (batch is! List<dynamic>) {
+        throw UnexpectedResponseException('');
       }
 
-      final batch = await _getBetsJson(username, lastBetId);
       betsJson.addAll(batch);
 
       if (batch.length == _config.manifoldBetsPerRequestLimit) {
@@ -41,123 +67,41 @@ class BetsRepository {
       }
     }
 
-    debugPrint('received ${betsJson.length} user bets. requesting markets');
-
-    final marketIdToBetsJson = <String, List<dynamic>>{};
-    for (final betJson in betsJson) {
-      if (betJson["contractId"] case final marketId?) {
-        if (marketIdToBetsJson[marketId] case final betsForMarket?) {
-          betsForMarket.add(betJson);
-        } else {
-          marketIdToBetsJson[marketId] = [betJson];
-        }
-      }
-    }
-
-    var uniqueMraketIds = marketIdToBetsJson.keys;
-    final totalMarketIds = uniqueMraketIds.length;
-
-    do {
-      if (ctx.done) {
-        return;
-      }
-
-      final marketIdsBatch =
-          uniqueMraketIds.take(_config.marketRequestBatchSize);
-
-      final failedMarketIds = <String>[];
-      final markets = await Future.wait<Market?>(
-        [
-          for (final marketId in marketIdsBatch)
-            () async {
-              final market = await _getMarket(marketId);
-              if (market == null) {
-                failedMarketIds.add(marketId);
-              }
-              return market;
-            }()
-        ],
-      );
-      await Future.delayed(const Duration(milliseconds: 100));
-
-      debugPrint(
-          'fetched ${markets.length} markets. ${uniqueMraketIds.length} left');
-
-      final bets = <Bet>[];
-      for (final market in markets.nonNulls) {
-        if (marketIdToBetsJson[market.id] case final betsJson?) {
-          for (final betJson in betsJson) {
-            final bet = _parseBet(betJson, market);
-            if (bet == null) {
-              continue;
-            }
-            bets.add(bet);
-          }
-        }
-      }
-
-      uniqueMraketIds = uniqueMraketIds.skip(_config.marketRequestBatchSize);
-      uniqueMraketIds.followedBy(failedMarketIds);
-      final batch = LoadingBatch(
-        bets: bets,
-        errored: 0,
-        total: totalMarketIds,
-        loaded: totalMarketIds - uniqueMraketIds.length,
-      );
-
-      if (ctx.done) {
-        return;
-      }
-      yield batch;
-    } while (uniqueMraketIds.isNotEmpty);
+    return betsJson;
   }
 
-  Bet? _parseBet(dynamic betJson, Market market) {
+  List<Market> _parseMetrics(dynamic metricsJson) {
     try {
-      final bet = Bet(
-        id: betJson["id"] as String,
-        outcome: switch (betJson["outcome"] as String) {
-          'YES' =>
-            BinaryYesBetOutcome(probAfter: betJson["probAfter"] as double),
-          'NO' => BinaryNoBetOutcome(probAfter: betJson["probAfter"] as double),
-          _ => UnimplementedBetOutcome(),
-        },
-        updatedTime:
-            DateTime.fromMillisecondsSinceEpoch(betJson["updatedTime"] as int),
-        market: market,
-      );
+      final List<dynamic> marketsJson = metricsJson['data']['contracts'];
 
-      return bet;
+      final result = <Market?>[
+        for (final marketJson in marketsJson) _parseMarket(marketJson),
+      ];
+
+      return result.nonNulls.toList();
     } on TypeError catch (_) {
-      debugPrint('failed to parse bet: $betJson');
-      return null;
+      throw UnexpectedResponseException("Couldn't parse markets");
     }
   }
 
-  Future<Market?> _getMarket(String marketId) async {
+  Market? _parseMarket(dynamic marketJson) {
     try {
-      final Response resp = await _dio.get(
-        '/market/$marketId',
-      );
+      final double? resolutionProbability = marketJson['resolutionProbability'];
+      final String? resolution = marketJson['resolution'];
+      final String outcomeType = marketJson['outcomeType'];
+      final String id = marketJson['id'];
 
-      final marketJson = resp.data;
-
-      return Market(
-        id: marketJson["id"] as String,
-        outcome: switch (marketJson["outcomeType"]) {
-          'BINARY' => switch (marketJson["resolution"]) {
+      final market = Market(
+        id: id,
+        outcome: switch (outcomeType) {
+          'BINARY' => switch (resolution) {
               'YES' => BinaryYesMarketOutcome(),
               'NO' => BinaryNoMarketOutcome(),
-              'MKT' => () {
-                  if (marketJson["resolutionProbability"]
-                      case final double resolutionProbability) {
-                    return BinaryMktMarketOutcome(
-                      probability: resolutionProbability,
-                    );
-                  } else {
-                    return UnimplementedMarketOutcome();
-                  }
-                }(),
+              'MKT' => switch (resolutionProbability) {
+                  double resolutionProbability =>
+                    BinaryMktMarketOutcome(probability: resolutionProbability),
+                  null => null,
+                },
               null => null,
               _ => UnimplementedMarketOutcome(),
             },
@@ -165,32 +109,83 @@ class BetsRepository {
           _ => UnimplementedMarketOutcome(),
         },
       );
-    } on DioException catch (_) {
-      debugPrint('error requesting market: $marketId');
-      return null;
+
+      return market;
     } on TypeError catch (_) {
-      throw UnexpectedResponseException("Couldn't parse the response.");
+      // throw UnexpectedResponseException("Couldn't parse markets");
+      return null;
     }
   }
 
-  Future<List<dynamic>> _getBetsJson(String username,
-      [String? beforeBetId]) async {
+  Future<dynamic> _getMetricsJson(String userId) async {
+    final resp = await _dio.post(
+      '/get-user-contract-metrics-with-contracts',
+      data: {
+        "userId": userId,
+        "limit": 10000,
+      },
+    );
+
+    return resp.data;
+  }
+
+  Future<dynamic> _getUserBetsJson(
+    String username, [
+    String? beforeBetId,
+  ]) async {
     try {
       final resp = await _dio.get(
-        '/bets',
+        '/v0/bets',
         queryParameters: {
           'username': username,
           if (beforeBetId != null) 'before': beforeBetId,
         },
       );
 
-      if (resp.data case final List<dynamic> betsJson) {
-        return betsJson;
-      } else {
-        throw UnexpectedResponseException("Unexpected response");
-      }
+      return resp.data;
     } on DioException catch (_) {
       throw InvalidUsernameException(username);
+    }
+  }
+
+  Future<dynamic> _getUserId(String username) async {
+    final resp = await _dio.get(
+      '/v0/user/$username',
+    );
+
+    return resp.data;
+  }
+
+  Bet? _parseBet(dynamic betJson, Map<String, Market> idToMarket) {
+    try {
+      final <dynamic, dynamic>{
+        'id': String id,
+        'outcome': String outcome,
+        'probAfter': double probAfter,
+        'updatedTime': int updatedTime,
+        'contractId': String contractId,
+      } = betJson;
+
+      final market = idToMarket[contractId];
+      if (market == null) {
+        return null;
+      }
+
+      final bet = Bet(
+        id: id,
+        outcome: switch (outcome) {
+          'YES' => BinaryYesBetOutcome(probAfter: probAfter),
+          'NO' => BinaryNoBetOutcome(probAfter: probAfter),
+          _ => UnimplementedBetOutcome(),
+        },
+        updatedTime: DateTime.fromMillisecondsSinceEpoch(updatedTime),
+        market: market,
+      );
+
+      return bet;
+    } on TypeError catch (_) {
+      debugPrint('failed to parse bet: $betJson');
+      return null;
     }
   }
 }

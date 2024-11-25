@@ -6,7 +6,6 @@ import 'package:manifold_callibration/data/bets_repository.dart';
 import 'package:manifold_callibration/domain/calibration_service.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
-import 'package:manifold_callibration/entities/context.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
 import 'package:manifold_callibration/entities/outcome_bucket.dart';
 

@@ -1,13 +1,11 @@
 import 'package:manifold_callibration/data/bets_repository.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
-import 'package:manifold_callibration/entities/context.dart';
-import 'package:manifold_callibration/entities/loading_batch.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
 
 class BetsRepositoryMock implements BetsRepository {
   @override
-  Stream<LoadingBatch> getUserBets(Context ctx, String username) async* {
+  Future<List<Bet>> getUserBets(String username) async {
     await Future.delayed(const Duration(seconds: 1));
     final bets = [
       Bet(
@@ -3509,6 +3507,6 @@ class BetsRepositoryMock implements BetsRepository {
       ),
     ];
 
-    yield LoadingBatch(bets: bets, errored: 0, total: 1000, loaded: 100);
+    return bets;
   }
 }
