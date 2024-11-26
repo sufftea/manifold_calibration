@@ -49,7 +49,7 @@ class CalibrationBanner extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Text(
-        '$nofResolvedMarkets resolved markets',
+        '$nofResolvedMarkets resolved bets',
         textAlign: TextAlign.center,
         style: GoogleFonts.poppins(
           fontSize: 12,

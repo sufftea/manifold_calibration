@@ -75404,7 +75404,7 @@ return new A.yE(new A.xX($.aBB(),r,s),s)}}
 A.G4.prototype={
 O(a){var s=this,r=null,q=A.a5(a).ax,p=q.aF
 if(p==null)p=q.b
-return A.oc(B.a5,A.ne(4),new A.eh(B.e9,A.Gv(A.c([new A.eh(B.e9,A.fi(""+s.c+" resolved markets",r,r,r,A.iw().$3$color$fontSize$fontWeight(q.k3,12,B.m),B.eO,r),r),new A.ve(1,new A.G5(s.d,r),r),B.iL,s.abs(q),B.iL,A.fi("Brier score: "+A.l(s.e),r,r,r,A.iw().$2$fontSize$fontWeight(16,B.m),r,r)],t.E),B.bY,B.da),r),B.H,q.k2,8,r,r,r,p,r,B.db)},
+return A.oc(B.a5,A.ne(4),new A.eh(B.e9,A.Gv(A.c([new A.eh(B.e9,A.fi(""+s.c+" resolved bets",r,r,r,A.iw().$3$color$fontSize$fontWeight(q.k3,12,B.m),B.eO,r),r),new A.ve(1,new A.G5(s.d,r),r),B.iL,s.abs(q),B.iL,A.fi("Brier score: "+A.l(s.e),r,r,r,A.iw().$2$fontSize$fontWeight(16,B.m),r,r)],t.E),B.bY,B.da),r),B.H,q.k2,8,r,r,r,p,r,B.db)},
 abs(a){var s=null
 return A.apD(A.c([A.fi("Buckets:",s,s,s,A.iw().$2$fontSize$fontWeight(16,B.c0),s,s),B.B7,A.at7(A.Y2(new A.WR(this,a)))],t.E),B.bA,B.da)}}
 A.WR.prototype={
