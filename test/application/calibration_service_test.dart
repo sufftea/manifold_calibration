@@ -87,7 +87,5 @@ void main() {
         1 / 2,
       ],
     );
-
-    debugPrint('test successfull i guess ');
   });
 }
