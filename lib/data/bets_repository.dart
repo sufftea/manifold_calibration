@@ -187,7 +187,7 @@ class BetsRepository {
 
       return bet;
     } on TypeError catch (_) {
-      debugPrint('failed to parse bet: $betJson;');
+      debugPrint('failed to parse bet: $betJson');
       return null;
     }
   }

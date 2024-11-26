@@ -20,32 +20,27 @@ class CalibrationBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).colorScheme;
-    return Container(
-      padding: const EdgeInsets.all(8),
-      decoration: BoxDecoration(
-        color: colors.surface,
-        boxShadow: [
-          BoxShadow(
-            color: colors.shadow,
-            offset: const Offset(0, 2),
-            blurRadius: 2,
-          )
-        ],
-        borderRadius: BorderRadius.circular(4),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          buildBetsCount(colors),
-          AspectRatio(
-            aspectRatio: 1,
-            child: CalibrationChartWidget(buckets: buckets),
-          ),
-          const SizedBox(height: 16),
-          buildBucketButtons(colors),
-          const SizedBox(height: 16),
-          buildBrierScore(context),
-        ],
+    return Material(
+      surfaceTintColor: colors.surfaceTint,
+      color: colors.surface,
+      borderRadius: BorderRadius.circular(4),
+      elevation: 8,
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            buildBetsCount(colors),
+            AspectRatio(
+              aspectRatio: 1,
+              child: CalibrationChartWidget(buckets: buckets),
+            ),
+            const SizedBox(height: 16),
+            buildBucketButtons(colors),
+            const SizedBox(height: 16),
+            buildBrierScore(context),
+          ],
+        ),
       ),
     );
   }
@@ -119,7 +114,7 @@ class CalibrationBanner extends StatelessWidget {
                     if (states.contains(WidgetState.selected)) {
                       return colors.secondary;
                     } else {
-                      return colors.surface;
+                      return Colors.transparent;
                     }
                   },
                 ),

@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:hyper_router/hyper_router.dart';
 import 'package:hyper_router/srs/url/url_data.dart';
 import 'package:manifold_callibration/entities/exceptions.dart';
+import 'package:manifold_callibration/main.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_banner.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_controller.dart';
 
@@ -201,20 +202,20 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                   return BorderSide.none;
                 } else {
                   return BorderSide(
-                    color: colors.secondary,
+                    color: colors.primary,
                     width: 2,
                   );
                 }
               },
             ),
             overlayColor:
-                WidgetStatePropertyAll(colors.secondary.withOpacity(0.1)),
+                WidgetStatePropertyAll(colors.primary.withOpacity(0.1)),
             foregroundColor: WidgetStateProperty.resolveWith(
               (states) {
                 if (states.contains(WidgetState.disabled)) {
                   return colors.onSurface.withOpacity(0.5);
                 } else {
-                  return colors.secondary;
+                  return colors.primary;
                 }
               },
             ),
@@ -231,111 +232,100 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
         final goButtonEnabled =
             value.text != widget.routeValue.username && value.text.isNotEmpty;
         return Expanded(
-          child: AnimatedContainer(
-            duration: const Duration(milliseconds: 100),
-            decoration: BoxDecoration(
-              boxShadow: [
-                if (goButtonEnabled)
-                  BoxShadow(
-                    color: colors.shadow,
-                    offset: const Offset(0, 2),
-                    blurRadius: 2,
-                  )
-              ],
-            ),
-            child: ElevatedButton(
-              onPressed: switch (goButtonEnabled) {
-                true => () {
-                    context.hyper.navigate(
-                      CalibrationRouteValue(
-                        usernameFieldController.text,
-                      ),
-                    );
-                  },
-                false => null,
-              },
-              style: ButtonStyle(
-                shape: WidgetStatePropertyAll(
-                  RoundedRectangleBorder(
-                    side: BorderSide(
-                      color: colors.primary,
-                      width: 2,
+          child: ElevatedButton(
+            onPressed: switch (goButtonEnabled) {
+              true => () {
+                  context.hyper.navigate(
+                    CalibrationRouteValue(
+                      usernameFieldController.text,
                     ),
-                    borderRadius: BorderRadius.circular(4),
+                  );
+                },
+              false => null,
+            },
+            style: ButtonStyle(
+              shape: WidgetStatePropertyAll(
+                RoundedRectangleBorder(
+                  side: BorderSide(
+                    color: colors.primary,
+                    width: 2,
                   ),
-                ),
-                elevation: const WidgetStatePropertyAll(0),
-                backgroundColor: WidgetStateProperty.resolveWith(
-                  (states) {
-                    {
-                      if (states.contains(WidgetState.disabled)) {
-                        return colors.surface;
-                      } else {
-                        return colors.primary;
-                      }
-                    }
-                  },
-                ),
-                shadowColor: WidgetStateProperty.resolveWith(
-                  (states) {
-                    if (states.contains(WidgetState.disabled)) {
-                      return Colors.transparent;
-                    } else {
-                      return colors.shadow;
-                    }
-                  },
-                ),
-                side: WidgetStateBorderSide.resolveWith(
-                  (states) {
-                    if (states.contains(WidgetState.disabled)) {
-                      return BorderSide(
-                        color: colors.onSurface.withOpacity(0.5),
-                        width: 2,
-                      );
-                    } else {
-                      return BorderSide(color: colors.primary, width: 2);
-                    }
-                  },
-                ),
-                foregroundColor: WidgetStateProperty.resolveWith(
-                  (states) {
-                    if (states.contains(WidgetState.disabled)) {
-                      return colors.onSurface.withOpacity(0.5);
-                    } else {
-                      return colors.onPrimary;
-                    }
-                  },
-                ),
-                textStyle: WidgetStatePropertyAll(
-                  GoogleFonts.poppins(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600,
-                  ),
+                  borderRadius: BorderRadius.circular(4),
                 ),
               ),
-              child: const Text('Go'),
+              elevation: WidgetStateProperty.resolveWith(
+                (states) {
+                  {
+                    if (states.contains(WidgetState.disabled)) {
+                      return 0;
+                    } else {
+                      return 8;
+                    }
+                  }
+                },
+              ),
+              backgroundColor: WidgetStateProperty.resolveWith(
+                (states) {
+                  {
+                    if (states.contains(WidgetState.disabled)) {
+                      return colors.surface;
+                    } else {
+                      return colors.primary;
+                    }
+                  }
+                },
+              ),
+              shadowColor: WidgetStateProperty.resolveWith(
+                (states) {
+                  if (states.contains(WidgetState.disabled)) {
+                    return Colors.transparent;
+                  } else {
+                    return colors.shadow;
+                  }
+                },
+              ),
+              side: WidgetStateBorderSide.resolveWith(
+                (states) {
+                  if (states.contains(WidgetState.disabled)) {
+                    return BorderSide(
+                      color: colors.onSurface.withOpacity(0.5),
+                      width: 2,
+                    );
+                  } else {
+                    return BorderSide(color: colors.primary, width: 2);
+                  }
+                },
+              ),
+              foregroundColor: WidgetStateProperty.resolveWith(
+                (states) {
+                  if (states.contains(WidgetState.disabled)) {
+                    return colors.onSurface.withOpacity(0.5);
+                  } else {
+                    return colors.onPrimary;
+                  }
+                },
+              ),
+              textStyle: WidgetStatePropertyAll(
+                GoogleFonts.poppins(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
             ),
+            child: const Text('Go'),
           ),
         );
       },
     );
   }
 
-  Container buildLinkBanner(ColorScheme colors) {
-    return Container(
-      // padding: const EdgeInsets.all(16),
+  Widget buildLinkBanner(ColorScheme colors) {
+    return Material(
       clipBehavior: Clip.antiAlias,
-      decoration: BoxDecoration(
-        color: colors.surface,
-        borderRadius: BorderRadius.circular(4),
-        boxShadow: [
-          BoxShadow(
-            color: colors.shadow,
-            offset: const Offset(0, 2),
-            blurRadius: 2,
-          )
-        ],
-      ),
+      color: colors.surface,
+      elevation: 8,
+      surfaceTintColor: colors.surfaceTint,
+      borderRadius: BorderRadius.circular(4),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
