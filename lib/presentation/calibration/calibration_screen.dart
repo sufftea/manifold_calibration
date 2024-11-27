@@ -4,7 +4,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:hyper_router/hyper_router.dart';
 import 'package:hyper_router/srs/url/url_data.dart';
 import 'package:manifold_callibration/entities/exceptions.dart';
-import 'package:manifold_callibration/main.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_banner.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_controller.dart';
 
@@ -62,6 +61,21 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
       TextEditingController(text: widget.routeValue.username);
 
   @override
+  void initState() {
+    super.initState();
+
+    WidgetsBinding.instance.addPostFrameCallback(
+      (timeStamp) {
+        if (widget.routeValue.username case final username?) {
+          ref
+              .read(calibrationControllerProvider.notifier)
+              .setUsername(username);
+        }
+      },
+    );
+  }
+
+  @override
   void didUpdateWidget(covariant CalibrationScreen oldWidget) {
     super.didUpdateWidget(oldWidget);
 
@@ -104,6 +118,24 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           buildControlls(colors),
           const SizedBox(height: 16),
           buildOutputBanner(colors),
+          const SizedBox(height: 32),
+          Text(
+            'Updates:',
+            textAlign: TextAlign.center,
+            style: GoogleFonts.poppins(
+              fontSize: 16,
+              color: colors.onSurface.withOpacity(0.5),
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            '- Fixed sharing links',
+            textAlign: TextAlign.center,
+            style: GoogleFonts.poppins(
+              fontSize: 12,
+              color: colors.onSurface.withOpacity(0.5),
+            ),
+          ),
         ],
       ),
     );

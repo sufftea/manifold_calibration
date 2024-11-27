@@ -93,7 +93,7 @@ class CalibrationBanner extends StatelessWidget {
               },
               style: ButtonStyle(
                 side: WidgetStatePropertyAll(
-                  BorderSide(color: colors.secondary, width: 2),
+                  BorderSide(color: colors.primary, width: 2),
                 ),
                 shape: WidgetStatePropertyAll(
                   RoundedRectangleBorder(
@@ -103,7 +103,7 @@ class CalibrationBanner extends StatelessWidget {
                 foregroundColor: WidgetStateProperty.resolveWith(
                   (states) {
                     if (states.contains(WidgetState.selected)) {
-                      return colors.onSecondary;
+                      return colors.onPrimary;
                     } else {
                       return colors.onSurface;
                     }
@@ -112,7 +112,7 @@ class CalibrationBanner extends StatelessWidget {
                 backgroundColor: WidgetStateProperty.resolveWith(
                   (states) {
                     if (states.contains(WidgetState.selected)) {
-                      return colors.secondary;
+                      return colors.primary;
                     } else {
                       return Colors.transparent;
                     }
