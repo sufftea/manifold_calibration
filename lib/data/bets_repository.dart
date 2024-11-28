@@ -68,7 +68,7 @@ class BetsRepository {
 
   List<Market> _parseMetrics(dynamic metricsJson) {
     try {
-      final List<dynamic> marketsJson = metricsJson['data']['contracts'];
+      final List<dynamic> marketsJson = metricsJson['contracts'];
 
       final result = <Market?>[
         for (final marketJson in marketsJson) _parseMarket(marketJson),
