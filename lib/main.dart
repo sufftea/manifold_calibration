@@ -2,8 +2,6 @@ import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:manifold_callibration/data/bets_repository.dart';
-import 'package:manifold_callibration/data/bets_repository_mock.dart';
 
 import 'presentation/routing/router.dart';
 

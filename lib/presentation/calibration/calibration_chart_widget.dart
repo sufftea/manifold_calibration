@@ -53,8 +53,8 @@ class CalibrationChartWidget extends StatelessWidget {
           show: true,
         ),
       ),
-      swapAnimationCurve: Curves.easeOutQuad,
-      swapAnimationDuration: const Duration(milliseconds: 200),
+      curve: Curves.easeOutQuad,
+      duration: const Duration(milliseconds: 200),
     );
   }
 }

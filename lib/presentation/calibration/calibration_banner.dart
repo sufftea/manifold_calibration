@@ -40,10 +40,10 @@ class CalibrationBanner extends StatelessWidget {
     return Consumer(builder: (context, ref, child) {
       final buckets = ref.watch(calibrationControllerProvider.select(
         (value) {
-          if (value is! CalibrationStateData) {
-            return <OutcomeBucket>[];
-          }
-          return value.buckets;
+          return switch (value) {
+            AsyncData(value: CalibrationStateData data) => data.buckets,
+            _ => <OutcomeBucket>[],
+          };
         },
       ));
 
@@ -55,41 +55,31 @@ class CalibrationBanner extends StatelessWidget {
   }
 
   Widget buildWeighByMana(ColorScheme colors) {
-    return Consumer(builder: (context, ref, child) {
-      ref.watch(calibrationControllerProvider.select(
-        (value) {
-          if (value is! CalibrationStateData) {
-            return false;
-          }
-          // return value.
-        },
-      ));
-      return Row(
-        children: [
-          Checkbox(
-            value: false,
-            onChanged: (value) {},
+    return Row(
+      children: [
+        Checkbox(
+          value: false,
+          onChanged: (value) {},
+        ),
+        Text(
+          'Weigh by mana',
+          style: GoogleFonts.poppins(
+            fontSize: 16,
+            fontWeight: FontWeight.w400,
           ),
-          Text(
-            'Weigh by mana',
-            style: GoogleFonts.poppins(
-              fontSize: 16,
-              fontWeight: FontWeight.w400,
-            ),
-          ),
-        ],
-      );
-    });
+        ),
+      ],
+    );
   }
 
   Widget buildBetsCount(ColorScheme colors) {
     return Consumer(builder: (context, ref, child) {
       final nofResolvedBets = ref.watch(calibrationControllerProvider.select(
         (value) {
-          if (value is! CalibrationStateData) {
-            return 0;
-          }
-          return value.nofResolvedBets;
+          return switch (value) {
+            AsyncData(value: CalibrationStateData data) => data.nofResolvedBets,
+            _ => 0,
+          };
         },
       ));
 
@@ -112,10 +102,10 @@ class CalibrationBanner extends StatelessWidget {
     return Consumer(builder: (context, ref, child) {
       final brierScore = ref.watch(calibrationControllerProvider.select(
         (value) {
-          if (value is! CalibrationStateData) {
-            return 0;
-          }
-          return value.brierScore;
+          return switch (value) {
+            AsyncData(value: CalibrationStateData data) => data.brierScore,
+            _ => 0,
+          };
         },
       ));
 
@@ -144,10 +134,11 @@ class CalibrationBanner extends StatelessWidget {
           child: Consumer(builder: (context, ref, child) {
             final nofBuckets = ref.watch(calibrationControllerProvider.select(
               (value) {
-                if (value is! CalibrationStateData) {
-                  return 0;
-                }
-                return value.buckets.length;
+                return switch (value) {
+                  AsyncData(value: CalibrationStateData data) =>
+                    data.buckets.length,
+                  _ => 0,
+                };
               },
             ));
 

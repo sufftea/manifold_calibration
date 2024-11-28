@@ -9,8 +9,12 @@ import 'package:manifold_callibration/presentation/calibration/calibration_contr
 
 class CalibrationRouteValue extends RouteValue {
   final String? username;
+  final bool weighByMana;
 
-  CalibrationRouteValue(this.username);
+  CalibrationRouteValue({
+    this.username,
+    this.weighByMana = false,
+  });
 }
 
 class CalibrationRouteUrlParser extends UrlParser<CalibrationRouteValue> {
@@ -21,9 +25,15 @@ class CalibrationRouteUrlParser extends UrlParser<CalibrationRouteValue> {
     if (url.segments.first == 'user') {
       final second = url.segments.elementAtOrNull(1);
       if (second != null) {
-        return (CalibrationRouteValue(second), url.segments.skip(2));
+        return (
+          CalibrationRouteValue(
+            username: second,
+            weighByMana: url.queryParams['weigh-by-mana']?.isNotEmpty ?? false,
+          ),
+          url.segments.skip(2),
+        );
       } else {
-        return (CalibrationRouteValue(null), url.segments.skip(1));
+        return (CalibrationRouteValue(), url.segments.skip(1));
       }
     } else {
       return null;
@@ -79,17 +89,17 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
   void didUpdateWidget(covariant CalibrationScreen oldWidget) {
     super.didUpdateWidget(oldWidget);
 
-    if (widget.routeValue.username case final username?
-        when username != oldWidget.routeValue.username) {
-      WidgetsBinding.instance.addPostFrameCallback(
-        (timeStamp) {
-          ref
-              .read(calibrationControllerProvider.notifier)
-              .setUsername(username);
+    WidgetsBinding.instance.addPostFrameCallback(
+      (timeStamp) {
+        final controller = ref.read(calibrationControllerProvider.notifier);
+
+        if (widget.routeValue.username case final username?
+            when username != oldWidget.routeValue.username) {
+          controller.setUsername(username);
           usernameFieldController.text = username;
-        },
-      );
-    }
+        }
+      },
+    );
   }
 
   @override
@@ -146,46 +156,33 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
       builder: (context, ref, child) {
         final state = ref.watch(calibrationControllerProvider);
 
-        if (state is CalibrationStateData) {
-          return CalibrationBanner();
-        }
-
-        if (state case final CalibrationStateLoading _) {
-          return const Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Center(child: CircularProgressIndicator()),
-          );
-        }
-
-        if (state case final CalibrationStateError state) {
-          {
-            if (state.err is UnexpectedResponseException) {
-              return Text(
-                state.err.toString(),
-                style: GoogleFonts.poppins(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w400,
-                  color: colors.error,
-                ),
-              );
-            } else if (state.err is InvalidUsernameException) {
-              return const SizedBox.shrink();
-            } else {
-              debugPrint(state.err.toString());
-              debugPrint(state.stackTrace.toString());
-              return Text(
-                state.err.toString(),
-                style: GoogleFonts.poppins(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w400,
-                  color: colors.error,
-                ),
-              );
-            }
-          }
-        }
-
-        return const SizedBox.shrink();
+        return switch (state) {
+          AsyncData(value: CalibrationStateData _) => CalibrationBanner(),
+          AsyncData(value: _) => SizedBox.shrink(),
+          AsyncError(error: final UnexpectedResponseException e) => Text(
+              e.toString(),
+              style: GoogleFonts.poppins(
+                fontSize: 16,
+                fontWeight: FontWeight.w400,
+                color: colors.error,
+              ),
+            ),
+          AsyncError(error: final InvalidUsernameException _) =>
+            const SizedBox.shrink(),
+          AsyncError(error: final e) => Text(
+              e.toString(),
+              style: GoogleFonts.poppins(
+                fontSize: 16,
+                fontWeight: FontWeight.w400,
+                color: colors.error,
+              ),
+            ),
+          AsyncLoading _ => const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Center(child: CircularProgressIndicator()),
+            ),
+          _ => SizedBox.shrink(),
+        };
       },
     );
   }
@@ -212,7 +209,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
 
         return IconButton(
           onPressed: switch (state) {
-            CalibrationStateData _ => () {
+            AsyncData(value: CalibrationStateData _) => () {
                 ref.read(calibrationControllerProvider.notifier).refresh();
               },
             _ => null,
@@ -265,7 +262,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
               true => () {
                   context.hyper.navigate(
                     CalibrationRouteValue(
-                      usernameFieldController.text,
+                      username: usernameFieldController.text,
                     ),
                   );
                 },
@@ -414,13 +411,9 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                 errorStyle: GoogleFonts.poppins(
                   fontSize: 12,
                 ),
-                errorText: switch (state) {
-                  CalibrationStateError(
-                    err: final InvalidUsernameException error
-                  ) =>
-                    error.toString(),
-                  _ => null,
-                },
+                errorText: state.mapOrNull(
+                  error: (error) => error.error.toString(),
+                ),
               ),
               style: GoogleFonts.poppins(
                 color: colors.onPrimaryContainer,
