@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:manifold_callibration/data/bets_repository.dart';
 import 'package:manifold_callibration/domain/calibration_service.dart';
@@ -18,6 +19,8 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
     required bool weighByMana,
     bool forceRefresh = false,
   }) async {
+    // state = AsyncError(Exception('test exception'), StackTrace.fromString(''));
+
     if (state.isLoading) {
       return;
     }
@@ -31,7 +34,13 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
       default:
         state = AsyncLoading();
         final betsRepo = ref.read(betsRepositoryProvider);
-        bets = await betsRepo.getUserBets(username);
+
+        try {
+          bets = await betsRepo.getUserBets(username);
+        } on Exception catch (e, s) {
+          state = AsyncError(e, s);
+          return;
+        }
     }
 
     final stats = _calculateStats(

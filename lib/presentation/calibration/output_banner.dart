@@ -44,12 +44,15 @@ class OutputBanner extends StatelessWidget {
   Widget buildChart() {
     return Consumer(builder: (context, ref, child) {
       final buckets = ref.watch(calibrationControllerProvider.select(
-        (value) {
-          return switch (value) {
-            AsyncData(value: CalibrationStateData data) => data.stats.buckets,
-            _ => <OutcomeBucket>[],
-          };
-        },
+        (value) => value.maybeMap(
+          data: (value) {
+            return switch (value.value) {
+              CalibrationStateData data => data.stats.buckets,
+              _ => <OutcomeBucket>[],
+            };
+          },
+          orElse: () => <OutcomeBucket>[],
+        ),
       ));
 
       return AspectRatio(
@@ -65,7 +68,6 @@ class OutputBanner extends StatelessWidget {
         Checkbox(
           value: routeValue.weighByMana,
           onChanged: (value) {
-            debugPrint('checkbox value: $value');
             if (value == null) {
               return;
             }
@@ -89,11 +91,13 @@ class OutputBanner extends StatelessWidget {
     return Consumer(builder: (context, ref, child) {
       final nofResolvedBets = ref.watch(calibrationControllerProvider.select(
         (value) {
-          return switch (value) {
-            AsyncData(value: CalibrationStateData data) =>
-              data.stats.nofResolvedBets,
-            _ => 0,
-          };
+          return value.maybeMap(
+            data: (value) => switch (value.value) {
+              CalibrationStateData data => data.stats.nofResolvedBets,
+              _ => 0,
+            },
+            orElse: () => 0,
+          );
         },
       ));
 
@@ -116,11 +120,13 @@ class OutputBanner extends StatelessWidget {
     return Consumer(builder: (context, ref, child) {
       final brierScore = ref.watch(calibrationControllerProvider.select(
         (value) {
-          return switch (value) {
-            AsyncData(value: CalibrationStateData data) =>
-              data.stats.brierScore,
-            _ => 0,
-          };
+          return value.maybeMap(
+            data: (value) => switch (value.value) {
+              CalibrationStateData data => data.stats.brierScore,
+              _ => 0,
+            },
+            orElse: () => 0,
+          );
         },
       ));
 
@@ -147,16 +153,6 @@ class OutputBanner extends StatelessWidget {
         const SizedBox(width: 8),
         Expanded(
           child: Consumer(builder: (context, ref, child) {
-            // final nofBuckets = ref.watch(calibrationControllerProvider.select(
-            //   (value) {
-            //     return switch (value) {
-            //       AsyncData(value: CalibrationStateData data) =>
-            //         data.buckets.length,
-            //       _ => 0,
-            //     };
-            //   },
-            // ));
-
             return SegmentedButton<int>(
               selected: {routeValue.buckets},
               emptySelectionAllowed: false,
@@ -165,9 +161,6 @@ class OutputBanner extends StatelessWidget {
                 context.hyper.navigate(routeValue.copyWith(
                   buckets: value.first,
                 ));
-                // ref
-                //     .read(calibrationControllerProvider.notifier)
-                //     .changeBuckets(value.first);
               },
               segments: const [
                 ButtonSegment(

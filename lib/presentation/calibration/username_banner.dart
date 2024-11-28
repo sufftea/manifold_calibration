@@ -80,9 +80,14 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
               // textAlign: TextAlign.center,
             ),
           ),
-          // const SizedBox(height: 4),
           Consumer(builder: (context, ref, chlid) {
-            final state = ref.watch(calibrationControllerProvider);
+            final state = ref.watch(calibrationControllerProvider.select(
+              (value) {
+                return value.mapOrNull(
+                  error: (error) => error,
+                );
+              },
+            ));
 
             return TextField(
               controller: usernameFieldController,
@@ -118,9 +123,7 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
                 errorStyle: GoogleFonts.poppins(
                   fontSize: 12,
                 ),
-                errorText: state.mapOrNull(
-                  error: (error) => error.error.toString(),
-                ),
+                errorText: state?.error.toString(),
               ),
               style: GoogleFonts.poppins(
                 color: colors.onPrimaryContainer,
@@ -137,7 +140,7 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
     return Consumer(builder: (context, ref, child) {
       final state = ref.watch(calibrationControllerProvider);
 
-      final usernameState = switch (state) {
+      final usernameState = switch (state.valueOrNull) {
         AsyncData(value: CalibrationStateData(username: final username)) =>
           username,
         _ => null,
@@ -177,8 +180,8 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
         final state = ref.watch(calibrationControllerProvider);
 
         return IconButton(
-          onPressed: switch (state) {
-            AsyncData(value: CalibrationStateData _) => () {
+          onPressed: switch (state.valueOrNull) {
+            CalibrationStateData _ => () {
                 if (widget.routeValue.username case final username?) {
                   ref.read(calibrationControllerProvider.notifier).setParams(
                         username: username,

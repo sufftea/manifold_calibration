@@ -108,35 +108,37 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
       builder: (context, ref, child) {
         final state = ref.watch(calibrationControllerProvider);
 
-        return switch (state) {
-          AsyncData(value: CalibrationStateData _) => OutputBanner(
-              routeValue: widget.routeValue,
-            ),
-          AsyncData(value: _) => SizedBox.shrink(),
-          AsyncError(error: final UnexpectedResponseException e) => Text(
-              e.toString(),
-              style: GoogleFonts.poppins(
-                fontSize: 16,
-                fontWeight: FontWeight.w400,
-                color: colors.error,
+        return state.map(
+          data: (data) => switch (data.valueOrNull) {
+            CalibrationStateData _ => OutputBanner(
+                routeValue: widget.routeValue,
               ),
-            ),
-          AsyncError(error: final InvalidUsernameException _) =>
-            const SizedBox.shrink(),
-          AsyncError(error: final e) => Text(
-              e.toString(),
-              style: GoogleFonts.poppins(
-                fontSize: 16,
-                fontWeight: FontWeight.w400,
-                color: colors.error,
+            _ => SizedBox.shrink(),
+          },
+          error: (error) => switch (error.error) {
+            UnexpectedResponseException e => Text(
+                e.toString(),
+                style: GoogleFonts.poppins(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w400,
+                  color: colors.error,
+                ),
               ),
-            ),
-          AsyncLoading _ => const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Center(child: CircularProgressIndicator()),
-            ),
-          _ => SizedBox.shrink(),
-        };
+            InvalidUsernameException _ => const SizedBox.shrink(),
+            final e => Text(
+                e.toString(),
+                style: GoogleFonts.poppins(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w400,
+                  color: colors.error,
+                ),
+              ),
+          },
+          loading: (_) => const Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Center(child: CircularProgressIndicator()),
+          ),
+        );
       },
     );
   }
