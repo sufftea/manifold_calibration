@@ -195,7 +195,6 @@ class BetsRepository {
 
 final betsRepositoryProvider = Provider(
   (ref) {
-    // return BetsRepositoryMock();
     return BetsRepository(
       ref.watch(dioProvider),
       ref.watch(configProvider),

@@ -11,6 +11,9 @@ class CalibrationController extends AutoDisposeNotifier<CalibrationState> {
   }
 
   void setUsername(String username) async {
+    if (state is CalibrationStateLoading) {
+      return;
+    }
     await _loadState(username);
   }
 
@@ -32,6 +35,13 @@ class CalibrationController extends AutoDisposeNotifier<CalibrationState> {
 
   Future<void> _loadState(String username, [int? nofBuckets]) async {
     try {
+      final CalibrationStateData? data;
+      if (state case final CalibrationStateData state) {
+        data = state;
+      } else {
+        data = null;
+      }
+
       state = CalibrationStateLoading();
 
       final betsRepo = ref.read(betsRepositoryProvider);
@@ -47,13 +57,20 @@ class CalibrationController extends AutoDisposeNotifier<CalibrationState> {
       final nofResolvedMarkets =
           bets.where((e) => e.market.outcome != null).length;
 
-      state = CalibrationStateData(
-        buckets: buckets,
-        bets: bets,
-        username: username,
-        nofResolvedMarkets: nofResolvedMarkets,
-        brierScore: brierScore,
-      );
+      state = data?.copyWith(
+            buckets: buckets,
+            bets: bets,
+            nofResolvedBets: nofResolvedMarkets,
+            brierScore: brierScore,
+          ) ??
+          CalibrationStateData(
+            buckets: buckets,
+            bets: bets,
+            username: username,
+            nofResolvedBets: nofResolvedMarkets,
+            brierScore: brierScore,
+            weighByMana: false,
+          );
     } on Exception catch (e, s) {
       state = CalibrationStateError(e, s);
       return;
@@ -61,11 +78,19 @@ class CalibrationController extends AutoDisposeNotifier<CalibrationState> {
   }
 }
 
-sealed class CalibrationState {}
+sealed class CalibrationState {
+  final CalibrationStateData? data;
 
-class CalibrationStateEmpty extends CalibrationState {}
+  CalibrationState({this.data});
+}
 
-class CalibrationStateLoading extends CalibrationState {}
+class CalibrationStateEmpty extends CalibrationState {
+  CalibrationStateEmpty({super.data});
+}
+
+class CalibrationStateLoading extends CalibrationState {
+  CalibrationStateLoading({super.data});
+}
 
 class CalibrationStateError extends CalibrationState {
   final Object err;
@@ -78,14 +103,16 @@ class CalibrationStateData extends CalibrationState {
   final List<Bet> bets;
   final String username;
   final double brierScore;
-  final int nofResolvedMarkets;
+  final int nofResolvedBets;
+  final bool weighByMana;
 
   CalibrationStateData({
     required this.brierScore,
     required this.username,
     required this.buckets,
     required this.bets,
-    required this.nofResolvedMarkets,
+    required this.nofResolvedBets,
+    required this.weighByMana,
   });
 
   CalibrationStateData copyWith({
@@ -93,14 +120,16 @@ class CalibrationStateData extends CalibrationState {
     List<Bet>? bets,
     double? brierScore,
     String? username,
-    int? nofResolvedMarkets,
+    int? nofResolvedBets,
+    bool? weighByMana,
   }) {
     return CalibrationStateData(
       brierScore: brierScore ?? this.brierScore,
       buckets: buckets ?? this.buckets,
       bets: bets ?? this.bets,
       username: username ?? this.username,
-      nofResolvedMarkets: nofResolvedMarkets ?? this.nofResolvedMarkets,
+      nofResolvedBets: nofResolvedBets ?? this.nofResolvedBets,
+      weighByMana: weighByMana ?? this.weighByMana,
     );
   }
 }

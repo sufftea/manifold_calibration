@@ -146,12 +146,8 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
       builder: (context, ref, child) {
         final state = ref.watch(calibrationControllerProvider);
 
-        if (state case final CalibrationStateData data) {
-          return CalibrationBanner(
-            nofResolvedMarkets: data.nofResolvedMarkets,
-            buckets: data.buckets,
-            brierScore: data.brierScore,
-          );
+        if (state is CalibrationStateData) {
+          return CalibrationBanner();
         }
 
         if (state case final CalibrationStateLoading _) {

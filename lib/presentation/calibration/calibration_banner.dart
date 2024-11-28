@@ -7,15 +7,8 @@ import 'package:manifold_callibration/presentation/calibration/calibration_contr
 
 class CalibrationBanner extends StatelessWidget {
   const CalibrationBanner({
-    required this.nofResolvedMarkets,
-    required this.buckets,
-    required this.brierScore,
     super.key,
   });
-
-  final int nofResolvedMarkets;
-  final List<OutcomeBucket> buckets;
-  final double brierScore;
 
   @override
   Widget build(BuildContext context) {
@@ -31,43 +24,109 @@ class CalibrationBanner extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             buildBetsCount(colors),
-            AspectRatio(
-              aspectRatio: 1,
-              child: CalibrationChartWidget(buckets: buckets),
-            ),
-            const SizedBox(height: 16),
-            buildBucketButtons(colors),
+            buildChart(),
             const SizedBox(height: 16),
             buildBrierScore(context),
+            const SizedBox(height: 16),
+            buildBucketButtons(colors),
+            buildWeighByMana(colors),
           ],
         ),
       ),
     );
   }
 
+  Widget buildChart() {
+    return Consumer(builder: (context, ref, child) {
+      final buckets = ref.watch(calibrationControllerProvider.select(
+        (value) {
+          if (value is! CalibrationStateData) {
+            return <OutcomeBucket>[];
+          }
+          return value.buckets;
+        },
+      ));
+
+      return AspectRatio(
+        aspectRatio: 1,
+        child: CalibrationChartWidget(buckets: buckets),
+      );
+    });
+  }
+
+  Widget buildWeighByMana(ColorScheme colors) {
+    return Consumer(builder: (context, ref, child) {
+      ref.watch(calibrationControllerProvider.select(
+        (value) {
+          if (value is! CalibrationStateData) {
+            return false;
+          }
+          // return value.
+        },
+      ));
+      return Row(
+        children: [
+          Checkbox(
+            value: false,
+            onChanged: (value) {},
+          ),
+          Text(
+            'Weigh by mana',
+            style: GoogleFonts.poppins(
+              fontSize: 16,
+              fontWeight: FontWeight.w400,
+            ),
+          ),
+        ],
+      );
+    });
+  }
+
   Widget buildBetsCount(ColorScheme colors) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Text(
-        '$nofResolvedMarkets resolved bets',
-        textAlign: TextAlign.center,
-        style: GoogleFonts.poppins(
-          fontSize: 12,
-          fontWeight: FontWeight.w400,
-          color: colors.onSurface,
+    return Consumer(builder: (context, ref, child) {
+      final nofResolvedBets = ref.watch(calibrationControllerProvider.select(
+        (value) {
+          if (value is! CalibrationStateData) {
+            return 0;
+          }
+          return value.nofResolvedBets;
+        },
+      ));
+
+      return Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Text(
+          '$nofResolvedBets resolved bets',
+          textAlign: TextAlign.center,
+          style: GoogleFonts.poppins(
+            fontSize: 12,
+            fontWeight: FontWeight.w400,
+            color: colors.onSurface,
+          ),
         ),
-      ),
-    );
+      );
+    });
   }
 
   Widget buildBrierScore(BuildContext context) {
-    return Text(
-      'Brier score: $brierScore',
-      style: GoogleFonts.poppins(
-        fontSize: 16,
-        fontWeight: FontWeight.w400,
-      ),
-    );
+    return Consumer(builder: (context, ref, child) {
+      final brierScore = ref.watch(calibrationControllerProvider.select(
+        (value) {
+          if (value is! CalibrationStateData) {
+            return 0;
+          }
+          return value.brierScore;
+        },
+      ));
+
+      return Text(
+        'Brier score: $brierScore',
+        style: GoogleFonts.poppins(
+          fontSize: 16,
+          fontWeight: FontWeight.w400,
+        ),
+      );
+    });
   }
 
   Widget buildBucketButtons(ColorScheme colors) {
@@ -83,7 +142,17 @@ class CalibrationBanner extends StatelessWidget {
         const SizedBox(width: 8),
         Expanded(
           child: Consumer(builder: (context, ref, child) {
+            final nofBuckets = ref.watch(calibrationControllerProvider.select(
+              (value) {
+                if (value is! CalibrationStateData) {
+                  return 0;
+                }
+                return value.buckets.length;
+              },
+            ));
+
             return SegmentedButton<int>(
+              selected: {nofBuckets},
               emptySelectionAllowed: false,
               multiSelectionEnabled: false,
               onSelectionChanged: (value) {
@@ -91,49 +160,6 @@ class CalibrationBanner extends StatelessWidget {
                     .read(calibrationControllerProvider.notifier)
                     .changeBuckets(value.first);
               },
-              style: ButtonStyle(
-                side: WidgetStatePropertyAll(
-                  BorderSide(color: colors.primary, width: 2),
-                ),
-                shape: WidgetStatePropertyAll(
-                  RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(4),
-                  ),
-                ),
-                foregroundColor: WidgetStateProperty.resolveWith(
-                  (states) {
-                    if (states.contains(WidgetState.selected)) {
-                      return colors.onPrimary;
-                    } else {
-                      return colors.onSurface;
-                    }
-                  },
-                ),
-                backgroundColor: WidgetStateProperty.resolveWith(
-                  (states) {
-                    if (states.contains(WidgetState.selected)) {
-                      return colors.primary;
-                    } else {
-                      return Colors.transparent;
-                    }
-                  },
-                ),
-                textStyle: WidgetStateTextStyle.resolveWith(
-                  (states) {
-                    if (states.contains(WidgetState.pressed)) {
-                      return GoogleFonts.poppins(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
-                      );
-                    } else {
-                      return GoogleFonts.poppins(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w400,
-                      );
-                    }
-                  },
-                ),
-              ),
               segments: const [
                 ButtonSegment(
                   value: 5,
@@ -148,7 +174,6 @@ class CalibrationBanner extends StatelessWidget {
                   label: Text('20'),
                 ),
               ],
-              selected: {buckets.length},
             );
           }),
         ),
