@@ -3,15 +3,15 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hyper_router/srs/base/hyper_build_context.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_controller.dart';
-import 'package:manifold_callibration/presentation/calibration/calibration_screen.dart';
+import 'package:manifold_callibration/presentation/calibration/calibration_route_value.dart';
 
 class UsernameBanner extends ConsumerStatefulWidget {
   const UsernameBanner({
-    required this.username,
+    required this.routeValue,
     super.key,
   });
 
-  final String? username;
+  final CalibrationRouteValue routeValue;
 
   @override
   ConsumerState<UsernameBanner> createState() => _UsernameBannerState();
@@ -19,38 +19,13 @@ class UsernameBanner extends ConsumerStatefulWidget {
 
 class _UsernameBannerState extends ConsumerState<UsernameBanner> {
   late final usernameFieldController =
-      TextEditingController(text: widget.username);
-
-  @override
-  void initState() {
-    super.initState();
-
-    WidgetsBinding.instance.addPostFrameCallback(
-      (timeStamp) {
-        if (widget.username case final username?) {
-          ref
-              .read(calibrationControllerProvider.notifier)
-              .setUsername(username);
-        }
-      },
-    );
-  }
+      TextEditingController(text: widget.routeValue.username);
 
   @override
   void didUpdateWidget(covariant UsernameBanner oldWidget) {
     super.didUpdateWidget(oldWidget);
 
-    WidgetsBinding.instance.addPostFrameCallback(
-      (timeStamp) {
-        final controller = ref.read(calibrationControllerProvider.notifier);
-
-        if (widget.username case final username?
-            when username != oldWidget.username) {
-          controller.setUsername(username);
-          usernameFieldController.text = username;
-        }
-      },
-    );
+    usernameFieldController.text = widget.routeValue.username ?? '';
   }
 
   @override
@@ -159,97 +134,40 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
   }
 
   Widget buildGoButton(ColorScheme colors) {
-    return ValueListenableBuilder(
-      valueListenable: usernameFieldController,
-      builder: (context, value, child) {
-        final goButtonEnabled =
-            value.text != widget.username && value.text.isNotEmpty;
-        return Expanded(
-          child: ElevatedButton(
-            onPressed: switch (goButtonEnabled) {
-              true => () {
-                  context.hyper.navigate(
-                    CalibrationRouteValue(
-                      username: usernameFieldController.text,
-                    ),
-                  );
-                },
-              false => null,
-            },
-            style: ButtonStyle(
-              shape: WidgetStatePropertyAll(
-                RoundedRectangleBorder(
-                  side: BorderSide(
-                    color: colors.primary,
-                    width: 2,
-                  ),
-                  borderRadius: BorderRadius.circular(4),
-                ),
-              ),
-              elevation: WidgetStateProperty.resolveWith(
-                (states) {
-                  {
-                    if (states.contains(WidgetState.disabled)) {
-                      return 0;
-                    } else {
-                      return 8;
-                    }
-                  }
-                },
-              ),
-              backgroundColor: WidgetStateProperty.resolveWith(
-                (states) {
-                  {
-                    if (states.contains(WidgetState.disabled)) {
-                      return colors.surface;
-                    } else {
-                      return colors.primary;
-                    }
-                  }
-                },
-              ),
-              shadowColor: WidgetStateProperty.resolveWith(
-                (states) {
-                  if (states.contains(WidgetState.disabled)) {
-                    return Colors.transparent;
-                  } else {
-                    return colors.shadow;
-                  }
-                },
-              ),
-              side: WidgetStateBorderSide.resolveWith(
-                (states) {
-                  if (states.contains(WidgetState.disabled)) {
-                    return BorderSide(
-                      color: colors.onSurface.withOpacity(0.5),
-                      width: 2,
+    return Consumer(builder: (context, ref, child) {
+      final state = ref.watch(calibrationControllerProvider);
+
+      final usernameState = switch (state) {
+        AsyncData(value: CalibrationStateData(username: final username)) =>
+          username,
+        _ => null,
+      };
+
+      return ValueListenableBuilder(
+        valueListenable: usernameFieldController,
+        builder: (context, value, child) {
+          final goButtonEnabled = value.text != usernameState &&
+              value.text.isNotEmpty &&
+              !state.isLoading;
+
+          return Expanded(
+            child: ElevatedButton(
+              onPressed: switch (goButtonEnabled) {
+                true => () {
+                    context.hyper.navigate(
+                      widget.routeValue.copyWith(
+                        username: usernameFieldController.text,
+                      ),
                     );
-                  } else {
-                    return BorderSide(color: colors.primary, width: 2);
-                  }
-                },
-              ),
-              foregroundColor: WidgetStateProperty.resolveWith(
-                (states) {
-                  if (states.contains(WidgetState.disabled)) {
-                    return colors.onSurface.withOpacity(0.5);
-                  } else {
-                    return colors.onPrimary;
-                  }
-                },
-              ),
-              textStyle: WidgetStatePropertyAll(
-                GoogleFonts.poppins(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
+                  },
+                false => null,
+              },
+              child: const Text('Go'),
             ),
-            child: const Text('Go'),
-          ),
-        );
-      },
-    );
+          );
+        },
+      );
+    });
   }
 
   Widget buildRefreshButton(ColorScheme colors) {
@@ -261,7 +179,15 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
         return IconButton(
           onPressed: switch (state) {
             AsyncData(value: CalibrationStateData _) => () {
-                ref.read(calibrationControllerProvider.notifier).refresh();
+                if (widget.routeValue.username case final username?) {
+                  ref.read(calibrationControllerProvider.notifier).setParams(
+                        username: username,
+                        nofBuckets: widget.routeValue.buckets,
+                        weighByMana: widget.routeValue.weighByMana,
+                        forceRefresh: true,
+                      );
+                }
+                // ref.read(calibrationControllerProvider.notifier).refresh();
               },
             _ => null,
           },

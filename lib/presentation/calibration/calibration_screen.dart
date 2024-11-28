@@ -1,57 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hyper_router/hyper_router.dart';
-import 'package:hyper_router/srs/url/url_data.dart';
 import 'package:manifold_callibration/entities/exceptions.dart';
-import 'package:manifold_callibration/presentation/calibration/calibration_banner.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_controller.dart';
+import 'package:manifold_callibration/presentation/calibration/calibration_route_value.dart';
+import 'package:manifold_callibration/presentation/calibration/output_banner.dart';
 import 'package:manifold_callibration/presentation/calibration/username_banner.dart';
 
-class CalibrationRouteValue extends RouteValue {
-  final String? username;
-  final bool weighByMana;
-
-  CalibrationRouteValue({
-    this.username,
-    this.weighByMana = false,
-  });
-}
-
-class CalibrationRouteUrlParser extends UrlParser<CalibrationRouteValue> {
-  static String emptyValue = 'enter-username';
-
-  @override
-  (CalibrationRouteValue, Iterable<String>)? decode(UrlData url) {
-    if (url.segments.first == 'user') {
-      final second = url.segments.elementAtOrNull(1);
-      if (second != null) {
-        return (
-          CalibrationRouteValue(
-            username: second,
-            weighByMana: url.queryParams['weigh-by-mana']?.isNotEmpty ?? false,
-          ),
-          url.segments.skip(2),
-        );
-      } else {
-        return (CalibrationRouteValue(), url.segments.skip(1));
-      }
-    } else {
-      return null;
-    }
-  }
-
-  @override
-  UrlData encode(CalibrationRouteValue value) {
-    if (value.username case final username?) {
-      return UrlData(segments: ['user', username]);
-    } else {
-      return UrlData(segments: ['user']);
-    }
-  }
-}
-
-class CalibrationScreen extends StatelessWidget {
+class CalibrationScreen extends ConsumerStatefulWidget {
   const CalibrationScreen({
     required this.routeValue,
     super.key,
@@ -59,7 +15,46 @@ class CalibrationScreen extends StatelessWidget {
 
   final CalibrationRouteValue routeValue;
 
+  @override
+  ConsumerState<CalibrationScreen> createState() => _CalibrationScreenState();
+}
+
+class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
   static const _chartSize = 400.0;
+
+  @override
+  void initState() {
+    super.initState();
+
+    WidgetsBinding.instance.addPostFrameCallback(
+      (timeStamp) {
+        if (widget.routeValue.username case final username?) {
+          ref.read(calibrationControllerProvider.notifier).setParams(
+                username: username,
+                nofBuckets: widget.routeValue.buckets,
+                weighByMana: widget.routeValue.weighByMana,
+              );
+        }
+      },
+    );
+  }
+
+  @override
+  void didUpdateWidget(covariant CalibrationScreen oldWidget) {
+    super.didUpdateWidget(oldWidget);
+
+    WidgetsBinding.instance.addPostFrameCallback(
+      (timeStamp) {
+        if (widget.routeValue.username case final username?) {
+          ref.read(calibrationControllerProvider.notifier).setParams(
+                username: username,
+                nofBuckets: widget.routeValue.buckets,
+                weighByMana: widget.routeValue.weighByMana,
+              );
+        }
+      },
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -69,7 +64,7 @@ class CalibrationScreen extends StatelessWidget {
       backgroundColor: colors.surface,
       body: Center(
         child: SizedBox(
-          width: CalibrationScreen._chartSize,
+          width: _chartSize,
           child: buildContent(context),
         ),
       ),
@@ -82,7 +77,7 @@ class CalibrationScreen extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          UsernameBanner(username: routeValue.username),
+          UsernameBanner(routeValue: widget.routeValue),
           const SizedBox(height: 16),
           buildOutputBanner(colors),
           const SizedBox(height: 32),
@@ -114,7 +109,9 @@ class CalibrationScreen extends StatelessWidget {
         final state = ref.watch(calibrationControllerProvider);
 
         return switch (state) {
-          AsyncData(value: CalibrationStateData _) => CalibrationBanner(),
+          AsyncData(value: CalibrationStateData _) => OutputBanner(
+              routeValue: widget.routeValue,
+            ),
           AsyncData(value: _) => SizedBox.shrink(),
           AsyncError(error: final UnexpectedResponseException e) => Text(
               e.toString(),

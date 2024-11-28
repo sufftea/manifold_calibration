@@ -1,14 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hyper_router/srs/base/hyper_build_context.dart';
 import 'package:manifold_callibration/entities/outcome_bucket.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_chart_widget.dart';
 import 'package:manifold_callibration/presentation/calibration/calibration_controller.dart';
+import 'package:manifold_callibration/presentation/calibration/calibration_route_value.dart';
 
-class CalibrationBanner extends StatelessWidget {
-  const CalibrationBanner({
+class OutputBanner extends StatelessWidget {
+  const OutputBanner({
+    required this.routeValue,
     super.key,
   });
+
+  final CalibrationRouteValue routeValue;
 
   @override
   Widget build(BuildContext context) {
@@ -28,8 +33,8 @@ class CalibrationBanner extends StatelessWidget {
             const SizedBox(height: 16),
             buildBrierScore(context),
             const SizedBox(height: 16),
-            buildBucketButtons(colors),
-            buildWeighByMana(colors),
+            buildBucketButtons(context, colors),
+            buildWeighByMana(context, colors),
           ],
         ),
       ),
@@ -41,7 +46,7 @@ class CalibrationBanner extends StatelessWidget {
       final buckets = ref.watch(calibrationControllerProvider.select(
         (value) {
           return switch (value) {
-            AsyncData(value: CalibrationStateData data) => data.buckets,
+            AsyncData(value: CalibrationStateData data) => data.stats.buckets,
             _ => <OutcomeBucket>[],
           };
         },
@@ -54,12 +59,20 @@ class CalibrationBanner extends StatelessWidget {
     });
   }
 
-  Widget buildWeighByMana(ColorScheme colors) {
+  Widget buildWeighByMana(BuildContext context, ColorScheme colors) {
     return Row(
       children: [
         Checkbox(
-          value: false,
-          onChanged: (value) {},
+          value: routeValue.weighByMana,
+          onChanged: (value) {
+            debugPrint('checkbox value: $value');
+            if (value == null) {
+              return;
+            }
+            context.hyper.navigate(routeValue.copyWith(
+              weighByMana: value,
+            ));
+          },
         ),
         Text(
           'Weigh by mana',
@@ -77,7 +90,8 @@ class CalibrationBanner extends StatelessWidget {
       final nofResolvedBets = ref.watch(calibrationControllerProvider.select(
         (value) {
           return switch (value) {
-            AsyncData(value: CalibrationStateData data) => data.nofResolvedBets,
+            AsyncData(value: CalibrationStateData data) =>
+              data.stats.nofResolvedBets,
             _ => 0,
           };
         },
@@ -103,7 +117,8 @@ class CalibrationBanner extends StatelessWidget {
       final brierScore = ref.watch(calibrationControllerProvider.select(
         (value) {
           return switch (value) {
-            AsyncData(value: CalibrationStateData data) => data.brierScore,
+            AsyncData(value: CalibrationStateData data) =>
+              data.stats.brierScore,
             _ => 0,
           };
         },
@@ -119,7 +134,7 @@ class CalibrationBanner extends StatelessWidget {
     });
   }
 
-  Widget buildBucketButtons(ColorScheme colors) {
+  Widget buildBucketButtons(BuildContext context, ColorScheme colors) {
     return Row(
       children: [
         Text(
@@ -132,24 +147,27 @@ class CalibrationBanner extends StatelessWidget {
         const SizedBox(width: 8),
         Expanded(
           child: Consumer(builder: (context, ref, child) {
-            final nofBuckets = ref.watch(calibrationControllerProvider.select(
-              (value) {
-                return switch (value) {
-                  AsyncData(value: CalibrationStateData data) =>
-                    data.buckets.length,
-                  _ => 0,
-                };
-              },
-            ));
+            // final nofBuckets = ref.watch(calibrationControllerProvider.select(
+            //   (value) {
+            //     return switch (value) {
+            //       AsyncData(value: CalibrationStateData data) =>
+            //         data.buckets.length,
+            //       _ => 0,
+            //     };
+            //   },
+            // ));
 
             return SegmentedButton<int>(
-              selected: {nofBuckets},
+              selected: {routeValue.buckets},
               emptySelectionAllowed: false,
               multiSelectionEnabled: false,
               onSelectionChanged: (value) {
-                ref
-                    .read(calibrationControllerProvider.notifier)
-                    .changeBuckets(value.first);
+                context.hyper.navigate(routeValue.copyWith(
+                  buckets: value.first,
+                ));
+                // ref
+                //     .read(calibrationControllerProvider.notifier)
+                //     .changeBuckets(value.first);
               },
               segments: const [
                 ButtonSegment(
