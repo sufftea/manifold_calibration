@@ -6,12 +6,14 @@ class Bet {
   final BetOutcome outcome;
   final DateTime updatedTime;
   final Market market;
+  final double amount;
 
   const Bet({
     required this.id,
     required this.outcome,
     required this.updatedTime,
     required this.market,
+    required this.amount,
   });
 }
 

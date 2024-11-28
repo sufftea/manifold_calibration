@@ -167,6 +167,7 @@ class BetsRepository {
         'probAfter': double probAfter,
         'updatedTime': int updatedTime,
         'contractId': String contractId,
+        'amount': double amount,
       } = betJson;
 
       final market = idToMarket[contractId];
@@ -183,6 +184,7 @@ class BetsRepository {
         },
         updatedTime: DateTime.fromMillisecondsSinceEpoch(updatedTime),
         market: market,
+        amount: amount,
       );
 
       return bet;

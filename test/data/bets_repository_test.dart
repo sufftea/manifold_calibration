@@ -24,11 +24,12 @@ void main() {
 
     setUpAll(
       () async {
-        final betsString = await File('./test_data/bets.json').readAsString();
+        final betsString =
+            await File('./assets/test_data/bets.json').readAsString();
         actualBetsJson = jsonDecode(betsString) as List<dynamic>;
 
         final metricsString = await File(
-                './test_data/get-user-contract-metrics-with-contracts.json')
+                './assets/test_data/get-user-contract-metrics-with-contracts.json')
             .readAsString();
         actualUserContractsJson = jsonDecode(metricsString);
       },

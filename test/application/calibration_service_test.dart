@@ -43,12 +43,17 @@ void main() {
                 false => BinaryNoMarketOutcome(),
               },
             ),
+            amount: 100,
           ),
         )
         .toList();
 
     final service = CalibrationService();
-    final result = service.calculateCalibration(bets: bets, nofBuckets: 10);
+    final result = service.calculateCalibration(
+      bets: bets,
+      nofBuckets: 10,
+      weighByMana: false,
+    );
 
     expect(
       result

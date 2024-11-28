@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:manifold_callibration/data/bets_repository.dart';
 import 'package:manifold_callibration/domain/calibration_service.dart';
@@ -65,6 +64,7 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
     final buckets = calibrationService.calculateCalibration(
       bets: bets,
       nofBuckets: nofBuckets,
+      weighByMana: weighByMana,
     );
     final brierScore = calibrationService.calculateBrierScore(bets);
     final nofResolvedBets = bets.where((e) => e.market.outcome != null).length;

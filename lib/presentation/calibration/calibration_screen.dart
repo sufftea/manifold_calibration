@@ -81,25 +81,41 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           const SizedBox(height: 16),
           buildOutputBanner(colors),
           const SizedBox(height: 32),
-          Text(
-            'Updates:',
-            textAlign: TextAlign.center,
-            style: GoogleFonts.poppins(
-              fontSize: 16,
-              color: colors.onSurface.withOpacity(0.5),
-            ),
-          ),
-          const SizedBox(height: 8),
-          Text(
-            '- Fixed sharing links',
-            textAlign: TextAlign.center,
-            style: GoogleFonts.poppins(
-              fontSize: 12,
-              color: colors.onSurface.withOpacity(0.5),
-            ),
-          ),
+          buildUpdates(colors),
         ],
       ),
+    );
+  }
+
+  Widget buildUpdates(ColorScheme colors) {
+    return Column(
+      children: [
+        Text(
+          'Updates (most recent at the top):',
+          textAlign: TextAlign.center,
+          style: GoogleFonts.poppins(
+            fontSize: 16,
+            color: colors.onSurface.withOpacity(0.5),
+          ),
+        ),
+        const SizedBox(height: 8),
+        Text(
+          '- Sells used to be counted as normal bets',
+          textAlign: TextAlign.center,
+          style: GoogleFonts.poppins(
+            fontSize: 12,
+            color: colors.onSurface.withOpacity(0.5),
+          ),
+        ),
+        Text(
+          '- Fixed sharing links',
+          textAlign: TextAlign.center,
+          style: GoogleFonts.poppins(
+            fontSize: 12,
+            color: colors.onSurface.withOpacity(0.5),
+          ),
+        ),
+      ],
     );
   }
 
