@@ -167,6 +167,7 @@ class BetsRepository {
         'probAfter': double probAfter,
         'updatedTime': int updatedTime,
         'contractId': String contractId,
+        'amount': num amount,
       } = betJson;
 
       final market = idToMarket[contractId];
@@ -183,11 +184,13 @@ class BetsRepository {
         },
         updatedTime: DateTime.fromMillisecondsSinceEpoch(updatedTime),
         market: market,
+        amount: amount.toDouble(),
       );
 
       return bet;
-    } on TypeError catch (_) {
+    } on StateError catch (e) {
       debugPrint('failed to parse bet: $betJson');
+      debugPrint(e.toString());
       return null;
     }
   }
@@ -195,7 +198,6 @@ class BetsRepository {
 
 final betsRepositoryProvider = Provider(
   (ref) {
-    // return BetsRepositoryMock();
     return BetsRepository(
       ref.watch(dioProvider),
       ref.watch(configProvider),

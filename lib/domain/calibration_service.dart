@@ -10,7 +10,12 @@ class CalibrationService {
   List<OutcomeBucket> calculateCalibration({
     required List<Bet> bets,
     required int nofBuckets,
+    required bool weighByMana,
   }) {
+    if (nofBuckets <= 0) {
+      return [];
+    }
+
     final resolvedBetsBucketed = <List<Bet>>[
       for (int i = 0; i < nofBuckets; i++) [],
     ];
@@ -32,10 +37,12 @@ class CalibrationService {
       return OutcomeBucket(
         bets: bucket,
         yesRatio: _calculateRatio(
-          bucket.where((e) => e.outcome is BinaryYesBetOutcome),
+          bucket.where((e) => e.outcome is BinaryYesBetOutcome).toList(),
+          weighByMana: weighByMana,
         ),
         noRatio: _calculateRatio(
-          bucket.where((e) => e.outcome is BinaryNoBetOutcome),
+          bucket.where((e) => e.outcome is BinaryNoBetOutcome).toList(),
+          weighByMana: weighByMana,
         ),
       );
     }).toList();
@@ -46,6 +53,10 @@ class CalibrationService {
 
     var sum = 0.0;
     for (final bet in bets) {
+      if (bet.amount < 0) {
+        continue;
+      }
+
       if (bet.outcome case BinaryBetOutcome(probAfter: final probAfter)) {
         switch (bet.market.outcome) {
           case BinaryYesMarketOutcome _:
@@ -63,29 +74,34 @@ class CalibrationService {
     return sum / n;
   }
 
-  double calculateStandardError(List<Bet> bets, double brierScore) {
-    // only count resolved markets
-    final n = bets
-        .where((element) => element.market.outcome is BinaryMarketOutcome)
-        .length;
-    return sqrt((brierScore * (1 - brierScore) / n));
-  }
-
-  double _calculateRatio(Iterable<Bet> bets) {
+  double _calculateRatio(Iterable<Bet> bets, {required bool weighByMana}) {
     if (bets.isEmpty) {
       return -1;
     }
 
-    int positive = 0;
+    double total = 0;
+    double positive = 0;
+
     for (final bet in bets) {
-      switch (bet.market.outcome) {
-        case BinaryYesMarketOutcome _:
-          positive++;
-        default:
+      if (bet.amount < 0) {
+        continue;
+      }
+
+      final amount = weighByMana ? bet.amount : 1;
+
+      if (bet.market.outcome != null) {
+        total += amount;
+      }
+      if (bet.market.outcome is BinaryYesMarketOutcome) {
+        positive += amount;
       }
     }
 
-    return positive / bets.length;
+    if (total == 0) {
+      return -1;
+    }
+
+    return positive / total;
   }
 }
 

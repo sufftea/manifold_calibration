@@ -1,63 +1,79 @@
+import 'dart:async';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:manifold_callibration/data/bets_repository.dart';
 import 'package:manifold_callibration/domain/calibration_service.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/outcome_bucket.dart';
 
-class CalibrationController extends AutoDisposeNotifier<CalibrationState> {
+class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
   @override
-  CalibrationState build() {
+  FutureOr<CalibrationState> build() async {
     return CalibrationStateEmpty();
   }
 
-  void setUsername(String username) async {
-    await _loadState(username);
-  }
+  void setParams({
+    required String username,
+    required int nofBuckets,
+    required bool weighByMana,
+    bool forceRefresh = false,
+  }) async {
+    // state = AsyncError(Exception('test exception'), StackTrace.fromString(''));
 
-  void changeBuckets(int nofBuckets) {
-    if (state case final CalibrationStateData value) {
-      final buckets = ref
-          .watch(calibrationServiceProvider)
-          .calculateCalibration(bets: value.bets, nofBuckets: nofBuckets);
-
-      state = value.copyWith(buckets: buckets);
-    }
-  }
-
-  void refresh() async {
-    if (state case final CalibrationStateData value) {
-      await _loadState(value.username, value.buckets.length);
-    }
-  }
-
-  Future<void> _loadState(String username, [int? nofBuckets]) async {
-    try {
-      state = CalibrationStateLoading();
-
-      final betsRepo = ref.read(betsRepositoryProvider);
-      final calibrationService = ref.read(calibrationServiceProvider);
-
-      final bets = await betsRepo.getUserBets(username);
-
-      final buckets = calibrationService.calculateCalibration(
-        bets: bets,
-        nofBuckets: nofBuckets ?? 10,
-      );
-      final brierScore = calibrationService.calculateBrierScore(bets);
-      final nofResolvedMarkets =
-          bets.where((e) => e.market.outcome != null).length;
-
-      state = CalibrationStateData(
-        buckets: buckets,
-        bets: bets,
-        username: username,
-        nofResolvedMarkets: nofResolvedMarkets,
-        brierScore: brierScore,
-      );
-    } on Exception catch (e, s) {
-      state = CalibrationStateError(e, s);
+    if (state.isLoading) {
       return;
     }
+
+    final List<Bet> bets;
+
+    switch (state) {
+      case AsyncData(value: CalibrationStateData data)
+          when data.username == username && !forceRefresh:
+        bets = data.bets;
+      default:
+        state = AsyncLoading();
+        final betsRepo = ref.read(betsRepositoryProvider);
+
+        try {
+          bets = await betsRepo.getUserBets(username);
+        } on Exception catch (e, s) {
+          state = AsyncError(e, s);
+          return;
+        }
+    }
+
+    final stats = _calculateStats(
+      bets: bets,
+      nofBuckets: nofBuckets,
+      weighByMana: weighByMana,
+    );
+
+    state = AsyncData(CalibrationStateData(
+      username: username,
+      bets: bets,
+      stats: stats,
+    ));
+  }
+
+  CalibrationStats _calculateStats({
+    required List<Bet> bets,
+    required int nofBuckets,
+    required bool weighByMana,
+  }) {
+    final calibrationService = ref.read(calibrationServiceProvider);
+    final buckets = calibrationService.calculateCalibration(
+      bets: bets,
+      nofBuckets: nofBuckets,
+      weighByMana: weighByMana,
+    );
+    final brierScore = calibrationService.calculateBrierScore(bets);
+    final nofResolvedBets = bets.where((e) => e.market.outcome != null).length;
+
+    return CalibrationStats(
+      buckets: buckets,
+      brierScore: brierScore,
+      nofResolvedBets: nofResolvedBets,
+    );
   }
 }
 
@@ -65,47 +81,43 @@ sealed class CalibrationState {}
 
 class CalibrationStateEmpty extends CalibrationState {}
 
-class CalibrationStateLoading extends CalibrationState {}
-
-class CalibrationStateError extends CalibrationState {
-  final Object err;
-  final StackTrace stackTrace;
-  CalibrationStateError(this.err, this.stackTrace);
-}
-
 class CalibrationStateData extends CalibrationState {
-  final List<OutcomeBucket> buckets;
   final List<Bet> bets;
   final String username;
-  final double brierScore;
-  final int nofResolvedMarkets;
+  final CalibrationStats stats;
 
   CalibrationStateData({
-    required this.brierScore,
     required this.username,
-    required this.buckets,
     required this.bets,
-    required this.nofResolvedMarkets,
+    required this.stats,
   });
 
   CalibrationStateData copyWith({
-    List<OutcomeBucket>? buckets,
     List<Bet>? bets,
-    double? brierScore,
     String? username,
-    int? nofResolvedMarkets,
+    CalibrationStats? stats,
   }) {
     return CalibrationStateData(
-      brierScore: brierScore ?? this.brierScore,
-      buckets: buckets ?? this.buckets,
       bets: bets ?? this.bets,
       username: username ?? this.username,
-      nofResolvedMarkets: nofResolvedMarkets ?? this.nofResolvedMarkets,
+      stats: stats ?? this.stats,
     );
   }
 }
 
+class CalibrationStats {
+  final List<OutcomeBucket> buckets;
+  final double brierScore;
+  final int nofResolvedBets;
+
+  CalibrationStats({
+    required this.buckets,
+    required this.brierScore,
+    required this.nofResolvedBets,
+  });
+}
+
 final calibrationControllerProvider =
-    NotifierProvider.autoDispose<CalibrationController, CalibrationState>(
+    AsyncNotifierProvider.autoDispose<CalibrationController, CalibrationState>(
   CalibrationController.new,
 );
