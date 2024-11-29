@@ -12,6 +12,10 @@ class CalibrationService {
     required int nofBuckets,
     required bool weighByMana,
   }) {
+    if (nofBuckets <= 0) {
+      return [];
+    }
+
     final resolvedBetsBucketed = <List<Bet>>[
       for (int i = 0; i < nofBuckets; i++) [],
     ];
@@ -33,11 +37,11 @@ class CalibrationService {
       return OutcomeBucket(
         bets: bucket,
         yesRatio: _calculateRatio(
-          bucket.where((e) => e.outcome is BinaryYesBetOutcome),
+          bucket.where((e) => e.outcome is BinaryYesBetOutcome).toList(),
           weighByMana: weighByMana,
         ),
         noRatio: _calculateRatio(
-          bucket.where((e) => e.outcome is BinaryNoBetOutcome),
+          bucket.where((e) => e.outcome is BinaryNoBetOutcome).toList(),
           weighByMana: weighByMana,
         ),
       );

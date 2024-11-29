@@ -167,7 +167,7 @@ class BetsRepository {
         'probAfter': double probAfter,
         'updatedTime': int updatedTime,
         'contractId': String contractId,
-        'amount': double amount,
+        'amount': num amount,
       } = betJson;
 
       final market = idToMarket[contractId];
@@ -184,12 +184,13 @@ class BetsRepository {
         },
         updatedTime: DateTime.fromMillisecondsSinceEpoch(updatedTime),
         market: market,
-        amount: amount,
+        amount: amount.toDouble(),
       );
 
       return bet;
-    } on TypeError catch (_) {
+    } on StateError catch (e) {
       debugPrint('failed to parse bet: $betJson');
+      debugPrint(e.toString());
       return null;
     }
   }
