@@ -186,7 +186,7 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
                   ref.read(calibrationControllerProvider.notifier).setParams(
                         username: username,
                         nofBuckets: widget.routeValue.buckets,
-                        weighByMana: widget.routeValue.weighByMana,
+                        weighByMana: widget.routeValue.weightByMana,
                         forceRefresh: true,
                       );
                 }

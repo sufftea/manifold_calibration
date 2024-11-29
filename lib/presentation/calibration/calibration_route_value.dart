@@ -3,31 +3,30 @@ import 'package:hyper_router/srs/url/url_data.dart';
 
 class CalibrationRouteValue extends RouteValue {
   final String? username;
-  final bool weighByMana;
+  final bool weightByMana;
   final int buckets;
 
   CalibrationRouteValue({
     this.username,
-    this.weighByMana = false,
+    this.weightByMana = false,
     this.buckets = 10,
   });
 
   CalibrationRouteValue copyWith({
     String? username,
-    bool? weighByMana,
+    bool? weightByMana,
     int? buckets,
   }) {
     return CalibrationRouteValue(
       username: username ?? this.username,
-      weighByMana: weighByMana ?? this.weighByMana,
+      weightByMana: weightByMana ?? this.weightByMana,
       buckets: buckets ?? this.buckets,
     );
   }
 }
 
 class CalibrationRouteUrlParser extends UrlParser<CalibrationRouteValue> {
-  static String emptyValue = 'enter-username';
-  static String weighByMana = 'weigh-by-mana';
+  static String weightByMana = 'weight-by-mana';
   static String buckets = 'buckets';
 
   @override
@@ -38,7 +37,7 @@ class CalibrationRouteUrlParser extends UrlParser<CalibrationRouteValue> {
         return (
           CalibrationRouteValue(
               username: second,
-              weighByMana: url.queryParams[weighByMana]?.isNotEmpty ?? false,
+              weightByMana: url.queryParams[weightByMana]?.isNotEmpty ?? false,
               buckets: switch (url.queryParams[buckets]?.firstOrNull) {
                 String buckets => int.tryParse(buckets) ?? 10,
                 _ => 10,
@@ -59,7 +58,7 @@ class CalibrationRouteUrlParser extends UrlParser<CalibrationRouteValue> {
       return UrlData(
         segments: ['user', username],
         queryParams: {
-          weighByMana: value.weighByMana ? [''] : [],
+          weightByMana: value.weightByMana ? [''] : [],
           buckets: [value.buckets.toString()],
         },
       );
@@ -67,7 +66,7 @@ class CalibrationRouteUrlParser extends UrlParser<CalibrationRouteValue> {
       return UrlData(
         segments: ['user'],
         queryParams: {
-          weighByMana: [],
+          weightByMana: [],
         },
       );
     }

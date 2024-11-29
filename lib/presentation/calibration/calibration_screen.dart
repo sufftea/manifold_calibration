@@ -32,7 +32,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           ref.read(calibrationControllerProvider.notifier).setParams(
                 username: username,
                 nofBuckets: widget.routeValue.buckets,
-                weighByMana: widget.routeValue.weighByMana,
+                weighByMana: widget.routeValue.weightByMana,
               );
         }
       },
@@ -49,7 +49,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           ref.read(calibrationControllerProvider.notifier).setParams(
                 username: username,
                 nofBuckets: widget.routeValue.buckets,
-                weighByMana: widget.routeValue.weighByMana,
+                weighByMana: widget.routeValue.weightByMana,
               );
         }
       },
@@ -100,7 +100,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
         ),
         const SizedBox(height: 8),
         Text(
-          '- Sells used to be counted as normal bets',
+          '- Sells used to be counted as normal bets.',
           textAlign: TextAlign.center,
           style: GoogleFonts.poppins(
             fontSize: 12,
@@ -108,7 +108,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           ),
         ),
         Text(
-          '- Fixed sharing links',
+          '- Fixed sharing links.',
           textAlign: TextAlign.center,
           style: GoogleFonts.poppins(
             fontSize: 12,

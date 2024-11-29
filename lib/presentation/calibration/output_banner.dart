@@ -34,7 +34,7 @@ class OutputBanner extends StatelessWidget {
             buildBrierScore(context),
             const SizedBox(height: 16),
             buildBucketButtons(context, colors),
-            buildWeighByMana(context, colors),
+            buildWeightByMana(context, colors),
           ],
         ),
       ),
@@ -62,22 +62,22 @@ class OutputBanner extends StatelessWidget {
     });
   }
 
-  Widget buildWeighByMana(BuildContext context, ColorScheme colors) {
+  Widget buildWeightByMana(BuildContext context, ColorScheme colors) {
     return Row(
       children: [
         Checkbox(
-          value: routeValue.weighByMana,
+          value: routeValue.weightByMana,
           onChanged: (value) {
             if (value == null) {
               return;
             }
             context.hyper.navigate(routeValue.copyWith(
-              weighByMana: value,
+              weightByMana: value,
             ));
           },
         ),
         Text(
-          'Weigh by mana',
+          'Weight by mana',
           style: GoogleFonts.poppins(
             fontSize: 16,
             fontWeight: FontWeight.w400,
