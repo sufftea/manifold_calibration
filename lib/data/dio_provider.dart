@@ -16,7 +16,7 @@ final dioProvider = Provider(
       ),
     );
 
-    _wrapWithFakes(dio, config);
+    // _wrapWithFakes(dio, config);
 
     return dio;
   },

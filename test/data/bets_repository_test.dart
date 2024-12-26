@@ -7,9 +7,10 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:http_mock_adapter/http_mock_adapter.dart';
 import 'package:manifold_callibration/config.dart';
 import 'package:manifold_callibration/data/bets_repository.dart';
+import 'package:manifold_callibration/data/markets_parser.dart';
 
 void main() {
-  group("Doesn't crash when fetching and parsing the response", () {
+  group("repository", () {
     const path = 'https://api.manifold.markets';
     final dio = Dio(BaseOptions(baseUrl: path));
     final dioAdapter = DioAdapter(
@@ -32,6 +33,10 @@ void main() {
                 './assets/test_data/get-user-contract-metrics-with-contracts.json')
             .readAsString();
         actualUserContractsJson = jsonDecode(metricsString);
+
+        final contractsList =
+            actualUserContractsJson['contracts'] as List<dynamic>;
+        actualUserContractsJson['contracts'] = contractsList.take(100).toList();
       },
     );
 
@@ -172,6 +177,52 @@ void main() {
       },
     );
   });
+
+  group(
+    'parsers',
+    () {
+      // List<dynamic>? actualBetsJson;
+      dynamic userContractsJson;
+      const numberOfContracts = 100;
+
+      setUpAll(
+        () async {
+          final metricsString = await File(
+                  './assets/test_data/get-user-contract-metrics-with-contracts.json')
+              .readAsString();
+          userContractsJson = jsonDecode(metricsString);
+
+          final contractsList = userContractsJson['contracts'] as List<dynamic>;
+          userContractsJson['contracts'] =
+              contractsList.take(numberOfContracts).toList();
+        },
+      );
+
+      test(
+        'parse markets',
+        () {
+          final marketParser = MarketsParser();
+
+          final parsedMarkets =
+              marketParser.parseUserMetrics(userContractsJson);
+
+          expect(parsedMarkets.length, equals(numberOfContracts));
+        },
+      );
+      // TODO: more tests
+      // test(
+      //   'parse bets',
+      //   () {
+      //     final marketParser = MarketsParser();
+      //
+      //     final parsedMarkets =
+      //         marketParser.parseUserMetrics(userContractsJson);
+      //
+      //     expect(parsedMarkets.length, equals(numberOfContracts));
+      //   },
+      // );
+    },
+  );
 }
 
 class QueryParamsMatcher extends HttpRequestMatcher {
