@@ -9,6 +9,7 @@ import 'package:manifold_callibration/config.dart';
 import 'package:manifold_callibration/data/bets_parser.dart';
 import 'package:manifold_callibration/data/bets_repository.dart';
 import 'package:manifold_callibration/data/markets_parser.dart';
+import 'package:manifold_callibration/entities/bet_outcome.dart';
 
 void main() {
   group("repository", () {
@@ -214,13 +215,81 @@ void main() {
           expect(parsedMarkets.length, equals(numberOfContracts));
         },
       );
-      // TODO: more tests
       test(
         'parse bets',
         () {
           final parser = BetsParser();
           final parsedBets = parser.parseBets(actualBetsJson!);
           expect(parsedBets.length, equals(actualBetsJson!.length));
+        },
+      );
+
+      test(
+        'parse multiple-choice NO bet',
+        () {
+          const expectedAmount = 50;
+          const expectedBetId = "somebetid";
+          const expectedMarketId = "contractId";
+          const expectedAnswerId = 'answerId';
+
+          final jsonString = """
+            {
+              "id": "$expectedBetId",
+              "fees": {
+                "creatorFee": 0,
+                "platformFee": 0,
+                "liquidityFee": 0
+              },
+              "fills": [
+                {
+                  "fees": {
+                    "creatorFee": 0,
+                    "platformFee": 0,
+                    "liquidityFee": 0
+                  },
+                  "amount": 50,
+                  "shares": 83.33333333333333,
+                  "timestamp": 1734862625898,
+                  "matchedBetId": null
+                }
+              ],
+              "isApi": false,
+              "amount": $expectedAmount,
+              "shares": 83.33333333333333,
+              "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+              "outcome": "NO",
+              "answerId": "$expectedAnswerId",
+              "isFilled": true,
+              "probAfter": 0.3076923076923077,
+              "contractId": "$expectedMarketId",
+              "loanAmount": 0,
+              "probBefore": 0.5,
+              "visibility": "public",
+              "createdTime": 1734862625000,
+              "isCancelled": false,
+              "orderAmount": 50,
+              "isRedemption": false,
+              "betId": "$expectedBetId",
+              "updatedTime": 1734862625000
+            }
+          """;
+
+          final decodedJson = jsonDecode(jsonString);
+
+          final parser = BetsParser();
+          final parsedBet = parser.parseBet(decodedJson);
+
+          expect(parsedBet, isNotNull);
+
+          expect(parsedBet?.outcome, isA<MultipleChoiceBetOutcomeNo>());
+
+          if (parsedBet?.outcome case final MultipleChoiceBetOutcome outcome) {
+            expect(outcome.answerId, equals(expectedAnswerId));
+          }
+
+          expect(parsedBet?.amount, equals(expectedAmount));
+          expect(parsedBet?.id, equals(expectedBetId));
+          expect(parsedBet?.marketId, equals(expectedMarketId));
         },
       );
     },
