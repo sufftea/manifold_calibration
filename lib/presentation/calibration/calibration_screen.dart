@@ -95,7 +95,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           textAlign: TextAlign.center,
           style: GoogleFonts.poppins(
             fontSize: 16,
-            color: colors.onSurface.withOpacity(0.5),
+            color: colors.onSurface.withValues(alpha: 0.5),
           ),
         ),
         const SizedBox(height: 8),
@@ -104,7 +104,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           textAlign: TextAlign.center,
           style: GoogleFonts.poppins(
             fontSize: 12,
-            color: colors.onSurface.withOpacity(0.5),
+            color: colors.onSurface.withValues(alpha: 0.5),
           ),
         ),
         Text(
@@ -112,7 +112,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           textAlign: TextAlign.center,
           style: GoogleFonts.poppins(
             fontSize: 12,
-            color: colors.onSurface.withOpacity(0.5),
+            color: colors.onSurface.withValues(alpha: 0.5),
           ),
         ),
       ],

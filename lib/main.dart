@@ -84,12 +84,12 @@ class MainApp extends StatelessWidget {
               }
             },
           ),
-          overlayColor:
-              WidgetStatePropertyAll(colors.surfaceBright.withOpacity(0.1)),
+          overlayColor: WidgetStatePropertyAll(
+              colors.surfaceBright.withValues(alpha: 0.1)),
           foregroundColor: WidgetStateProperty.resolveWith(
             (states) {
               if (states.contains(WidgetState.disabled)) {
-                return colors.onSurface.withOpacity(0.5);
+                return colors.onSurface.withValues(alpha: 0.5);
               } else {
                 return colors.onPrimary;
               }

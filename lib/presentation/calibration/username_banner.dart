@@ -102,7 +102,7 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
                 contentPadding: const EdgeInsets.symmetric(horizontal: 8),
                 hintText: "https://manifold.markets/jalasama",
                 hintStyle: GoogleFonts.poppins(
-                  color: colors.onPrimaryContainer.withOpacity(0.5),
+                  color: colors.onPrimaryContainer.withValues(alpha: 0.5),
                   fontSize: 16,
                 ),
                 focusedBorder: UnderlineInputBorder(
@@ -214,11 +214,11 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
               },
             ),
             overlayColor:
-                WidgetStatePropertyAll(colors.primary.withOpacity(0.1)),
+                WidgetStatePropertyAll(colors.primary.withValues(alpha: 0.1)),
             foregroundColor: WidgetStateProperty.resolveWith(
               (states) {
                 if (states.contains(WidgetState.disabled)) {
-                  return colors.onSurface.withOpacity(0.5);
+                  return colors.onSurface.withValues(alpha: 0.5);
                 } else {
                   return colors.primary;
                 }
