@@ -29,13 +29,13 @@ class BetsParser {
       final bet = Bet(
         id: id,
         outcome: switch ((outcome, answerId)) {
-          ('YES', null) => BinaryYesBetOutcome(probAfter: probAfter),
-          ('NO', null) => BinaryNoBetOutcome(probAfter: probAfter),
-          ('YES', String answerId) => MultipleChoiceYesBetOutcome(
+          ('YES', null) => BinaryBetOutcomeYes(probAfter: probAfter),
+          ('NO', null) => BinaryBetOutcomeNo(probAfter: probAfter),
+          ('YES', String answerId) => MultipleChoiceBetOutcomeYes(
               answerId: answerId,
               probAfter: probAfter,
             ),
-          ('NO', String answerId) => MultipleChoiceNoBetOutcome(
+          ('NO', String answerId) => MultipleChoiceBetOutcomeNo(
               probAfter: probAfter,
               answerId: answerId,
             ),

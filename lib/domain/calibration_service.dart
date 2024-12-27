@@ -48,8 +48,8 @@ class CalibrationService {
         yesRatio: _calculateFulfilledRatio(
           bucket
               .where((e) => switch (e.outcome) {
-                    BinaryYesBetOutcome _ => true,
-                    MultipleChoiceYesBetOutcome _ when includeMultipleChoice =>
+                    BinaryBetOutcomeYes _ => true,
+                    MultipleChoiceBetOutcomeYes _ when includeMultipleChoice =>
                       true,
                     _ => false
                   })
@@ -59,8 +59,8 @@ class CalibrationService {
         noRatio: _calculateFulfilledRatio(
           bucket
               .where((e) => switch (e.outcome) {
-                    BinaryNoBetOutcome _ => true,
-                    MultipleChoiceNoBetOutcome _ when includeMultipleChoice =>
+                    BinaryBetOutcomeNo _ => true,
+                    MultipleChoiceBetOutcomeNo _ when includeMultipleChoice =>
                       true,
                     _ => false
                   })
@@ -82,10 +82,10 @@ class CalibrationService {
 
       if (bet.outcome case BinaryBetOutcome(probAfter: final probAfter)) {
         switch (bet.market!.outcome) {
-          case BinaryYesMarketOutcome _:
+          case BinaryMarketOutcomeYes _:
             n++;
             sum += pow(probAfter - 1, 2);
-          case BinaryNoMarketOutcome _:
+          case BinaryMarketOutcomeNo _:
             n++;
             sum += pow(probAfter, 2);
           default:
@@ -116,10 +116,10 @@ class CalibrationService {
       final amount = weighByMana ? bet.amount : 1;
 
       switch ((bet.outcome, bet.market!.outcome)) {
-        case (_, BinaryYesMarketOutcome _):
+        case (_, BinaryMarketOutcomeYes _):
           total += amount;
           fulfilled += amount;
-        case (_, BinaryNoMarketOutcome _):
+        case (_, BinaryMarketOutcomeNo _):
           total += amount;
         case (
             MultipleChoiceBetOutcome betOutcome,
@@ -130,10 +130,10 @@ class CalibrationService {
               .firstOrNull;
 
           switch (answerOutcome) {
-            case MultipleChoiceAnswerYesOutcome _:
+            case MultipleChoiceAnswerOutcomeYes _:
               total += amount;
               fulfilled += amount;
-            case MultipleChoiceAnswerNoOutcome _:
+            case MultipleChoiceAnswerOutcomeNo _:
               total += amount;
             default:
           }

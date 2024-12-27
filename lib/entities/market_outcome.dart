@@ -8,14 +8,14 @@ sealed class BinaryMarketOutcome extends MarketOutcome {
   const BinaryMarketOutcome();
 }
 
-class BinaryYesMarketOutcome extends BinaryMarketOutcome {}
+class BinaryMarketOutcomeYes extends BinaryMarketOutcome {}
 
-class BinaryNoMarketOutcome extends BinaryMarketOutcome {}
+class BinaryMarketOutcomeNo extends BinaryMarketOutcome {}
 
-class BinaryMktMarketOutcome extends BinaryMarketOutcome {
+class BinaryMarketOutcomeMkt extends BinaryMarketOutcome {
   final double probability;
 
-  const BinaryMktMarketOutcome({required this.probability});
+  const BinaryMarketOutcomeMkt({required this.probability});
 }
 
 class MultipleChoiceMarketOutcome extends MarketOutcome {
@@ -30,18 +30,18 @@ sealed class MultipleChoiceAnswerOutcome {
   MultipleChoiceAnswerOutcome(this.answerId);
 }
 
-class MultipleChoiceAnswerYesOutcome extends MultipleChoiceAnswerOutcome {
-  MultipleChoiceAnswerYesOutcome(super.answerId);
+class MultipleChoiceAnswerOutcomeYes extends MultipleChoiceAnswerOutcome {
+  MultipleChoiceAnswerOutcomeYes(super.answerId);
 }
 
-class MultipleChoiceAnswerNoOutcome extends MultipleChoiceAnswerOutcome {
-  MultipleChoiceAnswerNoOutcome(super.answerId);
+class MultipleChoiceAnswerOutcomeNo extends MultipleChoiceAnswerOutcome {
+  MultipleChoiceAnswerOutcomeNo(super.answerId);
 }
 
-class MultipleChoiceAnswerMktOutcome extends MultipleChoiceAnswerOutcome {
+class MultipleChoiceAnswerOutcomeMkt extends MultipleChoiceAnswerOutcome {
   final double probability;
 
-  MultipleChoiceAnswerMktOutcome({
+  MultipleChoiceAnswerOutcomeMkt({
     required this.probability,
     required String answerId,
   }) : super(answerId);

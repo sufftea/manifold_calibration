@@ -30,11 +30,11 @@ class MarketsParser {
         id: id,
         outcome: switch (outcomeType) {
           'BINARY' => switch (resolution) {
-              'YES' => BinaryYesMarketOutcome(),
-              'NO' => BinaryNoMarketOutcome(),
+              'YES' => BinaryMarketOutcomeYes(),
+              'NO' => BinaryMarketOutcomeNo(),
               'MKT' => switch (resolutionProbability) {
                   double resolutionProbability =>
-                    BinaryMktMarketOutcome(probability: resolutionProbability),
+                    BinaryMarketOutcomeMkt(probability: resolutionProbability),
                   null => null,
                 },
               null => null,
@@ -48,11 +48,11 @@ class MarketsParser {
                         final answerId = e['id'];
 
                         return switch (answerResolution) {
-                          'YES' => MultipleChoiceAnswerYesOutcome(answerId),
-                          'NO' => MultipleChoiceAnswerYesOutcome(answerId),
+                          'YES' => MultipleChoiceAnswerOutcomeYes(answerId),
+                          'NO' => MultipleChoiceAnswerOutcomeYes(answerId),
                           'MKT' => switch (resolutionProbability) {
                               double resolutionProbability =>
-                                MultipleChoiceAnswerMktOutcome(
+                                MultipleChoiceAnswerOutcomeMkt(
                                   probability: resolutionProbability,
                                   answerId: answerId,
                                 ),
@@ -72,8 +72,8 @@ class MarketsParser {
                       final answerId = e['id'];
 
                       return e['id'] == resolution
-                          ? MultipleChoiceAnswerYesOutcome(answerId)
-                          : MultipleChoiceAnswerNoOutcome(answerId);
+                          ? MultipleChoiceAnswerOutcomeYes(answerId)
+                          : MultipleChoiceAnswerOutcomeNo(answerId);
                     },
                   ).toList(),
                 ),

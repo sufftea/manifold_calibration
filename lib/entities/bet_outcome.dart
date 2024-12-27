@@ -1,5 +1,3 @@
-// TODO: I should move the Yes/No part to the end of the name for readability
-
 sealed class BetOutcome {
   const BetOutcome();
 }
@@ -10,12 +8,12 @@ sealed class BinaryBetOutcome extends BetOutcome {
   const BinaryBetOutcome({required this.probAfter});
 }
 
-class BinaryYesBetOutcome extends BinaryBetOutcome {
-  BinaryYesBetOutcome({required super.probAfter});
+class BinaryBetOutcomeYes extends BinaryBetOutcome {
+  BinaryBetOutcomeYes({required super.probAfter});
 }
 
-class BinaryNoBetOutcome extends BinaryBetOutcome {
-  BinaryNoBetOutcome({required super.probAfter});
+class BinaryBetOutcomeNo extends BinaryBetOutcome {
+  BinaryBetOutcomeNo({required super.probAfter});
 }
 
 sealed class MultipleChoiceBetOutcome extends BetOutcome {
@@ -26,15 +24,15 @@ sealed class MultipleChoiceBetOutcome extends BetOutcome {
       {required this.probAfter, required this.answerId});
 }
 
-class MultipleChoiceYesBetOutcome extends MultipleChoiceBetOutcome {
-  const MultipleChoiceYesBetOutcome({
+class MultipleChoiceBetOutcomeYes extends MultipleChoiceBetOutcome {
+  const MultipleChoiceBetOutcomeYes({
     required super.probAfter,
     required super.answerId,
   });
 }
 
-class MultipleChoiceNoBetOutcome extends MultipleChoiceBetOutcome {
-  const MultipleChoiceNoBetOutcome({
+class MultipleChoiceBetOutcomeNo extends MultipleChoiceBetOutcome {
+  const MultipleChoiceBetOutcomeNo({
     required super.probAfter,
     required super.answerId,
   });
