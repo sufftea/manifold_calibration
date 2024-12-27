@@ -9,6 +9,7 @@ import 'package:manifold_callibration/data/dio_provider.dart';
 import 'package:manifold_callibration/data/markets_parser.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/exceptions.dart';
+import 'package:manifold_callibration/entities/market.dart';
 
 class BetsRepository {
   BetsRepository(this._dio, this._config);
@@ -31,9 +32,19 @@ class BetsRepository {
       for (final market in markets) market.id: market,
     };
 
-    final bets = _betsParser.parseBets(betsJson, idToMarket);
+    final bets = _betsParser.parseBets(betsJson);
 
-    return bets;
+    // bets.map((e) => idToMarket[ e.marketId ])
+
+    final betsWithMarkets = <Bet>[];
+    for (final bet in bets) {
+      if (idToMarket[bet.marketId] case final market?) {
+        bet.market = market;
+        betsWithMarkets.add(bet);
+      }
+    }
+
+    return betsWithMarkets;
   }
 
   // Fetch all user's bets in json

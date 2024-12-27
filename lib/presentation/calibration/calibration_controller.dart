@@ -18,8 +18,6 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
     required bool weighByMana,
     bool forceRefresh = false,
   }) async {
-    // state = AsyncError(Exception('test exception'), StackTrace.fromString(''));
-
     if (state.isLoading) {
       return;
     }
@@ -65,9 +63,10 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
       bets: bets,
       nofBuckets: nofBuckets,
       weighByMana: weighByMana,
+      includeMultipleChoice: true,
     );
     final brierScore = calibrationService.calculateBrierScore(bets);
-    final nofResolvedBets = bets.where((e) => e.market.outcome != null).length;
+    final nofResolvedBets = bets.where((e) => e.market!.outcome != null).length;
 
     return CalibrationStats(
       buckets: buckets,

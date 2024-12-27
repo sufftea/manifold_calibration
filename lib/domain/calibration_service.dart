@@ -11,6 +11,7 @@ class CalibrationService {
     required List<Bet> bets,
     required int nofBuckets,
     required bool weighByMana,
+    required bool includeMultipleChoice,
   }) {
     if (nofBuckets <= 0) {
       return [];
@@ -19,29 +20,51 @@ class CalibrationService {
     final resolvedBetsBucketed = <List<Bet>>[
       for (int i = 0; i < nofBuckets; i++) [],
     ];
+
     for (final bet in bets) {
-      if (bet.market.outcome is! BinaryMarketOutcome) {
-        continue;
+      final double betProbAfter;
+
+      switch ((bet.outcome, bet.market!.outcome)) {
+        case (final BinaryBetOutcome betOutcome, final BinaryMarketOutcome _):
+          betProbAfter = betOutcome.probAfter;
+        case (
+            final MultipleChoiceBetOutcome betOutcome,
+            final MultipleChoiceMarketOutcome _,
+          ):
+          betProbAfter = betOutcome.probAfter;
+        default:
+          continue;
       }
 
-      final betOutcome = bet.outcome;
-      if (betOutcome is BinaryBetOutcome) {
-        var bucket = (nofBuckets * betOutcome.probAfter).floor();
-        bucket = min(bucket, nofBuckets - 1);
+      var bucket = (nofBuckets * betProbAfter).floor();
+      bucket = min(bucket, nofBuckets - 1);
 
-        resolvedBetsBucketed[bucket].add(bet);
-      }
+      resolvedBetsBucketed[bucket].add(bet);
     }
 
     return resolvedBetsBucketed.map((bucket) {
       return OutcomeBucket(
         bets: bucket,
-        yesRatio: _calculateRatio(
-          bucket.where((e) => e.outcome is BinaryYesBetOutcome).toList(),
+        yesRatio: _calculateFulfilledRatio(
+          bucket
+              .where((e) => switch (e.outcome) {
+                    BinaryYesBetOutcome _ => true,
+                    MultipleChoiceYesBetOutcome _ when includeMultipleChoice =>
+                      true,
+                    _ => false
+                  })
+              .toList(),
           weighByMana: weighByMana,
         ),
-        noRatio: _calculateRatio(
-          bucket.where((e) => e.outcome is BinaryNoBetOutcome).toList(),
+        noRatio: _calculateFulfilledRatio(
+          bucket
+              .where((e) => switch (e.outcome) {
+                    BinaryNoBetOutcome _ => true,
+                    MultipleChoiceNoBetOutcome _ when includeMultipleChoice =>
+                      true,
+                    _ => false
+                  })
+              .toList(),
           weighByMana: weighByMana,
         ),
       );
@@ -58,7 +81,7 @@ class CalibrationService {
       }
 
       if (bet.outcome case BinaryBetOutcome(probAfter: final probAfter)) {
-        switch (bet.market.outcome) {
+        switch (bet.market!.outcome) {
           case BinaryYesMarketOutcome _:
             n++;
             sum += pow(probAfter - 1, 2);
@@ -66,7 +89,7 @@ class CalibrationService {
             n++;
             sum += pow(probAfter, 2);
           default:
-            continue;
+          // continue;
         }
       }
     }
@@ -74,13 +97,16 @@ class CalibrationService {
     return sum / n;
   }
 
-  double _calculateRatio(Iterable<Bet> bets, {required bool weighByMana}) {
+  double _calculateFulfilledRatio(
+    Iterable<Bet> bets, {
+    required bool weighByMana,
+  }) {
     if (bets.isEmpty) {
       return -1;
     }
 
     double total = 0;
-    double positive = 0;
+    double fulfilled = 0;
 
     for (final bet in bets) {
       if (bet.amount < 0) {
@@ -89,19 +115,37 @@ class CalibrationService {
 
       final amount = weighByMana ? bet.amount : 1;
 
-      if (bet.market.outcome != null) {
-        total += amount;
-      }
-      if (bet.market.outcome is BinaryYesMarketOutcome) {
-        positive += amount;
+      switch ((bet.outcome, bet.market!.outcome)) {
+        case (_, BinaryYesMarketOutcome _):
+          total += amount;
+          fulfilled += amount;
+        case (_, BinaryNoMarketOutcome _):
+          total += amount;
+        case (
+            MultipleChoiceBetOutcome betOutcome,
+            MultipleChoiceMarketOutcome marketOutcome
+          ):
+          final answerOutcome = marketOutcome.answerOutcomes
+              .where((answer) => answer.answerId == betOutcome.answerId)
+              .firstOrNull;
+
+          switch (answerOutcome) {
+            case MultipleChoiceAnswerYesOutcome _:
+              total += amount;
+              fulfilled += amount;
+            case MultipleChoiceAnswerNoOutcome _:
+              total += amount;
+            default:
+          }
+
+        default:
       }
     }
 
     if (total == 0) {
       return -1;
     }
-
-    return positive / total;
+    return fulfilled / total;
   }
 }
 

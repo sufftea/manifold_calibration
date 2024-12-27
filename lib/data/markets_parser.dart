@@ -1,5 +1,5 @@
-import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/exceptions.dart';
+import 'package:manifold_callibration/entities/market.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
 
 class MarketsParser {

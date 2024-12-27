@@ -3,11 +3,11 @@ import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
 
 class BetsParser {
-  List<Bet> parseBets(dynamic betsJson, Map<String, Market> idToMarket) {
+  List<Bet> parseBets(List<dynamic> betsJson) {
     final bets = betsJson
-        .map(
+        .map<Bet?>(
           (betJson) {
-            return parseBet(betJson, idToMarket);
+            return parseBet(betJson);
           },
         )
         .nonNulls
@@ -16,31 +16,33 @@ class BetsParser {
     return bets;
   }
 
-  Bet? parseBet(dynamic betJson, Map<String, Market> idToMarket) {
+  Bet? parseBet(dynamic betJson) {
     try {
-      final <dynamic, dynamic>{
-        'id': String id,
-        'outcome': String outcome,
-        'probAfter': double probAfter,
-        'updatedTime': int updatedTime,
-        'contractId': String contractId,
-        'amount': num amount,
-      } = betJson;
-
-      final market = idToMarket[contractId];
-      if (market == null) {
-        return null;
-      }
+      final num amount = betJson['amount'];
+      final String contractId = betJson['contractId'];
+      final String? answerId = betJson['answerId'];
+      final int updatedTime = betJson['updatedTime'];
+      final double probAfter = betJson['probAfter'];
+      final String outcome = betJson['outcome'];
+      final String id = betJson['id'];
 
       final bet = Bet(
         id: id,
-        outcome: switch (outcome) {
-          'YES' => BinaryYesBetOutcome(probAfter: probAfter),
-          'NO' => BinaryNoBetOutcome(probAfter: probAfter),
+        outcome: switch ((outcome, answerId)) {
+          ('YES', null) => BinaryYesBetOutcome(probAfter: probAfter),
+          ('NO', null) => BinaryNoBetOutcome(probAfter: probAfter),
+          ('YES', String answerId) => MultipleChoiceYesBetOutcome(
+              answerId: answerId,
+              probAfter: probAfter,
+            ),
+          ('NO', String answerId) => MultipleChoiceNoBetOutcome(
+              probAfter: probAfter,
+              answerId: answerId,
+            ),
           _ => UnimplementedBetOutcome(),
         },
         updatedTime: DateTime.fromMillisecondsSinceEpoch(updatedTime),
-        market: market,
+        marketId: contractId,
         amount: amount.toDouble(),
       );
 

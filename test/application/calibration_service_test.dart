@@ -2,6 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:manifold_callibration/domain/calibration_service.dart';
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
+import 'package:manifold_callibration/entities/market.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
 
 void main() {
@@ -47,6 +48,7 @@ void main() {
                   },
                 ),
                 amount: 100,
+                marketId: '1',
               ),
             )
             .toList();
@@ -56,6 +58,7 @@ void main() {
           bets: bets,
           nofBuckets: 10,
           weighByMana: false,
+          includeMultipleChoice: false,
         );
 
         expect(
@@ -135,6 +138,7 @@ void main() {
                   },
                 ),
                 amount: e.mana.toDouble(),
+                marketId: '1',
               ),
             )
             .toList();
@@ -144,6 +148,7 @@ void main() {
           bets: bets,
           nofBuckets: 3,
           weighByMana: false,
+          includeMultipleChoice: false,
         );
 
         expect(
@@ -196,6 +201,7 @@ void main() {
                   },
                 ),
                 amount: e.mana.toDouble(),
+                marketId: '1',
               ),
             )
             .toList();
@@ -205,6 +211,7 @@ void main() {
           bets: bets,
           nofBuckets: 3,
           weighByMana: true,
+          includeMultipleChoice: false,
         );
 
         expect(
@@ -238,6 +245,7 @@ void main() {
               outcome: null,
             ),
             amount: 100,
+            marketId: '1',
           ),
         ];
 
@@ -246,6 +254,7 @@ void main() {
           bets: bets,
           nofBuckets: 3,
           weighByMana: true,
+          includeMultipleChoice: false,
         );
 
         expect(
@@ -298,6 +307,7 @@ void main() {
                   },
                 ),
                 amount: e.mana.toDouble(),
+                marketId: '1',
               ),
             )
             .toList();
@@ -307,6 +317,7 @@ void main() {
           bets: bets,
           nofBuckets: 0,
           weighByMana: true,
+          includeMultipleChoice: false,
         );
 
         expect(result.isEmpty, equals(true));

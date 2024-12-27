@@ -6,6 +6,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http_mock_adapter/http_mock_adapter.dart';
 import 'package:manifold_callibration/config.dart';
+import 'package:manifold_callibration/data/bets_parser.dart';
 import 'package:manifold_callibration/data/bets_repository.dart';
 import 'package:manifold_callibration/data/markets_parser.dart';
 
@@ -181,7 +182,7 @@ void main() {
   group(
     'parsers',
     () {
-      // List<dynamic>? actualBetsJson;
+      List<dynamic>? actualBetsJson;
       dynamic userContractsJson;
       const numberOfContracts = 100;
 
@@ -195,6 +196,10 @@ void main() {
           final contractsList = userContractsJson['contracts'] as List<dynamic>;
           userContractsJson['contracts'] =
               contractsList.take(numberOfContracts).toList();
+
+          final betsString =
+              await File('./assets/test_data/bets.json').readAsString();
+          actualBetsJson = jsonDecode(betsString) as List<dynamic>;
         },
       );
 
@@ -210,17 +215,14 @@ void main() {
         },
       );
       // TODO: more tests
-      // test(
-      //   'parse bets',
-      //   () {
-      //     final marketParser = MarketsParser();
-      //
-      //     final parsedMarkets =
-      //         marketParser.parseUserMetrics(userContractsJson);
-      //
-      //     expect(parsedMarkets.length, equals(numberOfContracts));
-      //   },
-      // );
+      test(
+        'parse bets',
+        () {
+          final parser = BetsParser();
+          final parsedBets = parser.parseBets(actualBetsJson!);
+          expect(parsedBets.length, equals(actualBetsJson!.length));
+        },
+      );
     },
   );
 }
