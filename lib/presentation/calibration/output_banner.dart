@@ -35,6 +35,7 @@ class OutputBanner extends StatelessWidget {
             const SizedBox(height: 16),
             buildBucketButtons(context, colors),
             buildWeightByMana(context, colors),
+            buildExcludeMultipleChoice(context, colors),
           ],
         ),
       ),
@@ -78,6 +79,31 @@ class OutputBanner extends StatelessWidget {
         ),
         Text(
           'Weight by mana',
+          style: GoogleFonts.poppins(
+            fontSize: 16,
+            fontWeight: FontWeight.w400,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget buildExcludeMultipleChoice(BuildContext context, ColorScheme colors) {
+    return Row(
+      children: [
+        Checkbox(
+          value: routeValue.excludeMultipleChoice,
+          onChanged: (value) {
+            if (value == null) {
+              return;
+            }
+            context.hyper.navigate(routeValue.copyWith(
+              excludeMultipleChoice: value,
+            ));
+          },
+        ),
+        Text(
+          'Exclude multiple choice',
           style: GoogleFonts.poppins(
             fontSize: 16,
             fontWeight: FontWeight.w400,

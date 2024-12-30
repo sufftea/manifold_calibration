@@ -11,7 +11,7 @@ class CalibrationService {
     required List<Bet> bets,
     required int nofBuckets,
     required bool weighByMana,
-    required bool includeMultipleChoice,
+    required bool excludeMultipleChoice,
   }) {
     if (nofBuckets <= 0) {
       return [];
@@ -49,7 +49,7 @@ class CalibrationService {
           bucket
               .where((e) => switch (e.outcome) {
                     BinaryBetOutcomeYes _ => true,
-                    MultipleChoiceBetOutcomeYes _ when includeMultipleChoice =>
+                    MultipleChoiceBetOutcomeYes _ when !excludeMultipleChoice =>
                       true,
                     _ => false
                   })
@@ -60,7 +60,7 @@ class CalibrationService {
           bucket
               .where((e) => switch (e.outcome) {
                     BinaryBetOutcomeNo _ => true,
-                    MultipleChoiceBetOutcomeNo _ when includeMultipleChoice =>
+                    MultipleChoiceBetOutcomeNo _ when !excludeMultipleChoice =>
                       true,
                     _ => false
                   })

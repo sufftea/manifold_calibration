@@ -58,7 +58,7 @@ void main() {
           bets: bets,
           nofBuckets: 10,
           weighByMana: false,
-          includeMultipleChoice: false,
+          excludeMultipleChoice: true,
         );
 
         expect(
@@ -148,7 +148,7 @@ void main() {
           bets: bets,
           nofBuckets: 3,
           weighByMana: false,
-          includeMultipleChoice: false,
+          excludeMultipleChoice: true,
         );
 
         expect(
@@ -211,7 +211,7 @@ void main() {
           bets: bets,
           nofBuckets: 3,
           weighByMana: true,
-          includeMultipleChoice: false,
+          excludeMultipleChoice: true,
         );
 
         expect(
@@ -254,7 +254,7 @@ void main() {
           bets: bets,
           nofBuckets: 3,
           weighByMana: true,
-          includeMultipleChoice: false,
+          excludeMultipleChoice: true,
         );
 
         expect(
@@ -317,7 +317,7 @@ void main() {
           bets: bets,
           nofBuckets: 0,
           weighByMana: true,
-          includeMultipleChoice: false,
+          excludeMultipleChoice: true,
         );
 
         expect(result, isEmpty);
@@ -378,7 +378,7 @@ void main() {
           bets: bets,
           nofBuckets: 3,
           weighByMana: false,
-          includeMultipleChoice: true,
+          excludeMultipleChoice: false,
         );
 
         expect(

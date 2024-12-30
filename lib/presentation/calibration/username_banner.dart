@@ -187,6 +187,8 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
                         username: username,
                         nofBuckets: widget.routeValue.buckets,
                         weighByMana: widget.routeValue.weightByMana,
+                        excludeMultipleChoice:
+                            widget.routeValue.excludeMultipleChoice,
                         forceRefresh: true,
                       );
                 }

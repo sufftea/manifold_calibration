@@ -33,6 +33,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                 username: username,
                 nofBuckets: widget.routeValue.buckets,
                 weighByMana: widget.routeValue.weightByMana,
+                excludeMultipleChoice: widget.routeValue.excludeMultipleChoice,
               );
         }
       },
@@ -50,6 +51,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                 username: username,
                 nofBuckets: widget.routeValue.buckets,
                 weighByMana: widget.routeValue.weightByMana,
+                excludeMultipleChoice: widget.routeValue.excludeMultipleChoice,
               );
         }
       },
@@ -63,9 +65,16 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
     return Scaffold(
       backgroundColor: colors.surface,
       body: Center(
-        child: SizedBox(
-          width: _chartSize,
-          child: buildContent(context),
+        child: SingleChildScrollView(
+          child: Center(
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              child: SizedBox(
+                width: _chartSize,
+                child: buildContent(context),
+              ),
+            ),
+          ),
         ),
       ),
     );
@@ -73,22 +82,21 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
 
   Widget buildContent(BuildContext context) {
     final colors = Theme.of(context).colorScheme;
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          UsernameBanner(routeValue: widget.routeValue),
-          const SizedBox(height: 16),
-          buildOutputBanner(colors),
-          const SizedBox(height: 32),
-          buildUpdates(colors),
-        ],
-      ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        UsernameBanner(routeValue: widget.routeValue),
+        const SizedBox(height: 16),
+        buildOutputBanner(colors),
+        const SizedBox(height: 32),
+        buildUpdates(colors),
+      ],
     );
   }
 
   Widget buildUpdates(ColorScheme colors) {
     return Column(
+      spacing: 8,
       children: [
         Text(
           'Updates (most recent at the top):',
@@ -98,7 +106,14 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
             color: colors.onSurface.withValues(alpha: 0.5),
           ),
         ),
-        const SizedBox(height: 8),
+        Text(
+          '- Now includes multiple-choice markets.',
+          textAlign: TextAlign.center,
+          style: GoogleFonts.poppins(
+            fontSize: 12,
+            color: colors.onSurface.withValues(alpha: 0.5),
+          ),
+        ),
         Text(
           '- Sells used to be counted as normal bets.',
           textAlign: TextAlign.center,

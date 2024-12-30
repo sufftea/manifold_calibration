@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:manifold_callibration/data/bets_parser.dart';
+import 'package:manifold_callibration/entities/bet_outcome.dart';
 
 void main() {
   group(
