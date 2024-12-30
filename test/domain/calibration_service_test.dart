@@ -322,6 +322,7 @@ void main() {
 
         expect(result, isEmpty);
       });
+
       test('includes multiple-choice bets', () async {
         final market = Market(
           id: 'market1',
