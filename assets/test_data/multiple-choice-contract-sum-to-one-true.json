@@ -1,0 +1,748 @@
+{
+  "id": "0o5uq3fv2s",
+  "slug": "which-game-will-win-game-of-the-yea-doutfdj57t",
+  "sort": "prob-desc",
+  "volume": 54634.90783908922,
+  "answers": [
+    {
+      "id": "dabe0jyylt",
+      "prob": 0,
+      "text": "Elden Ring: Shadow of the Erdtree",
+      "index": 0,
+      "poolNo": 3.578836241698127,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 9406.027485238352,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175300178,
+      "probChanges": {
+        "day": -0.029445661492663904,
+        "week": -0.03313736978021761,
+        "month": -0.025969015357106412
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 22.360679774997898,
+      "resolutionProbability": 0.00038033857309507577
+    },
+    {
+      "id": "d6j5n4rn8n",
+      "prob": 0,
+      "text": "Dragon's Dogma 2",
+      "index": 1,
+      "poolNo": 2.2237557592226267,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 15065.67620655788,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175300178,
+      "probChanges": {
+        "day": -0.0017728516589989377,
+        "week": -0.0017728516589989377,
+        "month": -0.0009736622750958661
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 22.360679774997898,
+      "resolutionProbability": 0.00014758232831276795
+    },
+    {
+      "id": "5c0hi1trfk",
+      "prob": 0,
+      "text": "Balatro",
+      "index": 2,
+      "poolNo": 7.14474973788748,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 12572.875547725278,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175300178,
+      "probChanges": {
+        "day": -0.031659896988042766,
+        "week": -0.11971039044625696,
+        "month": -0.029494055713472547
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 22.360679774997898,
+      "resolutionProbability": 0.0005679442138363052
+    },
+    {
+      "id": "t24lp493ak",
+      "prob": 0,
+      "text": "Tekken 8",
+      "index": 3,
+      "poolNo": 1.5092218899453655,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 13038.870217980573,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175300178,
+      "probChanges": {
+        "day": -0.0020871442068162807,
+        "week": -0.0020871442068162807,
+        "month": -0.0005927779253321505
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 22.360679774997898,
+      "resolutionProbability": 0.00011573450733580427
+    },
+    {
+      "id": "uh16lrpge7",
+      "prob": 0,
+      "text": "Helldivers 2",
+      "index": 4,
+      "poolNo": 4.734763071869338,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 14415.868132441465,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175300178,
+      "probChanges": {
+        "day": -0.006479519348310833,
+        "week": -0.0037854737883585518,
+        "month": -0.035082110795039645
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 22.360679774997898,
+      "resolutionProbability": 0.0003283332261609159
+    },
+    {
+      "id": "etzyvcm7hj",
+      "prob": 0,
+      "text": "Hades II",
+      "index": 5,
+      "poolNo": 2.1100292649010726,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 13856.48313069466,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175344641,
+      "probChanges": {
+        "day": -0.0018468660640301754,
+        "week": -0.0009800749480726415,
+        "month": -0.0049226924018781915
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 10,
+      "resolutionProbability": 0.00015225421805421045
+    },
+    {
+      "id": "c2n05ctmq1",
+      "prob": 0,
+      "text": "Enshrouded",
+      "index": 6,
+      "poolNo": 1.818351653636455,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 13644.614859014187,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175378114,
+      "probChanges": {
+        "day": -0.001572053260343152,
+        "week": -0.001572053260343152,
+        "month": -0.0007277175940747412
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 10,
+      "resolutionProbability": 0.00013324739333461842
+    },
+    {
+      "id": "wk1k0kydtr",
+      "prob": 0,
+      "text": "Palworld",
+      "index": 7,
+      "poolNo": 2.5315677649111876,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 13062.250710974395,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175393927,
+      "probChanges": {
+        "day": -0.01032362755859903,
+        "week": -0.01032362755859903,
+        "month": -0.001650644821812093
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 10,
+      "resolutionProbability": 0.000193770375265333
+    },
+    {
+      "id": "52pngrb3dy",
+      "prob": 0,
+      "text": "Frostpunk 2",
+      "index": 8,
+      "poolNo": 2.2272602061573252,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 15372.654061585397,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175635707,
+      "probChanges": {
+        "day": -0.0013612004834093092,
+        "week": -0.0013612004834093092,
+        "month": -0.0009922993383347152
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 9.787726244618128,
+      "resolutionProbability": 0.0001448635706215516
+    },
+    {
+      "id": "e2et2mwvcs",
+      "prob": 0,
+      "text": "The Legend of Zelda: Echoes of Wisdom",
+      "index": 9,
+      "poolNo": 2.5096342448550786,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 14287.061852990639,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175643263,
+      "probChanges": {
+        "day": -0.0038691218729462276,
+        "week": -0.0038691218729462276,
+        "month": -0.00566239249106952
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 9.64102937004008,
+      "resolutionProbability": 0.0001756269771348196
+    },
+    {
+      "id": "7uatevahll",
+      "prob": 0,
+      "text": "Harry Potter: Quidditch Champions",
+      "index": 10,
+      "poolNo": 1.7896588282501398,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 13674.51950653789,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175654449,
+      "probChanges": {
+        "day": -0.0009517566745458707,
+        "week": -0.0005986017814481375,
+        "month": -0.0005986017814481375
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 9.58682372611488,
+      "resolutionProbability": 0.00013085831905454935
+    },
+    {
+      "id": "9rv82lr3va",
+      "prob": 0,
+      "text": "MultiVersus",
+      "index": 11,
+      "poolNo": 1.8524354975579627,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 13720.182164211707,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175710310,
+      "probChanges": {
+        "day": -0.0015820540078534085,
+        "week": -0.0015820540078534085,
+        "month": -0.0007427906648483066
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 9.656598696872345,
+      "resolutionProbability": 0.0001349971452190633
+    },
+    {
+      "id": "alea44snop",
+      "prob": 0,
+      "text": "A Difficult Game About Climbing",
+      "index": 12,
+      "poolNo": 1.7814400515902378,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 13783.793731057103,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175762430,
+      "probChanges": {
+        "day": -0.0009458170536260611,
+        "week": -0.0005944120627062575,
+        "month": -0.0005944120627062575
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 10,
+      "resolutionProbability": 0.00012922493472189068
+    },
+    {
+      "id": "l9xfzawnwp",
+      "prob": 0,
+      "text": "Nine Sols",
+      "index": 13,
+      "poolNo": 3.2282052350490176,
+      "userId": "6Q1UZ4BfBoUNAtN8KTY35joPlXi1",
+      "isOther": false,
+      "poolYes": 15488.721899571909,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719284811188,
+      "probChanges": {
+        "day": -0.002413911068393455,
+        "week": -0.002413911068393455,
+        "month": -0.001617470613780118
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.00020837952699365755
+    },
+    {
+      "id": "bdz7bo9ecp",
+      "prob": 0,
+      "text": "Like a Dragon: Infinite Wealth",
+      "index": 14,
+      "poolNo": 2.761907222584682,
+      "userId": "fSrex43BDjeneNZ4ZLfxllSb8b42",
+      "isOther": false,
+      "poolYes": 14594.360795923456,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723028196027,
+      "probChanges": {
+        "day": -0.00334564044258724,
+        "week": -0.00334564044258724,
+        "month": -0.0044870548454416575
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.00018920901596514104
+    },
+    {
+      "id": "fcfoftctqd",
+      "prob": 0,
+      "text": "Final Fantasy VII: Rebirth",
+      "index": 15,
+      "poolNo": 5.534241284396558,
+      "userId": "fSrex43BDjeneNZ4ZLfxllSb8b42",
+      "isOther": false,
+      "poolYes": 9026.574285918425,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723028218993,
+      "probChanges": {
+        "day": -0.10282136203741198,
+        "week": -0.10307195842885483,
+        "month": -0.1631604012307934
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.0006127297150746784
+    },
+    {
+      "id": "kodz1sl7lq",
+      "prob": 1,
+      "text": "Astro Bot",
+      "index": 16,
+      "poolNo": 2320.255297077302,
+      "userId": "fc6IfyoepwUtBF2twPqF6UVZHzp2",
+      "isOther": false,
+      "poolYes": 22.6931045962569,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723078875993,
+      "probChanges": {
+        "day": 0.43312086364608304,
+        "week": 0.6165358320440428,
+        "month": 0.7284203887391949
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.9903142960467899
+    },
+    {
+      "id": "omjb9t3wfw",
+      "prob": 0,
+      "text": "Indiana Jones and the Great Circle",
+      "index": 17,
+      "poolNo": 3.6537463651623057,
+      "userId": "fSrex43BDjeneNZ4ZLfxllSb8b42",
+      "isOther": false,
+      "poolYes": 16046.119708510916,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723164043804,
+      "probChanges": {
+        "day": -0.002979081401237068,
+        "week": -0.002979081401237068,
+        "month": -0.002148973738329179
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 93.16543448272759,
+      "resolutionProbability": 0.00022765096189269026
+    },
+    {
+      "id": "ab68hj2jk3",
+      "prob": 0,
+      "text": "Black Myth: Wukong",
+      "index": 18,
+      "poolNo": 11.303891214876035,
+      "userId": "fSrex43BDjeneNZ4ZLfxllSb8b42",
+      "isOther": false,
+      "poolYes": 5764.653891782415,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723164061388,
+      "probChanges": {
+        "day": -0.10781747699157494,
+        "week": -0.1721272145777755,
+        "month": -0.05490133809710126
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 93.1712639700979,
+      "resolutionProbability": 0.001957059182141418
+    },
+    {
+      "id": "okee2wkvqp",
+      "prob": 0,
+      "text": "Hollow Knight: Silksong",
+      "index": 19,
+      "poolNo": 4.245772031817296,
+      "userId": "fSrex43BDjeneNZ4ZLfxllSb8b42",
+      "isOther": false,
+      "poolYes": 16299.489767573345,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723164081994,
+      "probChanges": {
+        "day": -0.0033367054756750334,
+        "week": -0.0033367054756750334,
+        "month": -0.0021541636905886277
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 93.49976110955544,
+      "resolutionProbability": 0.0002604171308779778
+    },
+    {
+      "id": "rwiiyu492d",
+      "prob": 0,
+      "text": "Prince of Persia: The Lost Crown",
+      "index": 20,
+      "poolNo": 4.5473234246944685,
+      "userId": "fSrex43BDjeneNZ4ZLfxllSb8b42",
+      "isOther": false,
+      "poolYes": 16398.07815639321,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723164103492,
+      "probChanges": {
+        "day": -0.0033934421960242346,
+        "week": -0.0033934421960242346,
+        "month": -0.004420091006066717
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 93.907781921794,
+      "resolutionProbability": 0.0002772314365337171
+    },
+    {
+      "id": "upz4l5848l",
+      "prob": 0,
+      "text": "Lego Fortnite",
+      "index": 21,
+      "poolNo": 5.009148778932968,
+      "userId": "fSrex43BDjeneNZ4ZLfxllSb8b42",
+      "isOther": false,
+      "poolYes": 15940.238760493567,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1723164137414,
+      "probChanges": {
+        "day": -0.0009834653056078559,
+        "week": -0.0009834653056078559,
+        "month": -0.0022255106562392136
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 94.30711572771355,
+      "resolutionProbability": 0.00031414681085140366
+    },
+    {
+      "id": "uxgmovqpy1",
+      "prob": 0,
+      "text": "UFO 50",
+      "index": 22,
+      "poolNo": 5.011410277879463,
+      "userId": "JlVpsgzLsbOUT4pajswVMr0ZzmM2",
+      "isOther": false,
+      "poolYes": 16643.765979828262,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1727577225033,
+      "probChanges": {
+        "day": -0.0035649248951816147,
+        "week": -0.0035649248951816147,
+        "month": -0.012023547556345564
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 96.72139878128914,
+      "resolutionProbability": 0.0003010077052779618
+    },
+    {
+      "id": "4uxdm0wcb6",
+      "prob": 0,
+      "text": "Stellar Blade",
+      "index": 23,
+      "poolNo": 4.248342855824376,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 15360.035106075968,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728103401469,
+      "probChanges": {
+        "day": -0.0034249504368503497,
+        "week": -0.002193436497977899,
+        "month": -0.004990997334768624
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.0002765077115340347
+    },
+    {
+      "id": "f71ulpr63o",
+      "prob": 0,
+      "text": "Animal Well",
+      "index": 24,
+      "poolNo": 4.064165317345669,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 16716.85728381975,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728103597359,
+      "probChanges": {
+        "day": -0.0025113018585601653,
+        "week": -0.0025113018585601653,
+        "month": -0.03380491337556678
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.00024305869324895403
+    },
+    {
+      "id": "wa8u0h3x7d",
+      "prob": 0,
+      "text": "Rivals of Aether 2",
+      "index": 25,
+      "poolNo": 4.317529265878193,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 16991.784244033122,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728103605980,
+      "probChanges": {
+        "day": -0.0024247840519411004,
+        "week": -0.0024247840519411004,
+        "month": -0.0038177224043593654
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.00025403056085843536
+    },
+    {
+      "id": "g1x5bcdrn1",
+      "prob": 0,
+      "text": "Backpack Battles",
+      "index": 26,
+      "poolNo": 4.384536198221099,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": false,
+      "poolYes": 16512.664316538852,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728103943722,
+      "probChanges": {
+        "day": -0.002943482674940776,
+        "week": -0.002943482674940776,
+        "month": -0.0053784108550216855
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.0002654551813288685
+    },
+    {
+      "id": "cdxhg5mr3a",
+      "prob": 0,
+      "text": "Stalker 2: Heart of Chornobyl",
+      "index": 27,
+      "poolNo": 3.951919261789385,
+      "userId": "cFtRC9xpmuXwzNaaDu2hmKIUaaI2",
+      "isOther": false,
+      "poolYes": 16265.396990289686,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1728106390031,
+      "probChanges": {
+        "day": -0.0023620330662607945,
+        "week": -0.0023620330662607945,
+        "month": -0.0474868296978899
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 100,
+      "resolutionProbability": 0.0002429058030385762
+    },
+    {
+      "id": "ygzC9UZNZQ",
+      "prob": 0,
+      "text": "Metaphor: ReFantazio",
+      "index": 28,
+      "poolNo": 9.432729760567554,
+      "userId": "TOWPY0QtewhEdcr6jyXqRgB6qfg1",
+      "isOther": false,
+      "poolYes": 9784.887988922463,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1730705079414,
+      "probChanges": {
+        "day": -0.072498010991064,
+        "week": -0.056831358974901255,
+        "month": -0.10750356825171156
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 92.95388363727261,
+      "resolutionProbability": 0.0009630815685435206
+    },
+    {
+      "id": "fo97vtmr1a",
+      "prob": 0,
+      "text": "Other",
+      "index": 29,
+      "poolNo": 6.394632594901395,
+      "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "isOther": true,
+      "poolYes": 14433.699320039437,
+      "contractId": "0o5uq3fv2s",
+      "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+      "createdTime": 1719175300178,
+      "probChanges": {
+        "day": -0.003906675960105785,
+        "week": -0.003936212160771236,
+        "month": -0.028876532585710046
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734063961172,
+      "totalLiquidity": 92.95388363727261,
+      "resolutionProbability": 0.0004428387111522088
+    }
+  ],
+  "question": "Which game will win Game of the Year at the 2024 Game Awards?",
+  "closeTime": 1734063961172,
+  "creatorId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "mechanism": "cpmm-multi-1",
+  "viewCount": 0,
+  "dailyScore": 0,
+  "elasticity": 10.586609649448985,
+  "isResolved": true,
+  "marketTier": "plus",
+  "resolution": "kodz1sl7lq",
+  "resolverId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "visibility": "public",
+  "createdTime": 1719175300178,
+  "creatorName": "chris (strutheo)",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "https://en.wikipedia.org/wiki/The_Game_Award_for_Game_of_the_Year",
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://en.wikipedia.org/wiki/The_Game_Award_for_Game_of_the_Year",
+                  "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                  "target": "_blank"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "alt": null,
+          "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FXeMQdFg-7p.png?alt=media&token=00c1b37c-ea8d-4fd5-a243-3091dba58837",
+          "title": null
+        }
+      },
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "lastBetTime": 1734063115647,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "resolutions": {
+    "kodz1sl7lq": 100
+  },
+  "subsidyPool": 0,
+  "collectedFees": {
+    "creatorFee": 106.84742678141474,
+    "platformFee": 27.51696993077466,
+    "liquidityFee": 0
+  },
+  "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/strutheo/dt9g6w2yqq.jpg",
+  "volume24Hours": 0,
+  "addAnswersMode": "ANYONE",
+  "freshnessScore": 0,
+  "resolutionTime": 1734063961172,
+  "totalLiquidity": 3000,
+  "conversionScore": 0.13333333333333333,
+  "creatorUsername": "strutheo",
+  "importanceScore": 0.25,
+  "lastCommentTime": 1734069618152,
+  "lastUpdatedTime": 1734069618880,
+  "popularityScore": 0,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fstrutheo%2FkMuR3ttqcY.png?alt=media&token=a90c9db0-678b-42d7-9a8a-874f55f21b3d",
+  "uniqueBettorCount": 113,
+  "creatorCreatedTime": 1700846926650,
+  "uniqueBettorCountDay": 0,
+  "shouldAnswersSumToOne": true
+}

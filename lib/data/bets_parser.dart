@@ -47,7 +47,7 @@ class BetsParser {
       );
 
       return bet;
-    } on StateError catch (e) {
+    } on TypeError catch (e) {
       debugPrint('failed to parse bet: $betJson');
       debugPrint(e.toString());
       return null;

@@ -49,7 +49,7 @@ class MarketsParser {
 
                         return switch (answerResolution) {
                           'YES' => MultipleChoiceAnswerOutcomeYes(answerId),
-                          'NO' => MultipleChoiceAnswerOutcomeYes(answerId),
+                          'NO' => MultipleChoiceAnswerOutcomeNo(answerId),
                           'MKT' => switch (resolutionProbability) {
                               double resolutionProbability =>
                                 MultipleChoiceAnswerOutcomeMkt(

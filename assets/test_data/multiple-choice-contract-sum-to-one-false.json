@@ -1,0 +1,235 @@
+{
+  "id": "AQyNPpQZhR",
+  "slug": "which-new-models-will-be-released-i--cash",
+  "token": "CASH",
+  "volume": 385.4670870923475,
+  "answers": [
+    {
+      "id": "lpOZQQ2z8U",
+      "prob": 0.05163751631600348,
+      "text": "OpenAI LLM",
+      "index": 0,
+      "poolNo": 1.296352127671945,
+      "userId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+      "isOther": false,
+      "poolYes": 23.808498379442394,
+      "contractId": "AQyNPpQZhR",
+      "createdTime": 1733727501721,
+      "probChanges": {
+        "day": -0.004368030786960721,
+        "week": -0.5082416282500112,
+        "month": -0.4483624836839965
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 5.555555555555556
+    },
+    {
+      "id": "0RzA5lAqp8",
+      "prob": 1,
+      "text": "OpenAI Sora (or other video generator)",
+      "index": 1,
+      "poolNo": 55.277079839256636,
+      "userId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+      "isOther": false,
+      "poolYes": 0.5583543418106771,
+      "contractId": "AQyNPpQZhR",
+      "resolution": "YES",
+      "resolverId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+      "createdTime": 1733727501721,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1733775925776,
+      "totalLiquidity": 5.555555555555556,
+      "resolutionProbability": 0.9899999999999999
+    },
+    {
+      "id": "PqOE5qn8hP",
+      "prob": 0.049656894397823365,
+      "text": "OpenAI DALL-E (or other image generator)",
+      "index": 2,
+      "poolNo": 1.269922032577111,
+      "userId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+      "isOther": false,
+      "poolYes": 24.304009804625665,
+      "contractId": "AQyNPpQZhR",
+      "createdTime": 1733727501721,
+      "probChanges": {
+        "day": -2.0816681711721685E-17,
+        "week": -0.6287880074925819,
+        "month": -0.4503431056021766
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 5.555555555555556
+    },
+    {
+      "id": "0O0OOZtLSd",
+      "prob": 0.14178340985260046,
+      "text": "Anthropic (Claude or similar)",
+      "index": 3,
+      "poolNo": 2.2580926154329504,
+      "userId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+      "isOther": false,
+      "poolYes": 13.6682602475747,
+      "contractId": "AQyNPpQZhR",
+      "createdTime": 1733727501721,
+      "probChanges": {
+        "day": 0,
+        "week": -0.16887066843812187,
+        "month": -0.35821659014739954
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 5.555555555555556
+    },
+    {
+      "id": "qPsItE2RCu",
+      "prob": 1,
+      "text": "Google (Gemini or similar)",
+      "index": 4,
+      "poolNo": 55.277079839256636,
+      "userId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+      "isOther": false,
+      "poolYes": 0.5583543418106736,
+      "contractId": "AQyNPpQZhR",
+      "resolution": "YES",
+      "resolverId": "uglwf3YKOZNGjjEXKc5HampOFRE2",
+      "createdTime": 1733727501721,
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1733972941849,
+      "totalLiquidity": 5.555555555555556,
+      "resolutionProbability": 0.9899999999999999
+    },
+    {
+      "id": "09AUE2lyRu",
+      "prob": 0.21595147579016505,
+      "text": "XAI (Grok or similar)",
+      "index": 5,
+      "poolNo": 2.9156414264500725,
+      "userId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+      "isOther": false,
+      "poolYes": 10.58573158237869,
+      "contractId": "AQyNPpQZhR",
+      "createdTime": 1733727501721,
+      "probChanges": {
+        "day": -0.0354870986459459,
+        "week": -0.13316132730776475,
+        "month": -0.28404852420983495
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 5.555555555555556
+    },
+    {
+      "id": "OCuPSzzPOs",
+      "prob": 0.1131221719457014,
+      "text": "Meta (Llama or similar)",
+      "index": 6,
+      "poolNo": 1.984126984126985,
+      "userId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+      "isOther": false,
+      "poolYes": 15.555555555555555,
+      "contractId": "AQyNPpQZhR",
+      "createdTime": 1733727501721,
+      "probChanges": {
+        "day": 1.3877787807814457E-17,
+        "week": 1.3877787807814457E-17,
+        "month": -0.3868778280542986
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 5.555555555555556
+    },
+    {
+      "id": "620l0Ncu2p",
+      "prob": 1,
+      "text": "Microsoft (MAI-1  or similar)",
+      "index": 7,
+      "poolNo": 18.273304482758487,
+      "userId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+      "isOther": false,
+      "poolYes": 1.689032082838969,
+      "contractId": "AQyNPpQZhR",
+      "resolution": "NO",
+      "resolverId": "uglwf3YKOZNGjjEXKc5HampOFRE2",
+      "createdTime": 1733727501721,
+      "probChanges": {
+        "day": 0,
+        "week": 0.05384260463450086,
+        "month": 0.5
+      },
+      "subsidyPool": 0,
+      "resolutionTime": 1734567952755,
+      "totalLiquidity": 5.555555555555556,
+      "resolutionProbability": 0.9153890589266087
+    },
+    {
+      "id": "IN2EOQlytl",
+      "prob": 0.04032398474787785,
+      "text": "Midjourney",
+      "index": 8,
+      "poolNo": 1.1387985234919462,
+      "userId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+      "isOther": false,
+      "poolYes": 27.102421450480946,
+      "contractId": "AQyNPpQZhR",
+      "createdTime": 1733727501721,
+      "probChanges": {
+        "day": 0,
+        "week": -0.06772481447462723,
+        "month": -0.41772481447462717
+      },
+      "subsidyPool": 0,
+      "totalLiquidity": 5.555555555555556
+    }
+  ],
+  "deleted": null,
+  "question": "Which new AI models will be released in December 2024?",
+  "closeTime": 1735718340000,
+  "creatorId": "IPTOzEqrpkWmEzh6hwvAyY9PqFb2",
+  "mechanism": "cpmm-multi-1",
+  "viewCount": 0,
+  "dailyScore": 0,
+  "elasticity": 10.586609649448985,
+  "isResolved": false,
+  "marketTier": "play",
+  "visibility": "public",
+  "createdTime": 1733727501721,
+  "creatorName": "Manifold",
+  "description": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph"
+      }
+    ]
+  },
+  "lastBetTime": 1734906423585,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "subsidyPool": 0,
+  "collectedFees": {
+    "creatorFee": 0,
+    "platformFee": 0,
+    "liquidityFee": 0
+  },
+  "volume24Hours": 1.5246359306478343,
+  "addAnswersMode": "DISABLED",
+  "freshnessScore": 0,
+  "totalLiquidity": 50,
+  "conversionScore": 0.13333333333333333,
+  "creatorUsername": "Manifold",
+  "importanceScore": 0.25,
+  "lastUpdatedTime": 1734906423585,
+  "popularityScore": 0,
+  "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FManifoldMarkets%2FpZ4vplqZ5o.png?alt=media&token=67f66a52-84d1-46b7-a49e-82621e62e5e4",
+  "siblingContractId": "sPP5tzqdCl",
+  "uniqueBettorCount": 27,
+  "creatorCreatedTime": 1639533990132,
+  "uniqueBettorCountDay": 1,
+  "shouldAnswersSumToOne": false
+}

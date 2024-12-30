@@ -320,7 +320,82 @@ void main() {
           includeMultipleChoice: false,
         );
 
-        expect(result.isEmpty, equals(true));
+        expect(result, isEmpty);
+      });
+      test('includes multiple-choice bets', () async {
+        final market = Market(
+          id: 'market1',
+          outcome: MultipleChoiceMarketOutcome(answerOutcomes: [
+            MultipleChoiceAnswerOutcomeYes('yes1'),
+            MultipleChoiceAnswerOutcomeYes('yes2'),
+            MultipleChoiceAnswerOutcomeYes('yes3'),
+            MultipleChoiceAnswerOutcomeYes('yes4'),
+            MultipleChoiceAnswerOutcomeNo('no1'),
+            MultipleChoiceAnswerOutcomeNo('no2'),
+            MultipleChoiceAnswerOutcomeNo('no3'),
+            MultipleChoiceAnswerOutcomeNo('no4'),
+          ]),
+        );
+
+        final betsData = [
+          // 0.9
+          (bet: true, probAfter: 0.9, mana: 1000, answerId: 'yes1'),
+          (bet: true, probAfter: 0.9, mana: 100, answerId: 'yes2'),
+          // 0.5
+          (bet: true, probAfter: 0.51, mana: 100, answerId: 'yes3'),
+          (bet: true, probAfter: 0.51, mana: 1000, answerId: 'no1'),
+          (bet: false, probAfter: 0.51, mana: 100, answerId: 'no2'),
+          (bet: false, probAfter: 0.51, mana: 1000, answerId: 'no3'),
+          // 0.0
+          (bet: false, probAfter: 0.09, mana: 100, answerId: 'no4'),
+          (bet: false, probAfter: 0.01, mana: 1000, answerId: 'yes4'),
+        ];
+
+        final bets = [
+          for (final betData in betsData)
+            Bet(
+              id: 'id',
+              outcome: switch (betData.bet) {
+                true => MultipleChoiceBetOutcomeYes(
+                    probAfter: betData.probAfter,
+                    answerId: betData.answerId,
+                  ),
+                false => MultipleChoiceBetOutcomeNo(
+                    probAfter: betData.probAfter,
+                    answerId: betData.answerId,
+                  ),
+              },
+              updatedTime: DateTime.now(),
+              amount: betData.mana.toDouble(),
+              marketId: 'market1',
+              market: market,
+            )
+        ];
+
+        final service = CalibrationService();
+        final result = service.calculateCalibration(
+          bets: bets,
+          nofBuckets: 3,
+          weighByMana: false,
+          includeMultipleChoice: true,
+        );
+
+        expect(
+          result.map((e) => e.yesRatio),
+          [
+            -1,
+            0.5,
+            1,
+          ],
+        );
+        expect(
+          result.map((e) => e.noRatio),
+          [
+            0.5,
+            0,
+            -1,
+          ],
+        );
       });
     },
   );
