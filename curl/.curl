@@ -1,0 +1,19 @@
+# bets
+curl -X GET api.manifold.markets/v0/bets?username=strutheo\&limit=1000
+
+
+# market
+curl -X GET https://api.manifold.markets/v0/market/Oi8DFOzkuBv5OyC4cqea
+
+
+# get user metrics
+curl -X POST https://api.manifold.markets/get-user-contract-metrics-with-contracts
+-H 'Content-type: application/json'
+-d
+{
+  "userId": "hDq0cvn68jbAUVd6aWIU9aSv9ZA2",
+  "limit": 500
+}
+
+# market by slug
+curl -X GET https://api.manifold.markets/v0/slug/what-book-will-i-enjoy-reading

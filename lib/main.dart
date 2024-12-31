@@ -15,9 +15,6 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ProviderScope(
-      overrides: [
-        // betsRepositoryProvider.overrideWithValue(BetsRepositoryMock()),
-      ],
       child: MaterialApp.router(
         theme: createTheme(),
         routerConfig: router,
@@ -78,7 +75,8 @@ class MainApp extends StatelessWidget {
             (states) {
               if (states.contains(WidgetState.disabled)) {
                 return BorderSide(
-                  color: colors.onSurface.withOpacity(0.5),
+                  // color: colors.onSurface.withOpacity(0.5),
+                  color: colors.onSurface.withValues(alpha: 0.5),
                   width: 2,
                 );
               } else {
@@ -86,10 +84,12 @@ class MainApp extends StatelessWidget {
               }
             },
           ),
+          overlayColor: WidgetStatePropertyAll(
+              colors.surfaceBright.withValues(alpha: 0.1)),
           foregroundColor: WidgetStateProperty.resolveWith(
             (states) {
               if (states.contains(WidgetState.disabled)) {
-                return colors.onSurface.withOpacity(0.5);
+                return colors.onSurface.withValues(alpha: 0.5);
               } else {
                 return colors.onPrimary;
               }

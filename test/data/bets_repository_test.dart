@@ -9,169 +9,171 @@ import 'package:manifold_callibration/config.dart';
 import 'package:manifold_callibration/data/bets_repository.dart';
 
 void main() {
-  group("Doesn't crash when fetching and parsing the response", () {
-    const path = 'https://api.manifold.markets';
-    final dio = Dio(BaseOptions(baseUrl: path));
-    final dioAdapter = DioAdapter(
-      dio: dio,
-      matcher: QueryParamsMatcher(),
-    );
+  const path = 'https://api.manifold.markets';
+  final dio = Dio(BaseOptions(baseUrl: path));
+  final dioAdapter = DioAdapter(
+    dio: dio,
+    matcher: QueryParamsMatcher(),
+  );
 
-    const actualUsername = 'xX_manaMaximizer3000_Xx';
-    const actualUserId = "userid";
-    List<dynamic>? actualBetsJson;
-    dynamic actualUserContractsJson;
+  const actualUsername = 'xX_manaMaximizer3000_Xx';
+  const actualUserId = "userid";
+  List<dynamic>? actualBetsJson;
+  dynamic actualUserContractsJson;
 
-    setUpAll(
-      () async {
-        final betsString =
-            await File('./assets/test_data/bets.json').readAsString();
-        actualBetsJson = jsonDecode(betsString) as List<dynamic>;
+  setUpAll(
+    () async {
+      final betsString =
+          await File('./assets/test_data/bets.json').readAsString();
+      actualBetsJson = jsonDecode(betsString) as List<dynamic>;
 
-        final metricsString = await File(
-                './assets/test_data/get-user-contract-metrics-with-contracts.json')
-            .readAsString();
-        actualUserContractsJson = jsonDecode(metricsString);
-      },
-    );
+      final metricsString = await File(
+              './assets/test_data/get-user-contract-metrics-with-contracts.json')
+          .readAsString();
+      actualUserContractsJson = jsonDecode(metricsString);
 
-    test(
-      'getUserBets fetches all 100 the bets returned by the api',
-      () async {
-        const nofReturnedBets = 100;
-        dioAdapter.onGet(
-          '/v0/bets',
-          (server) {
-            server.reply(
-              200,
-              actualBetsJson!.take(nofReturnedBets).toList(),
-            );
-          },
-        );
+      final contractsList =
+          actualUserContractsJson['contracts'] as List<dynamic>;
+      actualUserContractsJson['contracts'] = contractsList.take(100).toList();
+    },
+  );
 
-        dioAdapter.onGet(
-          RegExp('/v0/user/.+'),
-          (server) {
-            server.replyCallback(
-              200,
-              (options) {
-                expect(
-                  options.path.split('/').last,
-                  equals(actualUsername),
-                );
-                return {
-                  'id': actualUserId,
-                };
-              },
-            );
-          },
-        );
-        dioAdapter.onPost(
-          '/get-user-contract-metrics-with-contracts',
-          (server) async {
-            server.replyCallback(
-              200,
-              (options) {
-                final {
-                  "userId": userId,
-                  "limit": _,
-                } = options.data;
+  test(
+    'getUserBets fetches all 100 the bets returned by the api',
+    () async {
+      const nofReturnedBets = 100;
+      dioAdapter.onGet(
+        '/v0/bets',
+        (server) {
+          server.reply(
+            200,
+            actualBetsJson!.take(nofReturnedBets).toList(),
+          );
+        },
+      );
 
-                expect(
-                  userId,
-                  equals(actualUserId),
-                );
-                return actualUserContractsJson;
-              },
-            );
-          },
-        );
+      dioAdapter.onGet(
+        RegExp('/v0/user/.+'),
+        (server) {
+          server.replyCallback(
+            200,
+            (options) {
+              expect(
+                options.path.split('/').last,
+                equals(actualUsername),
+              );
+              return {
+                'id': actualUserId,
+              };
+            },
+          );
+        },
+      );
+      dioAdapter.onPost(
+        '/get-user-contract-metrics-with-contracts',
+        (server) async {
+          server.replyCallback(
+            200,
+            (options) {
+              final {
+                "userId": userId,
+                "limit": _,
+              } = options.data;
 
-        final repo = BetsRepository(
-          dio,
-          Config(
-            manifoldBetsPerRequestLimit: 1000,
-          ),
-        );
+              expect(
+                userId,
+                equals(actualUserId),
+              );
+              return actualUserContractsJson;
+            },
+          );
+        },
+      );
 
-        final bets = await repo.getUserBets(actualUsername);
+      final repo = BetsRepository(
+        dio,
+        Config(
+          manifoldBetsPerRequestLimit: 1000,
+        ),
+      );
 
-        expect(bets.length, equals(nofReturnedBets));
-      },
-    );
+      final bets = await repo.getUserBets(actualUsername);
 
-    test(
-      'if there are more than manifoldBetsPerRequestLimit bets, getUserBets still fetches all of them',
-      () async {
-        const manifoldBetsPerRequestLimit = 10;
-        const totalUserBets = 100;
+      expect(bets.length, equals(nofReturnedBets));
+    },
+  );
 
-        dioAdapter.onGet(
-          RegExp('/v0/bets.*'),
-          (server) {
-            server.replyCallback(
-              200,
-              (options) {
-                final String? before = options.queryParameters['before'];
-                final String? username = options.queryParameters['username'];
+  test(
+    'if there are more than manifoldBetsPerRequestLimit bets, getUserBets still fetches all of them',
+    () async {
+      const manifoldBetsPerRequestLimit = 10;
+      const totalUserBets = 100;
 
-                expect(username, equals(actualUsername));
+      dioAdapter.onGet(
+        RegExp('/v0/bets.*'),
+        (server) {
+          server.replyCallback(
+            200,
+            (options) {
+              final String? before = options.queryParameters['before'];
+              final String? username = options.queryParameters['username'];
 
-                if (before == null) {
-                  return actualBetsJson!.take(totalUserBets).toList();
-                }
+              expect(username, equals(actualUsername));
 
-                return actualBetsJson!
-                    .take(totalUserBets)
-                    .skipWhile((value) {
-                      return value['id'] != before;
-                    })
-                    .take(manifoldBetsPerRequestLimit)
-                    .toList();
-              },
-            );
-          },
-        );
-        dioAdapter.onGet(
-          RegExp('/v0/user/.+'),
-          (server) {
-            server.replyCallback(
-              200,
-              (options) {
-                expect(
-                  options.path.split('/').last,
-                  equals(actualUsername),
-                );
-                return {
-                  'id': actualUserId,
-                };
-              },
-            );
-          },
-        );
+              if (before == null) {
+                return actualBetsJson!.take(totalUserBets).toList();
+              }
 
-        dioAdapter.onPost(
-          RegExp(r'/get-user-contract-metrics-with-contracts'),
-          (server) async {
-            server.reply(
-              200,
-              actualUserContractsJson,
-            );
-          },
-        );
+              return actualBetsJson!
+                  .take(totalUserBets)
+                  .skipWhile((value) {
+                    return value['id'] != before;
+                  })
+                  .take(manifoldBetsPerRequestLimit)
+                  .toList();
+            },
+          );
+        },
+      );
+      dioAdapter.onGet(
+        RegExp('/v0/user/.+'),
+        (server) {
+          server.replyCallback(
+            200,
+            (options) {
+              expect(
+                options.path.split('/').last,
+                equals(actualUsername),
+              );
+              return {
+                'id': actualUserId,
+              };
+            },
+          );
+        },
+      );
 
-        final repo = BetsRepository(
-          dio,
-          Config(
-            manifoldBetsPerRequestLimit: manifoldBetsPerRequestLimit,
-          ),
-        );
+      dioAdapter.onPost(
+        RegExp(r'/get-user-contract-metrics-with-contracts'),
+        (server) async {
+          server.reply(
+            200,
+            actualUserContractsJson,
+          );
+        },
+      );
 
-        final bets = await repo.getUserBets(actualUsername);
-        expect(bets.length, equals(totalUserBets));
-      },
-    );
-  });
+      final repo = BetsRepository(
+        dio,
+        Config(
+          manifoldBetsPerRequestLimit: manifoldBetsPerRequestLimit,
+        ),
+      );
+
+      final bets = await repo.getUserBets(actualUsername);
+      expect(bets.length, equals(totalUserBets));
+    },
+  );
 }
 
 class QueryParamsMatcher extends HttpRequestMatcher {

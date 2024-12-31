@@ -16,10 +16,9 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
     required String username,
     required int nofBuckets,
     required bool weighByMana,
+    required bool excludeMultipleChoice,
     bool forceRefresh = false,
   }) async {
-    // state = AsyncError(Exception('test exception'), StackTrace.fromString(''));
-
     if (state.isLoading) {
       return;
     }
@@ -46,6 +45,7 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
       bets: bets,
       nofBuckets: nofBuckets,
       weighByMana: weighByMana,
+      excludeMultipleChoice: excludeMultipleChoice,
     );
 
     state = AsyncData(CalibrationStateData(
@@ -59,15 +59,20 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
     required List<Bet> bets,
     required int nofBuckets,
     required bool weighByMana,
+    required bool excludeMultipleChoice,
   }) {
     final calibrationService = ref.read(calibrationServiceProvider);
     final buckets = calibrationService.calculateCalibration(
       bets: bets,
       nofBuckets: nofBuckets,
       weighByMana: weighByMana,
+      excludeMultipleChoice: excludeMultipleChoice,
     );
-    final brierScore = calibrationService.calculateBrierScore(bets);
-    final nofResolvedBets = bets.where((e) => e.market.outcome != null).length;
+    final brierScore = calibrationService.calculateBrierScore(
+      bets,
+      excludeMultipleChoice: excludeMultipleChoice,
+    );
+    final nofResolvedBets = bets.where((e) => e.market!.outcome != null).length;
 
     return CalibrationStats(
       buckets: buckets,

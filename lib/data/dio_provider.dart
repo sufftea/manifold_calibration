@@ -15,20 +15,18 @@ final dioProvider = Provider(
       ),
     );
 
-    // TODO
-    // _wrapWithFakes(dio);
+    // _wrapWithFakes(dio, config);
 
     return dio;
   },
 );
 
-void _wrapWithFakes(Dio dio) {
+void _wrapWithFakes(Dio dio, Config config) {
   final dioAdapter = DioAdapter(
     dio: dio,
     matcher: QueryParamsMatcher(),
   );
 
-  const nofReturnedBets = 100;
   dioAdapter.onGet(
     '/v0/bets',
     (server) async {
@@ -38,7 +36,7 @@ void _wrapWithFakes(Dio dio) {
 
       server.reply(
         200,
-        actualBetsJson.take(nofReturnedBets).toList(),
+        actualBetsJson.take(5000).toList(),
       );
     },
   );
