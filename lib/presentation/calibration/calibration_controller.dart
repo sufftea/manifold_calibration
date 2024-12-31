@@ -68,7 +68,10 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
       weighByMana: weighByMana,
       excludeMultipleChoice: excludeMultipleChoice,
     );
-    final brierScore = calibrationService.calculateBrierScore(bets);
+    final brierScore = calibrationService.calculateBrierScore(
+      bets,
+      excludeMultipleChoice: excludeMultipleChoice,
+    );
     final nofResolvedBets = bets.where((e) => e.market!.outcome != null).length;
 
     return CalibrationStats(

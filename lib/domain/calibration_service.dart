@@ -71,7 +71,10 @@ class CalibrationService {
     }).toList();
   }
 
-  double calculateBrierScore(List<Bet> bets) {
+  double calculateBrierScore(
+    List<Bet> bets, {
+    required bool excludeMultipleChoice,
+  }) {
     var n = 0;
 
     var sum = 0.0;
@@ -80,18 +83,46 @@ class CalibrationService {
         continue;
       }
 
-      if (bet.outcome case BinaryBetOutcome(probAfter: final probAfter)) {
-        switch (bet.market!.outcome) {
-          case BinaryMarketOutcomeYes _:
-            n++;
-            sum += pow(probAfter - 1, 2);
-          case BinaryMarketOutcomeNo _:
-            n++;
-            sum += pow(probAfter, 2);
-          default:
-          // continue;
-        }
+      switch ((bet.outcome, bet.market?.outcome)) {
+        case (
+            BinaryBetOutcome(probAfter: final probAfter),
+            BinaryMarketOutcomeYes _,
+          ):
+          n++;
+          sum += pow(probAfter - 1, 2);
+        case (
+            BinaryBetOutcome(probAfter: final probAfter),
+            BinaryMarketOutcomeNo _,
+          ):
+          n++;
+          sum += pow(probAfter, 2);
+        case (
+              MultipleChoiceBetOutcome(
+                answerId: final answerId,
+                probAfter: final probAfter,
+              ),
+              MultipleChoiceMarketOutcome(answerOutcomes: final answerOutcomes)
+            )
+            when !excludeMultipleChoice:
+          final answer = answerOutcomes
+              .where((answer) => answer.answerId == answerId)
+              .firstOrNull;
+
+          switch (answer) {
+            case MultipleChoiceAnswerOutcomeYes _:
+              n++;
+              sum += pow(probAfter - 1, 2);
+            case MultipleChoiceAnswerOutcomeNo _:
+              n++;
+              sum += pow(probAfter, 2);
+            default:
+          }
+        default:
       }
+    }
+
+    if (n == 0) {
+      return 0;
     }
 
     return sum / n;

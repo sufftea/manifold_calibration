@@ -383,11 +383,7 @@ void main() {
 
         expect(
           result.map((e) => e.yesRatio),
-          [
-            -1,
-            0.5,
-            1,
-          ],
+          [-1, 0.5, 1],
         );
         expect(
           result.map((e) => e.noRatio),
@@ -398,6 +394,167 @@ void main() {
           ],
         );
       });
+    },
+  );
+  group(
+    'brier score',
+    () {
+      final binaryBetsData = [
+        // 0.9
+        (bet: true, probAfter: 0.9, resolution: true, mana: 1000),
+        (bet: true, probAfter: 0.9, resolution: true, mana: 100),
+        // 0.5
+        (bet: true, probAfter: 0.50, resolution: true, mana: 100),
+        (bet: true, probAfter: 0.50, resolution: false, mana: 1000),
+        // 0.0
+        (bet: false, probAfter: 0.1, resolution: false, mana: 100),
+        (bet: false, probAfter: 0.1, resolution: false, mana: 1000),
+        (bet: true, probAfter: 0.1, resolution: false, mana: 100),
+        (bet: true, probAfter: 0.1, resolution: true, mana: 100),
+      ];
+
+      //
+      final binaryBets = binaryBetsData
+          .map(
+            (e) => Bet(
+              id: '1',
+              outcome: switch (e.bet) {
+                true => BinaryBetOutcomeYes(probAfter: e.probAfter),
+                false => BinaryBetOutcomeNo(probAfter: e.probAfter),
+              },
+              updatedTime: DateTime.now(),
+              market: Market(
+                id: '1',
+                outcome: switch (e.resolution) {
+                  true => BinaryMarketOutcomeYes(),
+                  false => BinaryMarketOutcomeNo(),
+                },
+              ),
+              amount: e.mana.toDouble(),
+              marketId: '1',
+            ),
+          )
+          .toList();
+
+      final multipleChoiceMarket1 = Market(
+        id: 'market1',
+        outcome: MultipleChoiceMarketOutcome(answerOutcomes: [
+          MultipleChoiceAnswerOutcomeYes('yes1'),
+          MultipleChoiceAnswerOutcomeYes('yes2'),
+          MultipleChoiceAnswerOutcomeNo('no1'),
+          MultipleChoiceAnswerOutcomeNo('no2'),
+        ]),
+      );
+      final multipleChoiceMarket2 = Market(
+        id: 'market1',
+        outcome: MultipleChoiceMarketOutcome(answerOutcomes: [
+          MultipleChoiceAnswerOutcomeYes('_yes1'),
+          MultipleChoiceAnswerOutcomeYes('_yes2'),
+          MultipleChoiceAnswerOutcomeNo('_no1'),
+          MultipleChoiceAnswerOutcomeNo('_no2'),
+        ]),
+      );
+
+      final multipleChoiceBets1Data = [
+        (bet: true, probAfter: 0.9, mana: 1000, answerId: 'yes1'),
+        (bet: true, probAfter: 0.9, mana: 100, answerId: 'yes2'),
+        (bet: true, probAfter: 0.50, mana: 1000, answerId: 'no1'),
+        (bet: false, probAfter: 0.50, mana: 100, answerId: 'no2'),
+      ];
+      final multipleChoiceBets2Data = [
+        (bet: true, probAfter: 0.9, mana: 1000, answerId: '_no1'),
+        (bet: true, probAfter: 0.9, mana: 100, answerId: '_yes2'),
+        (bet: true, probAfter: 0.50, mana: 1000, answerId: '_yes1'),
+        (bet: false, probAfter: 0.50, mana: 100, answerId: '_no2'),
+      ];
+
+      final multipleChoiceBets = [
+        for (final betData in multipleChoiceBets2Data)
+          Bet(
+            id: 'id',
+            outcome: switch (betData.bet) {
+              true => MultipleChoiceBetOutcomeYes(
+                  probAfter: betData.probAfter,
+                  answerId: betData.answerId,
+                ),
+              false => MultipleChoiceBetOutcomeNo(
+                  probAfter: betData.probAfter,
+                  answerId: betData.answerId,
+                ),
+            },
+            updatedTime: DateTime.now(),
+            amount: betData.mana.toDouble(),
+            marketId: 'market1',
+            market: multipleChoiceMarket2,
+          ),
+        for (final betData in multipleChoiceBets1Data)
+          Bet(
+            id: 'id',
+            outcome: switch (betData.bet) {
+              true => MultipleChoiceBetOutcomeYes(
+                  probAfter: betData.probAfter,
+                  answerId: betData.answerId,
+                ),
+              false => MultipleChoiceBetOutcomeNo(
+                  probAfter: betData.probAfter,
+                  answerId: betData.answerId,
+                ),
+            },
+            updatedTime: DateTime.now(),
+            amount: betData.mana.toDouble(),
+            marketId: 'market1',
+            market: multipleChoiceMarket1,
+          )
+      ];
+
+      test(
+        'calculate brier score without multiple-choice bets',
+        () {
+          final service = CalibrationService();
+          final result = service.calculateBrierScore(
+            binaryBets,
+            excludeMultipleChoice: true,
+          );
+
+          expect(result, moreOrLessEquals(0.17));
+        },
+      );
+      test(
+        'if bets.length == 0, must return 0',
+        () {
+          final service = CalibrationService();
+          final result = service.calculateBrierScore(
+            [],
+            excludeMultipleChoice: true,
+          );
+
+          expect(result, equals(0));
+        },
+      );
+      test(
+        'calculate brier score with multiple-choice bets',
+        () {
+          final service = CalibrationService();
+          final result = service.calculateBrierScore(
+            multipleChoiceBets,
+            excludeMultipleChoice: false,
+          );
+
+          expect(result, moreOrLessEquals(0.23));
+        },
+      );
+      test(
+        'binary and multiple-choice bets at once',
+        () {
+          final service = CalibrationService();
+          final result = service.calculateBrierScore(
+            multipleChoiceBets + binaryBets,
+            excludeMultipleChoice: false,
+          );
+
+          expect(result, moreOrLessEquals(0.2));
+        },
+      );
     },
   );
 }
