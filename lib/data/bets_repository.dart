@@ -73,9 +73,9 @@ class BetsRepository {
   }
 
   Future<dynamic> _getMetricsJson(String userId) async {
-    final resp = await _dio.post(
-      '/get-user-contract-metrics-with-contracts',
-      data: {
+    final resp = await _dio.get(
+      '/v0/get-user-contract-metrics-with-contracts',
+      queryParameters: {
         "userId": userId,
         "limit": 999999999,
       },
