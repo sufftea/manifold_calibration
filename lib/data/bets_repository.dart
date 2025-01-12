@@ -56,7 +56,7 @@ class BetsRepository {
     while (true) {
       final batch = await _getUserBetsJson(username, lastBetId);
       if (batch is! List<dynamic>) {
-        throw UnexpectedResponseException('');
+        throw UnexpectedResponseException('Unexpected response from server.');
       }
 
       betsJson.addAll(batch);
