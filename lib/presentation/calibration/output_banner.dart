@@ -36,6 +36,58 @@ class OutputBanner extends StatelessWidget {
             buildBucketButtons(context, colors),
             buildWeightByMana(context, colors),
             buildExcludeMultipleChoice(context, colors),
+            const SizedBox(height: 16),
+            buildHint(colors),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget buildHint(ColorScheme colors) {
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        color: colors.secondary.withValues(alpha: 0.1),
+        borderRadius: BorderRadius.circular(4),
+        border: Border(
+          left: BorderSide(color: colors.secondary, width: 2),
+        ),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(8),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const SizedBox(width: 4),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Explanation:',
+                    style: GoogleFonts.poppins(
+                      fontSize: 16,
+                      color: colors.onSecondaryContainer,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  Text(
+                    'Green arrows show the YES bets,',
+                    style: GoogleFonts.poppins(
+                      fontSize: 16,
+                      color: colors.onSecondaryContainer,
+                    ),
+                  ),
+                  Text(
+                    'Red arrows show the NO bets.',
+                    style: GoogleFonts.poppins(
+                      fontSize: 16,
+                      color: colors.onSecondaryContainer,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
@@ -188,6 +240,7 @@ class OutputBanner extends StatelessWidget {
                   buckets: value.first,
                 ));
               },
+              showSelectedIcon: false,
               segments: const [
                 ButtonSegment(
                   value: 5,
