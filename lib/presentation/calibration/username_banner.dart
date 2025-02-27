@@ -81,15 +81,25 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
             ),
           ),
           Consumer(builder: (context, ref, chlid) {
-            final state = ref.watch(calibrationControllerProvider.select(
-              (value) {
-                return value.mapOrNull(
-                  error: (error) => error,
-                );
-              },
-            ));
+            final state = ref.watch(calibrationControllerProvider);
+
+            final usernameState = switch (state.valueOrNull) {
+              CalibrationStateData(username: final username) => username,
+              _ => null,
+            };
 
             return TextField(
+              onSubmitted: (value) {
+                if (value != usernameState &&
+                    value.isNotEmpty &&
+                    !state.isLoading) {
+                  context.hyper.navigate(
+                    widget.routeValue.copyWith(
+                      username: usernameFieldController.text,
+                    ),
+                  );
+                }
+              },
               controller: usernameFieldController,
               onChanged: (value) {
                 const prefix = 'https://manifold.markets/';
@@ -123,7 +133,7 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
                 errorStyle: GoogleFonts.poppins(
                   fontSize: 12,
                 ),
-                errorText: state?.error.toString(),
+                errorText: state.error?.toString(),
               ),
               style: GoogleFonts.poppins(
                 color: colors.onPrimaryContainer,
@@ -141,8 +151,7 @@ class _UsernameBannerState extends ConsumerState<UsernameBanner> {
       final state = ref.watch(calibrationControllerProvider);
 
       final usernameState = switch (state.valueOrNull) {
-        AsyncData(value: CalibrationStateData(username: final username)) =>
-          username,
+        CalibrationStateData(username: final username) => username,
         _ => null,
       };
 
