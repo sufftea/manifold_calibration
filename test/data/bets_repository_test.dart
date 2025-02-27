@@ -69,8 +69,8 @@ void main() {
           );
         },
       );
-      dioAdapter.onPost(
-        '/get-user-contract-metrics-with-contracts',
+      dioAdapter.onGet(
+        '/v0/get-user-contract-metrics-with-contracts',
         (server) async {
           server.replyCallback(
             200,
@@ -78,7 +78,7 @@ void main() {
               final {
                 "userId": userId,
                 "limit": _,
-              } = options.data;
+              } = options.queryParameters;
 
               expect(
                 userId,

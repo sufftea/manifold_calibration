@@ -36,8 +36,6 @@ class OutputBanner extends StatelessWidget {
             buildBucketButtons(context, colors),
             buildWeightByMana(context, colors),
             buildExcludeMultipleChoice(context, colors),
-            const SizedBox(height: 16),
-            buildHint(colors),
           ],
         ),
       ),
