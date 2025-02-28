@@ -1,8 +1,5 @@
 import 'dart:math';
 
-import 'dart:ui';
-
-import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:manifold_callibration/entities/outcome_bucket.dart';
 
@@ -21,51 +18,6 @@ class CalibrationChartWidget extends StatelessWidget {
       painter: _CalibrationChartPainter(buckets: buckets, colors: colors),
     );
   }
-
-  // @override
-  // Widget build(BuildContext context) {
-  //   return ScatterChart(
-  //     ScatterChartData(
-  //       minX: 0,
-  //       maxX: 100,
-  //       minY: 0,
-  //       maxY: 100,
-  //       gridData: const FlGridData(
-  //         horizontalInterval: 10,
-  //         verticalInterval: 10,
-  //       ),
-  //       scatterSpots: [
-  //         for (int i = 0; i < buckets.length; i++)
-  //           if (buckets[i].yesRatio != -1)
-  //             () {
-  //               return ScatterSpot(
-  //                 100 * i / buckets.length + 50 / buckets.length,
-  //                 buckets[i].yesRatio * 100,
-  //                 dotPainter: const _CalibrationDotPainter(
-  //                   mainColor: Colors.green,
-  //                   rotate: 0,
-  //                 ),
-  //               );
-  //             }(),
-  //         for (int i = 0; i < buckets.length; i++)
-  //           if (buckets[i].noRatio != -1)
-  //             ScatterSpot(
-  //               100 * i / buckets.length + 50 / buckets.length,
-  //               buckets[i].noRatio * 100,
-  //               dotPainter: const _CalibrationDotPainter(
-  //                 mainColor: Colors.red,
-  //                 rotate: 1,
-  //               ),
-  //             )
-  //       ],
-  //       titlesData: const FlTitlesData(
-  //         show: true,
-  //       ),
-  //     ),
-  //     curve: Curves.easeOutQuad,
-  //     duration: const Duration(milliseconds: 200),
-  //   );
-  // }
 }
 
 class _CalibrationChartPainter extends CustomPainter {
