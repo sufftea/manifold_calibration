@@ -8,7 +8,6 @@ environment:
 
 dependencies:
   dio: ^5.7.0
-  fl_chart: ^0.69.2
   flex_color_scheme: ^8.0.1
   flutter:
     sdk: flutter
