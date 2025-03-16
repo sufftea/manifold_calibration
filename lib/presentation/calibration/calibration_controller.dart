@@ -6,10 +6,11 @@ import 'package:manifold_callibration/domain/calibration_service.dart'; // Ensur
 import 'package:manifold_callibration/domain/market_baseline_calculator.dart'; // Ensure this import is correct
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/outcome_bucket.dart';
-import 'package:logger/logger.dart'; // Import the logger package
+//import 'package:logger/logger.dart'; // Import the logger package
+
 
 class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
-  final Logger _logger = Logger(); // Initialize the logger
+//  final Logger _logger = Logger(); // Initialize the logger
 
   @override
   FutureOr<CalibrationState> build() async {
@@ -52,8 +53,8 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
       excludeMultipleChoice: excludeMultipleChoice,
     );
 
-    _logger.i('Brier Score Calculated: ${stats.brierScore}'); // Use logger
-    _logger.i('Market Baseline Calculated: ${stats.marketBaseline}'); // Use logger
+   // _logger.i('Brier Score Calculated: ${stats.brierScore}'); // Use logger
+   // _logger.i('Market Baseline Calculated: ${stats.marketBaseline}'); // Use logger
 
     state = AsyncData(CalibrationStateData(
       username: username,

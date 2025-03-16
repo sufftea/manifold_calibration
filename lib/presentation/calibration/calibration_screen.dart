@@ -24,7 +24,10 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
   static const _mainContentWidth = 400.0;
   static const _sidebarWidth = 300.0;
 
-  final Logger _logger = Logger(); // Initialize the logger
+  //final Logger _logger = Logger(); // Initialize the logger
+  final _logger = Logger(
+    level: Level.info,
+  );
 
   @override
   void initState() {
@@ -98,6 +101,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
 
       return LayoutBuilder(builder: (context, constraints) {
         if (constraints.maxWidth > _mainContentWidth + 2 * _sidebarWidth) {
+          _logger.i('constraints.maxWidth > _mainContentWidth + 2 * _sidebarWidth'); // Use lo
           return Table(
             defaultVerticalAlignment: TableCellVerticalAlignment.top,
             columnWidths: {
@@ -114,17 +118,20 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                     child: UsernameBanner(routeValue: widget.routeValue),
                   ),
                   SizedBox.shrink(),
+                  SizedBox.shrink(),
                 ],
               ),
               if (hasData)
                 TableRow(children: [
                   SizedBox.shrink(),
                   buildOutputBannerState(colors, state),
+                  buildMarketBaselineState(colors, state), // Add Market Baseline State
                   buildHintState(colors, state)
                 ]),
             ],
           );
         } else if (constraints.maxWidth > _mainContentWidth + _sidebarWidth) {
+          _logger.i('constraints.maxWidth > _mainContentWidth + _sidebarWidth'); // Use logger
           return Table(
             columnWidths: {
               0: FixedColumnWidth(_mainContentWidth),
@@ -143,11 +150,13 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
               if (hasData)
                 TableRow(children: [
                   buildOutputBannerState(colors, state),
+                  buildMarketBaselineState(colors, state), // Add Market Baseline State
                   buildHintState(colors, state)
                 ]),
             ],
           );
         } else {
+          _logger.i('Sized box'); // Use logger
           return SizedBox(
             width: _mainContentWidth,
             child: Column(
@@ -217,7 +226,8 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
       data: (data) {
         if (data is CalibrationStateData) {
           _logger.i('CalibrationStateData condition met'); // Use logger
-          final marketBaselineText = 'Market Baseline: ${data.stats.marketBaseline.toStringAsFixed(2)}';
+          //print("data: $data a  ${data.stats.marketBaseline}");
+          final marketBaselineText = 'Market Baseline: ${data.stats.marketBaseline.toStringAsFixed(8)}';
           return Padding(
             padding: const EdgeInsets.only(top: 16.0),
             child: SelectableText(
