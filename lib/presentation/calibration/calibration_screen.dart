@@ -149,7 +149,7 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
               ),
               if (hasData)
                 TableRow(children: [
-                  buildOutputBannerState(colors, state), // komentar
+                  buildOutputBannerState(colors, state),
                   buildMarketBaselineState(colors, state), // Add Market Baseline State
                   buildHintState(colors, state)
                 ]),
