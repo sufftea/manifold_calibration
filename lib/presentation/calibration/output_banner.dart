@@ -206,7 +206,7 @@ class OutputBanner extends StatelessWidget {
         },
       ));
 
-      return Text(
+      return SelectableText(
         'Brier score: $brierScore',
         style: GoogleFonts.poppins(
           fontSize: 16,
