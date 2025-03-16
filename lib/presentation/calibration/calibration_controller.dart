@@ -2,11 +2,15 @@ import 'dart:async';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:manifold_callibration/data/bets_repository.dart';
-import 'package:manifold_callibration/domain/calibration_service.dart';
+import 'package:manifold_callibration/domain/calibration_service.dart'; // Ensure this import is correct
+import 'package:manifold_callibration/domain/market_baseline_calculator.dart'; // Ensure this import is correct
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/outcome_bucket.dart';
+import 'package:logger/logger.dart'; // Import the logger package
 
 class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
+  final Logger _logger = Logger(); // Initialize the logger
+
   @override
   FutureOr<CalibrationState> build() async {
     return CalibrationStateEmpty();
@@ -48,6 +52,9 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
       excludeMultipleChoice: excludeMultipleChoice,
     );
 
+    _logger.i('Brier Score Calculated: ${stats.brierScore}'); // Use logger
+    _logger.i('Market Baseline Calculated: ${stats.marketBaseline}'); // Use logger
+
     state = AsyncData(CalibrationStateData(
       username: username,
       bets: bets,
@@ -72,11 +79,16 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
       bets,
       excludeMultipleChoice: excludeMultipleChoice,
     );
+    final marketBaseline = MarketBaselineCalculator.calculate( // Use the helper class
+      bets,
+      excludeMultipleChoice: excludeMultipleChoice,
+    );
     final nofResolvedBets = bets.where((e) => e.market!.outcome != null).length;
 
     return CalibrationStats(
       buckets: buckets,
       brierScore: brierScore,
+      marketBaseline: marketBaseline,
       nofResolvedBets: nofResolvedBets,
     );
   }
@@ -113,13 +125,18 @@ class CalibrationStateData extends CalibrationState {
 class CalibrationStats {
   final List<OutcomeBucket> buckets;
   final double brierScore;
+  final double _marketBaseline; // Private field for marketBaseline
   final int nofResolvedBets;
 
   CalibrationStats({
     required this.buckets,
     required this.brierScore,
+    required double marketBaseline, // Initialize marketBaseline
     required this.nofResolvedBets,
-  });
+  }) : _marketBaseline = marketBaseline;
+
+  // Getter for marketBaseline
+  double get marketBaseline => _marketBaseline;
 }
 
 final calibrationControllerProvider =

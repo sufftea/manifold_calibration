@@ -2,39 +2,55 @@ sealed class BetOutcome {
   const BetOutcome();
 }
 
-sealed class BinaryBetOutcome extends BetOutcome {
+class BinaryBetOutcome extends BetOutcome {
+  final double probBefore;
   final double probAfter;
 
-  const BinaryBetOutcome({required this.probAfter});
+  BinaryBetOutcome({
+    required this.probBefore,
+    required this.probAfter,
+  });
 }
 
 class BinaryBetOutcomeYes extends BinaryBetOutcome {
-  BinaryBetOutcomeYes({required super.probAfter});
+  BinaryBetOutcomeYes({
+    required super.probBefore,
+    required super.probAfter,
+  });
 }
 
 class BinaryBetOutcomeNo extends BinaryBetOutcome {
-  BinaryBetOutcomeNo({required super.probAfter});
+  BinaryBetOutcomeNo({
+    required super.probBefore,
+    required super.probAfter,
+  });
 }
 
-sealed class MultipleChoiceBetOutcome extends BetOutcome {
-  final double probAfter;
+class MultipleChoiceBetOutcome extends BetOutcome {
   final String answerId;
+  final double probBefore;
+  final double probAfter;
 
-  const MultipleChoiceBetOutcome(
-      {required this.probAfter, required this.answerId});
+  MultipleChoiceBetOutcome({
+    required this.answerId,
+    required this.probBefore,
+    required this.probAfter,
+  });
 }
 
 class MultipleChoiceBetOutcomeYes extends MultipleChoiceBetOutcome {
-  const MultipleChoiceBetOutcomeYes({
-    required super.probAfter,
+  MultipleChoiceBetOutcomeYes({
     required super.answerId,
+    required super.probBefore,
+    required super.probAfter,
   });
 }
 
 class MultipleChoiceBetOutcomeNo extends MultipleChoiceBetOutcome {
-  const MultipleChoiceBetOutcomeNo({
-    required super.probAfter,
+  MultipleChoiceBetOutcomeNo({
     required super.answerId,
+    required super.probBefore,
+    required super.probAfter,
   });
 }
 

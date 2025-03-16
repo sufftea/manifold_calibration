@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -7,6 +6,7 @@ import 'package:manifold_callibration/presentation/calibration/calibration_contr
 import 'package:manifold_callibration/presentation/calibration/calibration_route_value.dart';
 import 'package:manifold_callibration/presentation/calibration/output_banner.dart';
 import 'package:manifold_callibration/presentation/calibration/username_banner.dart';
+import 'package:logger/logger.dart'; // Import the logger package
 
 class CalibrationScreen extends ConsumerStatefulWidget {
   const CalibrationScreen({
@@ -23,6 +23,8 @@ class CalibrationScreen extends ConsumerStatefulWidget {
 class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
   static const _mainContentWidth = 400.0;
   static const _sidebarWidth = 300.0;
+
+  final Logger _logger = Logger(); // Initialize the logger
 
   @override
   void initState() {
@@ -92,6 +94,8 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
         orElse: () => false,
       );
 
+      _logger.i('buildContent called, hasData: $hasData'); // Use logger
+
       return LayoutBuilder(builder: (context, constraints) {
         if (constraints.maxWidth > _mainContentWidth + 2 * _sidebarWidth) {
           return Table(
@@ -147,12 +151,12 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
           return SizedBox(
             width: _mainContentWidth,
             child: Column(
-              spacing: 16,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 UsernameBanner(routeValue: widget.routeValue),
                 if (hasData) ...[
                   buildOutputBannerState(colors, state),
+                  buildMarketBaselineState(colors, state), // Add Market Baseline State
                   buildHintState(colors, state),
                 ],
               ],
@@ -167,12 +171,66 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
     ColorScheme colors,
     AsyncValue<CalibrationState> state,
   ) {
+    _logger.i('buildOutputBannerState called'); // Use logger
     return state.when(
-      data: (data) => switch (data) {
-        CalibrationStateData _ => OutputBanner(
+      data: (data) {
+        if (data is CalibrationStateData) {
+          _logger.i('CalibrationStateData condition met'); // Use logger
+          return OutputBanner(
             routeValue: widget.routeValue,
+          );
+        }
+        return SizedBox.shrink();
+      },
+      error: (error, _) => switch (error) {
+        UnexpectedResponseException e => Text(
+            e.toString(),
+            style: GoogleFonts.poppins(
+              fontSize: 16,
+              fontWeight: FontWeight.w400,
+              color: colors.error,
+            ),
           ),
-        _ => SizedBox.shrink(),
+        InvalidUsernameException _ => const SizedBox.shrink(),
+        final e => Text(
+            e.toString(),
+            style: GoogleFonts.poppins(
+              fontSize: 16,
+              fontWeight: FontWeight.w400,
+              color: colors.error,
+            ),
+          ),
+      },
+      loading: () => const Padding(
+        padding: EdgeInsets.all(8.0),
+        child: Center(child: CircularProgressIndicator()),
+      ),
+    );
+  }
+
+  Widget buildMarketBaselineState(
+    ColorScheme colors,
+    AsyncValue<CalibrationState> state,
+  ) {
+    _logger.i('buildMarketBaselineState called'); // Use logger
+    return state.when(
+      data: (data) {
+        if (data is CalibrationStateData) {
+          _logger.i('CalibrationStateData condition met'); // Use logger
+          final marketBaselineText = 'Market Baseline: ${data.stats.marketBaseline.toStringAsFixed(2)}';
+          return Padding(
+            padding: const EdgeInsets.only(top: 16.0),
+            child: SelectableText(
+              marketBaselineText, // Display Market Baseline
+              style: GoogleFonts.poppins(
+                fontSize: 16,
+                fontWeight: FontWeight.w400,
+                color: colors.onSurface,
+              ),
+            ),
+          );
+        }
+        return SizedBox.shrink();
       },
       error: (error, _) => switch (error) {
         UnexpectedResponseException e => Text(

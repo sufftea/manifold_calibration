@@ -5,6 +5,8 @@ import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/bet_outcome.dart';
 import 'package:manifold_callibration/entities/market_outcome.dart';
 import 'package:manifold_callibration/entities/outcome_bucket.dart';
+// Remove the unused import if not needed
+// import 'package:manifold_callibration/domain/market_baseline_calculator.dart';
 
 class CalibrationService {
   List<OutcomeBucket> calculateCalibration({
