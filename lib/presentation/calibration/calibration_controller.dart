@@ -2,9 +2,11 @@ import 'dart:async';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:manifold_callibration/data/bets_repository.dart';
-import 'package:manifold_callibration/domain/calibration_service.dart';
+import 'package:manifold_callibration/domain/calibration_service.dart'; // Ensure this import is correct
+import 'package:manifold_callibration/domain/market_baseline_calculator.dart'; // Ensure this import is correct
 import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/outcome_bucket.dart';
+//import 'package:logger/logger.dart'; // Import the logger package
 
 class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
   @override
@@ -72,11 +74,16 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
       bets,
       excludeMultipleChoice: excludeMultipleChoice,
     );
+    final marketBaseline = MarketBaselineCalculator.calculate(
+      bets,
+      excludeMultipleChoice: excludeMultipleChoice,
+    );
     final nofResolvedBets = bets.where((e) => e.market!.outcome != null).length;
 
     return CalibrationStats(
       buckets: buckets,
       brierScore: brierScore,
+      marketBaseline: marketBaseline,
       nofResolvedBets: nofResolvedBets,
     );
   }
@@ -113,11 +120,13 @@ class CalibrationStateData extends CalibrationState {
 class CalibrationStats {
   final List<OutcomeBucket> buckets;
   final double brierScore;
+  final double marketBaseline;
   final int nofResolvedBets;
 
   CalibrationStats({
     required this.buckets,
     required this.brierScore,
+    required this.marketBaseline,
     required this.nofResolvedBets,
   });
 }
@@ -126,3 +135,4 @@ final calibrationControllerProvider =
     AsyncNotifierProvider.autoDispose<CalibrationController, CalibrationState>(
   CalibrationController.new,
 );
+

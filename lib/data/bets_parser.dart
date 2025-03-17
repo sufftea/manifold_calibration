@@ -23,19 +23,22 @@ class BetsParser {
       final String? answerId = betJson['answerId'];
       final int updatedTime = betJson['updatedTime'];
       final double probAfter = betJson['probAfter'];
+      final double probBefore = betJson['probBefore']; // Parse probBefore
       final String outcome = betJson['outcome'];
       final String id = betJson['id'];
 
       final bet = Bet(
         id: id,
         outcome: switch ((outcome, answerId)) {
-          ('YES', null) => BinaryBetOutcomeYes(probAfter: probAfter),
-          ('NO', null) => BinaryBetOutcomeNo(probAfter: probAfter),
+          ('YES', null) => BinaryBetOutcomeYes(probBefore: probBefore, probAfter: probAfter), // Add probBefore
+          ('NO', null) => BinaryBetOutcomeNo(probBefore: probBefore, probAfter: probAfter), // Add probBefore
           ('YES', String answerId) => MultipleChoiceBetOutcomeYes(
               answerId: answerId,
+              probBefore: probBefore, // Add probBefore
               probAfter: probAfter,
             ),
           ('NO', String answerId) => MultipleChoiceBetOutcomeNo(
+              probBefore: probBefore, // Add probBefore
               probAfter: probAfter,
               answerId: answerId,
             ),
