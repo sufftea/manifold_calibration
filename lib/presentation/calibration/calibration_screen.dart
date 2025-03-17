@@ -6,7 +6,8 @@ import 'package:manifold_callibration/presentation/calibration/calibration_contr
 import 'package:manifold_callibration/presentation/calibration/calibration_route_value.dart';
 import 'package:manifold_callibration/presentation/calibration/output_banner.dart';
 import 'package:manifold_callibration/presentation/calibration/username_banner.dart';
-import 'package:logger/logger.dart'; // Import the logger package
+import 'package:logger/logger.dart';
+import 'package:styled_text/styled_text.dart'; // Import the logger package
 
 class CalibrationScreen extends ConsumerStatefulWidget {
   const CalibrationScreen({
@@ -217,32 +218,35 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
   Padding buildHint(ColorScheme colors) {
     return Padding(
       padding: const EdgeInsets.all(16),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            'Explanation:',
+      child: StyledText.selectable(
+        newLineAsBreaks: true,
+        style: GoogleFonts.poppins(
+          fontSize: 16,
+          color: colors.onSecondaryContainer,
+        ),
+        text: """
+<h>Explanation:</h>
+
+<bold>Green arrows</bold> - YES bets
+<bold>Red arrows</bold> - NO bets
+
+<bold>Market baseline:</bold> Brier score based on the market probabilities before your bets
+""",
+        tags: {
+          'h': StyledTextTag(
             style: GoogleFonts.poppins(
               fontSize: 16,
               color: colors.secondary,
               fontWeight: FontWeight.w600,
             ),
           ),
-          Text(
-            'Green arrows show the YES bets,',
+          'bold': StyledTextTag(
             style: GoogleFonts.poppins(
-              fontSize: 16,
-              color: colors.onSecondaryContainer,
-            ),
+                fontSize: 16,
+                color: colors.onSecondaryContainer,
+                fontWeight: FontWeight.w600),
           ),
-          Text(
-            'Red arrows show the NO bets.',
-            style: GoogleFonts.poppins(
-              fontSize: 16,
-              color: colors.onSecondaryContainer,
-            ),
-          ),
-        ],
+        },
       ),
     );
   }

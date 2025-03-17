@@ -16,6 +16,7 @@ dependencies:
   http_mock_adapter: ^0.6.1
   hyper_router: ^0.0.6
   logger: ^2.5.0 # Add the logger dependency
+  styled_text: ^8.1.0
 
 dev_dependencies:
   flutter_test:
