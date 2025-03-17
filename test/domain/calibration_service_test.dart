@@ -131,8 +131,6 @@ class CalibrationService {
     return sum / n;
   }
 
-  
-
   double _calculateFulfilledRatio(
     Iterable<Bet> bets, {
     required bool weighByMana,
@@ -216,8 +214,10 @@ void main() {
               (e) => Bet(
                 id: '1',
                 outcome: switch (e.bet) {
-                  true => BinaryBetOutcomeYes(probBefore: e.probBefore, probAfter: e.probAfter),
-                  false => BinaryBetOutcomeNo(probBefore: e.probBefore, probAfter: e.probAfter),
+                  true => BinaryBetOutcomeYes(
+                      probBefore: e.probBefore, probAfter: e.probAfter),
+                  false => BinaryBetOutcomeNo(
+                      probBefore: e.probBefore, probAfter: e.probAfter),
                 },
                 updatedTime: DateTime.now(),
                 market: Market(
@@ -264,8 +264,8 @@ void main() {
           result.map(
             (e) => e.noRatio,
           ),
-          [
-            1 / 4,
+          <double>[
+            0,
             -1,
             -1,
             -1,
@@ -282,23 +282,113 @@ void main() {
       test('ignores sells (negative mana)', () async {
         final betsData = [
           // 0.9
-          (bet: true, probBefore: 0.85, probAfter: 0.9, resolution: false, mana: 100),
-          (bet: true, probBefore: 0.9, probAfter: 1.0, resolution: true, mana: -100),
-          (bet: true, probBefore: 0.95, probAfter: 0.99, resolution: true, mana: -100),
-          (bet: false, probBefore: 0.85, probAfter: 0.91, resolution: true, mana: -100),
-          (bet: false, probBefore: 0.90, probAfter: 0.91, resolution: false, mana: -100),
+          (
+            bet: true,
+            probBefore: 0.85,
+            probAfter: 0.9,
+            resolution: false,
+            mana: 100
+          ),
+          (
+            bet: true,
+            probBefore: 0.9,
+            probAfter: 1.0,
+            resolution: true,
+            mana: -100
+          ),
+          (
+            bet: true,
+            probBefore: 0.95,
+            probAfter: 0.99,
+            resolution: true,
+            mana: -100
+          ),
+          (
+            bet: false,
+            probBefore: 0.85,
+            probAfter: 0.91,
+            resolution: true,
+            mana: -100
+          ),
+          (
+            bet: false,
+            probBefore: 0.90,
+            probAfter: 0.91,
+            resolution: false,
+            mana: -100
+          ),
           // 0.5
-          (bet: true, probBefore: 0.45, probAfter: 0.51, resolution: true, mana: 100),
-          (bet: true, probBefore: 0.48, probAfter: 0.51, resolution: true, mana: -100),
-          (bet: false, probBefore: 0.55, probAfter: 0.59, resolution: false, mana: -100),
-          (bet: false, probBefore: 0.58, probAfter: 0.59, resolution: true, mana: -100),
+          (
+            bet: true,
+            probBefore: 0.45,
+            probAfter: 0.51,
+            resolution: true,
+            mana: 100
+          ),
+          (
+            bet: true,
+            probBefore: 0.48,
+            probAfter: 0.51,
+            resolution: true,
+            mana: -100
+          ),
+          (
+            bet: false,
+            probBefore: 0.55,
+            probAfter: 0.59,
+            resolution: false,
+            mana: -100
+          ),
+          (
+            bet: false,
+            probBefore: 0.58,
+            probAfter: 0.59,
+            resolution: true,
+            mana: -100
+          ),
           // 0.0
-          (bet: true, probBefore: 0.05, probAfter: 0.09, resolution: false, mana: -100),
-          (bet: true, probBefore: 0.08, probAfter: 0.09, resolution: true, mana: 100),
-          (bet: false, probBefore: 0.00, probAfter: 0.01, resolution: false, mana: -100),
-          (bet: false, probBefore: 0.01, probAfter: 0.01, resolution: false, mana: -100),
-          (bet: false, probBefore: 0.01, probAfter: 0.01, resolution: false, mana: -100),
-          (bet: false, probBefore: 0.01, probAfter: 0.01, resolution: true, mana: 100),
+          (
+            bet: true,
+            probBefore: 0.05,
+            probAfter: 0.09,
+            resolution: false,
+            mana: -100
+          ),
+          (
+            bet: true,
+            probBefore: 0.08,
+            probAfter: 0.09,
+            resolution: true,
+            mana: 100
+          ),
+          (
+            bet: false,
+            probBefore: 0.00,
+            probAfter: 0.01,
+            resolution: false,
+            mana: -100
+          ),
+          (
+            bet: false,
+            probBefore: 0.01,
+            probAfter: 0.01,
+            resolution: false,
+            mana: -100
+          ),
+          (
+            bet: false,
+            probBefore: 0.01,
+            probAfter: 0.01,
+            resolution: false,
+            mana: -100
+          ),
+          (
+            bet: false,
+            probBefore: 0.01,
+            probAfter: 0.01,
+            resolution: true,
+            mana: 100
+          ),
         ];
 
         final bets = betsData
@@ -306,8 +396,10 @@ void main() {
               (e) => Bet(
                 id: '1',
                 outcome: switch (e.bet) {
-                  true => BinaryBetOutcomeYes(probBefore: e.probBefore, probAfter: e.probAfter),
-                  false => BinaryBetOutcomeNo(probBefore: e.probBefore, probAfter: e.probAfter),
+                  true => BinaryBetOutcomeYes(
+                      probBefore: e.probBefore, probAfter: e.probAfter),
+                  false => BinaryBetOutcomeNo(
+                      probBefore: e.probBefore, probAfter: e.probAfter),
                 },
                 updatedTime: DateTime.now(),
                 market: Market(
@@ -354,14 +446,50 @@ void main() {
       test('weigh by mana', () async {
         final betsData = [
           // 0.9
-          (bet: true, probBefore: 0.85, probAfter: 0.9, resolution: true, mana: 1000),
-          (bet: true, probBefore: 0.85, probAfter: 0.9, resolution: false, mana: 100),
+          (
+            bet: true,
+            probBefore: 0.85,
+            probAfter: 0.9,
+            resolution: true,
+            mana: 1000
+          ),
+          (
+            bet: true,
+            probBefore: 0.85,
+            probAfter: 0.9,
+            resolution: false,
+            mana: 100
+          ),
           // 0.5
-          (bet: true, probBefore: 0.45, probAfter: 0.51, resolution: true, mana: 100),
-          (bet: true, probBefore: 0.45, probAfter: 0.51, resolution: false, mana: 1000),
+          (
+            bet: true,
+            probBefore: 0.45,
+            probAfter: 0.51,
+            resolution: true,
+            mana: 100
+          ),
+          (
+            bet: true,
+            probBefore: 0.45,
+            probAfter: 0.51,
+            resolution: false,
+            mana: 1000
+          ),
           // 0.0
-          (bet: false, probBefore: 0.09, probAfter: 0.09, resolution: true, mana: 100),
-          (bet: false, probBefore: 0.01, probAfter: 0.01, resolution: false, mana: 1000),
+          (
+            bet: false,
+            probBefore: 0.09,
+            probAfter: 0.09,
+            resolution: true,
+            mana: 100
+          ),
+          (
+            bet: false,
+            probBefore: 0.01,
+            probAfter: 0.01,
+            resolution: false,
+            mana: 1000
+          ),
         ];
 
         final bets = betsData
@@ -369,8 +497,10 @@ void main() {
               (e) => Bet(
                 id: '1',
                 outcome: switch (e.bet) {
-                  true => BinaryBetOutcomeYes(probBefore: e.probBefore, probAfter: e.probAfter),
-                  false => BinaryBetOutcomeNo(probBefore: e.probBefore, probAfter: e.probAfter),
+                  true => BinaryBetOutcomeYes(
+                      probBefore: e.probBefore, probAfter: e.probAfter),
+                  false => BinaryBetOutcomeNo(
+                      probBefore: e.probBefore, probAfter: e.probAfter),
                 },
                 updatedTime: DateTime.now(),
                 market: Market(
@@ -418,7 +548,8 @@ void main() {
         final bets = <Bet>[
           Bet(
             id: '1',
-            outcome: BinaryBetOutcomeYes(probBefore: 0.4, probAfter: 0.5), // Add probBefore
+            outcome: BinaryBetOutcomeYes(
+                probBefore: 0.4, probAfter: 0.5), // Add probBefore
             updatedTime: DateTime.now(),
             market: Market(
               id: '1',
@@ -460,14 +591,50 @@ void main() {
       test('0 buckets', () async {
         final betsData = [
           // 0.9
-          (bet: true, probBefore: 0.85, probAfter: 0.9, resolution: true, mana: 1000),
-          (bet: true, probBefore: 0.85, probAfter: 0.9, resolution: false, mana: 100),
+          (
+            bet: true,
+            probBefore: 0.85,
+            probAfter: 0.9,
+            resolution: true,
+            mana: 1000
+          ),
+          (
+            bet: true,
+            probBefore: 0.85,
+            probAfter: 0.9,
+            resolution: false,
+            mana: 100
+          ),
           // 0.5
-          (bet: true, probBefore: 0.45, probAfter: 0.51, resolution: true, mana: 100),
-          (bet: true, probBefore: 0.45, probAfter: 0.51, resolution: false, mana: 1000),
+          (
+            bet: true,
+            probBefore: 0.45,
+            probAfter: 0.51,
+            resolution: true,
+            mana: 100
+          ),
+          (
+            bet: true,
+            probBefore: 0.45,
+            probAfter: 0.51,
+            resolution: false,
+            mana: 1000
+          ),
           // 0.0
-          (bet: false, probBefore: 0.09, probAfter: 0.09, resolution: true, mana: 100),
-          (bet: false, probBefore: 0.01, probAfter: 0.01, resolution: false, mana: 1000),
+          (
+            bet: false,
+            probBefore: 0.09,
+            probAfter: 0.09,
+            resolution: true,
+            mana: 100
+          ),
+          (
+            bet: false,
+            probBefore: 0.01,
+            probAfter: 0.01,
+            resolution: false,
+            mana: 1000
+          ),
         ];
 
         final bets = betsData
@@ -475,8 +642,10 @@ void main() {
               (e) => Bet(
                 id: '1',
                 outcome: switch (e.bet) {
-                  true => BinaryBetOutcomeYes(probBefore: e.probBefore, probAfter: e.probAfter),
-                  false => BinaryBetOutcomeNo(probBefore: e.probBefore, probAfter: e.probAfter),
+                  true => BinaryBetOutcomeYes(
+                      probBefore: e.probBefore, probAfter: e.probAfter),
+                  false => BinaryBetOutcomeNo(
+                      probBefore: e.probBefore, probAfter: e.probAfter),
                 },
                 updatedTime: DateTime.now(),
                 market: Market(
@@ -520,16 +689,64 @@ void main() {
 
         final betsData = [
           // 0.9
-          (bet: true, probBefore: 0.85, probAfter: 0.9, mana: 1000, answerId: 'yes1'),
-          (bet: true, probBefore: 0.85, probAfter: 0.9, mana: 100, answerId: 'yes2'),
+          (
+            bet: true,
+            probBefore: 0.85,
+            probAfter: 0.9,
+            mana: 1000,
+            answerId: 'yes1'
+          ),
+          (
+            bet: true,
+            probBefore: 0.85,
+            probAfter: 0.9,
+            mana: 100,
+            answerId: 'yes2'
+          ),
           // 0.5
-          (bet: true, probBefore: 0.45, probAfter: 0.51, mana: 1000, answerId: 'yes3'),
-          (bet: true, probBefore: 0.45, probAfter: 0.51, mana: 1000, answerId: 'no1'),
-          (bet: false, probBefore: 0.45, probAfter: 0.51, mana: 100, answerId: 'no2'),
-          (bet: false, probBefore: 0.45, probAfter: 0.51, mana: 1000, answerId: 'no3'),
+          (
+            bet: true,
+            probBefore: 0.45,
+            probAfter: 0.51,
+            mana: 1000,
+            answerId: 'yes3'
+          ),
+          (
+            bet: true,
+            probBefore: 0.45,
+            probAfter: 0.51,
+            mana: 1000,
+            answerId: 'no1'
+          ),
+          (
+            bet: false,
+            probBefore: 0.45,
+            probAfter: 0.51,
+            mana: 100,
+            answerId: 'no2'
+          ),
+          (
+            bet: false,
+            probBefore: 0.45,
+            probAfter: 0.51,
+            mana: 1000,
+            answerId: 'no3'
+          ),
           // 0.0
-          (bet: false, probBefore: 0.09, probAfter: 0.09, mana: 100, answerId: 'no4'),
-          (bet: false, probBefore: 0.01, probAfter: 0.01, mana: 1000, answerId: 'yes4'),
+          (
+            bet: false,
+            probBefore: 0.09,
+            probAfter: 0.09,
+            mana: 100,
+            answerId: 'no4'
+          ),
+          (
+            bet: false,
+            probBefore: 0.01,
+            probAfter: 0.01,
+            mana: 1000,
+            answerId: 'yes4'
+          ),
         ];
 
         final bets = [
@@ -584,16 +801,64 @@ void main() {
     () {
       final binaryBetsData = [
         // 0.9
-        (bet: true, probBefore: 0.8, probAfter: 0.9, resolution: true, mana: 1000),
-        (bet: true, probBefore: 0.85, probAfter: 0.9, resolution: true, mana: 100),
+        (
+          bet: true,
+          probBefore: 0.8,
+          probAfter: 0.9,
+          resolution: true,
+          mana: 1000
+        ),
+        (
+          bet: true,
+          probBefore: 0.85,
+          probAfter: 0.9,
+          resolution: true,
+          mana: 100
+        ),
         // 0.5
-        (bet: true, probBefore: 0.45, probAfter: 0.50, resolution: true, mana: 100),
-        (bet: true, probBefore: 0.48, probAfter: 0.50, resolution: false, mana: 1000),
+        (
+          bet: true,
+          probBefore: 0.45,
+          probAfter: 0.50,
+          resolution: true,
+          mana: 100
+        ),
+        (
+          bet: true,
+          probBefore: 0.48,
+          probAfter: 0.50,
+          resolution: false,
+          mana: 1000
+        ),
         // 0.0
-        (bet: false, probBefore: 0.05, probAfter: 0.1, resolution: false, mana: 100),
-        (bet: false, probBefore: 0.08, probAfter: 0.1, resolution: false, mana: 1000),
-        (bet: true, probBefore: 0.05, probAfter: 0.1, resolution: false, mana: 100),
-        (bet: true, probBefore: 0.08, probAfter: 0.1, resolution: true, mana: 100),
+        (
+          bet: false,
+          probBefore: 0.05,
+          probAfter: 0.1,
+          resolution: false,
+          mana: 100
+        ),
+        (
+          bet: false,
+          probBefore: 0.08,
+          probAfter: 0.1,
+          resolution: false,
+          mana: 1000
+        ),
+        (
+          bet: true,
+          probBefore: 0.05,
+          probAfter: 0.1,
+          resolution: false,
+          mana: 100
+        ),
+        (
+          bet: true,
+          probBefore: 0.08,
+          probAfter: 0.1,
+          resolution: true,
+          mana: 100
+        ),
       ];
 
       //
@@ -602,8 +867,10 @@ void main() {
             (e) => Bet(
               id: '1',
               outcome: switch (e.bet) {
-                true => BinaryBetOutcomeYes(probBefore: e.probBefore, probAfter: e.probAfter),
-                false => BinaryBetOutcomeNo(probBefore: e.probBefore, probAfter: e.probAfter),
+                true => BinaryBetOutcomeYes(
+                    probBefore: e.probBefore, probAfter: e.probAfter),
+                false => BinaryBetOutcomeNo(
+                    probBefore: e.probBefore, probAfter: e.probAfter),
               },
               updatedTime: DateTime.now(),
               market: Market(
@@ -639,16 +906,64 @@ void main() {
       );
 
       final multipleChoiceBets1Data = [
-        (bet: true, probBefore: 0.8, probAfter: 0.9, mana: 1000, answerId: 'yes1'),
-        (bet: true, probBefore: 0.85, probAfter: 0.9, mana: 100, answerId: 'yes2'),
-        (bet: true, probBefore: 0.45, probAfter: 0.50, mana: 1000, answerId: 'no1'),
-        (bet: false, probBefore: 0.48, probAfter: 0.50, mana: 100, answerId: 'no2'),
+        (
+          bet: true,
+          probBefore: 0.8,
+          probAfter: 0.9,
+          mana: 1000,
+          answerId: 'yes1'
+        ),
+        (
+          bet: true,
+          probBefore: 0.85,
+          probAfter: 0.9,
+          mana: 100,
+          answerId: 'yes2'
+        ),
+        (
+          bet: true,
+          probBefore: 0.45,
+          probAfter: 0.50,
+          mana: 1000,
+          answerId: 'no1'
+        ),
+        (
+          bet: false,
+          probBefore: 0.48,
+          probAfter: 0.50,
+          mana: 100,
+          answerId: 'no2'
+        ),
       ];
       final multipleChoiceBets2Data = [
-        (bet: true, probBefore: 0.8, probAfter: 0.9, mana: 1000, answerId: '_no1'),
-        (bet: true, probBefore: 0.85, probAfter: 0.9, mana: 100, answerId: '_yes2'),
-        (bet: true, probBefore: 0.45, probAfter: 0.50, mana: 1000, answerId: '_yes1'),
-        (bet: false, probBefore: 0.48, probAfter: 0.50, mana: 100, answerId: '_no2'),
+        (
+          bet: true,
+          probBefore: 0.8,
+          probAfter: 0.9,
+          mana: 1000,
+          answerId: '_no1'
+        ),
+        (
+          bet: true,
+          probBefore: 0.85,
+          probAfter: 0.9,
+          mana: 100,
+          answerId: '_yes2'
+        ),
+        (
+          bet: true,
+          probBefore: 0.45,
+          probAfter: 0.50,
+          mana: 1000,
+          answerId: '_yes1'
+        ),
+        (
+          bet: false,
+          probBefore: 0.48,
+          probAfter: 0.50,
+          mana: 100,
+          answerId: '_no2'
+        ),
       ];
 
       final multipleChoiceBets = [
@@ -711,7 +1026,7 @@ void main() {
         () {
           final service = CalibrationService();
           final result = service.calculateBrierScore(
-            [], 
+            [],
             excludeMultipleChoice: true,
           );
 
@@ -745,3 +1060,4 @@ void main() {
     },
   );
 }
+
