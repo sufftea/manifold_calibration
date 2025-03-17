@@ -8,10 +8,7 @@ import 'package:manifold_callibration/entities/bet.dart';
 import 'package:manifold_callibration/entities/outcome_bucket.dart';
 //import 'package:logger/logger.dart'; // Import the logger package
 
-
 class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
-//  final Logger _logger = Logger(); // Initialize the logger
-
   @override
   FutureOr<CalibrationState> build() async {
     return CalibrationStateEmpty();
@@ -53,9 +50,6 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
       excludeMultipleChoice: excludeMultipleChoice,
     );
 
-   // _logger.i('Brier Score Calculated: ${stats.brierScore}'); // Use logger
-   // _logger.i('Market Baseline Calculated: ${stats.marketBaseline}'); // Use logger
-
     state = AsyncData(CalibrationStateData(
       username: username,
       bets: bets,
@@ -80,7 +74,7 @@ class CalibrationController extends AutoDisposeAsyncNotifier<CalibrationState> {
       bets,
       excludeMultipleChoice: excludeMultipleChoice,
     );
-    final marketBaseline = MarketBaselineCalculator.calculate( // Use the helper class
+    final marketBaseline = MarketBaselineCalculator.calculate(
       bets,
       excludeMultipleChoice: excludeMultipleChoice,
     );
@@ -126,21 +120,19 @@ class CalibrationStateData extends CalibrationState {
 class CalibrationStats {
   final List<OutcomeBucket> buckets;
   final double brierScore;
-  final double _marketBaseline; // Private field for marketBaseline
+  final double marketBaseline;
   final int nofResolvedBets;
 
   CalibrationStats({
     required this.buckets,
     required this.brierScore,
-    required double marketBaseline, // Initialize marketBaseline
+    required this.marketBaseline,
     required this.nofResolvedBets,
-  }) : _marketBaseline = marketBaseline;
-
-  // Getter for marketBaseline
-  double get marketBaseline => _marketBaseline;
+  });
 }
 
 final calibrationControllerProvider =
     AsyncNotifierProvider.autoDispose<CalibrationController, CalibrationState>(
   CalibrationController.new,
 );
+

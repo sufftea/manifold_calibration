@@ -194,11 +194,55 @@ class OutputBanner extends StatelessWidget {
 
   Widget buildBrierScore(BuildContext context) {
     return Consumer(builder: (context, ref, child) {
-      final brierScore = ref.watch(calibrationControllerProvider.select(
+      final (brierScore, marketBaseline) = ref.watch(
+        calibrationControllerProvider.select(
+          (value) {
+            return value.maybeMap(
+              data: (value) => switch (value.value) {
+                CalibrationStateData data => (
+                    data.stats.brierScore,
+                    data.stats.marketBaseline
+                  ),
+                _ => (0, 0),
+              },
+              orElse: () => (0, 0),
+            );
+          },
+        ),
+      );
+
+      return DefaultTextStyle.merge(
+        style: GoogleFonts.poppins(
+          fontSize: 16,
+          fontWeight: FontWeight.w400,
+        ),
+        child: Table(
+          children: [
+            TableRow(
+              children: [
+                SelectableText('Brier score: '),
+                SelectableText(brierScore.toString()),
+              ],
+            ),
+            TableRow(
+              children: [
+                SelectableText('Market baseline: '),
+                SelectableText(marketBaseline.toString()),
+              ],
+            ),
+          ],
+        ),
+      );
+    });
+  }
+
+  Widget buildMarketBaseline(BuildContext context) {
+    return Consumer(builder: (context, ref, child) {
+      final marketBaseline = ref.watch(calibrationControllerProvider.select(
         (value) {
           return value.maybeMap(
             data: (value) => switch (value.value) {
-              CalibrationStateData data => data.stats.brierScore,
+              CalibrationStateData data => data.stats.marketBaseline,
               _ => 0,
             },
             orElse: () => 0,
@@ -207,7 +251,7 @@ class OutputBanner extends StatelessWidget {
       ));
 
       return SelectableText(
-        'Brier score: $brierScore',
+        'Brier score: $marketBaseline',
         style: GoogleFonts.poppins(
           fontSize: 16,
           fontWeight: FontWeight.w400,

@@ -24,11 +24,6 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
   static const _mainContentWidth = 400.0;
   static const _sidebarWidth = 300.0;
 
-  //final Logger _logger = Logger(); // Initialize the logger
-  final _logger = Logger(
-    level: Level.info,
-  );
-
   @override
   void initState() {
     super.initState();
@@ -97,11 +92,8 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
         orElse: () => false,
       );
 
-      _logger.i('buildContent called, hasData: $hasData'); // Use logger
-
       return LayoutBuilder(builder: (context, constraints) {
         if (constraints.maxWidth > _mainContentWidth + 2 * _sidebarWidth) {
-          _logger.i('constraints.maxWidth > _mainContentWidth + 2 * _sidebarWidth'); // Use lo
           return Table(
             defaultVerticalAlignment: TableCellVerticalAlignment.top,
             columnWidths: {
@@ -118,20 +110,17 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                     child: UsernameBanner(routeValue: widget.routeValue),
                   ),
                   SizedBox.shrink(),
-                  SizedBox.shrink(),
                 ],
               ),
               if (hasData)
                 TableRow(children: [
                   SizedBox.shrink(),
                   buildOutputBannerState(colors, state),
-                  buildMarketBaselineState(colors, state), // Add Market Baseline State
                   buildHintState(colors, state)
                 ]),
             ],
           );
         } else if (constraints.maxWidth > _mainContentWidth + _sidebarWidth) {
-          _logger.i('constraints.maxWidth > _mainContentWidth + _sidebarWidth'); // Use logger
           return Table(
             columnWidths: {
               0: FixedColumnWidth(_mainContentWidth),
@@ -150,13 +139,11 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
               if (hasData)
                 TableRow(children: [
                   buildOutputBannerState(colors, state),
-                  buildMarketBaselineState(colors, state), // Add Market Baseline State
                   buildHintState(colors, state)
                 ]),
             ],
           );
         } else {
-          _logger.i('Sized box'); // Use logger
           return SizedBox(
             width: _mainContentWidth,
             child: Column(
@@ -165,7 +152,6 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
                 UsernameBanner(routeValue: widget.routeValue),
                 if (hasData) ...[
                   buildOutputBannerState(colors, state),
-                  buildMarketBaselineState(colors, state), // Add Market Baseline State
                   buildHintState(colors, state),
                 ],
               ],
@@ -180,64 +166,11 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
     ColorScheme colors,
     AsyncValue<CalibrationState> state,
   ) {
-    _logger.i('buildOutputBannerState called'); // Use logger
     return state.when(
       data: (data) {
         if (data is CalibrationStateData) {
-          _logger.i('CalibrationStateData condition met'); // Use logger
           return OutputBanner(
             routeValue: widget.routeValue,
-          );
-        }
-        return SizedBox.shrink();
-      },
-      error: (error, _) => switch (error) {
-        UnexpectedResponseException e => Text(
-            e.toString(),
-            style: GoogleFonts.poppins(
-              fontSize: 16,
-              fontWeight: FontWeight.w400,
-              color: colors.error,
-            ),
-          ),
-        InvalidUsernameException _ => const SizedBox.shrink(),
-        final e => Text(
-            e.toString(),
-            style: GoogleFonts.poppins(
-              fontSize: 16,
-              fontWeight: FontWeight.w400,
-              color: colors.error,
-            ),
-          ),
-      },
-      loading: () => const Padding(
-        padding: EdgeInsets.all(8.0),
-        child: Center(child: CircularProgressIndicator()),
-      ),
-    );
-  }
-
-  Widget buildMarketBaselineState(
-    ColorScheme colors,
-    AsyncValue<CalibrationState> state,
-  ) {
-    _logger.i('buildMarketBaselineState called'); // Use logger
-    return state.when(
-      data: (data) {
-        if (data is CalibrationStateData) {
-          _logger.i('CalibrationStateData condition met'); // Use logger
-          //print("data: $data a  ${data.stats.marketBaseline}");
-          final marketBaselineText = 'Market Baseline: ${data.stats.marketBaseline.toStringAsFixed(8)}';
-          return Padding(
-            padding: const EdgeInsets.only(top: 16.0),
-            child: SelectableText(
-              marketBaselineText, // Display Market Baseline
-              style: GoogleFonts.poppins(
-                fontSize: 16,
-                fontWeight: FontWeight.w400,
-                color: colors.onSurface,
-              ),
-            ),
           );
         }
         return SizedBox.shrink();
@@ -314,3 +247,4 @@ class _CalibrationScreenState extends ConsumerState<CalibrationScreen> {
     );
   }
 }
+
