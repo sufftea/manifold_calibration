@@ -26,15 +26,12 @@ class BetsRepository {
 
     debugPrint('received ${betsJson.length} user bets. requesting markets');
 
-    final metricsJson = await _getMetricsJson(userId);
-    final markets = _marketsParser.parseUserMetrics(metricsJson);
+    final markets = await _getAllMarketsJson(userId);
     final idToMarket = <String, Market>{
       for (final market in markets) market.id: market,
     };
 
     final bets = _betsParser.parseBets(betsJson);
-
-    // bets.map((e) => idToMarket[ e.marketId ])
 
     final betsWithMarkets = <Bet>[];
     for (final bet in bets) {
@@ -72,12 +69,32 @@ class BetsRepository {
     return betsJson;
   }
 
-  Future<dynamic> _getMetricsJson(String userId) async {
+  Future<List<Market>> _getAllMarketsJson(String userId) async {
+    int lastOffset = 0;
+    List<Market> metricsJson = [];
+    while (true) {
+      final batch = await _getMetricsJson(userId, lastOffset);
+      final batchParsed = _marketsParser.parseUserMetrics(batch);
+
+      metricsJson.addAll(batchParsed);
+
+      if (batch.length == _config.manifoldBetsPerRequestLimit) {
+        lastOffset += 10000;
+        continue;
+      } else {
+        break;
+      }
+    }
+
+    return metricsJson;
+  }
+
+  Future<dynamic> _getMetricsJson(String userId, int lastOffset) async {
     final resp = await _dio.get(
       '/v0/get-user-contract-metrics-with-contracts',
       queryParameters: {
         "userId": userId,
-        "limit": 999999999,
+        "limit": 10000,
       },
     );
 

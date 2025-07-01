@@ -8,7 +8,8 @@ environment:
 
 dependencies:
   dio: ^5.7.0
-  flex_color_scheme: ^8.0.1
+  # flex_color_scheme: ^8.0.1
+  flex_color_scheme: ^8.2.0
   flutter:
     sdk: flutter
   flutter_riverpod: ^2.6.1
